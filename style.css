@@ -174,8 +174,7 @@ body{
 }
 
 .inline-photo{
-  width:100%; border-radius:4px; display:block; margin: 10px 0 4px 0;
-  max-height: 320px; object-fit: cover;
+  width:100%; height:auto; border-radius:4px; display:block; margin: 10px 0 4px 0;
 }
 .inline-photo-credit{
   font-family:'IBM Plex Mono', monospace;
