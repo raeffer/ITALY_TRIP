@@ -21,13 +21,8 @@ body{
   line-height: 1.55;
 }
 .page{
-  max-width: 1150px;
-  margin: 0 auto;
+  width: 100%;
   padding: 0 0 60px 0;
-}
-
-@media (min-width: 600px) and (max-width: 1400px){
-  .page{ max-width: 92vw; }
 }
 
 /* ---------- Tessera signature element ---------- */
@@ -46,6 +41,18 @@ body{
 .tesserae.t1 span:nth-child(4){background:var(--lapis);}
 .tesserae.t1 span:nth-child(5){background:var(--gold);}
 .tesserae.t1 span:nth-child(6){background:var(--brick);}
+
+/* ---------- Full-bleed color bands ----------
+   Any section meant to span edge-to-edge as a solid color band, regardless
+   of .page/.content padding. Content inside gets its own left/right padding
+   so text doesn't touch the screen edges — only the background does. */
+.hero,
+.hero-photo-credit,
+.photo-finale{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* ---------- Header / Hero ---------- */
 .hero{
