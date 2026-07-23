@@ -78,6 +78,41 @@ Placidia) --- Via San Vitale 17, 48121 Ravenna RA 📞 +39 0544 541688*
 
 -   **Hours (Tomb):** 10:00am--6:00pm daily
 
+### **Domus dei Tappeti di Pietra**
+
+*📍 Via Gian Battista Barbiani 16, entrance via Chiesa di Sant'Eufemia,
+48121 Ravenna RA*
+
+-   **Why stop:** An underground late-antique residence with over 400
+    m² of 5th--6th-century polychrome floor mosaics, including the
+    "Danza dei Geni delle Quattro Stagioni." Discovered in 1993 beneath
+    the church, inaugurated by the President of the Republic in 2002,
+    and winner of the Premio Bell'Italia 2004 and Premio Francovich
+    2017 --- one of Italy's most significant recent archaeological
+    finds.
+
+-   **Time required:** 30--45 min
+
+-   **Worth the detour:** Yes --- genuinely adjacent to San Vitale, and
+    the floor mosaics are a different visual story from Ravenna's
+    apse/wall mosaics.
+
+### **Museo Byron e del Risorgimento, Palazzo Guiccioli**
+
+*📍 Via Camillo Benso Cavour 54, 48121 Ravenna RA · Hours: 10:00am--6:00pm,
+closed Mondays · €10 single ticket*
+
+-   **Why stop:** Reopened November 2024 after major restoration, with
+    24 rooms across 2,220 m². Byron actually lived here in 1820--1821
+    while pursuing Countess Teresa Guiccioli and wrote part of *Don
+    Juan* here; Percy Shelley visited, Oscar Wilde later stayed here
+    too, and the palazzo carries a deep Risorgimento/Carbonari thread.
+
+-   **Time required:** 45--75 min
+
+-   **Worth the detour:** Yes if Byron/Risorgimento history appeals;
+    otherwise keep the mosaics as the non-negotiable core.
+
 ## **Coffee**
 
 **Caffè Il Nazionale** --- Piazza del Popolo 28
@@ -220,6 +255,28 @@ and suits. Closed Sundays.
 
 Sculptural chocolate atelier run by two chocolatiers, Gambero
 Rosso--covered, pieces inspired by Ravenna\'s own mosaics.
+
+**Leonardi Dolciumi 1957** --- Via Pellegrino Matteucci 5
+
+*4.6★/293 reviews · Closed Sundays*
+
+Confectionery/wine shop founded in 1957 by brothers Sergio and Leonardo
+with wives Flavia and Nives, winner of Italy's "tavoletta d'oro" award
+for best chocolate assortment. Has an interior courtyard for tasting
+purchases. Honest flag: closed Sundays, like most of the old-school
+shops in this section, so it does not work for the actual Sunday arrival
+day.
+
+**Darsenale --- Bizantina Brewpub** --- Via D'Alaggio 69
+
+*Entrance via Via Bosi Maramotti, Darsena canal area*
+
+A genuine urban craft brewery in a restored industrial warehouse,
+brewing on-site since 2020 with the production plant visible in the
+middle of the pub. Run by brewmaster Francesco Baldini. Guided tours run
+every *two* Mondays at 18:30 (€15, includes tour + tasting + tagliere +
+gadget) --- biweekly, not weekly. A modern counterpoint to the otherwise
+all-historic shops in this section.
 
 **Zoli & Zoffoli** --- Campiano (outside town)
 
@@ -432,6 +489,13 @@ Torta Tre Monti --- five layers of wafer with cocoa-hazelnut cream, dark
 chocolate rim --- is the one souvenir actually worth bringing home
 rather than buying at an airport.
 
+**Fantini Pelletteria** --- centro storico, San Marino Città
+
+Family-run leather goods shop founded in 1981, with four locations in
+the actual historic centre (not the outlying castelli such as
+Fiorentino). Made-in-Italy leather bags, belts, wallets; personalization
+available. 5.0★/115 reviews on Tripadvisor.
+
 ## **San Marino --- Cool, Interesting & Quirky**
 
 **Cava dei Balestrieri** --- Via Eugippo
@@ -458,6 +522,15 @@ place the drink\'s paper trail starts. 4.2★/80 reviews, genuinely mixed
 but mostly warm --- \"best americano in Fano and the surrounding area\"
 from one, a locked-door complaint from another. Go for the history as
 much as the coffee.
+
+**Caffè del Porto** --- Fano working port
+
+Genuinely historic, but not "the original" Moretta stop: the documented
+1908 paper-trail origin is still Caffè Cavour above. Caffè del Porto is
+a second historic location where the Moretta tradition resurfaced in
+1964 at a sailors' bar ("Ritrovo dei Lupi di Mare") that once stood on
+this site. Now a working café/shop selling bottled Moretta, atmospheric
+because it is literally on the water.
 
 ## **Fano --- Pasticceria**
 
@@ -541,6 +614,12 @@ Gori in Rimini. What does survive in Fano: the street names Via dello
 Squero and Piazzale dei Calafati (\"Caulkers\' Square\"), right by the
 old port --- literal fossils of the trade, worth a passing look rather
 than a dedicated stop.*
+
+Fano does still have an active boatbuilding industry, just industrial
+rather than heritage: Cantiere del Pardo builds Grand Soleil yachts
+(60+ feet) at a dedicated Fano shipyard --- a different category of
+"boatbuilding" than the wooden squero tradition discussed above, but
+worth knowing it's not entirely gone from Fano.
 
 ## **Accommodation (Fano)**
 
@@ -686,8 +765,10 @@ del Conero office) 📞 +39 071 933 1161*
 
 -   **Why stop:** Monte Conero is the rare spot on this coast where a
     mountain drops straight into the Adriatic. Sirolo itself is a
-    restored medieval hill town with a small piazza looking straight
-    down onto the sea.
+    restored medieval hill town with Piazza Vittorio Veneto (locally
+    "La Piazzetta"), also known as the Balcone Panoramico --- the small
+    central square and viewpoint looking straight down onto the Riviera
+    del Conero.
 
 -   **Time required:** Full day, ideally with an overnight
 
@@ -956,10 +1037,32 @@ stop around.
 *📍 42.3535835, 14.4032270 --- Corso Vittorio Emanuele, Ortona CH*
 
 -   **Why stop:** A genuine port town with real history rather than a
-    beach-resort backdrop --- Cattedrale di San Tommaso, Castello
-    Aragonese overlooking the Adriatic, a wander through the old town.
+    beach-resort backdrop. The Cattedrale di San Tommaso genuinely
+    holds the relics of the Apostle Thomas, stolen from the Greek island
+    of Chios by an Ortonese sailor named Leone in 1258, along with the
+    original tombstone bearing a Greek inscription. The annual Feast of
+    the Pardon (first Sunday of May) still celebrates this with a
+    Renaissance-style procession; add Castello Aragonese and a wander
+    through the old town around it.
 
 -   **Time required:** 1--1.5 hours
+
+### **Moro River Canadian War Cemetery**
+
+*📍 Contrada San Donato, ~5km south of Ortona*
+
+-   **Why stop:** WWII Commonwealth war cemetery from the December 1943
+    Battle of Ortona ("Little Stalingrad"), with 1,615 graves, including
+    1,375 Canadian graves in the official CWGC count. Genuinely missing
+    from an old-town/cathedral/castle-only treatment of Ortona, and a
+    quiet way to understand why this small port has such weight in
+    Canadian military memory.
+
+-   **Time required:** 20--30 min
+
+-   **Approx cost:** Free
+
+-   **Hours:** Always open
 
 ### **San Vito Chietino --- the heart of the Costa dei Trabocchi**
 
@@ -1014,6 +1117,16 @@ Gualdo 4
 Family-run, trabocco in view, honest prices, fresh daily catch. Note:
 don\'t confuse with \"Ristorante Nave Aldebaran,\" a different,
 permanently-closed listing.
+
+**Alternate:** Trabocco Pesce Palombo --- Fossacesia Marina, SS16
+
+Built in the early 1900s by fisherman Orlando Verì and son Ernesto,
+named for a large palombo/dogfish caught in the nets. Now run by
+descendants Bruno and Giuliana Verì with daughters Anna and Enrica as
+chefs. Ranked #1 of 27 restaurants in Fossacesia Marina, 4.3--4.5★
+across 900+ reviews, fixed menu €50--70pp. Honest correction: do not
+read this as "continuously operating" --- it was damaged by a storm in
+1979, closed, and did not reopen until 2001.
 
 **Budget alternate:** Le Due Palme --- Via San Rocco
 
@@ -1195,6 +1308,15 @@ Chietino CH 📞 +39 0872 61911*
 -   **Distance/time:** ≈11 km, 15--20 min by car; also a direct
     13-minute train from San Vito--Lanciano station
 
+-   **Food detour:** Bottega del Bocconotto, Castel Frentano (~5km from
+    Lanciano), is worth knowing even if it is not essential on a linger
+    day. Founded in 2008 by Claudia and Pierino Bucci using a recipe
+    from grandmother "Sabbiuccia," now exporting internationally. Castel
+    Frentano is the genuine, widely recognised historical origin town of
+    the bocconotto; the authentic version here is specifically
+    almond-chocolate-cinnamon in a butter-free shortcrust shell, distinct
+    from the custard/fruit versions found elsewhere on this coast.
+
 ## **Coffee & Pasticceria**
 
 **Pasticceria Iezzi Rossana** --- Via Nazionale Adriatica 6, San Vito
@@ -1365,6 +1487,19 @@ Pudente, 66054 Vasto CH 📞 +39 0873 367773*
 -   **Hours (Palazzo d\'Avalos):** 10:00am--1:00pm and 6:00pm--midnight
     daily
 
+### **Loggia Amblingh**
+
+*📍 Vasto old town, beside Palazzo d'Avalos gardens*
+
+-   **Why stop:** A panoramic promenade named after Guglielmo Amblingh,
+    an Austrian commander in the service of the House of d'Avalos in the
+    early 1700s. It sits right by Palazzo d'Avalos's gardens, with views
+    reaching the Tremiti Islands and Gargano promontory on clear days.
+    A simple but genuinely useful addition to Vasto, which otherwise
+    risks reading as palace-only.
+
+-   **Time required:** 15--25 min
+
 ### **Termoli --- Molise\'s fishing town**
 
 *📍 42.0042633, 14.9963357 --- Castello Svevo, Largo Piè di Castello,
@@ -1377,6 +1512,19 @@ Pudente, 66054 Vasto CH 📞 +39 0873 367773*
     II to defend the port.
 
 -   **Time required:** Half day
+
+### **Cattedrale di Santa Maria della Purificazione**
+
+*📍 Piazza Duomo, borgo antico, 86039 Termoli CB*
+
+-   **Why stop:** 12th--13th-century Romanesque-Pugliese lower façade
+    with a Gothic-era upper reconstruction after the 1456 earthquake,
+    22m tall, built over a pagan temple to Castor and Pollux. Holds the
+    relics of San Basso and San Timoteo in an underground crypt with
+    medieval mosaic flooring; the official "Termoli Sotterranea" tour
+    combines the crypt and excavations.
+
+-   **Time required:** 30--45 min, longer if joining the underground tour
 
 ## **Coffee & Pasticceria**
 
@@ -1409,10 +1557,21 @@ across Italy.
 
 ## **Dinner**
 
-**Trattoria Tipica L\'Opera** --- Via Adriatica 32, Termoli
+**Ristorante Da Nicolino** --- Via Roma 13, Termoli
 
-40-year family-run institution, widely called the best fish restaurant
-in Termoli, \~€46/person with wine.
+Founded in 1975 by Nicolino Caruso and celebrating 50 years in 2025,
+this is the primary brodetto alla termolese reference: its own tagline
+is "Il vero brodetto termolese è solo Da Nicolino," it has been featured
+on Czech national TV specifically for this dish, and past patrons include
+Lucio Dalla, Catherine Spaak, and Alessandro Gassmann. Portions are
+generous enough for two.
+
+**Strong alternate:** Trattoria Tipica L\'Opera --- Via Adriatica 32,
+Termoli
+
+40-year family-run institution, widely called one of the best fish
+restaurants in Termoli, \~€46/person with wine. Keep it as the strong
+alternate rather than the brodetto reference.
 
 **Alternate:** Osteria Dentro le Mura --- chef Antonio Terzano\'s
 restaurant, described locally as \"more an institution than a
@@ -1437,6 +1596,15 @@ Taralli al finocchietto (fennel-seed taralli) from a bakery in the
 borgo. Panettone al limoncello from La Vastese if passing through Vasto
 in winter --- out of season the rest of the year, worth knowing rather
 than asking and being disappointed.
+
+**Roberti Store** --- Via Alfano 10, Termoli
+
+Genuine fourth-generation family business, founded in 1925 by Giuseppe
+Roberti in Lentella, Abruzzo, specializing in porchetta ("Porchetta
+Lentellese," ~15kg, five natural ingredients) and ventricina, now run by
+Nico and Anna. Honest note: this specific Termoli location only opened
+in August 2024 --- a recent Termoli expansion of a century-old Abruzzo
+family brand, not itself a century-old Termoli shop.
 
 ## **Hidden Gem**
 
@@ -1509,7 +1677,7 @@ event but happens in mid-August, not on your dates.
 -   **🏆 Best coffee/pastry:** La Vastese (Vasto) if passing through;
     Zara otherwise, with tempered expectations
 
--   **🏆 Best dinner:** Trattoria Tipica L\'Opera
+-   **🏆 Best dinner:** Ristorante Da Nicolino
 
 -   **🏆 Best experience:** Punta Aderci
 
@@ -1597,6 +1765,21 @@ similar to the Comacchio call on Day 1.
 
 -   **Time required:** 10--15 min
 
+### **Trabucco di San Lorenzo**
+
+*📍 Lungomare Europa, toward Peschici*
+
+-   **Why stop:** Nearly 120 years old and restored in 2018 after a
+    three-month project funded by the "La Rinascita dei Trabucchi
+    Storici del Gargano" association and a regional energy company. This
+    one genuinely offers live demonstrations --- net-lowering and
+    guide-led explanations of the winch mechanism --- rather than being
+    purely a photo-op or dining venue.
+
+-   **Time required:** 45--75 min
+
+-   **Access:** Reachable by a ~25-minute scenic beach walk or by car
+
 ## **Coffee & Pasticceria**
 
 **Cornetteria Chianca Amara** --- Via Nicolò Cimaglia 4
@@ -1656,6 +1839,12 @@ the mixed reviews: some call it the best-value fish in town, others
 describe brusque or dismissive service on off nights. Go in with modest
 expectations on service rather than food.
 
+**Further alternate:** Ristorante Al Dragone --- Via Duomo 8
+
+Genuinely carved into a natural cave/grotto in Vieste's centro storico,
+near the Cathedral and Castello Svevo. 4.0--4.4★ across reviews, with
+troccoli with sea urchin and salt-cod gnocchi specifically praised.
+
 ## **Local Speciality**
 
 Paposcia --- a Vieste-specific baked stuffed bread (mozzarella, tomato,
@@ -1691,6 +1880,14 @@ stolen away by jealous rival mermaids who couldn\'t understand mortal
 love, turned to stone by grief when he couldn\'t reach her. Locals will
 tell you the sea still \"calls\" to him. A nice piece of oral folklore
 to have in your pocket while you\'re actually looking at the rock.
+
+**Foresta Umbra** --- inland Gargano National Park
+
+UNESCO World Heritage-listed since 2017 for its ancient beech forest
+("faggete vetuste"), over 10,000 hectares, 15 marked trails, free
+access. Easiest trail: Laghetto d'Umbra loop, ~1.5 hours, flat and
+family-friendly. A genuine inland counterpoint to Day 7's otherwise
+all-coastal content.
 
 ## **If Time Is Tight**
 
@@ -1866,6 +2063,16 @@ Vignanotica to Mergoli, departing 5:30pm, roughly 3 hours. A guide named
 Concetta is specifically recommended by a past visitor. Neither is
 confirmed to run daily --- call to check.
 
+**Abbazia della Santissima Trinità di Monte Sacro** --- Monte Sacro
+(874m), above Mattinata
+
+6th--16th-century Benedictine abbey ruins, reached via a steep unmarked
+trail from the SS89 near Agriturismo Monte Sacro. FAI-recognised and
+ranked 3rd nationally in the 2012 "Luoghi del Cuore" heritage census
+with 50,071 votes. Genuinely atmospheric --- one reviewer called it
+"elven ruins in Middle Earth" --- but the access flag matters: the trail
+is steep and unmarked, not a casual stroll.
+
 ## **Accommodation**
 
 **Budget/Mid-range:** B&B Dimora del Corso --- Corso Matino 211
@@ -1986,6 +2193,20 @@ Sant\'Angelo FG 📞 +39 0884 561150*
 
 -   **Hours:** 7:30am--7:00pm daily
 
+### **Monte Sant'Angelo --- Rione Junno & Rione Grotte**
+
+*📍 Historic quarters below the Sanctuary*
+
+-   **Why stop:** Two distinct historic quarters below the Sanctuary,
+    worth keeping separate. Rione Junno is the old town's whitewashed,
+    single-room terraced houses (casedde), narrow stairs and lanes,
+    built up around the pilgrim economy. Rione Grotte is the adjacent
+    poorer quarter where residents lived in cave dwellings actually
+    carved into the rock --- described locally as "vere abitazioni
+    troglodite." Junno is built stone; Grotte is rock-cut.
+
+-   **Time required:** 30--45 min
+
 ### **Trani --- the cathedral on the sea**
 
 *📍 41.2821965, 16.4183605 --- Piazza Duomo, 1, 76125 Trani BT 📞 +39
@@ -2001,6 +2222,23 @@ Sant\'Angelo FG 📞 +39 0884 561150*
     wander through the old town and port
 
 -   **Worth the detour:** Yes
+
+### **Sinagoga Scolanova**
+
+*📍 Giudecca quarter, Trani*
+
+-   **Why stop:** Built in the 13th century, one of medieval Trani's
+    four synagogues, converted to a church after the forced conversions
+    of the 1290s, and returned to Jewish worship in 2004 for the first
+    time in roughly 700 years. Now run by the Naples Jewish community.
+    The bell tower and Star of David on the same building make it a
+    stronger historical counterpoint to the cathedral-on-the-sea framing
+    than another waterfront stop.
+
+-   **Time required:** 20--30 min
+
+-   **Approx cost/hours:** Free entry Monday/Wednesday/Friday/Sunday at
+    11:00am; guided tours by reservation
 
 ## **Coffee & Pasticceria (Monte Sant\'Angelo)**
 
@@ -2052,9 +2290,13 @@ price (two pieces for €3 in one recent review).
 Trani itself has strong dinner options if you\'d rather not push on
 further tonight --- Il Pumo (Via Edoardo Fusco, \$\$\$), La Giara
 (Piazza XX Settembre 4, \$\$), Pescaria - Trani (Via Cavour 39, \$), all
-already verified in earlier research. But the bigger decision is where
-to sleep: Molfetta or Bari. Both are covered in full below --- genuinely
-different nights, not a default-and-runner-up.
+already verified in earlier research. Honest flag on Pescaria: it has
+expanded from its 2015 Polignano a Mare origin into a 10+ location
+national chain (Milan, Bologna, Turin, Rome, Naples, Verona, Trento,
+Padua, and others), so it is no longer a small local find, though the
+company says the seafood is still sourced daily from Puglia. But the
+bigger decision is where to sleep: Molfetta or Bari. Both are covered in
+full below --- genuinely different nights, not a default-and-runner-up.
 
 ### **Option A: Molfetta**
 
@@ -2299,6 +2541,27 @@ not as a guarantee of provenance.
     famous neighbours
 
 -   **Hours (Castello):** 10:00am--2:00pm and 4:00--8:00pm daily
+
+### **Rifugi Antiaerei di Monopoli**
+
+*📍 Under Piazza Vittorio Emanuele II, Monopoli*
+
+🅿️ **🟡 Can be busy** --- same parking logic as Piazza Vittorio Emanuele
+II above
+
+⭐️⭐️⭐️ Worth it if tours line up
+
+-   **Why stop:** WWII air-raid shelters under the main square, around
+    300m of tunnels dug into tufo rock, once holding up to 1,800 people
+    during bombing raids. Preserved wartime graffiti and infirmary rooms
+    make it a sharper historical layer under the otherwise sunny old
+    town. Reopened to the public in 2017 after restoration.
+
+-   **Time required:** 45--60 min with guided tour
+
+-   **Approx cost/hours:** Comune-run guided tours, summer weekend
+    hours 18:00--21:00, €3 ticket; book via the Piazza Garibaldi Info
+    Point
 
 ### **Ostuni --- centro storico ("La Terra")**
 
