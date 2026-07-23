@@ -14,12 +14,14 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - MANDATORY before using any photo: actually open and view the image itself to confirm it shows the real, recognizable subject — not a texture, crop, or unrelated detail (this was learned after a "Guaita Tower" photo turned out to be a close-up of a door).
 - Every day page must include a minimum of 3 inline images integrated naturally throughout the content.
 - Every day page must include a minimum of 3 gallery images at the end of the page.
+- Every day page must include at least one food or drink image, tied directly to that day's Coffee, Pasticceria, Local Speciality, What to Buy, Lunch, or Dinner content.
 - Gallery images should be different from the inline images wherever practical.
 - Images must relate directly to locations, food, experiences, or quirky points of interest featured on that day's itinerary.
 - Prioritize variety across the page, including where appropriate: local food, local life, quirky details, architecture, scenery, viewpoints, and cultural experiences.
 - Avoid pages consisting primarily of panoramas or exterior building shots.
 - Images should enhance the storytelling and decision-making value of the guide, not simply decorate it.
 - The end-of-day photo-finale section must show completely different subject matter than anything pictured inline earlier on that same page wherever practical — no repeats of the same subject, even as a different image of it.
+- Avoid repeating the same specific photo subject anywhere in the whole document, even on different days. Use variety at the subject level, not just different filenames or angles: for example, do not use more than one trabocco photo in the document, and do not use the same food more than once. Different sea structures, different dishes, different streets, different buildings, and different landscapes are fine; the same recognisable subject category repeated is not.
 - All credits consolidated in one credits.html page for the whole site, not repeated per day.
 
 ## Hero Image Standard
