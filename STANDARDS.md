@@ -8,6 +8,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Sourcing priority: Italian tourism sites, comune/Pro Loco sites, Slow Food, Gambero Rosso, Italian food writers first. English-language sites only to sanity-check major attractions aren't missed.
 - Honesty over polish: flag mixed reviews, closures on the actual travel date, genuine gaps (e.g. "no real $$$ option exists here"), and conflicting information rather than forcing a confident-sounding but shaky recommendation.
 - "Cool, Interesting & Quirky" is a menu to browse, not a mandatory itinerary — use what fits the day.
+- The "how did you find this?" bar applies to every section, not just Hidden Gem. Coffee, Lunch, Dinner, What to Buy, and even Stops themselves must be researched with the same standard: check for a genuinely unusual, authentic, or surprising option before defaulting to the obvious/famous pick. "No standout option here, go with something simple" is not an acceptable default — if the research genuinely turns up nothing unusual, say so explicitly and explain why, rather than quietly settling for generic.
 
 ## Photo Standards
 - Only Creative Commons / properly licensed photos (Wikimedia Commons primarily), always with photographer name and license credited in credits.html.
