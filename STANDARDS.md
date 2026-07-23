@@ -22,6 +22,20 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - The end-of-day photo-finale section must show completely different subject matter than anything pictured inline earlier on that same page wherever practical — no repeats of the same subject, even as a different image of it.
 - All credits consolidated in one credits.html page for the whole site, not repeated per day.
 
+## Hero Image Standard
+- Hero images must display consistently and professionally across desktop, tablet, phone, and printed output.
+- Every day page hero must use the shared hero container structure and shared dimensions defined in the project stylesheet.
+- Hero images must completely fill the hero container with `width: 100%`, `height: 100%`, `object-fit: cover`, and `display: block`.
+- Hero images must never be stretched or distorted, and must not leave blank or uncovered areas.
+- Do not rely on the intrinsic dimensions of the source image to determine the displayed hero height.
+- Use a consistent desktop hero aspect ratio across all day pages.
+- Define appropriate responsive hero proportions or heights for tablet and phone layouts.
+- Preserve a suitable and consistent hero proportion in the print stylesheet.
+- Do not use the same centred crop automatically for every image. Inspect each hero image individually and set an appropriate `object-position` so the important subject remains visible at desktop, tablet, and phone widths.
+- Page-specific focal positioning should be implemented through a maintainable hook such as a CSS custom property, class, or data attribute rather than duplicated hero CSS.
+- Replace a hero image only when the important subject cannot be retained satisfactorily across desktop, tablet, phone, and print crops because of excessive empty space, poor composition, an edge-positioned subject, or insufficient resolution.
+- Any replacement hero image must depict a location, subject, or experience included in that day's itinerary; comply with the Wikimedia Commons image requirements above; be suitable for responsive hero cropping; have sufficient resolution; use the project's existing image conventions; and be added to credits.html with complete attribution.
+
 ## Design System
 - Typography: Fraunces (headers), Inter (body), IBM Plex Mono (GPS/data/meta lines).
 - Color palette: Positano-inspired — royal blue, bright azure, red-orange, olive-lime, bright gold/yellow, warm off-white background. Palette can shift per region/day as long as the same card-coding logic and type system stay consistent.

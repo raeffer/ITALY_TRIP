@@ -97,7 +97,12 @@ body{
 }
 
 .hero-photo{
-  width:100%; height:260px; object-fit:cover; display:block;
+  width:100%;
+  height:100%;
+  aspect-ratio: 16 / 7;
+  object-fit:cover;
+  object-position: var(--hero-position-desktop, var(--hero-position, center center));
+  display:block;
 }
 .hero-photo-credit{
   background: var(--ink);
@@ -314,6 +319,10 @@ table.score td.stars{ color:#E8A500; font-size:17px; letter-spacing:2px; }
   .hero{ padding: 32px 24px 28px 24px; }
   .hero h1{ font-size: 34px; }
   .hero .theme{ font-size:17px; }
+  .hero-photo{
+    aspect-ratio: 16 / 8;
+    object-position: var(--hero-position-tablet, var(--hero-position-desktop, var(--hero-position, center center)));
+  }
   .content{ padding: 0 24px; }
   .card{ padding:16px 18px; }
   .photo-finale{ padding: 36px 24px 44px 24px; }
@@ -324,6 +333,10 @@ table.score td.stars{ color:#E8A500; font-size:17px; letter-spacing:2px; }
   .hero{ padding: 26px 18px 22px 18px; }
   .hero h1{ font-size:28px; }
   .hero .theme{ font-size:15px; }
+  .hero-photo{
+    aspect-ratio: 4 / 3;
+    object-position: var(--hero-position-phone, var(--hero-position-tablet, var(--hero-position-desktop, var(--hero-position, center center))));
+  }
   .content{ padding: 0 16px; }
   .card{ padding:14px 16px; }
   table.score th, table.score td{ padding:8px 10px; font-size:11px; }
@@ -344,6 +357,10 @@ table.score td.stars{ color:#E8A500; font-size:17px; letter-spacing:2px; }
   body{ background:white; }
   .content{ padding: 0 46px; }
   .hero{ padding-left: 46px; padding-right: 46px; }
+  .hero-photo{
+    aspect-ratio: 16 / 7;
+    object-position: var(--hero-position-print, var(--hero-position-desktop, var(--hero-position, center center)));
+  }
   .photo-finale{ padding-left: 46px; padding-right: 46px; }
   .card{ box-shadow:none; border:1px solid var(--parchment-dark); }
   .section{ break-inside: avoid-page; }
