@@ -2190,36 +2190,66 @@ not as a guarantee of provenance.
   Worth Detour                            ★★★★★
   --------------------------------------- -------------------------------
 
-#  **Day 10 --- Monopoli, Polignano a Mare & On to Cisternino**
+#  **Day 10 --- Polignano a Mare, Monopoli & On to San Vito dei Normanni**
 
-**Theme:** *The last coastal day --- a quiet old town, then the postcard
-everyone\'s seen, then inland to where you\'ll actually be staying for
-the next week.*
+**Theme:** *The last coastal day --- an unusual coffee custom, a fish-charcuterie lab that shouldn't work but does, a quiet old town, a rock-carved bar to close it out, then a social-inclusion restaurant on arrival night.*
 
 ## **Overview**
 
-**Driving distance:** ≈50--65 km total depending on your Day 9 start
-point (Molfetta or Bari), via Monopoli and Polignano a Mare, finishing
-at Cisternino
+**Driving distance:** ≈55--70 km total depending on your Day 9 start point (Molfetta or Bari), via Polignano a Mare, Monopoli, and Ostuni, finishing at San Vito dei Normanni
 
-**Driving time:** ≈2--2.5 hours of actual driving; budget a full day
-with stops
+**Driving time:** ≈2--2.5 hours of actual driving; budget a full day with stops
 
-**General notes:** 22 September 2026 is a Tuesday --- relevant below
-(Otto pasticciotto shop in Polignano is closed Tuesdays).
+**Routing note:** Polignano a Mare comes before Monopoli, since it sits further north --- avoids backtracking and lets you hit Polignano's cove before it gets busy.
 
-**Routing note:** This is the last day on the coast before basing inland
---- worth treating as a proper wind-down rather than a rush to
-Cisternino. Full \"why stop\" treatment for Cisternino itself belongs to
-the separate Puglia-basing research (20/23--29 September), not this
-getting-there document --- today only covers arrival.
+**Scheduling notes:**
+- Riccardo Caffè in Ostuni doesn't open until 6:00pm --- built into today's timeline as the last stop before departure, not something to detour for earlier.
+- 22 September 2026 is a Tuesday. Sources disagree on whether XFood (tonight's dinner pick) is open Tuesdays --- call ahead and book rather than relying on this document.
+
+**Target arrival:** 7:00pm at San Vito dei Normanni, which is the base for the following week.
+
+| Time | Stop |
+|---|---|
+| 8:30am | Depart Bari/Molfetta |
+| ~9:05am | Arrive Polignano a Mare |
+| 9:05--10:45am | Lama Monachile + old town + caffè speciale |
+| ~11:05am | Dorsale (fish charcuterie tasting) |
+| ~11:30am | Depart Polignano |
+| ~11:50am | Arrive Monopoli |
+| 11:50am--1:45pm | Monopoli centro storico + lunch |
+| ~2:25pm | Arrive Ostuni |
+| 2:25--5:30pm | Ostuni old town, Forno 31, Piazzetta Martiri delle Foibe viewpoint |
+| 6:00--6:45pm | Riccardo Caffè (rock-carved bar, aperitivo) |
+| ~7:00pm | Arrive San Vito dei Normanni |
+| 7:30pm | Dinner at XFood (confirm booking in advance) |
 
 ## **Stops**
+
+### **Polignano a Mare --- Lama Monachile**
+
+*📍 40.9963887, 17.2181307 --- Via S. Vito, 70044 Polignano a Mare BA*
+
+🅿️ **🟡 Can be busy** --- free parking in white-marked areas only (yellow-blocked lines are residents-only); arrive by 9:00am for a decent spot in season
+
+⭐️⭐️⭐️⭐️⭐️ Worth changing today's plans for
+
+-   **Why stop:** The postcard cove between two cliffs, houses stacked
+    right to the water's edge above it --- genuinely as striking in
+    person as in photos, though also genuinely crowded.
+
+-   **Time required:** 1--2 hours
+
+-   **Practical note:** Not a sandy beach --- bring water shoes for the
+    large pebbles.
 
 ### **Monopoli --- centro storico**
 
 *📍 40.9508368, 17.3033327 --- Largo Cattedrale, 70043 Monopoli BA 📞
 +39 080 742253*
+
+🅿️ **🟡 Can be busy** --- closest paid option is Piazza Vittorio Emanuele II (€1/h, €8/day cap in summer, 118 spaces); free white-line spots at Piazza XX Settembre or Via Procaccia if you're happy to walk further
+
+⭐️⭐️⭐️⭐️ Worth a real detour
 
 -   **Why stop:** Genuinely less touristed than Polignano or Bari
     despite being just as handsome --- the Cattedrale della Madia (free
@@ -2230,153 +2260,200 @@ getting-there document --- today only covers arrival.
 
 -   **Time required:** 1.5--2 hours
 
--   **Worth the detour:** Yes --- described repeatedly as \"authentic
-    Puglia, not yet touched by mass tourism\" relative to its more
+-   **Worth the detour:** Yes --- described repeatedly as "authentic
+    Puglia, not yet touched by mass tourism" relative to its more
     famous neighbours
 
 -   **Hours (Castello):** 10:00am--2:00pm and 4:00--8:00pm daily
 
-### **Polignano a Mare --- Lama Monachile**
+### **Ostuni --- centro storico ("La Terra")**
 
-*📍 40.9963887, 17.2181307 --- Via S. Vito, 70044 Polignano a Mare BA*
+*📍 40.7333725, 17.5778841 --- Centro Storico, 72017 Ostuni BR*
 
--   **Why stop:** The postcard cove between two cliffs, houses stacked
-    right to the water\'s edge above it --- genuinely as striking in
-    person as in photos, though also genuinely crowded.
+🅿️ **🟡 Can be busy** --- the historic centre itself is ZTL (camera-enforced, no through traffic); park just outside the walls at Via Tenente Specchia or Foro Boario (€4--8/day flat rate) and walk in 5--10 minutes
 
--   **Time required:** 1--2 hours
+⭐️⭐️⭐️⭐️⭐️ Worth changing today's plans for
 
--   **Practical note:** Not a sandy beach --- bring water shoes for the
-    large pebbles. Arrive by 9:00am for a decent spot in season. Free
-    parking is in the white-marked areas only; yellow-blocked lines are
-    for residents.
+-   **Why stop:** The famous "White City" --- a hill town of whitewashed
+    houses and narrow stepped alleys inside Aragonese walls, plus the
+    Gothic Cattedrale di Santa Maria Assunta with its rose window. Sits
+    almost exactly between Monopoli and San Vito dei Normanni.
 
-## **Coffee & Pasticceria (Monopoli)**
+-   **Time required:** Afternoon through early evening, including
+    Riccardo Caffè below
 
-**Nuovo Premiato Caffè Venezia** --- Via Giuseppe Garibaldi 18
+-   **Best time:** Late afternoon into early evening --- Piazzetta
+    Martiri delle Foibe (just outside the old walls) gives the classic
+    postcard view of the town on its hill.
 
-*📍 40.9530922, 17.3036247 📞 +39 080 219 6364 · Closed Thursdays;
-3.8★/1,282 reviews*
+-   **Honest note:** In peak season the centre gets busy with
+    day-trippers by early afternoon --- the walk between the cathedral
+    and the walls has genuinely quiet backstreets even when the main
+    routes are crowded.
 
-Honest flag before recommending it: this is genuinely the historic café
-at the heart of Monopoli\'s old-town revival, mentioned repeatedly as
-the place to go --- but the current rating and several detailed reviews
-describe real, specific service problems (an ignored, visibly irritated
-waiter in one account). Large terrace, good breakfast menu per other
-reviews. Go for the location and history, order simply, and don\'t be
-surprised if service is inconsistent.
+## **Coffee (Polignano a Mare)**
 
-## **Lunch (Monopoli, if not saving appetite for Polignano)**
+**Caffè speciale** --- the genuine local curiosity, not a café by name
+but a drink: espresso whipped together with sugar, lemon peel, cream,
+and amaretto liqueur. Available at most bars around the old town and
+Lama Monachile --- ask for it by name rather than expecting it on a
+menu everywhere. This is the actual "why" here, rather than chasing a
+best-espresso pick that doesn't really exist as a distinct category in
+Polignano.
 
-Locanda dei Mercanti --- reportedly makes the best pasticciotto in town,
-served in a \"tris\" of three different fillings; also does savoury
-lunch. Madià, at the Porto Antico, for panzerotto --- a genuine local
-street-food ritual, best eaten on a bench by the old port watching the
-fishing boats.
+## **Pasticceria (Ostuni)**
 
-## **Dinner (Polignano a Mare)**
+**Forno 31** --- Via G. Ferrari, 6, 72017 Ostuni BR
 
-**Grotta Palazzese** --- see full detail from earlier research
+A working bakery built around an original 15th-century wood-fired
+oven --- reportedly the largest the reviewers who found it had ever
+seen, worked with 2-metre-long oven paddles. Makes pasticciotti in
+multiple fillings (custard, chocolate, sour cherry, pistachio), plus
+focaccia, taralli, and friselle. A genuine "found us by accident,
+bought everything left" kind of place rather than a tourist-trail
+stop.
 
-\$\$\$ --- a restaurant literally inside a sea cave. Alternate:
-Ristorante Antiche Mura, Via Roma 11 --- 4.6★/2,375 reviews, romantic
-historic-centre dining, arguably stronger food than the more famous cave
-restaurant.
+## **Lunch (Monopoli)**
 
-**Alternate:** L\'Osteria di Chichibio --- straightforward, very fresh
-seafood without the cave-restaurant premium. Further alternate: Osteria
-dei Mulini, Via Mulini 2.
+**Madià**, at the Porto Antico --- panzerotto, eaten on a bench by the
+old port watching the fishing boats. A genuine local street-food
+ritual rather than a sit-down meal, which suits the day's pacing.
 
-**Budget:** Pescaria - Polignano, Piazza Aldo Moro 6/8 --- the original
-flagship of the Pescaria seafood chain, 4.3★ across 15,400 reviews.
+**Alternate:** Locanda dei Mercanti, reportedly the best pasticciotto
+in town (served as a "tris" of three fillings), also does savoury
+lunch if you want to sit down properly.
+
+## **Dinner (San Vito dei Normanni --- arrival night)**
+
+**XFood** --- Via Mare snc, inside the ExFadda cultural centre, 72019
+San Vito dei Normanni BR 📞 +39 366 891 3041
+
+Puglia's first "social restaurant" --- a project ten years running,
+staffed partly by people with disabilities, serving genuinely
+well-regarded Pugliese cooking (featured on Gambero Rosso, Slow Food,
+and the Touring Club guide, 4.5--4.6★ across 1,100+ reviews). €27--70pp
+depending on menu. **Honest flag:** sources conflict on Tuesday opening
+hours --- book ahead by phone rather than showing up on spec, since
+tonight is a Tuesday.
 
 ## **Local Speciality**
 
-Panzerotto --- Puglia\'s fried, folded street food, tomato and
-mozzarella at its simplest. Pasticciotto --- a shortcrust pastry shell
-filled with custard, ricotta, or seasonal fruit, found everywhere on
-this stretch of coast but genuinely best fresh from a specialist rather
-than a generic bar.
+Panzerotto --- Puglia's fried, folded street food, best today in
+Monopoli. Pasticciotto --- best today at Forno 31 in Ostuni. Caffè
+speciale --- Polignano's own coffee-and-amaretto ritual, unique to the
+town.
 
 ## **What to Buy**
 
-A pasticciotto to eat immediately, not to transport --- it\'s a
-fresh-pastry product, not a packable souvenir.
+Taralli or friselle from Forno 31 --- unlike the pasticciotto, these
+actually travel well and keep for weeks, so they're a genuine
+take-home option rather than an eat-immediately one.
 
-## **Hidden Gem**
+## **Hidden Gems**
 
-**Otto - Il pasticciotto artigianale** --- Via Anemone 43, Polignano a
-Mare
+**Dorsale --- fish charcuterie lab, Polignano a Mare**
 
-*📍 40.9955958, 17.2208326 · Closed Tuesdays; 4.6★/91 reviews*
+A fish butcher that cures seafood the way a salumeria cures pork ---
+squid-and-tuna "mortadella," salmon-pistachio prosciutto, swordfish
+ham, tuna guanciale. Opened December 2025, the first of its kind.
+Tasting stools on-site. A genuine "how did you find this" stop rather
+than a meal --- treat it as a curiosity tasting between Lama Monachile
+and departure, not a lunch substitute.
 
-A small, new, independent shop, reviewers repeatedly call it the best
-pasticciotto they\'ve found anywhere in Polignano, with a rotating
-monthly flavour and genuinely flaky, fresh pastry. Important scheduling
-conflict: this shop is closed on Tuesdays, and 22 September 2026 is a
-Tuesday --- your actual date. If Otto isn\'t open, the reliable fallback
-is Martinucci Laboratory, a small regional chain confirmed by one
-reviewer to hold consistent quality across its Bari, Monopoli, and
-Polignano locations, at €2/piece.
+**Riccardo Caffè --- rock-carved bar, Ostuni**
+
+*📍 Via Gaetano Tanzarella Vitale 61, 72017 Ostuni BR · Opens 6:00pm
+daily*
+
+A former 13th-century flour mill, now a bar carved directly into the
+white limestone --- stalactites, stone rooms, and a stepped stone
+staircase entrance with a view over the White City. Despite the name,
+this is an evening cocktail/aperitivo spot, not a daytime coffee stop
+--- it doesn't open until 6:00pm, which is exactly why it's built into
+today's schedule as the last Ostuni beat before the final drive.
+Genuinely unlike anything else on the route so far.
+
+**Virgola Pasticceria Terapeutica --- San Vito dei Normanni**
+
+*📍 Via Mesagne, 136, 72019 San Vito dei Normanni BR*
+
+A worthwhile flag for tomorrow morning, since it belongs properly to
+the Puglia-basing week rather than tonight: a therapeutic pastry lab
+run by Nicola Di Lena (Italy's Best Pastry Chef, Identità Golose
+2021), training women who are domestic-violence survivors and young
+people on the autism spectrum. Same social project as XFood.
 
 ## **Cool, Interesting & Quirky**
 
-Monopoli\'s old port is worth lingering at past the obvious photo stop
---- it\'s a genuinely working fishing harbour, not a marina dressed up
-for tourists, and the gozzi (traditional small fishing boats) coming and
-going at sunset are a real, unstaged piece of daily life rather than a
-performance.
+Monopoli sits on top of a hidden network of rock-cut Byzantine
+churches (rupestrian crypts) carved into the walls of the "lame"
+(ravines) outside town --- Cripta dello Spirito Santo and the Chiesa
+dei Santi Andrea e Procopio among them, some with surviving medieval
+frescoes. **Honest flag:** these are genuinely obscure even by Puglia
+standards --- one opens only eight days a year for Easter tradition,
+others sit on private masseria land and need a guide arranged in
+advance. Not realistic to add to today's route, but worth knowing
+about for a future, slower visit to this stretch of coast.
 
-## **Arrival: Cisternino**
+## **Arrival: San Vito dei Normanni**
 
-*📍 40.7418959, 17.4266510 --- Centro Storico, 72014 Cisternino BR*
+*📍 40.6563995, 17.7087266 --- Via Principe di Piemonte 13, 72019 San
+Vito dei Normanni BR*
 
-This getting-there document only covers arrival --- Cisternino gets its
-full \"why stop\" treatment, food research, and hidden gems in the
-separate Puglia-basing document, since you\'ll have a full week here
-rather than a single overnight. For tonight: arrive, settle in, and save
-the exploring for when the basing research is built out.
+Short final hop from Ostuni (~15--20 minutes). This getting-there
+document only covers arrival --- San Vito dei Normanni gets its full
+"why stop" treatment, food research, and hidden gems in the separate
+Puglia-basing document, since this is the base for the full following
+week rather than a single overnight. Virgola and XFood above are early
+previews since they land on arrival night, not the full local
+research. For tonight: arrive, settle in, dinner at XFood.
 
 ## **If Time Is Tight**
 
-Skip Monopoli entirely. Go straight to Polignano, see Lama Monachile,
-eat, continue to Cisternino.
+Skip Monopoli entirely. Polignano (with Dorsale) → Ostuni (with
+Riccardo Caffè) → San Vito dei Normanni is a complete, satisfying day
+on its own.
 
-## **If You\'ve Got Half a Day**
+## **If You've Got Half a Day**
 
-Add the full Monopoli old town and castle walk, and linger at the old
-port near sunset before continuing on.
+Add the full Monopoli old town and castle walk, and take the extra
+time at Forno 31 and Ostuni's viewpoint rather than rushing toward
+Riccardo Caffè.
 
 ## **Skip It**
 
-Don\'t push hard for Otto if it\'s genuinely closed on your date ---
-Martinucci is a real, verified, consistent fallback, not a compromise
-pick.
+Don't chase the rupestrian churches today --- they're not accessible
+without advance arrangement, and trying anyway will eat time better
+spent at Riccardo Caffè.
 
-## **Today\'s Winners**
+## **Today's Winners**
 
--   **🏆 Best coffee/pastry:** Otto, if open; Martinucci otherwise
+-   **🏆 Best coffee/pastry:** Forno 31, Ostuni
 
--   **🏆 Best dinner:** Grotta Palazzese
+-   **🏆 Best lunch:** Panzerotto at Madià, Monopoli
 
--   **🏆 Best experience:** Monopoli\'s old port at sunset
+-   **🏆 Best dinner:** XFood, San Vito dei Normanni
 
--   **🏆 Best purchase:** A panzerotto from Madià, eaten immediately
+-   **🏆 Best experience:** Riccardo Caffè, Ostuni --- an aperitivo
+    carved into white rock
+
+-   **🏆 Best purchase:** Taralli from Forno 31 --- actually travels,
+    unlike the pasticciotto
 
 ## **Road Trip Score**
 
   --------------------------------------- -------------------------------
   **Category**                            **Rating**
 
-  Food                                    ★★★★☆
+  Food                                    ★★★★★
 
-  Coffee                                  ★★★☆☆
+  Coffee                                  ★★★★☆
 
   Atmosphere                              ★★★★★
 
   Photography                             ★★★★★
 
-  History                                 ★★★☆☆
+  History                                 ★★★★☆
 
   Young Traveller Appeal                  ★★★★★
 
