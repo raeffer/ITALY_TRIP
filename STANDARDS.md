@@ -36,4 +36,3 @@
 
 ## Known Issues / History
 - GitHub Pages build source must be on the "main" branch specifically (an earlier mismatch with "master" caused the live site to show a blank placeholder for a while).
-- Claude Desktop's in-app "Bypass Permissions" toggle has a known bug where it can fail to switch modes; running Claude Code via a plain terminal with --dangerously-skip-permissions is the reliable fallback.
