@@ -97,6 +97,18 @@ a minor gripe. The pastry pedigree is genuine; the service experience is
 a real coin-flip. Order at the bar, and don\'t be surprised if it\'s
 brusque.*
 
+*Checked for a better alternative on this pass: Grinder Coffee Lab (Via
+di Roma 178) is a genuine third-wave specialty coffee lab with
+consistently strong reviews ("Starbucks go home, three times better, a
+third of the price") --- a better cup than Il Nazionale by a clear
+margin. But it's closed Sundays, and 13 September 2026 (the actual
+travel day) is a Sunday, so it doesn't work for this trip. Also
+investigated Bar Byron, a historic 1951 café named for Lord Byron (who
+lived in Ravenna) and once a hangout for writers and cyclists Bartali
+and Coppi --- but it closed in 2023 and the space is now a restaurant
+called Clarice, so it's not a valid pick. Il Nazionale remains the
+practical choice for this specific date despite the service flag above.*
+
 ## **Pasticceria**
 
 **Pasticceria Veneziana** --- Via Salara 15
@@ -1613,14 +1625,36 @@ cited as \"best coffee in Vieste.\"
 
 **Donlù** --- Largo Seggio 8
 
-One of Vieste\'s best-regarded restaurants, confirmed still operating.
+*📞 +39 0884 592264 · 4.6★/93 reviews*
+
+Family-run --- Donato and Luca are named specifically by reviewers, and
+the small rustic dining room with domed stone roofs keeps things
+intimate rather than polished. Creative Apulian dishes rather than
+straight tradition: the scallop-and-urchin starter, the octopus dish,
+and the tiramisu are the most consistently praised. One dissenting
+review calls it an "overhyped tourist trap" alongside a majority of
+strong ratings --- worth knowing going in that reactions aren't
+unanimous.
 
 **Alternate:** Osteria degli Archi --- Via Ripe 2
 
+*📞 +39 0884 705199 · 4.3--4.5★ across 1,400+ reviews*
+
+Chef/patron Michele Vescera's restaurant is cut directly into the rock
+cliff of the Ripa, looking out over Pizzomunno beach --- stone arches
+and wooden beams inside. Repeatedly called "maybe the best restaurant in
+Vieste" in reviews. Noticeably pricier than most Vieste alternatives
+(€40--50/person) --- the tradeoff for the quality and the view.
+
 **Budget alternate:** Box 19 --- Via Santa Maria di Merino 13
 
-(Full detail on these three already verified in earlier research for
-this project --- carried forward unchanged.)
+*📞 +39 0884 705229 · 3.6--4.3★ across 1,200+ reviews*
+
+The genuine budget pick of the three --- casual seafood, and reviewers
+specifically mention locals recommending it for lunch. Honest read on
+the mixed reviews: some call it the best-value fish in town, others
+describe brusque or dismissive service on off nights. Go in with modest
+expectations on service rather than food.
 
 ## **Local Speciality**
 
