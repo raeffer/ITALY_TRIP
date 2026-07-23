@@ -1,3 +1,7 @@
+## A Note on What Belongs Here
+
+This file documents facts about the PROJECT ITSELF — content rules, design system, file structure, project history — that stay true no matter which AI tool or app someone uses to work on it. It should NOT contain instructions specific to one app or interface (e.g. how to configure a particular tool's settings, that tool's bugs or workarounds). If a note is really about troubleshooting a specific app rather than the project, it doesn't belong in this file.
+
 ## Content Philosophy
 - This is a decision-making travel companion, not a guidebook — practical, honest, for reading in a moving car.
 - Every day follows this structure: Theme, Overview (with a routing note checking what's actually on the road between stops, not just the destination), Stops, Coffee, Pasticceria, Lunch/Dinner, Local Speciality, What to Buy, Hidden Gem, Cool/Interesting/Quirky, Accommodation, If Time Is Tight, If You've Got Half a Day, Skip It, Today's Winners, Road Trip Score.
