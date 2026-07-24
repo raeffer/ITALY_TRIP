@@ -1,0 +1,49 @@
+name: Rebuild printable edition
+
+# Safety net behind the local pre-commit hook (scripts/pre-commit-hook.sh).
+# If a day page, credits.html, or style.css reaches main without
+# print-all.html having been regenerated in the same commit (e.g. someone
+# committed with --no-verify or without the hook installed), this rebuilds
+# it and pushes a follow-up commit so print-all.html never stays stale.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "days/day*.html"
+      - "credits.html"
+      - "style.css"
+      - "scripts/build-print-all.py"
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 lxml
+
+      - name: Regenerate print-all.html
+        run: python3 scripts/build-print-all.py
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- print-all.html; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add print-all.html
+            git commit -m "Auto-rebuild print-all.html [skip ci]"
+            git push
+          else
+            echo "print-all.html already up to date, nothing to commit."
+          fi

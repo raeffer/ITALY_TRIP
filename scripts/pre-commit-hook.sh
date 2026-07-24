@@ -15,6 +15,27 @@
 
 set -euo pipefail
 
+# --- Auto-regenerate print-all.html ---------------------------------------
+# If any source that print-all.html is built from is staged, rebuild it and
+# stage the result, so print-all.html can never go stale in a commit.
+PRINT_SOURCES_CHANGED=$(git diff --cached --name-only | grep -E '^(days/day[0-9]+\.html|credits\.html|style\.css)$' || true)
+
+if [ -n "$PRINT_SOURCES_CHANGED" ]; then
+  if command -v python3 >/dev/null 2>&1 && python3 -c "import bs4, lxml" >/dev/null 2>&1; then
+    python3 scripts/build-print-all.py
+    git add print-all.html
+    echo "print-all.html regenerated and staged (source changed: $(echo "$PRINT_SOURCES_CHANGED" | tr '\n' ' '))"
+  else
+    echo ""
+    echo "WARNING: day page(s)/credits.html/style.css changed but print-all.html"
+    echo "could not be regenerated (missing python3 or bs4/lxml)."
+    echo "Install with: pip install beautifulsoup4 lxml --break-system-packages"
+    echo "print-all.html may now be stale relative to this commit."
+    echo ""
+  fi
+fi
+# ----------------------------------------------------------------------------
+
 CONTENT_FILE="CONTENT.md"
 
 # Only run if CONTENT.md is actually staged for this commit.
