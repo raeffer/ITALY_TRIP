@@ -52,11 +52,11 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Must work well on: desktop browser, tablet (portrait & landscape), phone, and printed/bound hard copy (via Officeworks).
 - Responsive: viewport meta tag required on every page; CSS reset (html, body { margin: 0; padding: 0; }) to prevent stray browser-default margins.
 - Print: @page rule for A4 with 10mm left margin (binding gutter) and 5mm on the other three sides, matching Officeworks' bound-document specs. Keep bold colors for print (flat-rate color printing, ink coverage isn't a cost factor).
-- File structure: shared /style.css used by all pages, one file per day in /days/dayN.html, root /index.html linking to all days, root /credits.html for all photo credits.
+- File structure: shared /style-editorial.css used by all pages, one file per day in /days/dayN.html, root /index.html linking to all days, root /credits.html for all photo credits.
 
 ## Printable Edition (print-all.html)
 - print-all.html is a **generated file** — built by scripts/build-print-all.py by stitching together days/day1.html through days/day10.html and credits.html into one continuous, print-ready document. Never hand-edit it; edit the source day pages/credits.html instead and regenerate.
-- It is auto-regenerated locally by the pre-commit hook (scripts/pre-commit-hook.sh) whenever a day page, credits.html, or style.css is staged for commit — the hook rebuilds it and stages the result so it can't go stale in a commit.
+- It is auto-regenerated locally by the pre-commit hook (scripts/pre-commit-hook.sh) whenever a day page, credits.html, or style-editorial.css is staged for commit — the hook rebuilds it and stages the result so it can't go stale in a commit.
 - As a backstop, it is also rebuilt in CI by .github/workflows/build-print-all.yml on every push to main that touches those same files, in case someone commits with `--no-verify` or without the hook installed; CI pushes a follow-up commit if the rebuilt file differs.
 - index.html links to it from the site footer as "Printable Edition (all days)".
 
