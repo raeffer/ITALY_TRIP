@@ -232,11 +232,14 @@ body{
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  width:22px;
+  min-width:30px;
   height:22px;
   margin-right:6px;
-  border-radius:50%;
+  padding:0 5px;
+  border-radius:6px;
   background: var(--royal-blue);
+  border: 2px solid var(--white);
+  outline: 1px solid var(--ink);
   color: var(--white);
   font-family:'IBM Plex Mono', monospace;
   font-size: 11px;
@@ -517,7 +520,7 @@ body{
   counter-increment: poi;
   position:relative;
   min-height:42px;
-  padding-left:34px;
+  padding-left:52px;
   break-inside: avoid-page;
   page-break-inside: avoid;
 }
@@ -529,9 +532,10 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  width:24px;
-  height:24px;
-  border-radius:50%;
+  width:38px;
+  height:26px;
+  padding:0;
+  border-radius:6px;
   background: var(--poi-marker-color);
   border: 3px solid var(--white);
   outline: 1px solid var(--ink);
@@ -719,8 +723,8 @@ table.score td.stars{ color:var(--amber); font-size:17px; letter-spacing:2px; }
   .content{ padding: 0 16px; }
   .card{ padding:14px 16px; }
   .planner-grid{ grid-template-columns: 1fr; }
-  .poi-ref{ width:20px; height:20px; font-size:10px; margin-right:5px; }
-  .poi-legend li{ padding-left:31px; }
+  .poi-ref{ min-width:28px; height:20px; font-size:10px; margin-right:5px; }
+  .poi-legend li{ padding-left:46px; }
   .poi-legend small{ font-size:10px; }
   table.score th, table.score td{ padding:8px 10px; font-size:11px; }
   .photo-finale{ padding: 28px 16px 36px 16px; }

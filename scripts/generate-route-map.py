@@ -53,9 +53,9 @@ DAY1 = {
         "ravenna": {
             "anchor": "Ravenna walking core",
             "numbers": list(range(2, 20)),
-            "grid_offset": (190, -360),
+            "grid_offset": (150, -360),
             "columns": 3,
-            "x_step": 58,
+            "x_step": 64,
             "y_step": 58,
         },
     },
@@ -392,13 +392,23 @@ def numbered_marker(draw: ImageDraw.ImageDraw, point: tuple[float, float], numbe
         draw.line((x, y, marker_x, marker_y), fill=(47, 42, 38, 150), width=2)
         draw.ellipse((x - 4, y - 4, x + 4, y + 4), fill=(47, 42, 38, 190), outline="#fffdf6", width=1)
 
-    r = 22 if number < 10 else 25
-    draw.ellipse((marker_x - r, marker_y - r, marker_x + r, marker_y + r), fill=fill, outline="#fffdf6", width=5)
-    draw.ellipse((marker_x - r, marker_y - r, marker_x + r, marker_y + r), outline="#2f2a26", width=1)
     text = str(number)
+    box_w = 58
+    box_h = 46
+    radius = 8
+    box = (
+        marker_x - box_w / 2,
+        marker_y - box_h / 2,
+        marker_x + box_w / 2,
+        marker_y + box_h / 2,
+    )
+    draw.rounded_rectangle(box, radius=radius, fill=fill, outline="#fffdf6", width=5)
+    draw.rounded_rectangle(box, radius=radius, outline="#2f2a26", width=1)
     bbox = draw.textbbox((0, 0), text, font=font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
     draw.text(
-        (marker_x - (bbox[2] - bbox[0]) / 2, marker_y - (bbox[3] - bbox[1]) / 2 - 2),
+        (marker_x - text_w / 2 - bbox[0], marker_y - text_h / 2 - bbox[1]),
         text,
         fill="#fffdf6",
         font=font,
