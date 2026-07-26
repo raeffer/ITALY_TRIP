@@ -457,7 +457,7 @@ Marino 📞 +378 0549 991369*
 
 ### **Piazza della Libertà & Palazzo Pubblico**
 
-*📍 43.9367403, 12.4465224 --- Contrada del Pianello, 47890 Città di San
+*📍 43.9367403, 12.4465224 --- Piazza della Libertà, 47890 Città di San
 Marino 📞 +378 0549 883152*
 
 -   **Why stop:** The seat of San Marino\'s government --- Captains
@@ -469,7 +469,7 @@ Marino 📞 +378 0549 883152*
 
 ### **Fano --- Arco di Augusto**
 
-*📍 43.8430963, 13.0145177 --- Via Arco D\'Augusto, 61032 Fano PU*
+*📍 43.8430719, 13.0145105 --- Via Arco d\'Augusto, 61032 Fano PU*
 
 -   **Why stop:** A well-preserved Roman-era arch marking the entrance
     to Fano\'s old town --- the gateway into the historic centre\'s
@@ -484,7 +484,7 @@ Marino 📞 +378 0549 883152*
 
 **Ristorante Ritrovo dei Lavoratori** --- Via Androne dei Bastioni 4
 
-*📍 43.9359394, 12.4463982 📞 +378 0549 991116 · Closed Wednesdays; Mon
+*📍 43.9358760, 12.4464272 📞 +378 0549 991116 · Closed Wednesdays; Mon
 12:00--2:00pm & 7:15--11:00pm*
 
 4.4★/2,311 reviews --- described locally as the best-known osteria in
@@ -495,7 +495,7 @@ value. Try the tagliata with porcini.
 **Alternate (nicer):** La Terrazza (Hotel Titano) --- Contrada del
 Collegio 31
 
-*📍 43.9359968, 12.4470414 📞 +378 0549 990666 · 4.5★/1,738 reviews*
+*📍 43.9360252, 12.4469842 📞 +378 0549 990666 · 4.5★/1,738 reviews*
 
 Panoramic hilltop views, genuinely elegant without tasting-menu
 pretension --- reviews specifically note complimentary chef\'s starters
@@ -504,7 +504,7 @@ and vegan options handled seriously.
 **Alternate (budget):** Buca San Francesco --- Piazzetta del Placito
 Feretrano 3
 
-*📍 43.935275, 12.4468655 📞 +39 0549 991462 · 4.1★/261 reviews*
+*📍 43.9353605, 12.4468161 📞 +39 0549 991462 · 4.1★/261 reviews*
 
 60+ years running, right at the entrance to the historic centre. One
 review flags inconsistent seating policy on busy days --- worth having a
@@ -524,7 +524,9 @@ Torta Tre Monti --- five layers of wafer with cocoa-hazelnut cream, dark
 chocolate rim --- is the one souvenir actually worth bringing home
 rather than buying at an airport.
 
-**Fantini Pelletteria** --- centro storico, San Marino Città
+**Fantini Pelletteria** --- Contrada dei Magazzeni 23, San Marino Città
+
+*📍 43.9361136, 12.4476454*
 
 Family-run leather goods shop founded in 1981, with four locations in
 the actual historic centre (not the outlying castelli such as
@@ -548,7 +550,7 @@ allows, but atmospheric even empty.
 
 **Caffè Cavour** --- Via Cavour 1
 
-*📍 43.8400612, 13.0195388 · Closed Sundays; Mon 5:30am--8:00pm*
+*📍 43.8400902, 13.0195547 · Closed Sundays; Mon 5:30am--8:00pm*
 
 Why here specifically: the first documented reference to Moretta fanese
 anywhere is an advertisement in a 1908 local weekly, placed by Giuseppe
@@ -558,7 +560,9 @@ but mostly warm --- \"best americano in Fano and the surrounding area\"
 from one, a locked-door complaint from another. Go for the history as
 much as the coffee.
 
-**Caffè del Porto** --- Fano working port
+**Caffè del Porto** --- Via Nazario Sauro 270, Fano working port
+
+*📍 43.8511711, 13.0162229*
 
 Genuinely historic, but not "the original" Moretta stop: the documented
 1908 paper-trail origin is still Caffè Cavour above. Caffè del Porto is
@@ -571,7 +575,7 @@ because it is literally on the water.
 
 **Il Caffè del Pasticciere** --- Via Costituzione 8
 
-*📍 43.8384857, 13.0113134 📞 +39 0721 829078 · Closed Tuesdays; Mon
+*📍 43.8385085, 13.0112355 📞 +39 0721 829078 · Closed Tuesdays; Mon
 6:00am--9:00pm · 4.2★/517 reviews*
 
 Opened 1993 by Stefano Ceresani, now a genuine Fano institution with its
@@ -592,7 +596,7 @@ by weight.
 
 **Ristorante Angela** --- Viale Adriatico 13
 
-*📍 43.8461355, 13.0255546 📞 +39 0721 801239 · Closed Fridays; Mon
+*📍 43.8460841, 13.0255815 📞 +39 0721 801239 · Closed Fridays; Mon
 12:30--2:30pm & 7:30--10:30pm · 4.3★/295 reviews*
 
 40+ years specializing in brodetto alla fanese, the address most
@@ -668,7 +672,10 @@ family. One sharp negative review (no lift, third floor) worth knowing
 if mobility matters.
 
 **Boutique/Charm:** B&B Dimora d\'Epoca (\"Il Palazzo\") --- centro
-storico, 1600s building near the beach
+storico, 1600s building near the beach. Mapping check: the public
+listing resolves to the same practical historic-palazzo area as Palazzo
+Rotati below, with source data pointing to palazzorotati.com, so it is
+not treated as a separate mapped accommodation stop.
 
 Independent apartments with kitchenettes inside a protected historic
 building, under regional heritage oversight.
@@ -684,6 +691,83 @@ treated like family by the owner Gabriella).
 **My pick:** Palazzo Rotati --- the review consistency here is unusually
 strong for a small property, and it\'s still genuinely historic rather
 than a renovated shell.
+
+## **Today's Route & Timing**
+
+**Base normal day:** ≈8h15--9h15 from B&B Casa Masoli, Ravenna to
+Palazzo Rotati, Fano via San Marino. This includes practical driving,
+parking/walking friction, 2--3 hours for the San Marino core, Fano old
+town arrival, coffee, and evening accommodation arrival.
+
+**Route choice:** The normal route runs Ravenna → San Marino → Fano.
+The scenic alternative runs San Marino → Gabicce Monte / Parco Naturale
+Monte San Bartolo → Fano and should be treated as a selectable route
+alternative, adding approximately 45--75 minutes depending on traffic,
+stops, and viewpoint parking.
+
+**Optional timing add-ons:** Palazzo Pubblico exterior/square linger
+adds 20--30 minutes; La Serenissima adds 45--60 minutes; Cava dei
+Balestrieri adds 30--45 minutes; Fano port / Caffè del Porto adds
+30--45 minutes.
+
+**Print map:** Use the Day 2 OpenStreetMap-derived orientation map
+showing Ravenna → San Marino, San Marino → Fano by the normal route,
+the Gabicce Monte / San Bartolo scenic alternative, San Marino and Fano
+dense POI clusters, parking, scenic viewpoint, and accommodation. It is
+a planning map only; Google Maps links/buttons provide navigation.
+
+**Numbered POIs for map and legend:**
+
+1. B&B Casa Masoli, Ravenna --- Start --- Via Girolamo Rossi 22, 48121
+Ravenna RA, Italy --- GPS 44.4199737, 12.2003868
+2. San Marino P9 Parking --- Parking --- Parcheggio P9, Via Gino
+Giacomini, 47890 Città di San Marino, San Marino --- GPS 43.937384,
+12.445192
+3. Guaita Tower & Monte Titano --- Historic site / viewpoint --- Salita
+Alla Rocca, 47890 Città di San Marino, San Marino --- GPS 43.9354691,
+12.4493514
+4. Piazza della Libertà & Palazzo Pubblico --- Historic site --- Piazza
+della Libertà, 47890 Città di San Marino, San Marino --- GPS
+43.9367403, 12.4465224
+5. Ristorante Ritrovo dei Lavoratori --- Food stop --- Androne dei
+Bastioni 4, 47890 Città di San Marino, San Marino --- GPS 43.9358760,
+12.4464272
+6. La Terrazza, Hotel Titano --- Food stop --- Contrada del Collegio
+31, 47890 Città di San Marino, San Marino --- GPS 43.9360252,
+12.4469842
+7. Buca San Francesco --- Food stop --- Piazzetta del Placito Feretrano
+3, 47890 Città di San Marino, San Marino --- GPS 43.9353605,
+12.4468161
+8. La Serenissima --- Shop / food heritage --- Via Venticinque Marzo 67,
+47895 Domagnano, San Marino --- GPS 43.9531511, 12.4685640
+9. Fantini Pelletteria --- Shop --- Contrada dei Magazzeni 23, 47890
+Città di San Marino, San Marino --- GPS 43.9361136, 12.4476454
+10. Cava dei Balestrieri --- Historic site / optional stop --- Via
+Eugippo, 47890 Città di San Marino, San Marino --- GPS 43.9375482,
+12.4457523
+11. Gabicce Monte / San Bartolo viewpoint --- Scenic route viewpoint ---
+Piazza Valbruna, 61011 Gabicce Monte PU, Italy --- GPS 43.960330,
+12.761220
+12. Fano centro storico --- Historic centre --- Piazza XX Settembre,
+61032 Fano PU, Italy --- GPS 43.840900, 13.016950
+13. Arco di Augusto --- Historic site --- Via Arco d'Augusto, 61032
+Fano PU, Italy --- GPS 43.8430719, 13.0145105
+14. Caffè Cavour --- Food stop --- Via Camillo Benso Conte di Cavour 1,
+61032 Fano PU, Italy --- GPS 43.8400902, 13.0195547
+15. Caffè del Porto --- Food stop --- Via Nazario Sauro 270, 61032 Fano
+PU, Italy --- GPS 43.8511711, 13.0162229
+16. Il Caffè del Pasticciere --- Food stop --- Via della Costituzione
+8/A, 61032 Fano PU, Italy --- GPS 43.8385085, 13.0112355
+17. Panificio Pasticceria Forno Longhini --- Food stop --- Viale I
+Maggio 15/17, 61032 Fano PU, Italy --- GPS 43.8470115, 13.0116548
+18. Ristorante Angela --- Food stop --- Viale Adriatico 13, 61032 Fano
+PU, Italy --- GPS 43.8460841, 13.0255815
+19. La Taverna del Ghiottone --- Food stop --- Via Roma 87/B, 61032
+Fano PU, Italy --- GPS 43.84024, 13.0114404
+20. B&B La Casa di Fano --- Accommodation --- Corso Giacomo Matteotti
+173, 61032 Fano PU, Italy --- GPS 43.842910, 13.018100
+21. Palazzo Rotati --- Accommodation --- Via Nolfi 49, 61032 Fano PU,
+Italy --- GPS 43.8442214, 13.0192360
 
 ## **If Time Is Tight**
 

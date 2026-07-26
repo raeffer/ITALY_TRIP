@@ -18,6 +18,7 @@ USER_AGENT = "ITALY_TRIP static route map generator"
 
 
 DAY1 = {
+    "title": "Day 1 orientation map",
     "output": ROOT / "assets/maps/day1-ravenna-route.png",
     "zoom": 10,
     "size": (1800, 1125),
@@ -49,6 +50,11 @@ DAY1 = {
             "dashed": True,
         },
     },
+    "route_order": ["optional", "lagoon", "recommended"],
+    "legend": [
+        {"label": "Recommended route", "color": "#1769d2"},
+        {"label": "Comacchio alternative", "color": "#d79a19"},
+    ],
     "poi_clusters": {
         "ravenna": {
             "anchor": "Ravenna walking core",
@@ -308,6 +314,297 @@ DAY1 = {
 }
 
 
+DAY2 = {
+    "title": "Day 2 orientation map",
+    "output": ROOT / "assets/maps/day2-san-marino-fano-route.png",
+    "zoom": 10,
+    "size": (1800, 1125),
+    "padding_px": 135,
+    "places": {
+        "Ravenna start": (44.4199737, 12.2003868),
+        "San Marino parking": (43.937384, 12.445192),
+        "San Marino core": (43.93623, 12.44695),
+        "Guaita Tower": (43.9354691, 12.4493514),
+        "La Serenissima": (43.9531511, 12.4685640),
+        "Gabicce Monte": (43.960330, 12.761220),
+        "San Bartolo viewpoint": (43.943180, 12.817000),
+        "Fano old town": (43.84215, 13.01720),
+        "Fano port": (43.8511711, 13.0162229),
+        "Palazzo Rotati": (43.8442214, 13.0192360),
+    },
+    "routes": {
+        "recommended": {
+            "color": "#1769d2",
+            "width": 12,
+            "coords": ["Ravenna start", "San Marino parking", "San Marino core", "Fano old town", "Palazzo Rotati"],
+        },
+        "scenic": {
+            "color": "#d79a19",
+            "width": 10,
+            "coords": ["San Marino core", "Gabicce Monte", "San Bartolo viewpoint", "Fano old town"],
+        },
+    },
+    "route_order": ["scenic", "recommended"],
+    "legend": [
+        {"label": "Recommended route", "color": "#1769d2"},
+        {"label": "San Bartolo scenic alternative", "color": "#d79a19", "dashed": True},
+    ],
+    "poi_clusters": {
+        "san_marino": {
+            "anchor": "San Marino core",
+            "numbers": list(range(2, 11)),
+            "grid_offset": (-520, -220),
+            "columns": 3,
+            "x_step": 64,
+            "y_step": 58,
+        },
+        "fano": {
+            "anchor": "Fano old town",
+            "numbers": list(range(12, 22)),
+            "grid_offset": (130, -330),
+            "columns": 2,
+            "x_step": 68,
+            "y_step": 58,
+        },
+    },
+    "pois": [
+        {
+            "number": 1,
+            "name": "B&B Casa Masoli, Ravenna",
+            "lat": 44.4199737,
+            "lon": 12.2003868,
+            "address": "Via Girolamo Rossi 22, 48121 Ravenna RA, Italy",
+            "type": "Start",
+            "color": "#1769d2",
+            "offset": (0, 76),
+        },
+        {
+            "number": 2,
+            "name": "San Marino P9 Parking",
+            "lat": 43.937384,
+            "lon": 12.445192,
+            "address": "Parcheggio P9, Via Gino Giacomini, 47890 Citta di San Marino, San Marino",
+            "type": "Parking",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 3,
+            "name": "Guaita Tower & Monte Titano",
+            "lat": 43.9354691,
+            "lon": 12.4493514,
+            "address": "Salita Alla Rocca, 47890 Citta di San Marino, San Marino",
+            "type": "Historic site / viewpoint",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 4,
+            "name": "Piazza della Liberta & Palazzo Pubblico",
+            "lat": 43.9367403,
+            "lon": 12.4465224,
+            "address": "Piazza della Liberta, 47890 Citta di San Marino, San Marino",
+            "type": "Historic site",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 5,
+            "name": "Ristorante Ritrovo dei Lavoratori",
+            "lat": 43.9358760,
+            "lon": 12.4464272,
+            "address": "Androne dei Bastioni 4, 47890 Citta di San Marino, San Marino",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 6,
+            "name": "La Terrazza, Hotel Titano",
+            "lat": 43.9360252,
+            "lon": 12.4469842,
+            "address": "Contrada del Collegio 31, 47890 Citta di San Marino, San Marino",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 7,
+            "name": "Buca San Francesco",
+            "lat": 43.9353605,
+            "lon": 12.4468161,
+            "address": "Piazzetta del Placito Feretrano 3, 47890 Citta di San Marino, San Marino",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 8,
+            "name": "La Serenissima",
+            "lat": 43.9531511,
+            "lon": 12.4685640,
+            "address": "Via Venticinque Marzo 67, 47895 Domagnano, San Marino",
+            "type": "Shop / food heritage",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 9,
+            "name": "Fantini Pelletteria",
+            "lat": 43.9361136,
+            "lon": 12.4476454,
+            "address": "Contrada dei Magazzeni 23, 47890 Citta di San Marino, San Marino",
+            "type": "Shop",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 10,
+            "name": "Cava dei Balestrieri",
+            "lat": 43.9375482,
+            "lon": 12.4457523,
+            "address": "Via Eugippo, 47890 Citta di San Marino, San Marino",
+            "type": "Historic site / optional stop",
+            "color": "#1769d2",
+            "cluster": "san_marino",
+        },
+        {
+            "number": 11,
+            "name": "Gabicce Monte / San Bartolo viewpoint",
+            "lat": 43.960330,
+            "lon": 12.761220,
+            "address": "Piazza Valbruna, 61011 Gabicce Monte PU, Italy",
+            "type": "Scenic route viewpoint",
+            "color": "#d79a19",
+            "offset": (0, -44),
+        },
+        {
+            "number": 12,
+            "name": "Fano centro storico",
+            "lat": 43.840900,
+            "lon": 13.016950,
+            "address": "Piazza XX Settembre, 61032 Fano PU, Italy",
+            "type": "Historic centre",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 13,
+            "name": "Arco di Augusto",
+            "lat": 43.8430719,
+            "lon": 13.0145105,
+            "address": "Via Arco d'Augusto, 61032 Fano PU, Italy",
+            "type": "Historic site",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 14,
+            "name": "Caffe Cavour",
+            "lat": 43.8400902,
+            "lon": 13.0195547,
+            "address": "Via Camillo Benso Conte di Cavour 1, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 15,
+            "name": "Caffe del Porto",
+            "lat": 43.8511711,
+            "lon": 13.0162229,
+            "address": "Via Nazario Sauro 270, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 16,
+            "name": "Il Caffe del Pasticciere",
+            "lat": 43.8385085,
+            "lon": 13.0112355,
+            "address": "Via della Costituzione 8/A, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 17,
+            "name": "Panificio Pasticceria Forno Longhini",
+            "lat": 43.8470115,
+            "lon": 13.0116548,
+            "address": "Viale I Maggio 15/17, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 18,
+            "name": "Ristorante Angela",
+            "lat": 43.8460841,
+            "lon": 13.0255815,
+            "address": "Viale Adriatico 13, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 19,
+            "name": "La Taverna del Ghiottone",
+            "lat": 43.84024,
+            "lon": 13.0114404,
+            "address": "Via Roma 87/B, 61032 Fano PU, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "fano",
+        },
+        {
+            "number": 20,
+            "name": "B&B La Casa di Fano",
+            "lat": 43.842910,
+            "lon": 13.018100,
+            "address": "Corso Giacomo Matteotti 173, 61032 Fano PU, Italy",
+            "type": "Accommodation",
+            "color": "#2f2a26",
+            "cluster": "fano",
+        },
+        {
+            "number": 21,
+            "name": "Palazzo Rotati",
+            "lat": 43.8442214,
+            "lon": 13.0192360,
+            "address": "Via Nolfi 49, 61032 Fano PU, Italy",
+            "type": "Accommodation",
+            "color": "#2f2a26",
+            "cluster": "fano",
+        },
+    ],
+    "poi_verification": {
+        1: "Start address carried from verified Day 1 accommodation data for Casa Masoli.",
+        2: "Practical San Marino arrival set to P9 parking below the historic centre; coordinates checked against OpenStreetMap parking/mapping data.",
+        3: "Address from existing itinerary/tourism data; coordinates checked against mapping data for Guaita/Salita Alla Rocca practical arrival.",
+        4: "Address checked against official San Marino civic/tourism naming; coordinates checked against OpenStreetMap Palazzo Pubblico object.",
+        5: "Address from existing itinerary; coordinates checked against OpenStreetMap restaurant object.",
+        6: "Address from existing itinerary/Hotel Titano data; coordinates checked against OpenStreetMap house address for Contrada del Collegio 31.",
+        7: "Address from existing itinerary; coordinates checked against OpenStreetMap restaurant object.",
+        8: "Address from existing itinerary/venue data; coordinates retained from existing page and checked against mapping data for Domagnano arrival.",
+        9: "Address resolved to Fantini Pelletteria historic-centre shop at Contrada dei Magazzeni 23; coordinates checked against OpenStreetMap address object.",
+        10: "Address from existing itinerary; coordinates checked against mapping data for Cava dei Balestrieri.",
+        11: "Practical San Bartolo/Gabicce Monte arrival set to Piazza Valbruna viewpoint/parking area; coordinates checked against mapping data.",
+        12: "Broad Fano old-town wander anchored to practical Piazza XX Settembre arrival rather than a town centroid; coordinates checked against mapping data.",
+        13: "Address from existing itinerary; coordinates checked against OpenStreetMap Arco d'Augusto object.",
+        14: "Address from existing itinerary; coordinates checked against OpenStreetMap Caffe Cavour object.",
+        15: "Address resolved to Caffe del Porto, Via Nazario Sauro 270; coordinates checked against OpenStreetMap cafe object.",
+        16: "Address from existing itinerary; coordinates checked against OpenStreetMap cafe object.",
+        17: "Address from existing itinerary; coordinates retained from existing page and checked against mapping data for the bakery arrival.",
+        18: "Address from existing itinerary; coordinates checked against OpenStreetMap Hotel/Ristorante Angela object.",
+        19: "Address from existing itinerary; coordinates retained from existing page and checked against mapping data for the restaurant arrival.",
+        20: "Address from CONTENT.md; coordinates retained from existing page and checked against mapping data for guest arrival.",
+        21: "Address from existing itinerary/venue data; coordinates retained from existing page and checked against mapping data for Palazzo Rotati. The older B&B Dimora d'Epoca/Il Palazzo listing resolves to the same practical Fano palazzo area and is treated as an accommodation alias, not a separate mapped stop.",
+    },
+}
+
+
 def lonlat_to_global_px(lat: float, lon: float, zoom: int) -> tuple[float, float]:
     lat_rad = math.radians(lat)
     scale = TILE_SIZE * 2**zoom
@@ -445,8 +742,7 @@ def draw_cluster_grid(
         )
 
 
-def generate_day1() -> None:
-    config = DAY1
+def generate_map(config: dict) -> None:
     zoom = config["zoom"]
 
     route_geometries: dict[str, list[tuple[float, float]]] = {}
@@ -501,7 +797,7 @@ def generate_day1() -> None:
         return ((gx - min_x) / (max_x - min_x) * output_w, (gy - min_y) / (max_y - min_y) * output_h)
 
     draw = ImageDraw.Draw(image)
-    for name in ("optional", "lagoon", "recommended"):
+    for name in config.get("route_order", config["routes"].keys()):
         route = config["routes"][name]
         points = [to_canvas(lat, lon) for lat, lon in route_geometries[name]]
         draw_line(draw, points, "#fffdf6", route["width"] + 8, route.get("dashed", False))
@@ -541,11 +837,12 @@ def generate_day1() -> None:
 
     draw.rounded_rectangle((32, 32, 615, 165), radius=16, fill=(255, 253, 246, 235), outline="#d8cab4", width=2)
     title_font = load_font(36, bold=True)
-    draw.text((56, 50), "Day 1 orientation map", fill="#2f2a26", font=title_font)
-    draw.line((60, 116, 160, 116), fill="#1769d2", width=10)
-    draw.text((176, 102), "Recommended route", fill="#2f2a26", font=small_font)
-    draw.line((60, 148, 160, 148), fill="#d79a19", width=9)
-    draw.text((176, 134), "Comacchio alternative", fill="#2f2a26", font=small_font)
+    draw.text((56, 50), config["title"], fill="#2f2a26", font=title_font)
+    legend_y = 116
+    for item in config.get("legend", []):
+        draw_line(draw, [(60, legend_y), (160, legend_y)], item["color"], 9, item.get("dashed", False))
+        draw.text((176, legend_y - 14), item["label"], fill="#2f2a26", font=small_font)
+        legend_y += 32
 
     attribution = "Map data and tiles © OpenStreetMap contributors · Routes from OSRM"
     attr_bbox = draw.textbbox((0, 0), attribution, font=small_font)
@@ -559,10 +856,10 @@ def generate_day1() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("day", choices=["day1"], help="Map configuration to generate")
+    configs = {"day1": DAY1, "day2": DAY2}
+    parser.add_argument("day", choices=sorted(configs), help="Map configuration to generate")
     args = parser.parse_args()
-    if args.day == "day1":
-        generate_day1()
+    generate_map(configs[args.day])
 
 
 if __name__ == "__main__":
