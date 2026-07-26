@@ -1653,7 +1653,85 @@ along the route --- worth noticing rather than just pedaling past.
 
 ## **Accommodation**
 
-Same as Day 4 --- no change of base for the linger day.
+Same prior-night base --- no change of accommodation for the linger day.
+
+## **Today's Route & Timing**
+
+**Base timing:** Day 5 is deliberately a no-driving linger day. The base
+local plan is a gentle San Vito / Via Verde / Promontorio Dannunziano
+day of approximately 3--5 hours from a 10:00am start, leaving the rest
+of the afternoon open.
+
+**Route choice:** The local linger route stays around Marina di San
+Vito, the Via Verde access, the San Vito coast, and Promontorio
+Dannunziano. The rest-day coast-only version saves about 1--2 hours. The
+Lanciano day-trip option adds about 2--3 hours and can be done by car or
+via San Vito--Lanciano station. Castel Frentano is treated as a
+bocconotto add-on to the Lanciano option, not a required stop.
+
+**Optional timing add-ons:** A longer Via Verde cycle or beach pause adds
+45--75 minutes. Lunch at Trattoria Paolucci adds 45--60 minutes. Castel
+Frentano for the bocconotto origin-town add-on adds 45--75 minutes.
+
+**Print map:** Use the Day 5 OpenStreetMap-derived orientation map
+showing the local San Vito linger route, Via Verde access, Promontorio
+Dannunziano / Trabocco Punta Turchino, the Lanciano day-trip option, the
+Castel Frentano bocconotto add-on, food stops, accommodation, and
+transport. It is a planning map only; Google Maps links/buttons provide
+navigation.
+
+**Numbered POIs for map and legend:**
+
+1. B&B La Finestra Sui Trabocchi --- Accommodation / start --- Via
+   Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy --- GPS:
+   42.3096483, 14.4445601
+2. Locanda dell'Adriatica --- Accommodation / food stop --- Largo
+   Olivieri 5, 66038 Marina di San Vito CH, Italy --- GPS: 42.3080635,
+   14.4459466
+3. Via Verde della Costa dei Trabocchi --- Cycle / walking route --- Via
+   Verde access near Via Lungomare di Gualdo, 66038 Marina di San Vito
+   CH, Italy --- GPS: 42.309420, 14.444940
+4. Pasticceria Iezzi Rossana --- Food stop / shop --- Via Nazionale
+   Adriatica 6, 66038 San Vito Chietino CH, Italy --- GPS: 42.3079185,
+   14.4453615
+5. Trabocco Vento di Scirocco --- Food stop --- Via Lungomare di Gualdo,
+   66038 Marina di San Vito CH, Italy --- GPS: 42.3107684, 14.4462617
+6. Aldebaran da Rocco e Tommaso --- Food stop --- Via Lungomare di
+   Gualdo 4, 66038 Marina di San Vito CH, Italy --- GPS: 42.309154,
+   14.445654
+7. Le Due Palme --- Food stop --- Via San Rocco, 66038 San Vito
+   Chietino CH, Italy --- GPS: 42.292305, 14.443628
+8. Promontorio Dannunziano --- Viewpoint / historic site --- Contrada
+   San Fino 31, 66038 San Vito Chietino CH, Italy --- GPS: 42.2963673,
+   14.4649437
+9. Trabocco Punta Turchino --- Trabocco heritage / viewpoint --- Contrada
+   Portelle, 66038 San Vito Chietino CH, Italy --- GPS: 42.3006606,
+   14.4608939
+10. San Vito-Lanciano station --- Transport --- Stazione San
+    Vito-Lanciano, SP70, 66038 San Vito Chietino CH, Italy --- GPS:
+    42.3048450, 14.4404829
+11. Lanciano old town / Piazza del Plebiscito --- Optional historic
+    centre --- Piazza del Plebiscito, 66034 Lanciano CH, Italy --- GPS:
+    42.2309626, 14.3902022
+12. La Bocconotteria --- Food stop / shop --- Via Ercole Tinari 6, 66034
+    Lanciano CH, Italy --- GPS: 42.2186783, 14.3950227
+13. Trattoria Paolucci --- Food stop --- Via Dalmazia 30, 66034 Lanciano
+    CH, Italy --- GPS: 42.2284917, 14.3952913
+14. Bottega del Bocconotto --- Optional food heritage / shop --- Castel
+    Frentano, 66032 Castel Frentano CH, Italy --- GPS: 42.197430,
+    14.356420
+
+**Verification notes:** Day 5 coordinates were checked against the
+approved hierarchy using verified prior-night accommodation/food data,
+existing Day 5 itinerary data, OpenStreetMap object data where available
+and OSM road/reverse-address context where named small-business objects
+were sparse. Exact OSM objects were found for Trabocco Punta Turchino,
+San Vito--Lanciano station, and Piazza del Plebiscito. Pasticceria
+Iezzi, La Bocconotteria, and Trattoria Paolucci retain the existing
+researched coordinates with OSM road/address context. Bottega del
+Bocconotto is identified by the itinerary in Castel Frentano without a
+confirmed street address, so the map uses a practical Castel Frentano
+arrival point pending local confirmation.
 
 ## **If Time Is Tight**
 

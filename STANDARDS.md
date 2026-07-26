@@ -67,6 +67,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - POIs must use compact numbered markers rather than full text labels on the map. Do not place full POI names directly on the map.
 - Prefer rounded-square numbered markers for generated bitmap maps, because they keep single- and double-digit numbers centered and avoid ragged small-circle edges in print.
 - When many POIs belong to one dense stop or walking core, group them as a clean chronological marker stack, grid, or inset connected to one geographic anchor. Avoid fan-shaped leader-line bursts, many crossing lines, overlapping markers, or a line running behind the numbered markers.
+- Clustering is permitted only for genuinely close POIs. It must not conceal meaningful geographic separation: different towns, route endpoints, optional-route destinations, and major destinations must be shown individually at or immediately adjacent to their real locations. Geographic accuracy takes priority over visual neatness, while readability takes priority over forcing every marker directly onto the same small area.
 - The numbered markers in the legend must visually match the marker colors used on the map.
 - Every numbered marker must have exactly one matching legend entry beneath the map, and every legend entry must correspond to a visible marker.
 - Every legend entry must include the marker number, POI name, POI type, practical navigation address, and verified decimal GPS coordinates.
