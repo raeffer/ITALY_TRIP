@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style-editorial.css">
+<script src="../route-planner.js" defer></script>
 </head>
 <body>
 <div class="page">
@@ -53,8 +54,8 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Stops</h2>
       <div class="card">
-        <div class="name">Senigallia — Rocca Roveresca</div>
-        <div class="meta">📍 43.7153332, 13.2204474 — Piazza del Duca 2, 60019 Senigallia AN &nbsp;·&nbsp; 📞 +39 071 63258</div>
+        <div class="name"><span class="poi-ref">2</span>Senigallia — Rocca Roveresca</div>
+        <div class="meta">📍 43.7153671, 13.2205412 — Piazza del Duca 2, 60019 Senigallia AN &nbsp;·&nbsp; 📞 +39 071 63258 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.7153671%2C13.2205412&travelmode=driving" target="_blank" rel="noopener">Navigate</a></div>
         <ul class="bullets">
           <li><b>Why stop:</b> A well-preserved 15th-century defensive fortress by the train station, elaborately restored interior, views over the old town.</li>
           <li><b>Time required:</b> 45–60 min</li>
@@ -63,8 +64,8 @@
         </ul>
       </div>
       <div class="card alt">
-        <div class="name">Portonovo — Abbazia di Santa Maria di Portonovo</div>
-        <div class="meta">📍 43.5611908, 13.5999370 — 60020 Portonovo AN</div>
+        <div class="name"><span class="poi-ref">3</span>Portonovo — Abbazia di Santa Maria di Portonovo</div>
+        <div class="meta">📍 43.5611908, 13.5999370 — Strada Frazione Poggio, Portonovo, 60129 Ancona AN &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5611908%2C13.5999370&travelmode=driving" target="_blank" rel="noopener">Navigate</a></div>
         <img class="inline-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Chiesetta%20di%20Portonovo%20AN%20-%20facciata.jpg" alt="Facade of the Abbey of Santa Maria di Portonovo">
         <div class="inline-photo-credit">Abbazia di Santa Maria di Portonovo</div>
         <ul class="bullets">
@@ -74,8 +75,8 @@
         </ul>
       </div>
       <div class="card">
-        <div class="name">Sirolo — the Conero Riviera's prettiest base</div>
-        <div class="meta">📍 43.5196105, 13.6180163 — Via Peschiera 30, 60020 Sirolo AN &nbsp;·&nbsp; 📞 +39 071 933 1161</div>
+        <div class="name"><span class="poi-ref">5</span><span class="poi-ref">6</span><span class="poi-ref">7</span>Sirolo — the Conero Riviera's prettiest base</div>
+        <div class="meta">📍 43.5196861, 13.6180996 / 43.5230728, 13.6199227 / 43.5236323, 13.6231578 — Via Peschiera 30, Piazza Vittorio Veneto, Spiaggia Urbani, 60020 Sirolo AN &nbsp;·&nbsp; 📞 +39 071 933 1161 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5230728%2C13.6199227&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <img class="inline-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Sirolo%20-%20Comune%20di%20Sirolo%20-%202023-09-20%2017-32-05%20001.JPG" alt="Spiaggia Urbani in Sirolo">
         <div class="inline-photo-credit">Spiaggia Urbani, Sirolo</div>
         <ul class="bullets">
@@ -89,8 +90,8 @@
     <div class="section cat-coffee">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Coffee</h2>
       <div class="card">
-        <div class="name">Bar Gelateria del Conero <span class="tag">Via Italia 1</span></div>
-        <div class="meta">📍 43.5224986, 13.6200589 &nbsp;·&nbsp; 📞 +39 071 933 1838 &nbsp;·&nbsp; Closed Mondays</div>
+        <div class="name"><span class="poi-ref">8</span>Bar Gelateria del Conero <span class="tag">Via Italia 1</span></div>
+        <div class="meta">📍 43.5225245, 13.6201607 &nbsp;·&nbsp; 📞 +39 071 933 1838 &nbsp;·&nbsp; Closed Mondays &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5225245%2C13.6201607&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <div class="flag">Honest flag: only bar with real profile in central Sirolo, but 3.2★/605 reviews — genuine complaints about rude service, poor food. Go for the view and a granita, keep expectations modest.</div>
       </div>
     </div>
@@ -98,23 +99,23 @@
     <div class="section cat-lunch">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 2a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.5 5.5 0 01-7.54-7.54A9 9 0 0011 2z"/></svg>Lunch</h2>
       <div class="card">
-        <div class="name">Da Giustina <span class="tag">Via Cave 1</span></div>
-        <div class="meta">📍 43.5281358, 13.6135596 &nbsp;·&nbsp; 📞 +39 071 933 0802</div>
+        <div class="name"><span class="poi-ref">9</span>Da Giustina <span class="tag">Via Cave 1</span></div>
+        <div class="meta">📍 43.5281358, 13.6135596 &nbsp;·&nbsp; 📞 +39 071 933 0802 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5281358%2C13.6135596&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.3★/1,201 reviews. Moscioli specialist, 30+ years, award-winning seafood risotto.</p>
       </div>
       <div class="card alt">
-        <div class="name">La Paranza <span class="tag">Spiaggia Urbani</span></div>
-        <div class="meta">📍 43.5226248, 13.6236777 &nbsp;·&nbsp; 📞 +39 071 933 0574</div>
+        <div class="name"><span class="poi-ref">10</span>La Paranza <span class="tag">Spiaggia Urbani</span></div>
+        <div class="meta">📍 43.5226248, 13.6236777 &nbsp;·&nbsp; 📞 +39 071 933 0574 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5226248%2C13.6236777&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.4★/1,062 reviews. Right on the beach.</p>
       </div>
       <div class="card alt">
-        <div class="name">Osteria Sara <span class="tag">Piazza Vittorio Veneto 9</span></div>
-        <div class="meta">📍 43.52285, 13.6196845 &nbsp;·&nbsp; 📞 +39 071 933 0716 &nbsp;·&nbsp; Closed Wednesdays</div>
+        <div class="name"><span class="poi-ref">11</span>Osteria Sara <span class="tag">Piazza Vittorio Veneto 9</span></div>
+        <div class="meta">📍 43.52285, 13.6196845 &nbsp;·&nbsp; 📞 +39 071 933 0716 &nbsp;·&nbsp; Closed Wednesdays &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.52285%2C13.6196845&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.5★/1,393 reviews. Historic since 1962.</p>
       </div>
       <div class="card budget">
-        <div class="name">Pa' Panino un bel Po' <span class="tag">Via Italia 39</span></div>
-        <div class="meta">📍 43.5219441, 13.6204501</div>
+        <div class="name"><span class="poi-ref">12</span>Pa' Panino un bel Po' <span class="tag">Via Italia 39</span></div>
+        <div class="meta">📍 43.5219441, 13.6204501 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5219441%2C13.6204501&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.6★/249 reviews, but recent reviews trending down (rising prices).</p>
       </div>
     </div>
@@ -132,8 +133,8 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.5L5.7 21l2.3-7.2-6-4.6h7.6z"/></svg>What to Buy</h2>
       <div class="card">
-        <div class="name">Bottega dei Sapori Nostrani <span class="tag">Via Italia 11/36</span></div>
-        <div class="meta">📍 43.5223274, 13.6202173 &nbsp;·&nbsp; 📞 +39 338 932 5845</div>
+        <div class="name"><span class="poi-ref">13</span>Bottega dei Sapori Nostrani <span class="tag">Via Italia 11/36</span></div>
+        <div class="meta">📍 43.5223274, 13.6202173 &nbsp;·&nbsp; 📞 +39 338 932 5845 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5223274%2C13.6202173&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.5★/347 reviews. Local products, tagliere boards, Rosso Conero wine.</p>
       </div>
     </div>
@@ -141,7 +142,8 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16V8z"/></svg>Hidden Gem</h2>
       <div class="card">
-        <div class="name">Latteria Elgide <span class="tag">Via Italia 5</span></div>
+        <div class="name"><span class="poi-ref">14</span>Latteria Elgide <span class="tag">Via Italia 5</span></div>
+        <div class="meta">📍 43.52243, 13.62012 &nbsp;·&nbsp; Via Italia 5, 60020 Sirolo AN &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.52243%2C13.62012&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Called "the most historic shop in Sirolo" by a local food writer — small traditional alimentari/dairy shop.</p>
         <div class="flag">Honest note: sourced from a blog, not an official register.</div>
       </div>
@@ -150,7 +152,8 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11.8A8 8 0 004 10.2C4 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg>Cool, Interesting & Quirky</h2>
       <div class="card">
-        <div class="name">Cooperativa Pescatori di Portonovo</div>
+        <div class="name"><span class="poi-ref">4</span>Cooperativa Pescatori di Portonovo</div>
+        <div class="meta">📍 43.5619, 13.6002 &nbsp;·&nbsp; Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5619%2C13.6002&travelmode=driving" target="_blank" rel="noopener">Navigate</a></div>
         <p>The real, named cooperative behind the moscioli tradition. Named fishermen (Massimo Manganelli, Massimiliano Stecconi, Sandro Rocchetti) free-dive to harvest by hand using a moscioliniera tool. Buy directly at their Portonovo beach capanni or sales points in Numana/Osimo.</p>
         <div class="flag">Timing honesty: the Mosciolando festival is 18–21 June 2026 — outside your September window.</div>
       </div>
@@ -159,17 +162,91 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>Accommodation</h2>
       <div class="card">
-        <div class="name">Conero Camere <span class="tag">Budget/Mid-range</span></div>
-        <div class="meta">📍 43.5229034, 13.6186971 — Via Grilli 14 &nbsp;·&nbsp; 📞 +39 071 933 0077 &nbsp;·&nbsp; 4.8★/184 reviews</div>
+        <div class="name"><span class="poi-ref">15</span>Conero Camere <span class="tag">Budget/Mid-range</span></div>
+        <div class="meta">📍 43.5229034, 13.6186971 — Via Grilli 14 &nbsp;·&nbsp; 📞 +39 071 933 0077 &nbsp;·&nbsp; 4.8★/184 reviews &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5229034%2C13.6186971&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>50m from centre, private parking. <b>My pick</b> — best value-to-character ratio, private parking solves Sirolo's worst practical problem.</p>
       </div>
       <div class="card alt">
-        <div class="name">Diecidodici <span class="tag">Boutique</span></div>
-        <div class="meta">📍 43.5235067, 13.6193663 — Via A. Giulietti 10 &nbsp;·&nbsp; 📞 +39 071 860 0003 &nbsp;·&nbsp; Closed Mondays &nbsp;·&nbsp; 4.7★/364 reviews</div>
+        <div class="name"><span class="poi-ref">16</span>Diecidodici <span class="tag">Boutique</span></div>
+        <div class="meta">📍 43.5235067, 13.6193663 — Via A. Giulietti 10 &nbsp;·&nbsp; 📞 +39 071 860 0003 &nbsp;·&nbsp; Closed Mondays &nbsp;·&nbsp; 4.7★/364 reviews &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5235067%2C13.6193663&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
       </div>
       <div class="card alt">
-        <div class="name">San Michele Relais & Spa <span class="tag">Luxury</span></div>
-        <div class="meta">📍 43.5266418, 13.6169719 — Via Piave 6 &nbsp;·&nbsp; 📞 +39 071 972 8149 &nbsp;·&nbsp; 4.6★/253 reviews</div>
+        <div class="name"><span class="poi-ref">17</span>San Michele Relais & Spa <span class="tag">Luxury</span></div>
+        <div class="meta">📍 43.5266418, 13.6169719 — Via Piave 6 &nbsp;·&nbsp; 📞 +39 071 972 8149 &nbsp;·&nbsp; 4.6★/253 reviews &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5266418%2C13.6169719&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
+      </div>
+    </div>
+
+    <div class="section route-section" data-route-planner data-base-min="350" data-base-max="410" data-warning-after="1200" data-warning-text="This pushes the day past 8:00pm. Consider using the direct route or dropping a stop.">
+      <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
+      <div class="card route-card">
+        <div class="route-actions web-only">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Palazzo%20Rotati%20Fano%2C%20Rocca%20Roveresca%20Senigallia%2C%20Abbazia%20di%20Santa%20Maria%20di%20Portonovo%2C%20Sirolo%2C%20Conero%20Camere%20Sirolo" target="_blank" rel="noopener">View Today's Places</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=43.8442214%2C13.0192360&destination=43.5229034%2C13.6186971&waypoints=43.7153671%2C13.2205412%7C43.5611908%2C13.5999370%7C43.5230728%2C13.6199227&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=43.8442214%2C13.0192360&destination=43.5229034%2C13.6186971&waypoints=43.5230728%2C13.6199227&travelmode=driving" target="_blank" rel="noopener">Navigate Direct Route</a>
+        </div>
+        <div class="planner-grid">
+          <label class="planner-field web-only">Departure time
+            <input type="time" value="09:00" data-planner-departure>
+          </label>
+          <div class="planner-stat"><span>Base day</span><b>5h 50–6h 50</b></div>
+          <div class="planner-stat"><span>Optional time</span><b data-planner-selected>0 min</b></div>
+          <div class="planner-stat"><span>Total duration</span><b data-planner-duration>5h 50–6h 50</b></div>
+          <div class="planner-stat"><span>Estimated finish</span><b data-planner-finish>2:50 pm–3:50 pm</b></div>
+          <div class="planner-stat"><span>Day shape</span><b class="planner-status status-comfortable" data-planner-status>Comfortable day</b></div>
+        </div>
+        <fieldset class="planner-options web-only">
+          <legend>Route choice</legend>
+          <label><input type="radio" name="day3-route" data-planner-option data-min="0" data-max="0" checked> Direct Fano to Sirolo route — no additional time</label>
+          <label><input type="radio" name="day3-route" data-planner-option data-min="105" data-max="135"> Recommended coastal route via Senigallia and Portonovo — add approximately 1h45–2h15</label>
+        </fieldset>
+        <fieldset class="planner-options web-only">
+          <legend>Optional activities</legend>
+          <label><input type="checkbox" data-planner-option data-min="30" data-max="45"> Longer Portonovo swim or beach pause — add 30–45 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="30" data-max="45"> Cooperativa Pescatori / moscioli buying stop — add 30–45 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="45" data-max="60"> Da Giustina lunch instead of a quick Sirolo snack — add 45–60 minutes</label>
+        </fieldset>
+        <p class="route-minor-links web-only"><b>Useful stop maps:</b>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.7153671%2C13.2205412&travelmode=driving" target="_blank" rel="noopener">Rocca Roveresca</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5611908%2C13.5999370&travelmode=driving" target="_blank" rel="noopener">Portonovo abbey</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=43.5236323%2C13.6231578&travelmode=walking" target="_blank" rel="noopener">Spiaggia Urbani</a>
+        </p>
+        <div class="planner-warning" data-planner-warning hidden></div>
+        <div class="print-time-summary print-only">
+          <p><b>Print timing summary:</b> suggested 9:00am departure. Base direct day is approximately 5h50–6h50, finishing around 2:50–3:50pm. The recommended coastal route via Senigallia and Portonovo adds about 1h45–2h15. A longer Portonovo swim adds 30–45 minutes; Cooperativa Pescatori adds 30–45 minutes; Da Giustina lunch adds 45–60 minutes. Under 8 hours is comfortable, 8–10 hours is long, and over 10 hours is a very long day.</p>
+        </div>
+        <div class="route-map" id="day3-route-map">
+          <h3>Day 3 route map</h3>
+          <div class="route-map-frame">
+            <img src="../assets/maps/day3-sirolo-route.png" alt="OpenStreetMap-derived orientation map of the Day 3 route from Fano to Senigallia, Portonovo, and Sirolo, with a direct time-tight alternative and numbered points of interest">
+          </div>
+          <div class="route-map-legend">
+            <span><i class="legend-line direct"></i>Recommended coastal route</span>
+            <span><i class="legend-line alt-route"></i>Time-tight direct route</span>
+          </div>
+          <div class="poi-legend" aria-label="Day 3 numbered points of interest">
+            <h4>Numbered points of interest</h4>
+            <ol>
+              <li><b>Palazzo Rotati, Fano</b> <span>Start</span><small>Via Nolfi 49, 61032 Fano PU, Italy<br>GPS: 43.8442214, 13.0192360</small></li>
+              <li><b>Rocca Roveresca</b> <span>Historic site</span><small>Piazza del Duca 2, 60019 Senigallia AN, Italy<br>GPS: 43.7153671, 13.2205412</small></li>
+              <li><b>Abbazia di Santa Maria di Portonovo</b> <span>Historic site / beach stop</span><small>Strada Frazione Poggio, Portonovo, 60129 Ancona AN, Italy<br>GPS: 43.5611908, 13.5999370</small></li>
+              <li><b>Cooperativa Pescatori di Portonovo</b> <span>Producer / food heritage</span><small>Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN, Italy<br>GPS: 43.5619, 13.6002</small></li>
+              <li><b>Centro Visite Parco del Conero</b> <span>Visitor office / orientation</span><small>Via Peschiera 30/A, 60020 Sirolo AN, Italy<br>GPS: 43.5196861, 13.6180996</small></li>
+              <li><b>Piazza Vittorio Veneto / Balcone Panoramico</b> <span>Viewpoint / historic centre</span><small>Piazza Vittorio Veneto, 60020 Sirolo AN, Italy<br>GPS: 43.5230728, 13.6199227</small></li>
+              <li><b>Spiaggia Urbani</b> <span>Beach</span><small>Spiaggia Urbani, 60020 Sirolo AN, Italy<br>GPS: 43.5236323, 13.6231578</small></li>
+              <li><b>Bar Gelateria del Conero</b> <span>Food stop</span><small>Via Italia 1, 60020 Sirolo AN, Italy<br>GPS: 43.5225245, 13.6201607</small></li>
+              <li><b>Da Giustina</b> <span>Food stop</span><small>Via Cave 1, 60020 Sirolo AN, Italy<br>GPS: 43.5281358, 13.6135596</small></li>
+              <li><b>La Paranza</b> <span>Food stop</span><small>Spiaggia Urbani, 60020 Sirolo AN, Italy<br>GPS: 43.5226248, 13.6236777</small></li>
+              <li><b>Osteria Sara</b> <span>Food stop</span><small>Piazza Vittorio Veneto 9, 60020 Sirolo AN, Italy<br>GPS: 43.52285, 13.6196845</small></li>
+              <li><b>Pa' Panino un bel Po'</b> <span>Food stop</span><small>Via Italia 39, 60020 Sirolo AN, Italy<br>GPS: 43.5219441, 13.6204501</small></li>
+              <li><b>Bottega dei Sapori Nostrani</b> <span>Shop / food stop</span><small>Via Italia 11/36, 60020 Sirolo AN, Italy<br>GPS: 43.5223274, 13.6202173</small></li>
+              <li><b>Latteria Elgide</b> <span>Shop</span><small>Via Italia 5, 60020 Sirolo AN, Italy<br>GPS: 43.52243, 13.62012</small></li>
+              <li class="poi-marker-accommodation"><b>Conero Camere</b> <span>Accommodation</span><small>Via Grilli 14, 60020 Sirolo AN, Italy<br>GPS: 43.5229034, 13.6186971</small></li>
+              <li class="poi-marker-accommodation"><b>Diecidodici</b> <span>Accommodation / food stop</span><small>Via Anacleto Giulietti 10, 60020 Sirolo AN, Italy<br>GPS: 43.5235067, 13.6193663</small></li>
+              <li class="poi-marker-accommodation"><b>San Michele Relais & Spa</b> <span>Accommodation</span><small>Via Piave 6, 60020 Sirolo AN, Italy<br>GPS: 43.5266418, 13.6169719</small></li>
+            </ol>
+          </div>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+        </div>
       </div>
     </div>
 

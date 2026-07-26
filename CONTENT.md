@@ -845,7 +845,7 @@ Portonovo before Sirolo.
 
 ### **Senigallia --- Rocca Roveresca**
 
-*📍 43.7153332, 13.2204474 --- Piazza del Duca, 2, 60019 Senigallia AN
+*📍 43.7153671, 13.2205412 --- Piazza del Duca, 2, 60019 Senigallia AN
 📞 +39 071 63258*
 
 -   **Why stop:** A genuinely well-preserved 15th-century defensive
@@ -861,7 +861,8 @@ Portonovo before Sirolo.
 
 ### **Portonovo --- Abbazia di Santa Maria di Portonovo**
 
-*📍 43.5611908, 13.5999370 --- 60020 Portonovo AN*
+*📍 43.5611908, 13.5999370 --- Strada Frazione Poggio, Portonovo, 60129
+Ancona AN*
 
 -   **Why stop:** An 11th-century Romanesque abbey church right on the
     beach --- genuinely rare architecture; reviewers specifically note
@@ -879,7 +880,7 @@ Portonovo before Sirolo.
 
 ### **Sirolo --- the Conero Riviera\'s prettiest base**
 
-*📍 43.5196105, 13.6180163 --- Via Peschiera 30, 60020 Sirolo AN (Parco
+*📍 43.5196861, 13.6180996 --- Via Peschiera 30/A, 60020 Sirolo AN (Parco
 del Conero office) 📞 +39 071 933 1161*
 
 -   **Why stop:** Monte Conero is the rare spot on this coast where a
@@ -901,7 +902,7 @@ del Conero office) 📞 +39 071 933 1161*
 
 **Bar Gelateria del Conero** --- Via Italia 1
 
-*📍 43.5224986, 13.6200589 📞 +39 071 933 1838 · Closed Mondays*
+*📍 43.5225245, 13.6201607 📞 +39 071 933 1838 · Closed Mondays*
 
 *Honest flag: this is the only bar with any real profile in central
 Sirolo, but Google shows it at 3.2★/605 reviews --- genuine complaints
@@ -1040,6 +1041,70 @@ booking --- check if that matters to you.
 **My pick:** Conero Camere --- best value-to-character ratio, genuinely
 central, and the private parking solves Sirolo\'s worst practical
 problem.
+
+## **Today's Route & Timing**
+
+**Base direct day:** ≈5h50--6h50 from Palazzo Rotati, Fano to Conero
+Camere, Sirolo. This includes the direct Fano → Sirolo drive, parking
+and walking friction, Sirolo historic-centre orientation, Spiaggia
+Urbani, and a practical arrival at accommodation.
+
+**Recommended route choice:** The recommended coastal route runs Fano →
+Senigallia → Portonovo → Sirolo, matching the existing routing note.
+Compared with the direct day, it adds approximately 1h45--2h15 for the
+Rocca Roveresca stop and the Portonovo abbey/exterior beach setting.
+
+**Optional timing add-ons:** A longer Portonovo swim or beach pause adds
+30--45 minutes; Cooperativa Pescatori / moscioli buying stop adds
+30--45 minutes; Da Giustina lunch instead of a quick Sirolo snack adds
+45--60 minutes.
+
+**Print map:** Use the Day 3 OpenStreetMap-derived orientation map
+showing Fano → Senigallia → Portonovo → Sirolo, the time-tight direct
+Fano → Sirolo route, the Sirolo dense POI cluster, Portonovo food
+heritage stops, beach/viewpoint stops, and accommodation. It is a
+planning map only; Google Maps links/buttons provide navigation.
+
+**Numbered POIs for map and legend:**
+
+1. Palazzo Rotati, Fano --- Start --- Via Nolfi 49, 61032 Fano PU,
+Italy --- GPS 43.8442214, 13.0192360
+2. Rocca Roveresca --- Historic site --- Piazza del Duca 2, 60019
+Senigallia AN, Italy --- GPS 43.7153671, 13.2205412
+3. Abbazia di Santa Maria di Portonovo --- Historic site / beach stop
+--- Strada Frazione Poggio, Portonovo, 60129 Ancona AN, Italy --- GPS
+43.5611908, 13.5999370
+4. Cooperativa Pescatori di Portonovo --- Producer / food heritage ---
+Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN, Italy
+--- GPS 43.5619, 13.6002
+5. Centro Visite Parco del Conero --- Visitor office / orientation ---
+Via Peschiera 30/A, 60020 Sirolo AN, Italy --- GPS 43.5196861,
+13.6180996
+6. Piazza Vittorio Veneto / Balcone Panoramico --- Viewpoint / historic
+centre --- Piazza Vittorio Veneto, 60020 Sirolo AN, Italy --- GPS
+43.5230728, 13.6199227
+7. Spiaggia Urbani --- Beach --- Spiaggia Urbani, 60020 Sirolo AN,
+Italy --- GPS 43.5236323, 13.6231578
+8. Bar Gelateria del Conero --- Food stop --- Via Italia 1, 60020
+Sirolo AN, Italy --- GPS 43.5225245, 13.6201607
+9. Da Giustina --- Food stop --- Via Cave 1, 60020 Sirolo AN, Italy ---
+GPS 43.5281358, 13.6135596
+10. La Paranza --- Food stop --- Spiaggia Urbani, 60020 Sirolo AN,
+Italy --- GPS 43.5226248, 13.6236777
+11. Osteria Sara --- Food stop --- Piazza Vittorio Veneto 9, 60020
+Sirolo AN, Italy --- GPS 43.52285, 13.6196845
+12. Pa' Panino un bel Po' --- Food stop --- Via Italia 39, 60020 Sirolo
+AN, Italy --- GPS 43.5219441, 13.6204501
+13. Bottega dei Sapori Nostrani --- Shop / food stop --- Via Italia
+11/36, 60020 Sirolo AN, Italy --- GPS 43.5223274, 13.6202173
+14. Latteria Elgide --- Shop --- Via Italia 5, 60020 Sirolo AN, Italy
+--- GPS 43.52243, 13.62012
+15. Conero Camere --- Accommodation --- Via Grilli 14, 60020 Sirolo AN,
+Italy --- GPS 43.5229034, 13.6186971
+16. Diecidodici --- Accommodation / food stop --- Via Anacleto Giulietti
+10, 60020 Sirolo AN, Italy --- GPS 43.5235067, 13.6193663
+17. San Michele Relais & Spa --- Accommodation --- Via Piave 6, 60020
+Sirolo AN, Italy --- GPS 43.5266418, 13.6169719
 
 ## **If Time Is Tight**
 
