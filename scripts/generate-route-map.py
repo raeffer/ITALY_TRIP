@@ -15,6 +15,38 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 TILE_SIZE = 256
 USER_AGENT = "ITALY_TRIP static route map generator"
+MAP_OUTPUT_SCALE = 2
+ROUTE_ANTIALIAS_SCALE = 3
+ROUTE_STROKE_SCALE = 0.50
+
+MAP_PALETTE = {
+    "route_primary": "#1A5FC4",
+    "route_alternative": "#B88418",
+    "route_optional": "#C65332",
+    "marker_accommodation": "#163257",
+    "ink": "#163257",
+    "ink_soft": "#3D5A7A",
+    "parchment": "#F7F4EE",
+    "parchment_dark": "#EDE7D8",
+    "warm_tile": "#EEE8DC",
+    "white": "#FFFFFF",
+}
+
+ROUTE_PRIMARY = MAP_PALETTE["route_primary"]
+ROUTE_ALTERNATIVE = MAP_PALETTE["route_alternative"]
+ROUTE_OPTIONAL = MAP_PALETTE["route_optional"]
+MARKER_ACCOMMODATION = MAP_PALETTE["marker_accommodation"]
+MAP_INK = MAP_PALETTE["ink"]
+MAP_INK_SOFT = MAP_PALETTE["ink_soft"]
+MAP_PARCHMENT = MAP_PALETTE["parchment"]
+MAP_PARCHMENT_DARK = MAP_PALETTE["parchment_dark"]
+MAP_WARM_TILE = MAP_PALETTE["warm_tile"]
+MAP_WHITE = MAP_PALETTE["white"]
+
+
+def hex_to_rgba(hex_color: str, alpha: int) -> tuple[int, int, int, int]:
+    value = hex_color.lstrip("#")
+    return (int(value[0:2], 16), int(value[2:4], 16), int(value[4:6], 16), alpha)
 
 
 DAY1 = {
@@ -34,17 +66,17 @@ DAY1 = {
     },
     "routes": {
         "recommended": {
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "width": 12,
             "coords": ["Start", "Ravenna walking core", "B&B Casa Masoli"],
         },
         "optional": {
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "width": 10,
             "coords": ["Start", "Comacchio", "Manifattura dei Marinati", "Ravenna walking core", "B&B Casa Masoli"],
         },
         "lagoon": {
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "width": 8,
             "coords": ["Comacchio", "Lagoon road"],
             "dashed": True,
@@ -52,8 +84,8 @@ DAY1 = {
     },
     "route_order": ["optional", "lagoon", "recommended"],
     "legend": [
-        {"label": "Recommended route", "color": "#1769d2"},
-        {"label": "Comacchio alternative", "color": "#d79a19"},
+        {"label": "Recommended route", "color": ROUTE_PRIMARY},
+        {"label": "Comacchio alternative", "color": ROUTE_ALTERNATIVE},
     ],
     "poi_clusters": {
         "ravenna": {
@@ -73,7 +105,7 @@ DAY1 = {
             "lon": 11.2283615,
             "address": "San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy",
             "type": "Start",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (0, 0),
         },
         {
@@ -83,7 +115,7 @@ DAY1 = {
             "lon": 12.19623,
             "address": "Largo Giustiniano, 48121 Ravenna RA, Italy",
             "type": "Parking",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -93,7 +125,7 @@ DAY1 = {
             "lon": 12.1963864,
             "address": "Via San Vitale 17, 48121 Ravenna RA, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -103,7 +135,7 @@ DAY1 = {
             "lon": 12.1971029,
             "address": "Via Giuliano Argentario 22, 48121 Ravenna RA, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -113,7 +145,7 @@ DAY1 = {
             "lon": 12.195474,
             "address": "Via Gian Battista Barbiani 16, 48121 Ravenna RA, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -123,7 +155,7 @@ DAY1 = {
             "lon": 12.197836,
             "address": "Via Camillo Benso Cavour 54, 48121 Ravenna RA, Italy",
             "type": "Museum",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -133,7 +165,7 @@ DAY1 = {
             "lon": 12.1982703,
             "address": "Via Salara 15, 48121 Ravenna RA, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -143,7 +175,7 @@ DAY1 = {
             "lon": 12.2003868,
             "address": "Via Girolamo Rossi 22, 48121 Ravenna RA, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "ravenna",
         },
         {
@@ -153,7 +185,7 @@ DAY1 = {
             "lon": 12.1994528,
             "address": "Via IV Novembre 43, 48121 Ravenna RA, Italy",
             "type": "Shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -163,7 +195,7 @@ DAY1 = {
             "lon": 12.199129,
             "address": "Piazza Andrea Costa 6, 48121 Ravenna RA, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -173,7 +205,7 @@ DAY1 = {
             "lon": 12.1986896,
             "address": "Via Giacomo Matteotti 12, 48121 Ravenna RA, Italy",
             "type": "Shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -183,7 +215,7 @@ DAY1 = {
             "lon": 12.1995888,
             "address": "Piazza del Popolo 28, 48121 Ravenna RA, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -193,7 +225,7 @@ DAY1 = {
             "lon": 12.1993185,
             "address": "Piazza del Popolo, 48121 Ravenna RA, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -203,7 +235,7 @@ DAY1 = {
             "lon": 12.200015,
             "address": "Via Pellegrino Matteucci 5, 48121 Ravenna RA, Italy",
             "type": "Shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -213,7 +245,7 @@ DAY1 = {
             "lon": 12.2009368,
             "address": "Via Dante Alighieri 9, 48121 Ravenna RA, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -223,7 +255,7 @@ DAY1 = {
             "lon": 12.1999840,
             "address": "Via Corrado Ricci 24, 48121 Ravenna RA, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -233,7 +265,7 @@ DAY1 = {
             "lon": 12.2039917,
             "address": "Via di Roma 136, 48121 Ravenna RA, Italy",
             "type": "Optional stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -243,7 +275,7 @@ DAY1 = {
             "lon": 12.1915981,
             "address": "Via Maggiore 89, 48121 Ravenna RA, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -253,7 +285,7 @@ DAY1 = {
             "lon": 12.212171,
             "address": "Via D'Alaggio 69, 48122 Ravenna RA, Italy",
             "type": "Optional food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ravenna",
         },
         {
@@ -263,7 +295,7 @@ DAY1 = {
             "lon": 12.1812500,
             "address": "Centro storico, 44022 Comacchio FE, Italy",
             "type": "Optional stop",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (-30, -34),
         },
         {
@@ -273,7 +305,7 @@ DAY1 = {
             "lon": 12.1752748,
             "address": "Corso Giuseppe Mazzini 200, 44022 Comacchio FE, Italy",
             "type": "Museum / food heritage",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (36, 28),
         },
         {
@@ -283,7 +315,7 @@ DAY1 = {
             "lon": 12.2450,
             "address": "Argine degli Angeli, Valli di Comacchio, 44029 Comacchio FE, Italy",
             "type": "Viewpoint",
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "offset": (0, 0),
         },
     ],
@@ -334,20 +366,20 @@ DAY2 = {
     },
     "routes": {
         "recommended": {
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "width": 12,
             "coords": ["Ravenna start", "San Marino parking", "San Marino core", "Fano old town", "Palazzo Rotati"],
         },
         "scenic": {
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "width": 10,
             "coords": ["San Marino core", "Gabicce Monte", "San Bartolo viewpoint", "Fano old town"],
         },
     },
     "route_order": ["scenic", "recommended"],
     "legend": [
-        {"label": "Recommended route", "color": "#1769d2"},
-        {"label": "San Bartolo scenic alternative", "color": "#d79a19", "dashed": True},
+        {"label": "Recommended route", "color": ROUTE_PRIMARY},
+        {"label": "San Bartolo scenic alternative", "color": ROUTE_ALTERNATIVE, "dashed": True},
     ],
     "poi_clusters": {
         "san_marino": {
@@ -375,7 +407,7 @@ DAY2 = {
             "lon": 12.2003868,
             "address": "Via Girolamo Rossi 22, 48121 Ravenna RA, Italy",
             "type": "Start",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (0, 76),
         },
         {
@@ -385,7 +417,7 @@ DAY2 = {
             "lon": 12.445192,
             "address": "Parcheggio P9, Via Gino Giacomini, 47890 Citta di San Marino, San Marino",
             "type": "Parking",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -395,7 +427,7 @@ DAY2 = {
             "lon": 12.4493514,
             "address": "Salita Alla Rocca, 47890 Citta di San Marino, San Marino",
             "type": "Historic site / viewpoint",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -405,7 +437,7 @@ DAY2 = {
             "lon": 12.4465224,
             "address": "Piazza della Liberta, 47890 Citta di San Marino, San Marino",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -415,7 +447,7 @@ DAY2 = {
             "lon": 12.4464272,
             "address": "Androne dei Bastioni 4, 47890 Citta di San Marino, San Marino",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -425,7 +457,7 @@ DAY2 = {
             "lon": 12.4469842,
             "address": "Contrada del Collegio 31, 47890 Citta di San Marino, San Marino",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -435,7 +467,7 @@ DAY2 = {
             "lon": 12.4468161,
             "address": "Piazzetta del Placito Feretrano 3, 47890 Citta di San Marino, San Marino",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -445,7 +477,7 @@ DAY2 = {
             "lon": 12.4685640,
             "address": "Via Venticinque Marzo 67, 47895 Domagnano, San Marino",
             "type": "Shop / food heritage",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -455,7 +487,7 @@ DAY2 = {
             "lon": 12.4476454,
             "address": "Contrada dei Magazzeni 23, 47890 Citta di San Marino, San Marino",
             "type": "Shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -465,7 +497,7 @@ DAY2 = {
             "lon": 12.4457523,
             "address": "Via Eugippo, 47890 Citta di San Marino, San Marino",
             "type": "Historic site / optional stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_marino",
         },
         {
@@ -475,7 +507,7 @@ DAY2 = {
             "lon": 12.761220,
             "address": "Piazza Valbruna, 61011 Gabicce Monte PU, Italy",
             "type": "Scenic route viewpoint",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (0, -44),
         },
         {
@@ -485,7 +517,7 @@ DAY2 = {
             "lon": 13.016950,
             "address": "Piazza XX Settembre, 61032 Fano PU, Italy",
             "type": "Historic centre",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -495,7 +527,7 @@ DAY2 = {
             "lon": 13.0145105,
             "address": "Via Arco d'Augusto, 61032 Fano PU, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -505,7 +537,7 @@ DAY2 = {
             "lon": 13.0195547,
             "address": "Via Camillo Benso Conte di Cavour 1, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -515,7 +547,7 @@ DAY2 = {
             "lon": 13.0162229,
             "address": "Via Nazario Sauro 270, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -525,7 +557,7 @@ DAY2 = {
             "lon": 13.0112355,
             "address": "Via della Costituzione 8/A, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -535,7 +567,7 @@ DAY2 = {
             "lon": 13.0116548,
             "address": "Viale I Maggio 15/17, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -545,7 +577,7 @@ DAY2 = {
             "lon": 13.0255815,
             "address": "Viale Adriatico 13, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -555,7 +587,7 @@ DAY2 = {
             "lon": 13.0114404,
             "address": "Via Roma 87/B, 61032 Fano PU, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "fano",
         },
         {
@@ -565,7 +597,7 @@ DAY2 = {
             "lon": 13.018100,
             "address": "Corso Giacomo Matteotti 173, 61032 Fano PU, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "fano",
         },
         {
@@ -575,7 +607,7 @@ DAY2 = {
             "lon": 13.0192360,
             "address": "Via Nolfi 49, 61032 Fano PU, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "fano",
         },
     ],
@@ -620,12 +652,12 @@ DAY3 = {
     },
     "routes": {
         "recommended": {
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "width": 12,
             "coords": ["Fano start", "Senigallia", "Portonovo", "Sirolo core", "Conero Camere"],
         },
         "direct": {
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "width": 10,
             "coords": ["Fano start", "Sirolo core", "Conero Camere"],
             "dashed": True,
@@ -633,8 +665,8 @@ DAY3 = {
     },
     "route_order": ["direct", "recommended"],
     "legend": [
-        {"label": "Recommended coastal route", "color": "#1769d2"},
-        {"label": "Time-tight direct route", "color": "#d79a19", "dashed": True},
+        {"label": "Recommended coastal route", "color": ROUTE_PRIMARY},
+        {"label": "Time-tight direct route", "color": ROUTE_ALTERNATIVE, "dashed": True},
     ],
     "poi_clusters": {
         "sirolo": {
@@ -654,7 +686,7 @@ DAY3 = {
             "lon": 13.0192360,
             "address": "Via Nolfi 49, 61032 Fano PU, Italy",
             "type": "Start",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (0, -92),
         },
         {
@@ -664,7 +696,7 @@ DAY3 = {
             "lon": 13.2205412,
             "address": "Piazza del Duca 2, 60019 Senigallia AN, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (-8, -50),
         },
         {
@@ -674,7 +706,7 @@ DAY3 = {
             "lon": 13.5999370,
             "address": "Strada Frazione Poggio, Portonovo, 60129 Ancona AN, Italy",
             "type": "Historic site / beach stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (-48, -46),
         },
         {
@@ -684,7 +716,7 @@ DAY3 = {
             "lon": 13.6002,
             "address": "Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN, Italy",
             "type": "Producer / food heritage",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (42, 34),
         },
         {
@@ -694,7 +726,7 @@ DAY3 = {
             "lon": 13.6180996,
             "address": "Via Peschiera 30/A, 60020 Sirolo AN, Italy",
             "type": "Visitor office / orientation",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -704,7 +736,7 @@ DAY3 = {
             "lon": 13.6199227,
             "address": "Piazza Vittorio Veneto, 60020 Sirolo AN, Italy",
             "type": "Viewpoint / historic centre",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -714,7 +746,7 @@ DAY3 = {
             "lon": 13.6231578,
             "address": "Spiaggia Urbani, 60020 Sirolo AN, Italy",
             "type": "Beach",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -724,7 +756,7 @@ DAY3 = {
             "lon": 13.6201607,
             "address": "Via Italia 1, 60020 Sirolo AN, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -734,7 +766,7 @@ DAY3 = {
             "lon": 13.6135596,
             "address": "Via Cave 1, 60020 Sirolo AN, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -744,7 +776,7 @@ DAY3 = {
             "lon": 13.6236777,
             "address": "Spiaggia Urbani, 60020 Sirolo AN, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -754,7 +786,7 @@ DAY3 = {
             "lon": 13.6196845,
             "address": "Piazza Vittorio Veneto 9, 60020 Sirolo AN, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -764,7 +796,7 @@ DAY3 = {
             "lon": 13.6204501,
             "address": "Via Italia 39, 60020 Sirolo AN, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -774,7 +806,7 @@ DAY3 = {
             "lon": 13.6202173,
             "address": "Via Italia 11/36, 60020 Sirolo AN, Italy",
             "type": "Shop / food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -784,7 +816,7 @@ DAY3 = {
             "lon": 13.62012,
             "address": "Via Italia 5, 60020 Sirolo AN, Italy",
             "type": "Shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "sirolo",
         },
         {
@@ -794,7 +826,7 @@ DAY3 = {
             "lon": 13.6186971,
             "address": "Via Grilli 14, 60020 Sirolo AN, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "sirolo",
         },
         {
@@ -804,7 +836,7 @@ DAY3 = {
             "lon": 13.6193663,
             "address": "Via Anacleto Giulietti 10, 60020 Sirolo AN, Italy",
             "type": "Accommodation / food stop",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "sirolo",
         },
         {
@@ -814,7 +846,7 @@ DAY3 = {
             "lon": 13.6169719,
             "address": "Via Piave 6, 60020 Sirolo AN, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "sirolo",
         },
     ],
@@ -859,18 +891,18 @@ DAY4 = {
     },
     "routes": {
         "recommended": {
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "width": 12,
             "coords": ["Sirolo start", "Ortona old town", "Moro cemetery", "Marina di San Vito"],
         },
         "loreto": {
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "width": 10,
             "coords": ["Sirolo start", "Loreto", "Picchio", "Ortona old town"],
             "dashed": True,
         },
         "trabocchi": {
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "width": 8,
             "coords": ["Marina di San Vito", "Trabocco Turchino", "Olivastri", "Pesce Palombo"],
             "dashed": True,
@@ -878,9 +910,9 @@ DAY4 = {
     },
     "route_order": ["trabocchi", "loreto", "recommended"],
     "legend": [
-        {"label": "Recommended route", "color": "#1769d2"},
-        {"label": "Loreto optional detour", "color": "#d79a19", "dashed": True},
-        {"label": "Trabocchi local add-on", "color": "#c84f2c", "dashed": True},
+        {"label": "Recommended route", "color": ROUTE_PRIMARY},
+        {"label": "Loreto optional detour", "color": ROUTE_ALTERNATIVE, "dashed": True},
+        {"label": "Trabocchi local add-on", "color": ROUTE_OPTIONAL, "dashed": True},
     ],
     "poi_clusters": {
         "ortona": {
@@ -908,7 +940,7 @@ DAY4 = {
             "lon": 13.6186971,
             "address": "Via Grilli 14, 60020 Sirolo AN, Italy",
             "type": "Start",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (0, 48),
         },
         {
@@ -918,7 +950,7 @@ DAY4 = {
             "lon": 13.6108062,
             "address": "Piazza della Madonna 1, 60025 Loreto AN, Italy",
             "type": "Optional historic site",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (-58, -44),
         },
         {
@@ -928,7 +960,7 @@ DAY4 = {
             "lon": 13.6175825,
             "address": "Via Traversa Don Enzo Rampolla 2, 60025 Loreto Stazione AN, Italy",
             "type": "Food stop",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (86, 52),
         },
         {
@@ -938,7 +970,7 @@ DAY4 = {
             "lon": 14.4032270,
             "address": "Corso Vittorio Emanuele, 66026 Ortona CH, Italy",
             "type": "Historic centre",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ortona",
         },
         {
@@ -948,7 +980,7 @@ DAY4 = {
             "lon": 14.4032270,
             "address": "Corso Vittorio Emanuele 73, 66026 Ortona CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ortona",
         },
         {
@@ -958,7 +990,7 @@ DAY4 = {
             "lon": 14.4058573,
             "address": "Largo Castello, 66026 Ortona CH, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ortona",
         },
         {
@@ -968,7 +1000,7 @@ DAY4 = {
             "lon": 14.4165319,
             "address": "Contrada San Donato, 66026 Ortona CH, Italy",
             "type": "Historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "ortona",
         },
         {
@@ -978,7 +1010,7 @@ DAY4 = {
             "lon": 14.4608939,
             "address": "Contrada Portelle, 66038 San Vito Chietino CH, Italy",
             "type": "Viewpoint / trabocco heritage",
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "offset": (52, -42),
         },
         {
@@ -988,7 +1020,7 @@ DAY4 = {
             "lon": 14.4436070,
             "address": "Marina di San Vito, 66038 San Vito Chietino CH, Italy",
             "type": "Beach / coastal base",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -998,7 +1030,7 @@ DAY4 = {
             "lon": 14.4462617,
             "address": "Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy",
             "type": "Food stop / trabocco dinner",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1008,7 +1040,7 @@ DAY4 = {
             "lon": 14.445654,
             "address": "Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1018,7 +1050,7 @@ DAY4 = {
             "lon": 14.518930,
             "address": "SS16 Adriatica, Fossacesia Marina, 66022 Fossacesia CH, Italy",
             "type": "Optional food stop",
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "offset": (0, 46),
         },
         {
@@ -1028,7 +1060,7 @@ DAY4 = {
             "lon": 14.443628,
             "address": "Via San Rocco, 66038 San Vito Chietino CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1038,7 +1070,7 @@ DAY4 = {
             "lon": 14.4447461,
             "address": "Via San Rocco Vecchio 7, 66038 San Vito Chietino CH, Italy",
             "type": "Shop / food heritage",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1048,7 +1080,7 @@ DAY4 = {
             "lon": 14.4456199,
             "address": "Via Quercia del Corvo 37, 66038 San Vito Chietino CH, Italy",
             "type": "Winery / shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1058,7 +1090,7 @@ DAY4 = {
             "lon": 14.4445601,
             "address": "Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy",
             "type": "Accommodation",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "san_vito",
         },
         {
@@ -1068,7 +1100,7 @@ DAY4 = {
             "lon": 14.4459466,
             "address": "Largo Olivieri 5, 66038 Marina di San Vito CH, Italy",
             "type": "Accommodation / food stop",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "san_vito",
         },
     ],
@@ -1112,18 +1144,18 @@ DAY5 = {
     },
     "routes": {
         "linger": {
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "width": 12,
             "coords": ["La Finestra", "Via Verde access", "Marina di San Vito", "Promontorio Dannunziano", "La Finestra"],
         },
         "lanciano": {
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "width": 10,
             "coords": ["La Finestra", "San Vito-Lanciano station", "Lanciano centre", "La Bocconotteria"],
             "dashed": True,
         },
         "castel_frentano": {
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "width": 8,
             "coords": ["Lanciano centre", "Castel Frentano"],
             "dashed": True,
@@ -1131,9 +1163,9 @@ DAY5 = {
     },
     "route_order": ["castel_frentano", "lanciano", "linger"],
     "legend": [
-        {"label": "Local linger route", "color": "#1769d2"},
-        {"label": "Lanciano day-trip option", "color": "#d79a19", "dashed": True},
-        {"label": "Castel Frentano bocconotto add-on", "color": "#c84f2c", "dashed": True},
+        {"label": "Local linger route", "color": ROUTE_PRIMARY},
+        {"label": "Lanciano day-trip option", "color": ROUTE_ALTERNATIVE, "dashed": True},
+        {"label": "Castel Frentano bocconotto add-on", "color": ROUTE_OPTIONAL, "dashed": True},
     ],
     "poi_clusters": {
         "san_vito": {
@@ -1153,7 +1185,7 @@ DAY5 = {
             "lon": 14.4445601,
             "address": "Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy",
             "type": "Accommodation / start",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "san_vito",
         },
         {
@@ -1163,7 +1195,7 @@ DAY5 = {
             "lon": 14.4459466,
             "address": "Largo Olivieri 5, 66038 Marina di San Vito CH, Italy",
             "type": "Accommodation / food stop",
-            "color": "#2f2a26",
+            "color": MARKER_ACCOMMODATION,
             "cluster": "san_vito",
         },
         {
@@ -1173,7 +1205,7 @@ DAY5 = {
             "lon": 14.444940,
             "address": "Via Verde access near Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy",
             "type": "Cycle / walking route",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1183,7 +1215,7 @@ DAY5 = {
             "lon": 14.4453615,
             "address": "Via Nazionale Adriatica 6, 66038 San Vito Chietino CH, Italy",
             "type": "Food stop / shop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1193,7 +1225,7 @@ DAY5 = {
             "lon": 14.4462617,
             "address": "Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1203,7 +1235,7 @@ DAY5 = {
             "lon": 14.445654,
             "address": "Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "cluster": "san_vito",
         },
         {
@@ -1213,7 +1245,7 @@ DAY5 = {
             "lon": 14.443628,
             "address": "Via San Rocco, 66038 San Vito Chietino CH, Italy",
             "type": "Food stop",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (-62, 18),
         },
         {
@@ -1223,7 +1255,7 @@ DAY5 = {
             "lon": 14.4649437,
             "address": "Contrada San Fino 31, 66038 San Vito Chietino CH, Italy",
             "type": "Viewpoint / historic site",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (86, -14),
         },
         {
@@ -1233,7 +1265,7 @@ DAY5 = {
             "lon": 14.4608939,
             "address": "Contrada Portelle, 66038 San Vito Chietino CH, Italy",
             "type": "Trabocco heritage / viewpoint",
-            "color": "#1769d2",
+            "color": ROUTE_PRIMARY,
             "offset": (86, 48),
         },
         {
@@ -1243,7 +1275,7 @@ DAY5 = {
             "lon": 14.4404829,
             "address": "Stazione San Vito-Lanciano, SP70, 66038 San Vito Chietino CH, Italy",
             "type": "Transport",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (-62, -42),
         },
         {
@@ -1253,7 +1285,7 @@ DAY5 = {
             "lon": 14.3902022,
             "address": "Piazza del Plebiscito, 66034 Lanciano CH, Italy",
             "type": "Optional historic centre",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (-52, -42),
         },
         {
@@ -1263,7 +1295,7 @@ DAY5 = {
             "lon": 14.3950227,
             "address": "Via Ercole Tinari 6, 66034 Lanciano CH, Italy",
             "type": "Food stop / shop",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (-42, 46),
         },
         {
@@ -1273,7 +1305,7 @@ DAY5 = {
             "lon": 14.3952913,
             "address": "Via Dalmazia 30, 66034 Lanciano CH, Italy",
             "type": "Food stop",
-            "color": "#d79a19",
+            "color": ROUTE_ALTERNATIVE,
             "offset": (54, -36),
         },
         {
@@ -1283,7 +1315,7 @@ DAY5 = {
             "lon": 14.356420,
             "address": "Castel Frentano, 66032 Castel Frentano CH, Italy",
             "type": "Optional food heritage / shop",
-            "color": "#c84f2c",
+            "color": ROUTE_OPTIONAL,
             "offset": (0, 0),
         },
     ],
@@ -1355,13 +1387,24 @@ def load_font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFo
     return ImageFont.load_default()
 
 
-def draw_line(draw: ImageDraw.ImageDraw, points: list[tuple[float, float]], color: str, width: int, dashed: bool = False) -> None:
+def draw_line(
+    draw: ImageDraw.ImageDraw,
+    points: list[tuple[float, float]],
+    color: str,
+    width: int,
+    dashed: bool = False,
+    pattern_scale: int = 1,
+) -> None:
     if not dashed:
         draw.line(points, fill=color, width=width, joint="curve")
+        radius = width / 2
+        for x, y in points:
+            draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=color)
         return
 
-    dash = 28
-    gap = 18
+    dash = 28 * pattern_scale
+    gap = 18 * pattern_scale
+    radius = width / 2
     for start, end in zip(points, points[1:]):
         x1, y1 = start
         x2, y2 = end
@@ -1378,37 +1421,51 @@ def draw_line(draw: ImageDraw.ImageDraw, points: list[tuple[float, float]], colo
                 fill=color,
                 width=width,
             )
+            start_x = x1 + dx * cursor
+            start_y = y1 + dy * cursor
+            end_x = x1 + dx * segment_end
+            end_y = y1 + dy * segment_end
+            draw.ellipse((start_x - radius, start_y - radius, start_x + radius, start_y + radius), fill=color)
+            draw.ellipse((end_x - radius, end_y - radius, end_x + radius, end_y + radius), fill=color)
             cursor += dash + gap
 
 
-def numbered_marker(draw: ImageDraw.ImageDraw, point: tuple[float, float], number: int, fill: str, font: ImageFont.ImageFont, marker_offset: tuple[int, int] = (0, 0)) -> None:
+def numbered_marker(
+    draw: ImageDraw.ImageDraw,
+    point: tuple[float, float],
+    number: int,
+    fill: str,
+    font: ImageFont.ImageFont,
+    marker_offset: tuple[int, int] = (0, 0),
+    scale: int = 1,
+) -> None:
     x, y = point
     dx, dy = marker_offset
     marker_x = x + dx
     marker_y = y + dy
     if dx or dy:
-        draw.line((x, y, marker_x, marker_y), fill=(47, 42, 38, 150), width=2)
-        draw.ellipse((x - 4, y - 4, x + 4, y + 4), fill=(47, 42, 38, 190), outline="#fffdf6", width=1)
+        draw.line((x, y, marker_x, marker_y), fill=hex_to_rgba(MAP_INK, 150), width=2 * scale)
+        draw.ellipse((x - 4 * scale, y - 4 * scale, x + 4 * scale, y + 4 * scale), fill=hex_to_rgba(MAP_INK, 190), outline=MAP_PARCHMENT, width=1 * scale)
 
     text = str(number)
-    box_w = 58
-    box_h = 46
-    radius = 8
+    box_w = 58 * scale
+    box_h = 46 * scale
+    radius = 8 * scale
     box = (
         marker_x - box_w / 2,
         marker_y - box_h / 2,
         marker_x + box_w / 2,
         marker_y + box_h / 2,
     )
-    draw.rounded_rectangle(box, radius=radius, fill=fill, outline="#fffdf6", width=5)
-    draw.rounded_rectangle(box, radius=radius, outline="#2f2a26", width=1)
+    draw.rounded_rectangle(box, radius=radius, fill=fill, outline=MAP_PARCHMENT, width=5 * scale)
+    draw.rounded_rectangle(box, radius=radius, outline=MARKER_ACCOMMODATION, width=1 * scale)
     bbox = draw.textbbox((0, 0), text, font=font)
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
     draw.text(
         (marker_x - text_w / 2 - bbox[0], marker_y - text_h / 2 - bbox[1]),
         text,
-        fill="#fffdf6",
+        fill=MAP_PARCHMENT,
         font=font,
     )
 
@@ -1422,14 +1479,15 @@ def draw_cluster_grid(
     x_step: int,
     y_step: int,
     font: ImageFont.ImageFont,
+    scale: int = 1,
 ) -> None:
     anchor_x, anchor_y = anchor
     grid_x, grid_y = grid_origin
     rows = math.ceil(len(pois) / columns)
     connector_y = grid_y + y_step * (rows - 1) / 2
 
-    draw.line((anchor_x, anchor_y, grid_x - 34, connector_y), fill=(47, 42, 38, 120), width=2)
-    draw.ellipse((anchor_x - 7, anchor_y - 7, anchor_x + 7, anchor_y + 7), fill="#2f2a26", outline="#fffdf6", width=2)
+    draw.line((anchor_x, anchor_y, grid_x - 34 * scale, connector_y), fill=hex_to_rgba(MAP_INK, 120), width=2 * scale)
+    draw.ellipse((anchor_x - 7 * scale, anchor_y - 7 * scale, anchor_x + 7 * scale, anchor_y + 7 * scale), fill=MARKER_ACCOMMODATION, outline=MAP_PARCHMENT, width=2 * scale)
 
     for index, poi in enumerate(pois):
         col = index % columns
@@ -1440,7 +1498,40 @@ def draw_cluster_grid(
             poi["number"],
             poi["color"],
             font,
+            scale=scale,
         )
+
+
+def draw_routes_antialiased(
+    image: Image.Image,
+    routes: list[tuple[list[tuple[float, float]], dict]],
+    scale: int,
+) -> Image.Image:
+    aa = ROUTE_ANTIALIAS_SCALE
+    overlay = Image.new("RGBA", (image.width * aa, image.height * aa), (0, 0, 0, 0))
+    overlay_draw = ImageDraw.Draw(overlay)
+
+    for points, route in routes:
+        aa_points = [(x * aa, y * aa) for x, y in points]
+        draw_line(
+            overlay_draw,
+            aa_points,
+            MAP_PARCHMENT,
+            round((route["width"] + 8) * ROUTE_STROKE_SCALE * scale * aa),
+            route.get("dashed", False),
+            scale * aa,
+        )
+        draw_line(
+            overlay_draw,
+            aa_points,
+            route["color"],
+            round(route["width"] * ROUTE_STROKE_SCALE * scale * aa),
+            route.get("dashed", False),
+            scale * aa,
+        )
+
+    overlay = overlay.resize(image.size, Image.Resampling.LANCZOS)
+    return Image.alpha_composite(image, overlay)
 
 
 def text_width(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont) -> int:
@@ -1493,19 +1584,20 @@ def layout_route_legend(
     title_font: ImageFont.ImageFont,
     label_font: ImageFont.ImageFont,
     output_w: int,
+    scale: int = 1,
 ) -> dict:
-    left = 32
-    top = 32
-    pad_x = 24
-    pad_top = 18
-    pad_bottom = 20
-    title_to_items = 28
-    line_sample_w = 100
-    label_gap = 16
-    row_gap = 10
+    left = 32 * scale
+    top = 32 * scale
+    pad_x = 24 * scale
+    pad_top = 18 * scale
+    pad_bottom = 20 * scale
+    title_to_items = 28 * scale
+    line_sample_w = 100 * scale
+    label_gap = 16 * scale
+    row_gap = 10 * scale
     line_height = font_line_height(draw, label_font)
     title_height = font_line_height(draw, title_font)
-    max_box_width = output_w - left - 24
+    max_box_width = output_w - left - 24 * scale
     max_label_width = max_box_width - pad_x * 2 - line_sample_w - label_gap
 
     title = config["title"]
@@ -1534,7 +1626,7 @@ def layout_route_legend(
     return {
         "left": left,
         "top": top,
-        "right": min(output_w - 24, left + box_width),
+        "right": min(output_w - 24 * scale, left + box_width),
         "bottom": top + box_height,
         "pad_x": pad_x,
         "pad_top": pad_top,
@@ -1552,37 +1644,38 @@ def layout_route_legend(
     }
 
 
-def draw_route_legend(draw: ImageDraw.ImageDraw, config: dict, output_w: int) -> dict:
-    title_font = load_font(36, bold=True)
-    label_font = load_font(22)
-    layout = layout_route_legend(draw, config, title_font, label_font, output_w)
+def draw_route_legend(draw: ImageDraw.ImageDraw, config: dict, output_w: int, scale: int = MAP_OUTPUT_SCALE) -> dict:
+    title_font = load_font(36 * scale, bold=True)
+    label_font = load_font(22 * scale)
+    layout = layout_route_legend(draw, config, title_font, label_font, output_w, scale)
     left = layout["left"]
     top = layout["top"]
     right = layout["right"]
     bottom = layout["bottom"]
     pad_x = layout["pad_x"]
 
-    draw.rounded_rectangle((left, top, right, bottom), radius=16, fill=(255, 253, 246, 235), outline="#d8cab4", width=2)
-    draw.text((left + pad_x, top + layout["pad_top"]), layout["title"], fill="#2f2a26", font=title_font)
+    draw.rounded_rectangle((left, top, right, bottom), radius=16 * scale, fill=hex_to_rgba(MAP_PARCHMENT, 235), outline=MAP_PARCHMENT_DARK, width=2 * scale)
+    draw.text((left + pad_x, top + layout["pad_top"]), layout["title"], fill=MARKER_ACCOMMODATION, font=title_font)
 
     cursor_y = top + layout["pad_top"] + layout["title_height"] + layout["title_to_items"]
-    sample_x = left + pad_x + 4
+    sample_x = left + pad_x + 4 * scale
     label_x = sample_x + layout["line_sample_w"] + layout["label_gap"]
     for index, item_layout in enumerate(layout["item_layouts"]):
         item = item_layout["item"]
         lines = item_layout["lines"]
-        symbol_y = cursor_y + 12
-        draw_line(draw, [(sample_x, symbol_y), (sample_x + layout["line_sample_w"], symbol_y)], item["color"], 9, item.get("dashed", False))
+        symbol_y = cursor_y + 12 * scale
+        draw_line(draw, [(sample_x, symbol_y), (sample_x + layout["line_sample_w"], symbol_y)], item["color"], 9 * scale, item.get("dashed", False), scale)
         text_y = cursor_y
         for line in lines:
-            draw.text((label_x, text_y), line, fill="#2f2a26", font=label_font)
-            text_y += layout["label_line_height"] + 4
+            draw.text((label_x, text_y), line, fill=MARKER_ACCOMMODATION, font=label_font)
+            text_y += layout["label_line_height"] + 4 * scale
         cursor_y += layout["item_heights"][index] + layout["row_gap"]
     return layout
 
 
 def generate_map(config: dict) -> None:
     zoom = config["zoom"]
+    scale = MAP_OUTPUT_SCALE
 
     route_geometries: dict[str, list[tuple[float, float]]] = {}
     all_geo_points = list(config["places"].values())
@@ -1612,43 +1705,53 @@ def generate_map(config: dict) -> None:
         min_x -= extra_w / 2
         max_x += extra_w / 2
 
-    tile_min_x = global_px_to_tile(min_x)
-    tile_max_x = global_px_to_tile(max_x)
-    tile_min_y = global_px_to_tile(min_y)
-    tile_max_y = global_px_to_tile(max_y)
+    render_zoom = zoom + int(math.log2(scale))
+    render_factor = 2 ** (render_zoom - zoom)
+    render_min_x = min_x * render_factor
+    render_max_x = max_x * render_factor
+    render_min_y = min_y * render_factor
+    render_max_y = max_y * render_factor
 
-    mosaic = Image.new("RGB", ((tile_max_x - tile_min_x + 1) * TILE_SIZE, (tile_max_y - tile_min_y + 1) * TILE_SIZE), "#eee8dc")
+    tile_min_x = global_px_to_tile(render_min_x)
+    tile_max_x = global_px_to_tile(render_max_x)
+    tile_min_y = global_px_to_tile(render_min_y)
+    tile_max_y = global_px_to_tile(render_max_y)
+
+    mosaic = Image.new("RGB", ((tile_max_x - tile_min_x + 1) * TILE_SIZE, (tile_max_y - tile_min_y + 1) * TILE_SIZE), MAP_WARM_TILE)
     for tx in range(tile_min_x, tile_max_x + 1):
         for ty in range(tile_min_y, tile_max_y + 1):
-            tile = fetch_tile(zoom, tx, ty)
+            tile = fetch_tile(render_zoom, tx, ty)
             mosaic.paste(tile, ((tx - tile_min_x) * TILE_SIZE, (ty - tile_min_y) * TILE_SIZE))
 
-    left = int(min_x - tile_min_x * TILE_SIZE)
-    top = int(min_y - tile_min_y * TILE_SIZE)
-    right = int(max_x - tile_min_x * TILE_SIZE)
-    bottom = int(max_y - tile_min_y * TILE_SIZE)
-    image = mosaic.crop((left, top, right, bottom)).resize((output_w, output_h), Image.Resampling.LANCZOS).convert("RGBA")
-    overlay = Image.new("RGBA", image.size, (255, 251, 241, 54))
+    render_w = output_w * scale
+    render_h = output_h * scale
+    left = int(render_min_x - tile_min_x * TILE_SIZE)
+    top = int(render_min_y - tile_min_y * TILE_SIZE)
+    right = int(render_max_x - tile_min_x * TILE_SIZE)
+    bottom = int(render_max_y - tile_min_y * TILE_SIZE)
+    image = mosaic.crop((left, top, right, bottom)).resize((render_w, render_h), Image.Resampling.LANCZOS).convert("RGBA")
+    overlay = Image.new("RGBA", image.size, hex_to_rgba(MAP_PARCHMENT, 54))
     image = Image.alpha_composite(image, overlay)
 
     def to_canvas(lat: float, lon: float) -> tuple[float, float]:
         gx, gy = lonlat_to_global_px(lat, lon, zoom)
-        return ((gx - min_x) / (max_x - min_x) * output_w, (gy - min_y) / (max_y - min_y) * output_h)
+        return ((gx - min_x) / (max_x - min_x) * render_w, (gy - min_y) / (max_y - min_y) * render_h)
 
-    draw = ImageDraw.Draw(image)
+    route_draws = []
     for name in config.get("route_order", config["routes"].keys()):
         route = config["routes"][name]
         points = [to_canvas(lat, lon) for lat, lon in route_geometries[name]]
-        draw_line(draw, points, "#fffdf6", route["width"] + 8, route.get("dashed", False))
-        draw_line(draw, points, route["color"], route["width"], route.get("dashed", False))
+        route_draws.append((points, route))
+    image = draw_routes_antialiased(image, route_draws, scale)
 
-    number_font = load_font(25, bold=True)
-    small_font = load_font(22)
+    draw = ImageDraw.Draw(image)
+    number_font = load_font(25 * scale, bold=True)
+    small_font = load_font(22 * scale)
     pois_by_number = {poi["number"]: poi for poi in config["pois"]}
     clustered_numbers: set[int] = set()
     for cluster in config.get("poi_clusters", {}).values():
         anchor = to_canvas(*config["places"][cluster["anchor"]])
-        grid_origin = (anchor[0] + cluster["grid_offset"][0], anchor[1] + cluster["grid_offset"][1])
+        grid_origin = (anchor[0] + cluster["grid_offset"][0] * scale, anchor[1] + cluster["grid_offset"][1] * scale)
         cluster_pois = [pois_by_number[number] for number in cluster["numbers"]]
         draw_cluster_grid(
             draw,
@@ -1656,9 +1759,10 @@ def generate_map(config: dict) -> None:
             cluster_pois,
             grid_origin,
             cluster["columns"],
-            cluster["x_step"],
-            cluster["y_step"],
+            cluster["x_step"] * scale,
+            cluster["y_step"] * scale,
             number_font,
+            scale,
         )
         clustered_numbers.update(cluster["numbers"])
 
@@ -1671,15 +1775,16 @@ def generate_map(config: dict) -> None:
             poi["number"],
             poi["color"],
             number_font,
-            poi.get("offset", (0, 0)),
+            tuple(value * scale for value in poi.get("offset", (0, 0))),
+            scale,
         )
 
-    draw_route_legend(draw, config, output_w)
+    draw_route_legend(draw, config, render_w, scale)
 
     attribution = "Map data and tiles © OpenStreetMap contributors · Routes from OSRM"
     attr_bbox = draw.textbbox((0, 0), attribution, font=small_font)
-    draw.rounded_rectangle((output_w - attr_bbox[2] - 50, output_h - 58, output_w - 24, output_h - 20), radius=8, fill=(255, 253, 246, 230))
-    draw.text((output_w - attr_bbox[2] - 38, output_h - 53), attribution, fill="#4d453f", font=small_font)
+    draw.rounded_rectangle((render_w - attr_bbox[2] - 50 * scale, render_h - 58 * scale, render_w - 24 * scale, render_h - 20 * scale), radius=8 * scale, fill=hex_to_rgba(MAP_PARCHMENT, 230))
+    draw.text((render_w - attr_bbox[2] - 38 * scale, render_h - 53 * scale), attribution, fill=MAP_INK_SOFT, font=small_font)
 
     config["output"].parent.mkdir(parents=True, exist_ok=True)
     image.convert("RGB").save(config["output"], quality=94, optimize=True)

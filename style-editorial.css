@@ -475,15 +475,15 @@ body{
 .legend-line{
   width:28px;
   height:0;
-  border-top:4px solid var(--royal-blue);
+  border-top:4px solid var(--lapis);
   display:inline-block;
 }
 .legend-line.alt-route{
-  border-top-color: var(--amber);
+  border-top-color: #B88418;
   border-top-style:dashed;
 }
 .legend-line.optional{
-  border-top-color: var(--orange-red);
+  border-top-color: #C65332;
   border-top-style:dashed;
 }
 .route-map-note{
@@ -516,7 +516,7 @@ body{
   counter-reset: poi;
 }
 .poi-legend li{
-  --poi-marker-color: var(--royal-blue);
+  --poi-marker-color: var(--lapis);
   counter-increment: poi;
   position:relative;
   min-height:42px;
@@ -544,9 +544,9 @@ body{
   font-size: 11px;
   font-weight:700;
 }
-.poi-legend li.poi-marker-accommodation{ --poi-marker-color: #2f2a26; }
-.poi-legend li.poi-marker-alt{ --poi-marker-color: #d79a19; }
-.poi-legend li.poi-marker-optional{ --poi-marker-color: #c84f2c; }
+.poi-legend li.poi-marker-accommodation{ --poi-marker-color: var(--ink); }
+.poi-legend li.poi-marker-alt{ --poi-marker-color: #B88418; }
+.poi-legend li.poi-marker-optional{ --poi-marker-color: #C65332; }
 .poi-legend b{
   display:inline;
   font-family:'Fraunces', serif;
