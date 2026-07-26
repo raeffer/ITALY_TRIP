@@ -655,7 +655,7 @@ DAY3 = {
             "address": "Via Nolfi 49, 61032 Fano PU, Italy",
             "type": "Start",
             "color": "#1769d2",
-            "offset": (0, 48),
+            "offset": (0, -92),
         },
         {
             "number": 2,
@@ -840,6 +840,260 @@ DAY3 = {
 }
 
 
+DAY4 = {
+    "title": "Day 4 orientation map",
+    "output": ROOT / "assets/maps/day4-trabocchi-route.png",
+    "zoom": 9,
+    "size": (1800, 1125),
+    "padding_px": 145,
+    "places": {
+        "Sirolo start": (43.5229034, 13.6186971),
+        "Loreto": (43.4410010, 13.6108062),
+        "Picchio": (43.4466094, 13.6175825),
+        "Ortona old town": (42.3535835, 14.4032270),
+        "Moro cemetery": (42.3368140, 14.4165319),
+        "Marina di San Vito": (42.3096483, 14.4445601),
+        "Trabocco Turchino": (42.3006606, 14.4608939),
+        "Olivastri": (42.2779149, 14.4456199),
+        "Pesce Palombo": (42.244760, 14.518930),
+    },
+    "routes": {
+        "recommended": {
+            "color": "#1769d2",
+            "width": 12,
+            "coords": ["Sirolo start", "Ortona old town", "Moro cemetery", "Marina di San Vito"],
+        },
+        "loreto": {
+            "color": "#d79a19",
+            "width": 10,
+            "coords": ["Sirolo start", "Loreto", "Picchio", "Ortona old town"],
+            "dashed": True,
+        },
+        "trabocchi": {
+            "color": "#c84f2c",
+            "width": 8,
+            "coords": ["Marina di San Vito", "Trabocco Turchino", "Olivastri", "Pesce Palombo"],
+            "dashed": True,
+        },
+    },
+    "route_order": ["trabocchi", "loreto", "recommended"],
+    "legend": [
+        {"label": "Recommended route", "color": "#1769d2"},
+        {"label": "Loreto optional detour", "color": "#d79a19", "dashed": True},
+        {"label": "Trabocchi local add-on", "color": "#c84f2c", "dashed": True},
+    ],
+    "poi_clusters": {
+        "ortona": {
+            "anchor": "Ortona old town",
+            "numbers": list(range(4, 8)),
+            "grid_offset": (-330, -170),
+            "columns": 2,
+            "x_step": 66,
+            "y_step": 58,
+        },
+        "san_vito": {
+            "anchor": "Marina di San Vito",
+            "numbers": [9, 10, 11, 13, 14, 15, 16, 17],
+            "grid_offset": (130, -300),
+            "columns": 3,
+            "x_step": 66,
+            "y_step": 58,
+        },
+    },
+    "pois": [
+        {
+            "number": 1,
+            "name": "Conero Camere, Sirolo",
+            "lat": 43.5229034,
+            "lon": 13.6186971,
+            "address": "Via Grilli 14, 60020 Sirolo AN, Italy",
+            "type": "Start",
+            "color": "#1769d2",
+            "offset": (0, 48),
+        },
+        {
+            "number": 2,
+            "name": "Basilica della Santa Casa",
+            "lat": 43.4410010,
+            "lon": 13.6108062,
+            "address": "Piazza della Madonna 1, 60025 Loreto AN, Italy",
+            "type": "Optional historic site",
+            "color": "#d79a19",
+            "offset": (-58, -44),
+        },
+        {
+            "number": 3,
+            "name": "Pasticceria Picchio",
+            "lat": 43.4466094,
+            "lon": 13.6175825,
+            "address": "Via Traversa Don Enzo Rampolla 2, 60025 Loreto Stazione AN, Italy",
+            "type": "Food stop",
+            "color": "#d79a19",
+            "offset": (86, 52),
+        },
+        {
+            "number": 4,
+            "name": "Ortona old town / Corso Vittorio Emanuele",
+            "lat": 42.3535835,
+            "lon": 14.4032270,
+            "address": "Corso Vittorio Emanuele, 66026 Ortona CH, Italy",
+            "type": "Historic centre",
+            "color": "#1769d2",
+            "cluster": "ortona",
+        },
+        {
+            "number": 5,
+            "name": "Pasticceria Cantelmi Giulio",
+            "lat": 42.3535835,
+            "lon": 14.4032270,
+            "address": "Corso Vittorio Emanuele 73, 66026 Ortona CH, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "ortona",
+        },
+        {
+            "number": 6,
+            "name": "Castello Aragonese",
+            "lat": 42.3588317,
+            "lon": 14.4058573,
+            "address": "Largo Castello, 66026 Ortona CH, Italy",
+            "type": "Historic site",
+            "color": "#1769d2",
+            "cluster": "ortona",
+        },
+        {
+            "number": 7,
+            "name": "Moro River Canadian War Cemetery",
+            "lat": 42.3368140,
+            "lon": 14.4165319,
+            "address": "Contrada San Donato, 66026 Ortona CH, Italy",
+            "type": "Historic site",
+            "color": "#1769d2",
+            "cluster": "ortona",
+        },
+        {
+            "number": 8,
+            "name": "Trabocco Punta Turchino",
+            "lat": 42.3006606,
+            "lon": 14.4608939,
+            "address": "Contrada Portelle, 66038 San Vito Chietino CH, Italy",
+            "type": "Viewpoint / trabocco heritage",
+            "color": "#c84f2c",
+            "offset": (52, -42),
+        },
+        {
+            "number": 9,
+            "name": "Marina di San Vito / Costa dei Trabocchi",
+            "lat": 42.2963540,
+            "lon": 14.4436070,
+            "address": "Marina di San Vito, 66038 San Vito Chietino CH, Italy",
+            "type": "Beach / coastal base",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 10,
+            "name": "Trabocco Vento di Scirocco",
+            "lat": 42.3107684,
+            "lon": 14.4462617,
+            "address": "Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy",
+            "type": "Food stop / trabocco dinner",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 11,
+            "name": "Aldebaran da Rocco e Tommaso",
+            "lat": 42.309154,
+            "lon": 14.445654,
+            "address": "Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 12,
+            "name": "Trabocco Pesce Palombo",
+            "lat": 42.244760,
+            "lon": 14.518930,
+            "address": "SS16 Adriatica, Fossacesia Marina, 66022 Fossacesia CH, Italy",
+            "type": "Optional food stop",
+            "color": "#c84f2c",
+            "offset": (0, 46),
+        },
+        {
+            "number": 13,
+            "name": "Le Due Palme",
+            "lat": 42.292305,
+            "lon": 14.443628,
+            "address": "Via San Rocco, 66038 San Vito Chietino CH, Italy",
+            "type": "Food stop",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 14,
+            "name": "Frantoio Oleario Giocondo de Santis",
+            "lat": 42.2913838,
+            "lon": 14.4447461,
+            "address": "Via San Rocco Vecchio 7, 66038 San Vito Chietino CH, Italy",
+            "type": "Shop / food heritage",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 15,
+            "name": "Azienda Agricola Olivastri Tommaso",
+            "lat": 42.2779149,
+            "lon": 14.4456199,
+            "address": "Via Quercia del Corvo 37, 66038 San Vito Chietino CH, Italy",
+            "type": "Winery / shop",
+            "color": "#1769d2",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 16,
+            "name": "B&B La Finestra Sui Trabocchi",
+            "lat": 42.3096483,
+            "lon": 14.4445601,
+            "address": "Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy",
+            "type": "Accommodation",
+            "color": "#2f2a26",
+            "cluster": "san_vito",
+        },
+        {
+            "number": 17,
+            "name": "Locanda dell'Adriatica",
+            "lat": 42.3080635,
+            "lon": 14.4459466,
+            "address": "Largo Olivieri 5, 66038 Marina di San Vito CH, Italy",
+            "type": "Accommodation / food stop",
+            "color": "#2f2a26",
+            "cluster": "san_vito",
+        },
+    ],
+    "poi_verification": {
+        1: "Start carried from verified Day 3 Conero Camere accommodation data.",
+        2: "Address and coordinates checked against OpenStreetMap Santuario della Santa Casa object at Piazza della Madonna 1.",
+        3: "Address and coordinates checked against OpenStreetMap Pasticceria Picchio shop object.",
+        4: "Broad Ortona old-town stop anchored to the practical Corso Vittorio Emanuele arrival from the existing itinerary, checked against OpenStreetMap road/reverse data.",
+        5: "Address from existing itinerary; coordinates use the same practical Corso Vittorio Emanuele 73 arrival area, checked against OpenStreetMap Corso Vittorio Emanuele reverse data.",
+        6: "Address and coordinates checked against OpenStreetMap Castello Aragonese object.",
+        7: "Address and coordinates checked against OpenStreetMap Moro River Canadian War Cemetery relation.",
+        8: "Trabocco Turchino reference mapped to OpenStreetMap Trabocco Punta Turchino object at Contrada Portelle.",
+        9: "Broad San Vito Chietino coastal stop anchored to the existing practical Marina di San Vito/Costa dei Trabocchi arrival coordinates, checked against OpenStreetMap coastal mapping context.",
+        10: "Address and coordinates checked against OpenStreetMap Trabocco Vento di Scirocco restaurant object.",
+        11: "Address and coordinates from existing itinerary, checked against OpenStreetMap/reverse data for Via Lungomare di Gualdo restaurant strip.",
+        12: "Address resolved to practical SS16 Fossacesia Marina trabocco arrival; coordinates from reputable mapping context where OSM named-object search was sparse.",
+        13: "Address and coordinates from existing itinerary, checked against OpenStreetMap/reverse data for Via San Rocco arrival area.",
+        14: "Address and coordinates from existing itinerary, checked against OpenStreetMap/reverse data for Via San Rocco Vecchio arrival area.",
+        15: "Address and coordinates from existing itinerary, checked against OpenStreetMap/reverse data for Via Quercia del Corvo winery arrival area.",
+        16: "Address from existing itinerary; coordinates checked against OpenStreetMap Via Lungomare di Gualdo 31 nearby object/reverse data for guest arrival.",
+        17: "Address and coordinates from existing itinerary, checked against OpenStreetMap/reverse data for Largo Olivieri arrival area.",
+    },
+}
+
+
 def lonlat_to_global_px(lat: float, lon: float, zoom: int) -> tuple[float, float]:
     lat_rad = math.radians(lat)
     scale = TILE_SIZE * 2**zoom
@@ -977,6 +1231,144 @@ def draw_cluster_grid(
         )
 
 
+def text_width(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont) -> int:
+    bbox = draw.textbbox((0, 0), text, font=font)
+    return bbox[2] - bbox[0]
+
+
+def font_line_height(draw: ImageDraw.ImageDraw, font: ImageFont.ImageFont) -> int:
+    bbox = draw.textbbox((0, 0), "Ag", font=font)
+    return bbox[3] - bbox[1]
+
+
+def wrap_text(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.ImageFont, max_width: int) -> list[str]:
+    words = text.split()
+    if not words:
+        return [""]
+
+    lines: list[str] = []
+    current = words[0]
+    for word in words[1:]:
+        candidate = f"{current} {word}"
+        if text_width(draw, candidate, font) <= max_width:
+            current = candidate
+            continue
+        lines.append(current)
+        current = word
+    lines.append(current)
+
+    wrapped: list[str] = []
+    for line in lines:
+        if text_width(draw, line, font) <= max_width:
+            wrapped.append(line)
+            continue
+        current = ""
+        for char in line:
+            candidate = f"{current}{char}"
+            if current and text_width(draw, candidate, font) > max_width:
+                wrapped.append(current)
+                current = char
+            else:
+                current = candidate
+        if current:
+            wrapped.append(current)
+    return wrapped
+
+
+def layout_route_legend(
+    draw: ImageDraw.ImageDraw,
+    config: dict,
+    title_font: ImageFont.ImageFont,
+    label_font: ImageFont.ImageFont,
+    output_w: int,
+) -> dict:
+    left = 32
+    top = 32
+    pad_x = 24
+    pad_top = 18
+    pad_bottom = 20
+    title_to_items = 28
+    line_sample_w = 100
+    label_gap = 16
+    row_gap = 10
+    line_height = font_line_height(draw, label_font)
+    title_height = font_line_height(draw, title_font)
+    max_box_width = output_w - left - 24
+    max_label_width = max_box_width - pad_x * 2 - line_sample_w - label_gap
+
+    title = config["title"]
+    title_width = text_width(draw, title, title_font)
+    legend_items = config.get("legend", [])
+    item_layouts = []
+    widest_label = 0
+    for item in legend_items:
+        lines = wrap_text(draw, item["label"], label_font, max_label_width)
+        widest_label = max(widest_label, *(text_width(draw, line, label_font) for line in lines))
+        item_layouts.append({"item": item, "lines": lines})
+
+    desired_width = max(title_width, line_sample_w + label_gap + widest_label) + pad_x * 2
+    box_width = min(max_box_width, math.ceil(desired_width))
+    label_width = box_width - pad_x * 2 - line_sample_w - label_gap
+
+    if label_width < widest_label:
+        item_layouts = []
+        for item in legend_items:
+            item_layouts.append({"item": item, "lines": wrap_text(draw, item["label"], label_font, label_width)})
+
+    item_heights = [max(32, len(layout["lines"]) * line_height + (len(layout["lines"]) - 1) * 4) for layout in item_layouts]
+    items_height = sum(item_heights) + row_gap * max(0, len(item_heights) - 1)
+    box_height = pad_top + title_height + title_to_items + items_height + pad_bottom
+
+    return {
+        "left": left,
+        "top": top,
+        "right": min(output_w - 24, left + box_width),
+        "bottom": top + box_height,
+        "pad_x": pad_x,
+        "pad_top": pad_top,
+        "title": title,
+        "title_font": title_font,
+        "title_height": title_height,
+        "label_font": label_font,
+        "label_line_height": line_height,
+        "title_to_items": title_to_items,
+        "line_sample_w": line_sample_w,
+        "label_gap": label_gap,
+        "row_gap": row_gap,
+        "item_layouts": item_layouts,
+        "item_heights": item_heights,
+    }
+
+
+def draw_route_legend(draw: ImageDraw.ImageDraw, config: dict, output_w: int) -> dict:
+    title_font = load_font(36, bold=True)
+    label_font = load_font(22)
+    layout = layout_route_legend(draw, config, title_font, label_font, output_w)
+    left = layout["left"]
+    top = layout["top"]
+    right = layout["right"]
+    bottom = layout["bottom"]
+    pad_x = layout["pad_x"]
+
+    draw.rounded_rectangle((left, top, right, bottom), radius=16, fill=(255, 253, 246, 235), outline="#d8cab4", width=2)
+    draw.text((left + pad_x, top + layout["pad_top"]), layout["title"], fill="#2f2a26", font=title_font)
+
+    cursor_y = top + layout["pad_top"] + layout["title_height"] + layout["title_to_items"]
+    sample_x = left + pad_x + 4
+    label_x = sample_x + layout["line_sample_w"] + layout["label_gap"]
+    for index, item_layout in enumerate(layout["item_layouts"]):
+        item = item_layout["item"]
+        lines = item_layout["lines"]
+        symbol_y = cursor_y + 12
+        draw_line(draw, [(sample_x, symbol_y), (sample_x + layout["line_sample_w"], symbol_y)], item["color"], 9, item.get("dashed", False))
+        text_y = cursor_y
+        for line in lines:
+            draw.text((label_x, text_y), line, fill="#2f2a26", font=label_font)
+            text_y += layout["label_line_height"] + 4
+        cursor_y += layout["item_heights"][index] + layout["row_gap"]
+    return layout
+
+
 def generate_map(config: dict) -> None:
     zoom = config["zoom"]
 
@@ -1070,14 +1462,7 @@ def generate_map(config: dict) -> None:
             poi.get("offset", (0, 0)),
         )
 
-    draw.rounded_rectangle((32, 32, 615, 165), radius=16, fill=(255, 253, 246, 235), outline="#d8cab4", width=2)
-    title_font = load_font(36, bold=True)
-    draw.text((56, 50), config["title"], fill="#2f2a26", font=title_font)
-    legend_y = 116
-    for item in config.get("legend", []):
-        draw_line(draw, [(60, legend_y), (160, legend_y)], item["color"], 9, item.get("dashed", False))
-        draw.text((176, legend_y - 14), item["label"], fill="#2f2a26", font=small_font)
-        legend_y += 32
+    draw_route_legend(draw, config, output_w)
 
     attribution = "Map data and tiles © OpenStreetMap contributors · Routes from OSRM"
     attr_bbox = draw.textbbox((0, 0), attribution, font=small_font)
@@ -1091,7 +1476,7 @@ def generate_map(config: dict) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    configs = {"day1": DAY1, "day2": DAY2, "day3": DAY3}
+    configs = {"day1": DAY1, "day2": DAY2, "day3": DAY3, "day4": DAY4}
     parser.add_argument("day", choices=sorted(configs), help="Map configuration to generate")
     args = parser.parse_args()
     generate_map(configs[args.day])

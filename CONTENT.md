@@ -1182,7 +1182,7 @@ see below.
 
 ### **Loreto --- Basilica della Santa Casa (optional detour)**
 
-*📍 43.4410473, 13.6102970 --- Piazza della Madonna, 1, 60025 Loreto AN
+*📍 43.4410010, 13.6108062 --- Piazza della Madonna, 1, 60025 Loreto AN
 📞 +39 071 974 7155*
 
 -   **Why stop:** Houses what tradition holds to be the actual home of
@@ -1199,7 +1199,7 @@ see below.
 
 ### **Pasticceria Picchio --- right at the base of Loreto**
 
-*📍 43.4466207, 13.6175661 --- Via Traversa E. Rampolla 2, 60025 Loreto
+*📍 43.4466094, 13.6175825 --- Via Traversa E. Rampolla 2, 60025 Loreto
 Stazione AN 📞 +39 071 977760 · Closed Mondays; Tue--Sun 6:30am--10pm ·
 4.6★/2,236 reviews*
 
@@ -1285,7 +1285,7 @@ uncertainty rather than risk sending you to the wrong place.
 
 **Trabocco Vento di Scirocco** --- Via Lungomare di Gualdo
 
-*📍 42.310685, 14.446187 · 8.6/10 TheFork*
+*📍 42.3107684, 14.4462617 · 8.6/10 TheFork*
 
 Dinner on an actual working trabocco --- highly rated, open lunch and
 dinner April--September. Fixed menu €30 (aperitivo-style, until 8pm) or
@@ -1377,6 +1377,90 @@ praise the home-made desserts at breakfast.
 
 **My pick:** La Finestra Sui Trabocchi --- the whole point of tonight is
 the trabocchi view, and this delivers it from the room itself.
+
+## **Today's Route & Timing**
+
+**Base timing:** The recommended Day 4 plan is a long but manageable
+Sirolo → Ortona → Moro River cemetery → Marina di San Vito day. Allow
+approximately 6h45--8h from a 9:00am departure, including the long
+drive, Ortona, the cemetery, arrival logistics, and settling in before
+dinner.
+
+**Route choice:** The recommended route runs Sirolo → Ortona → Moro
+River Canadian War Cemetery → Marina di San Vito. The time-tight route
+skips Ortona and goes straight to San Vito Chietino, saving about
+1h15--1h30. The Loreto/Pasticceria Picchio detour is a genuine optional
+route choice, adding about 1h15--2h depending on how long the basilica
+and pastry stop take.
+
+**Optional timing add-ons:** Castello Aragonese / Ortona old-town linger
+adds 30--45 minutes. One olive oil or winery tasting before dinner adds
+45--75 minutes. Trabocco Punta Turchino as a photo stop adds 30--45
+minutes.
+
+**Print map:** Use the Day 4 OpenStreetMap-derived orientation map
+showing Sirolo → Ortona → Moro River cemetery → San Vito Chietino, the
+Loreto optional detour, the local trabocchi add-on, Ortona and San Vito
+dense POI clusters, dinner stops, food heritage stops, and
+accommodation. It is a planning map only; Google Maps links/buttons
+provide navigation.
+
+**Numbered POIs for map and legend:**
+
+1. Conero Camere, Sirolo --- Start --- Via Grilli 14, 60020 Sirolo AN,
+   Italy --- GPS: 43.5229034, 13.6186971
+2. Basilica della Santa Casa --- Optional historic site --- Piazza della
+   Madonna 1, 60025 Loreto AN, Italy --- GPS: 43.4410010, 13.6108062
+3. Pasticceria Picchio --- Food stop --- Via Traversa Don Enzo Rampolla
+   2, 60025 Loreto Stazione AN, Italy --- GPS: 43.4466094, 13.6175825
+4. Ortona old town / Corso Vittorio Emanuele --- Historic centre ---
+   Corso Vittorio Emanuele, 66026 Ortona CH, Italy --- GPS: 42.3535835,
+   14.4032270
+5. Pasticceria Cantelmi Giulio --- Food stop --- Corso Vittorio
+   Emanuele 73, 66026 Ortona CH, Italy --- GPS: 42.3535835, 14.4032270
+6. Castello Aragonese --- Historic site --- Largo Castello, 66026
+   Ortona CH, Italy --- GPS: 42.3588317, 14.4058573
+7. Moro River Canadian War Cemetery --- Historic site --- Contrada San
+   Donato, 66026 Ortona CH, Italy --- GPS: 42.3368140, 14.4165319
+8. Trabocco Punta Turchino --- Viewpoint / trabocco heritage ---
+   Contrada Portelle, 66038 San Vito Chietino CH, Italy --- GPS:
+   42.3006606, 14.4608939
+9. Marina di San Vito / Costa dei Trabocchi --- Beach / coastal base ---
+   Marina di San Vito, 66038 San Vito Chietino CH, Italy --- GPS:
+   42.2963540, 14.4436070
+10. Trabocco Vento di Scirocco --- Food stop / trabocco dinner --- Via
+    Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy --- GPS:
+    42.3107684, 14.4462617
+11. Aldebaran da Rocco e Tommaso --- Food stop --- Via Lungomare di
+    Gualdo 4, 66038 Marina di San Vito CH, Italy --- GPS: 42.309154,
+    14.445654
+12. Trabocco Pesce Palombo --- Optional food stop --- SS16 Adriatica,
+    Fossacesia Marina, 66022 Fossacesia CH, Italy --- GPS: 42.244760,
+    14.518930
+13. Le Due Palme --- Food stop --- Via San Rocco, 66038 San Vito
+    Chietino CH, Italy --- GPS: 42.292305, 14.443628
+14. Frantoio Oleario Giocondo de Santis --- Shop / food heritage --- Via
+    San Rocco Vecchio 7, 66038 San Vito Chietino CH, Italy --- GPS:
+    42.2913838, 14.4447461
+15. Azienda Agricola Olivastri Tommaso --- Winery / shop --- Via Quercia
+    del Corvo 37, 66038 San Vito Chietino CH, Italy --- GPS: 42.2779149,
+    14.4456199
+16. B&B La Finestra Sui Trabocchi --- Accommodation --- Via Lungomare di
+    Gualdo 31, 66038 Marina di San Vito CH, Italy --- GPS: 42.3096483,
+    14.4445601
+17. Locanda dell'Adriatica --- Accommodation / food stop --- Largo
+    Olivieri 5, 66038 Marina di San Vito CH, Italy --- GPS: 42.3080635,
+    14.4459466
+
+**Verification notes:** Day 4 coordinates were checked against the
+approved hierarchy using official/existing itinerary data plus
+OpenStreetMap object or reverse-address data where available. Exact OSM
+objects were found for Santuario della Santa Casa, Pasticceria Picchio,
+Castello Aragonese, Moro River Canadian War Cemetery, Trabocco Punta
+Turchino, Trabocco Vento di Scirocco, and the Via Lungomare di Gualdo 31
+arrival area. Smaller San Vito businesses and Trabocco Pesce Palombo
+retain the existing researched itinerary coordinates with practical
+arrival/source notes in `scripts/generate-route-map.py`.
 
 ## **If Time Is Tight**
 
