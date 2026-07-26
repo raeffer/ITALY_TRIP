@@ -54,6 +54,33 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Print: @page rule for A4 with 10mm left margin (binding gutter) and 5mm on the other three sides, matching Officeworks' bound-document specs. Keep bold colors for print (flat-rate color printing, ink coverage isn't a cost factor).
 - File structure: shared /style-editorial.css used by all pages, one file per day in /days/dayN.html, root /index.html linking to all days, root /credits.html for all photo credits.
 
+## Route Maps and POI Standard
+- Route maps exist to help the traveller understand the day at a glance. They are not navigation tools.
+- A traveller should be able to understand the overall shape of the day within five seconds of looking at the map.
+- The map should communicate the start location, destination, recommended route, optional route(s), major geographical relationships, and all POIs.
+- The map should not attempt to replace Google Maps.
+- Design priorities, in order: clarity, geographic accuracy, readability in print, consistency across all days, visual appeal.
+- If there is a conflict between completeness and readability, preserve readability by using numbered markers and the legend rather than adding labels or other clutter.
+- Every day must include a real geographic orientation map derived from real map data, not a schematic substitute.
+- The map is for orientation only. Google Maps links/buttons provide live navigation and must remain available for practical routing.
+- Every POI included in that day's visible content must appear on the map. Do not omit cafés, restaurants, shops, historic sites, parking, accommodation, viewpoints, beaches, optional stops, or other named practical stops merely to reduce map clutter.
+- POIs must use compact numbered markers rather than full text labels on the map. Do not place full POI names directly on the map.
+- When many POIs belong to one dense stop or walking core, group them as a clean chronological marker stack, grid, or inset connected to one geographic anchor. Avoid fan-shaped leader-line bursts, many crossing lines, overlapping markers, or a line running behind the numbered markers.
+- The numbered markers in the legend must visually match the marker colors used on the map.
+- Every numbered marker must have exactly one matching legend entry beneath the map, and every legend entry must correspond to a visible marker.
+- Every legend entry must include the marker number, POI name, POI type, practical navigation address, and verified decimal GPS coordinates.
+- Coordinates must identify the practical arrival point a traveller should use, such as the entrance, parking lot, trailhead, reception, public viewpoint access, or other navigable arrival point. Do not use a town centroid or generic building centroid when a more practical arrival point is available.
+- Every new or modified POI must be independently verified before the page is considered complete.
+- Preferred verification sources, in order:
+  1. Official venue website
+  2. Official tourism website
+  3. Official municipal website
+  4. OpenStreetMap object data
+  5. Other reputable mapping sources only if necessary
+- Do not rely solely on previously stored coordinates, old page content, or earlier generated map data when adding or modifying POIs.
+- Every page must validate that every POI appears on the map, every POI appears in the legend, numbering is unique, marker and legend numbering match, addresses are complete, coordinates are verified, and Google Maps navigation links continue to function.
+- The reusable map generator configuration for each POI should store, at minimum, number, name, latitude, longitude, address, type, optional status where relevant, and verification/source notes sufficient for later audit.
+
 ## Printable Edition (print-all.html)
 - print-all.html is a **generated file** — built by scripts/build-print-all.py by stitching together days/day1.html through days/day10.html and credits.html into one continuous, print-ready document. Never hand-edit it; edit the source day pages/credits.html instead and regenerate.
 - It is auto-regenerated locally by the pre-commit hook (scripts/pre-commit-hook.sh) whenever a day page, credits.html, or style-editorial.css is staged for commit — the hook rebuilds it and stages the result so it can't go stale in a commit.

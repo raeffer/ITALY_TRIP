@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style-editorial.css">
+<script src="../route-planner.js" defer></script>
 </head>
 <body>
 <div class="page">
@@ -57,8 +58,8 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Stops</h2>
       <div class="card">
-        <div class="name">Basilica di San Vitale & Mausoleo di Galla Placidia</div>
-        <div class="meta">📍 44.4205557, 12.1963864 / 44.4209827, 12.1971029 — Via San Vitale 17, 48121 Ravenna RA &nbsp;·&nbsp; 📞 +39 0544 541688</div>
+        <div class="name"><span class="poi-ref">3</span><span class="poi-ref">4</span>Basilica di San Vitale & Mausoleo di Galla Placidia</div>
+        <div class="meta">📍 44.4205557, 12.1963864 / 44.4209827, 12.1971029 — Via San Vitale 17, 48121 Ravenna RA &nbsp;·&nbsp; 📞 +39 0544 541688 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4205557%2C12.1963864&travelmode=driving" target="_blank" rel="noopener">Navigate</a></div>
         <img class="inline-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20San%20Vital%20di%20Ravenna.JPG" alt="Exterior of Basilica di San Vitale">
         <ul class="bullets">
           <li><b>Why stop:</b> The single best mosaic room in Italy — Galla Placidia's 5th-century starry-night ceiling predates San Vitale's 6th-century Byzantine court scenes. Together they anchor Ravenna's eight UNESCO listings. Entry to Galla Placidia is strictly timed (~5 min/person) — expect a short queue.</li>
@@ -70,8 +71,8 @@
         </ul>
       </div>
       <div class="card alt">
-        <div class="name">Piazza del Popolo & Dante's Tomb</div>
-        <div class="meta">📍 44.4177596, 12.1993185 / 44.4161585, 12.2009368 — Via Dante Alighieri, 48121 Ravenna RA &nbsp;·&nbsp; 📞 +39 0544 30297</div>
+        <div class="name"><span class="poi-ref">13</span><span class="poi-ref">15</span>Piazza del Popolo & Dante's Tomb</div>
+        <div class="meta">📍 44.4177596, 12.1993185 / 44.4161585, 12.2009368 — Via Dante Alighieri, 48121 Ravenna RA &nbsp;·&nbsp; 📞 +39 0544 30297 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4161585%2C12.2009368&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <ul class="bullets">
           <li><b>Why stop:</b> The civic heart of the city since the 13th century, plus the grave of a man Florence has spent 700 years trying to get back.</li>
           <li><b>Time required:</b> 30–45 min</li>
@@ -79,8 +80,8 @@
         </ul>
       </div>
       <div class="card">
-        <div class="name">Domus dei Tappeti di Pietra</div>
-        <div class="meta">Via Gian Battista Barbiani 16, entrance via Chiesa di Sant'Eufemia, 48121 Ravenna RA</div>
+        <div class="name"><span class="poi-ref">5</span>Domus dei Tappeti di Pietra</div>
+        <div class="meta">Via Gian Battista Barbiani 16, entrance via Chiesa di Sant'Eufemia, 48121 Ravenna RA &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Domus%20dei%20Tappeti%20di%20Pietra%2C%20Ravenna&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <ul class="bullets">
           <li><b>Why stop:</b> Underground late-antique residence with over 400 m² of 5th–6th-century polychrome floor mosaics, including the "Danza dei Geni delle Quattro Stagioni." Discovered in 1993 beneath the church and recognised as one of Italy's significant recent archaeological finds.</li>
           <li><b>Time required:</b> 30–45 min</li>
@@ -88,8 +89,8 @@
         </ul>
       </div>
       <div class="card alt">
-        <div class="name">Museo Byron e del Risorgimento, Palazzo Guiccioli</div>
-        <div class="meta">Via Camillo Benso Cavour 54 &nbsp;·&nbsp; Hours: 10:00am–6:00pm, closed Mondays &nbsp;·&nbsp; €10 single ticket</div>
+        <div class="name"><span class="poi-ref">6</span>Museo Byron e del Risorgimento, Palazzo Guiccioli</div>
+        <div class="meta">Via Camillo Benso Cavour 54 &nbsp;·&nbsp; Hours: 10:00am–6:00pm, closed Mondays &nbsp;·&nbsp; €10 single ticket &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Museo%20Byron%20e%20del%20Risorgimento%2C%20Palazzo%20Guiccioli%2C%20Ravenna&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <ul class="bullets">
           <li><b>Why stop:</b> Reopened November 2024 after major restoration, with 24 rooms across 2,220 m². Byron lived here in 1820–1821, wrote part of <i>Don Juan</i> here, and the palazzo carries a deep Risorgimento/Carbonari thread.</li>
           <li><b>Time required:</b> 45–75 min</li>
@@ -100,8 +101,8 @@
     <div class="section cat-coffee">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Coffee</h2>
       <div class="card">
-        <div class="name">Caffè Il Nazionale <span class="tag">Piazza del Popolo 28</span></div>
-        <div class="meta">📍 44.4175944, 12.1995888 &nbsp;·&nbsp; 📞 +39 0544 217668 &nbsp;·&nbsp; 7:00am–11:00pm daily</div>
+        <div class="name"><span class="poi-ref">12</span>Caffè Il Nazionale <span class="tag">Piazza del Popolo 28</span></div>
+        <div class="meta">📍 44.4175944, 12.1995888 &nbsp;·&nbsp; 📞 +39 0544 217668 &nbsp;·&nbsp; 7:00am–11:00pm daily &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4175944%2C12.1995888&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Historic café on Ravenna's main square, part of the city's civic memory since the early 1900s. Owner Franco Scarfati won the national "Top Quality" silver award at Italy's Migliori Dolci d'Italia in 2019.</p>
         <div class="flag">Google shows this at 3.1★/609 reviews — a real pattern of complaints about slow, dismissive service. The pastry pedigree is genuine; the service experience is a coin-flip.</div>
         <div class="flag">Checked for a better alternative on this pass: Grinder Coffee Lab (Via di Roma 178) is a genuine third-wave specialty coffee lab with consistently strong reviews ("Starbucks go home, three times better, a third of the price") — a better cup than Il Nazionale by a clear margin. But it's closed Sundays, and 13 September 2026 (the actual travel day) is a Sunday, so it doesn't work for this trip. Also investigated Bar Byron, a historic 1951 café named for Lord Byron (who lived in Ravenna) and once a hangout for writers and cyclists Bartali and Coppi — but it closed in 2023 and the space is now a restaurant called Clarice. Il Nazionale remains the practical choice for this specific date despite the service flag above.</div>
@@ -111,8 +112,8 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21V8a4 4 0 014-4h8a4 4 0 014 4v13"/><path d="M4 14h16"/></svg>Pasticceria</h2>
       <div class="card">
-        <div class="name">Pasticceria Veneziana <span class="tag">Via Salara 15</span></div>
-        <div class="meta">📍 44.4194468, 12.1982703 &nbsp;·&nbsp; 📞 +39 0544 212171 &nbsp;·&nbsp; Closed Mondays</div>
+        <div class="name"><span class="poi-ref">7</span>Pasticceria Veneziana <span class="tag">Via Salara 15</span></div>
+        <div class="meta">📍 44.4194468, 12.1982703 &nbsp;·&nbsp; 📞 +39 0544 212171 &nbsp;·&nbsp; Closed Mondays &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4194468%2C12.1982703&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Founded 1864 by a Venetian family, run by the Baccarini family since 1964. Gambero Rosso–listed, awarded a torta rating in 2017. 4.4★/535 reviews. 160 continuous years under two families, not a rebrand.</p>
       </div>
     </div>
@@ -120,13 +121,13 @@
     <div class="section cat-lunch">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 2a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.5 5.5 0 01-7.54-7.54A9 9 0 0011 2z"/></svg>Lunch</h2>
       <div class="card">
-        <div class="name">Ca' de Vën <span class="tag">Via Corrado Ricci 24</span></div>
-        <div class="meta">📍 44.4160938, 12.1999840 &nbsp;·&nbsp; 📞 +39 0544 30163 &nbsp;·&nbsp; Closed Mondays; Sun 11am–2:30pm & 6:30–10pm</div>
+        <div class="name"><span class="poi-ref">16</span>Ca' de Vën <span class="tag">Via Corrado Ricci 24</span></div>
+        <div class="meta">📍 44.4160938, 12.1999840 &nbsp;·&nbsp; 📞 +39 0544 30163 &nbsp;·&nbsp; Closed Mondays; Sun 11am–2:30pm & 6:30–10pm &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4160938%2C12.1999840&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.4★/5,742 reviews — inside a 15th-century palazzo (the Rasponi family's Domus Magna), unpretentious Romagna cooking.</p>
       </div>
       <div class="card alt">
-        <div class="name">Antica Trattoria Al Gallo 1909 <span class="tag">Via Maggiore 89</span></div>
-        <div class="meta">📍 44.4207825, 12.1915981 &nbsp;·&nbsp; 📞 +39 0544 213775 &nbsp;·&nbsp; Sunday: 12:15–3pm lunch only</div>
+        <div class="name"><span class="poi-ref">18</span>Antica Trattoria Al Gallo 1909 <span class="tag">Via Maggiore 89</span></div>
+        <div class="meta">📍 44.4207825, 12.1915981 &nbsp;·&nbsp; 📞 +39 0544 213775 &nbsp;·&nbsp; Sunday: 12:15–3pm lunch only &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4207825%2C12.1915981&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.7★/999 reviews — higher-rated than Ca' de Vën. Family-run since 1909 in a former coaching inn dating to 1866, Liberty-era stained glass, garden view. Reservations essential.</p>
       </div>
     </div>
@@ -143,8 +144,8 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16V8z"/></svg>Hidden Gem</h2>
       <div class="card">
-        <div class="name">Mercato Coperto <span class="tag">Piazza Andrea Costa 6</span></div>
-        <div class="meta">📍 44.418912, 12.199129 &nbsp;·&nbsp; 📞 +39 0544 244611 &nbsp;·&nbsp; Open daily 9am–midnight</div>
+        <div class="name"><span class="poi-ref">10</span>Mercato Coperto <span class="tag">Piazza Andrea Costa 6</span></div>
+        <div class="meta">📍 44.418912, 12.199129 &nbsp;·&nbsp; 📞 +39 0544 244611 &nbsp;·&nbsp; Open daily 9am–midnight &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.418912%2C12.199129&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Origins trace to medieval fish and drapery markets. The 1918 building has exposed brick and Istrian marble, officially recognised in 2008. Dedicated salumeria, pescheria, and a fresh-pasta stall.</p>
         <div class="flag">A reviewer's useful caution: "we expected lots of different stalls — instead there's a huge bar, then more bars, and a wine shop." Graze rather than plan a full sit-down meal.</div>
       </div>
@@ -154,28 +155,28 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-11.8A8 8 0 004 10.2C4 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg>Cool, Interesting & Quirky</h2>
       <p style="font-style:italic; color:var(--ink-soft); margin-bottom:10px;">A menu, not an itinerary — use what fits the day.</p>
       <div class="card">
-        <div class="name">Mosaic ateliers — Koko Mosaico <span class="tag">Via di Roma 136</span></div>
-        <div class="meta">📍 44.416945, 12.2039917 &nbsp;·&nbsp; 📞 +39 0544 465190</div>
+        <div class="name"><span class="poi-ref">17</span>Mosaic ateliers — Koko Mosaico <span class="tag">Via di Roma 136</span></div>
+        <div class="meta">📍 44.416945, 12.2039917 &nbsp;·&nbsp; 📞 +39 0544 465190 &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.416945%2C12.2039917&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>4.9★/113 reviews. A real working bottega — founded by Luca Barberini and Arianna Gallo, collaborates with leading Italian mosaic masters. Closed Sundays except by arrangement.</p>
       </div>
       <div class="card alt">
-        <div class="name">Gioielleria Lugaresi <span class="tag">Via G. Matteotti 12</span></div>
-        <div class="meta">📍 44.4179545, 12.1986896 &nbsp;·&nbsp; 📞 +39 0544 212203 &nbsp;·&nbsp; Closed Sundays</div>
+        <div class="name"><span class="poi-ref">11</span>Gioielleria Lugaresi <span class="tag">Via G. Matteotti 12</span></div>
+        <div class="meta">📍 44.4179545, 12.1986896 &nbsp;·&nbsp; 📞 +39 0544 212203 &nbsp;·&nbsp; Closed Sundays &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4179545%2C12.1986896&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Jeweller/watchmaker since 1895, fifth generation, original goldsmithing tools on display. Minted the medal for the 1904 Romagna Exposition.</p>
       </div>
       <div class="card alt">
-        <div class="name">Erboristeria Giorgioni <span class="tag">Via IV Novembre 43</span></div>
-        <div class="meta">📍 44.4188773, 12.1994528 &nbsp;·&nbsp; Closed Sundays &nbsp;·&nbsp; 4.9★/794 reviews</div>
+        <div class="name"><span class="poi-ref">9</span>Erboristeria Giorgioni <span class="tag">Via IV Novembre 43</span></div>
+        <div class="meta">📍 44.4188773, 12.1994528 &nbsp;·&nbsp; Closed Sundays &nbsp;·&nbsp; 4.9★/794 reviews &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4188773%2C12.1994528&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>1888 herbalist/apothecary, fourth generation.</p>
       </div>
       <div class="card alt">
-        <div class="name">Leonardi Dolciumi 1957 <span class="tag">Via Pellegrino Matteucci 5</span></div>
-        <div class="meta">4.6★/293 reviews &nbsp;·&nbsp; Closed Sundays</div>
+        <div class="name"><span class="poi-ref">14</span>Leonardi Dolciumi 1957 <span class="tag">Via Pellegrino Matteucci 5</span></div>
+        <div class="meta">4.6★/293 reviews &nbsp;·&nbsp; Closed Sundays &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Leonardi%20Dolciumi%201957%2C%20Via%20Pellegrino%20Matteucci%205%2C%20Ravenna&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Confectionery/wine shop founded in 1957 by brothers Sergio and Leonardo with wives Flavia and Nives, winner of Italy's "tavoletta d'oro" award for best chocolate assortment. Has an interior courtyard for tasting purchases.</p>
       </div>
       <div class="card">
-        <div class="name">Darsenale — Bizantina Brewpub <span class="tag">Via D'Alaggio 69</span></div>
-        <div class="meta">Entrance via Via Bosi Maramotti, Darsena canal area</div>
+        <div class="name"><span class="poi-ref">19</span>Darsenale — Bizantina Brewpub <span class="tag">Via D'Alaggio 69</span></div>
+        <div class="meta">Entrance via Via Bosi Maramotti, Darsena canal area &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Darsenale%20Bizantina%20Brewpub%2C%20Via%20D%27Alaggio%2069%2C%20Ravenna&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>Urban craft brewery in a restored industrial warehouse, brewing on-site since 2020 with the production plant visible in the middle of the pub. Guided tours run every two Mondays at 18:30 (€15, tour + tasting + tagliere + gadget) — biweekly, not weekly.</p>
       </div>
       <div class="flag">Most of this section is closed on Sundays, your actual arrival day. Realistically usable on 13 September: the mosaic ateliers (call ahead), Cioccolato Creativo, and Mercato Coperto.</div>
@@ -184,9 +185,89 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>Accommodation</h2>
       <div class="card">
-        <div class="name">B&B Casa Masoli <span class="tag">Budget/Mid</span></div>
-        <div class="meta">📍 44.4199737, 12.2003868 &nbsp;·&nbsp; 4.9★/254 reviews</div>
+        <div class="name"><span class="poi-ref">8</span>B&B Casa Masoli <span class="tag">Budget/Mid</span></div>
+        <div class="meta">📍 44.4199737, 12.2003868 &nbsp;·&nbsp; 4.9★/254 reviews &nbsp;·&nbsp; <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=44.4199737%2C12.2003868&travelmode=walking" target="_blank" rel="noopener">Navigate</a></div>
         <p>1600s palazzo built by the Rasponi-Bonanzi family, frescoed ceilings. <b>My pick</b> — matches the Bassano benchmark of character over polish.</p>
+      </div>
+    </div>
+
+    <div class="section route-section" data-route-planner data-base-min="405" data-base-max="435">
+      <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
+      <div class="card route-card">
+        <div class="route-actions web-only">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=San%20Matteo%20della%20Decima%2C%20Ravenna%2C%20Basilica%20di%20San%20Vitale%2C%20Mausoleo%20di%20Galla%20Placidia%2C%20Piazza%20del%20Popolo%20Ravenna%2C%20Dante%27s%20Tomb%20Ravenna%2C%20B%26B%20Casa%20Masoli%20Ravenna" target="_blank" rel="noopener">View Today's Places</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Matteo%20della%20Decima%2C%20BO&destination=B%26B%20Casa%20Masoli%2C%20Ravenna&waypoints=Basilica%20di%20San%20Vitale%2C%20Ravenna%7CPiazza%20del%20Popolo%2C%20Ravenna%7CDante%27s%20Tomb%2C%20Ravenna&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Matteo%20della%20Decima%2C%20BO&destination=B%26B%20Casa%20Masoli%2C%20Ravenna&waypoints=Comacchio%2C%20Ferrara%7CManifattura%20dei%20Marinati%2C%20Comacchio%7CBasilica%20di%20San%20Vitale%2C%20Ravenna&travelmode=driving" target="_blank" rel="noopener">Navigate via Comacchio</a>
+        </div>
+        <div class="planner-grid">
+          <label class="planner-field web-only">Departure time
+            <input type="time" value="09:00" data-planner-departure>
+          </label>
+          <div class="planner-stat"><span>Base day</span><b>6h 45–7h 15</b></div>
+          <div class="planner-stat"><span>Optional time</span><b data-planner-selected>0 min</b></div>
+          <div class="planner-stat"><span>Total duration</span><b data-planner-duration>6h 45–7h 15</b></div>
+          <div class="planner-stat"><span>Estimated finish</span><b data-planner-finish>3:45 pm–4:15 pm</b></div>
+          <div class="planner-stat"><span>Day shape</span><b class="planner-status status-comfortable" data-planner-status>Comfortable day</b></div>
+        </div>
+        <fieldset class="planner-options web-only">
+          <legend>Route choice</legend>
+          <label><input type="radio" name="day1-route" data-planner-option data-min="0" data-max="0" checked> Direct route to Ravenna — no additional time</label>
+          <label><input type="radio" name="day1-route" data-planner-option data-min="180" data-max="210"> Comacchio canals and Manifattura dei Marinati — add approximately 3–3.5 hours</label>
+        </fieldset>
+        <fieldset class="planner-options web-only">
+          <legend>Optional activities</legend>
+          <label><input type="checkbox" data-planner-option data-min="30" data-max="45"> Domus dei Tappeti di Pietra — add 30–45 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="45" data-max="75"> Museo Byron e del Risorgimento — add 45–75 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="45" data-max="60"> Mosaic atelier call-ahead visit — add 45–60 minutes</label>
+        </fieldset>
+        <p class="route-minor-links web-only"><b>Optional stop maps:</b>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Comacchio%2C%20Ferrara&travelmode=driving" target="_blank" rel="noopener">Comacchio</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Manifattura%20dei%20Marinati%2C%20Comacchio&travelmode=driving" target="_blank" rel="noopener">Manifattura dei Marinati</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Argine%20degli%20Angeli%2C%20Comacchio&travelmode=driving" target="_blank" rel="noopener">Argine degli Angeli</a>
+        </p>
+        <div class="planner-warning" data-planner-warning hidden></div>
+        <div class="print-time-summary print-only">
+          <p><b>Print timing summary:</b> suggested 9:00am departure. Base direct day is approximately 6h45–7h15, finishing around 3:45–4:15pm. Comacchio alternative adds about 3–3.5 hours. Domus adds 30–45 minutes; Byron adds 45–75 minutes; mosaic atelier adds 45–60 minutes. Under 8 hours is a comfortable day; 8–10 hours is a long day; over 10 hours is a very long day and a sign to drop an option.</p>
+        </div>
+        <div class="route-map" id="day1-route-map">
+          <h3>Day 1 route map</h3>
+          <div class="route-map-frame">
+            <img src="../assets/maps/day1-ravenna-route.png" alt="OpenStreetMap-derived orientation map of the Day 1 route from San Matteo della Decima to Ravenna with the Comacchio alternative, Ravenna walking area, parking, and accommodation">
+          </div>
+          <div class="route-map-legend">
+            <span><i class="legend-line direct"></i>Recommended route</span>
+            <span><i class="legend-line alt-route"></i>Comacchio alternative</span>
+            <span><i class="legend-line optional"></i>Optional lagoon add-on</span>
+          </div>
+          <div class="poi-legend" aria-label="Day 1 numbered points of interest">
+            <h4>Numbered points of interest</h4>
+            <ol>
+              <li><b>San Matteo della Decima</b> <span>Start</span><small>San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy<br>GPS: 44.7100177, 11.2283615</small></li>
+              <li><b>Largo Giustiniano Parking</b> <span>Parking</span><small>Largo Giustiniano, 48121 Ravenna RA, Italy<br>GPS: 44.42183, 12.19623</small></li>
+              <li><b>Basilica di San Vitale</b> <span>Historic site</span><small>Via San Vitale 17, 48121 Ravenna RA, Italy<br>GPS: 44.4205557, 12.1963864</small></li>
+              <li><b>Mausoleo di Galla Placidia</b> <span>Historic site</span><small>Via Giuliano Argentario 22, 48121 Ravenna RA, Italy<br>GPS: 44.4209827, 12.1971029</small></li>
+              <li><b>Domus dei Tappeti di Pietra</b> <span>Historic site</span><small>Via Gian Battista Barbiani 16, 48121 Ravenna RA, Italy<br>GPS: 44.421223, 12.195474</small></li>
+              <li><b>Museo Byron e del Risorgimento, Palazzo Guiccioli</b> <span>Museum</span><small>Via Camillo Benso Cavour 54, 48121 Ravenna RA, Italy<br>GPS: 44.419629, 12.197836</small></li>
+              <li><b>Pasticceria Veneziana</b> <span>Food stop</span><small>Via Salara 15, 48121 Ravenna RA, Italy<br>GPS: 44.4194468, 12.1982703</small></li>
+              <li class="poi-marker-accommodation"><b>B&B Casa Masoli</b> <span>Accommodation</span><small>Via Girolamo Rossi 22, 48121 Ravenna RA, Italy<br>GPS: 44.4199737, 12.2003868</small></li>
+              <li><b>Erboristeria Giorgioni</b> <span>Shop</span><small>Via IV Novembre 43, 48121 Ravenna RA, Italy<br>GPS: 44.4188773, 12.1994528</small></li>
+              <li><b>Mercato Coperto</b> <span>Food stop</span><small>Piazza Andrea Costa 6, 48121 Ravenna RA, Italy<br>GPS: 44.418912, 12.199129</small></li>
+              <li><b>Gioielleria Lugaresi</b> <span>Shop</span><small>Via Giacomo Matteotti 12, 48121 Ravenna RA, Italy<br>GPS: 44.4179545, 12.1986896</small></li>
+              <li><b>Caffè Il Nazionale</b> <span>Food stop</span><small>Piazza del Popolo 28, 48121 Ravenna RA, Italy<br>GPS: 44.4175944, 12.1995888</small></li>
+              <li><b>Piazza del Popolo</b> <span>Historic site</span><small>Piazza del Popolo, 48121 Ravenna RA, Italy<br>GPS: 44.4177596, 12.1993185</small></li>
+              <li><b>Leonardi Dolciumi 1957</b> <span>Shop</span><small>Via Pellegrino Matteucci 5, 48121 Ravenna RA, Italy<br>GPS: 44.417228, 12.200015</small></li>
+              <li><b>Tomba di Dante</b> <span>Historic site</span><small>Via Dante Alighieri 9, 48121 Ravenna RA, Italy<br>GPS: 44.4161585, 12.2009368</small></li>
+              <li><b>Ca' de Vën</b> <span>Food stop</span><small>Via Corrado Ricci 24, 48121 Ravenna RA, Italy<br>GPS: 44.4160938, 12.1999840</small></li>
+              <li><b>Koko Mosaico</b> <span>Optional stop</span><small>Via di Roma 136, 48121 Ravenna RA, Italy<br>GPS: 44.416945, 12.2039917</small></li>
+              <li><b>Antica Trattoria Al Gallo 1909</b> <span>Food stop</span><small>Via Maggiore 89, 48121 Ravenna RA, Italy<br>GPS: 44.4207825, 12.1915981</small></li>
+              <li><b>Darsenale - Bizantina Brewpub</b> <span>Optional food stop</span><small>Via D'Alaggio 69, 48122 Ravenna RA, Italy<br>GPS: 44.423296, 12.212171</small></li>
+              <li class="poi-marker-alt"><b>Comacchio</b> <span>Optional stop</span><small>Centro storico, 44022 Comacchio FE, Italy<br>GPS: 44.6958712, 12.1812500</small></li>
+              <li class="poi-marker-alt"><b>Manifattura dei Marinati</b> <span>Museum / food heritage</span><small>Corso Giuseppe Mazzini 200, 44022 Comacchio FE, Italy<br>GPS: 44.6990038, 12.1752748</small></li>
+              <li class="poi-marker-optional"><b>Argine degli Angeli</b> <span>Viewpoint</span><small>Argine degli Angeli, Valli di Comacchio, 44029 Comacchio FE, Italy<br>GPS: 44.6540, 12.2450</small></li>
+            </ol>
+          </div>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+        </div>
       </div>
     </div>
 

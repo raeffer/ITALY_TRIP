@@ -316,6 +316,41 @@ Liberty-era building, quiet interior courtyard, bikes for guest use.
 over polish); you sleep inside the same restored 400-year-old walls
 you\'re there to see.
 
+## **Today\'s Route & Timing**
+
+**Suggested departure:** 9:00am from San Matteo della Decima.
+
+**Recommended direct navigation:** San Matteo della Decima → Ravenna
+parking/walking core → Basilica di San Vitale and Mausoleo di Galla
+Placidia → Piazza del Popolo and Dante\'s Tomb → B&B Casa Masoli.
+
+**Base day duration:** approximately 6h45--7h15, including the direct
+drive, parking/walk-in time, San Vitale and Galla Placidia, Piazza del
+Popolo/Dante, coffee or pastry, lunch, Mercato Coperto, and arrival at
+the accommodation. Expected base finish from a 9:00am departure:
+approximately 3:45--4:15pm.
+
+**Alternative route choice:** Comacchio canals and Manifattura dei
+Marinati, before Ravenna, add approximately 3--3.5 hours overall. This
+combines the additional detour driving noted above with a practical
+short visit in Comacchio. Treat it as a substitute route choice, not an
+automatic add-on.
+
+**Optional timing choices:**
+
+-   Domus dei Tappeti di Pietra --- add 30--45 minutes.
+-   Museo Byron e del Risorgimento --- add 45--75 minutes.
+-   Mosaic atelier call-ahead visit --- add 45--60 minutes.
+
+**Duration categories:** Under 8 hours is a comfortable day. 8--10
+hours is a long day. More than 10 hours is a very long day and a sign to
+drop an option.
+
+**Print map:** Use the Day 1 OpenStreetMap-derived orientation map
+showing the direct route, Comacchio alternative, optional lagoon add-on,
+Ravenna walking core, parking, and accommodation. It is a planning map
+only; use Google Maps links for live navigation.
+
 ## **If Time Is Tight**
 
 One hour: San Vitale + Galla Placidia only. Skip everything else.

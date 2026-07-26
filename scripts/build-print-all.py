@@ -17,6 +17,7 @@ This is also run automatically:
 """
 
 import sys
+import re
 from pathlib import Path
 
 try:
@@ -44,6 +45,7 @@ def extract_page(fpath: Path) -> str:
     html_str = html_str.replace('../style-editorial.css', 'style-editorial.css')
     html_str = html_str.replace('href="../', 'href="')
     html_str = html_str.replace('src="../', 'src="')
+    html_str = re.sub(r'href="(day[0-9]+\.html)', r'href="days/\1', html_str)
     return html_str
 
 
