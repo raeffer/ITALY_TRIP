@@ -1612,7 +1612,7 @@ DAY7 = {
     "poi_clusters": {
         "vieste": {
             "anchor": "Vieste end",
-            "numbers": list(range(3, 13)),
+            "numbers": list(range(3, 15)),
             "grid_offset": (100, -330),
             "columns": 3,
             "x_step": 64,
@@ -1646,7 +1646,7 @@ DAY7 = {
             "lat": 41.8809236,
             "lon": 16.1792922,
             "address": "Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy",
-            "type": "Historic site / end",
+            "type": "Historic site",
             "color": ROUTE_PRIMARY,
             "cluster": "vieste",
         },
@@ -1742,6 +1742,26 @@ DAY7 = {
         },
         {
             "number": 13,
+            "name": "Dimora del Dragone",
+            "lat": 41.8809236,
+            "lon": 16.1792922,
+            "address": "Via Duomo 8, 71019 Vieste FG, Italy",
+            "type": "Accommodation / end / my pick",
+            "color": MARKER_ACCOMMODATION,
+            "cluster": "vieste",
+        },
+        {
+            "number": 14,
+            "name": "Viesthouse B&B",
+            "lat": 41.8832338,
+            "lon": 16.1779067,
+            "address": "Via Dottor Giuliani 27, 71019 Vieste FG, Italy",
+            "type": "Accommodation / alternate",
+            "color": MARKER_ACCOMMODATION,
+            "cluster": "vieste",
+        },
+        {
+            "number": 15,
             "name": "Foresta Umbra",
             "lat": 41.8447785,
             "lon": 15.9775987,
@@ -1763,8 +1783,10 @@ DAY7 = {
         9: "Itinerary gave only Largo Seggio 8, which has no OSM-indexed node; approximated to the Vieste centro storico/Castello Svevo area, not an exact building pin.",
         10: "Itinerary gave only Via Ripe 2; resolved via OpenStreetMap Nominatim to a named 'Osteria degli Archi' restaurant node on Via Vittoria.",
         11: "Itinerary gave only Via Santa Maria di Merino 13, which has no OSM-indexed storefront node; coordinates approximate that street, not an exact building pin.",
-        12: "Itinerary gave only Via Duomo 8, which has no OSM-indexed node; itinerary text places it 'near the Cathedral and Castello Svevo,' so approximated to that area, not an exact building pin.",
-        13: "Itinerary names Foresta Umbra without a specific trailhead; resolved via OpenStreetMap Nominatim to the forest's named area centroid near Vico del Gargano. Presented as a background/orientation reference, not a timed itinerary stop — see the day's own text, which treats it as an aside rather than a planned addition.",
+        12: "Itinerary gave only Via Duomo 8, which has no OSM-indexed node; approximated to that area, not an exact building pin. Research for the new Accommodation section found this is the same building as B&B Dimora del Dragone (its on-site restaurant is named 'Il Dragone'/'Al Dragone'), confirming the address.",
+        13: "New accommodation research: address and host names (Rosa and Pasquale) confirmed via the property's own site; no OSM-indexed node for Via Duomo 8, so approximated to the Castello Svevo/centro storico area, not an exact building pin. Same building as Ristorante Al Dragone (POI 12).",
+        14: "New accommodation research: address confirmed via the property's own site (beb.it) at Via Dottor Giuliani 27; coordinates from an OpenStreetMap node at that address (listed under a different business name, 'Alice', at the same building).",
+        15: "Itinerary names Foresta Umbra without a specific trailhead; resolved via OpenStreetMap Nominatim to the forest's named area centroid near Vico del Gargano. Presented as a background/orientation reference, not a timed itinerary stop — see the day's own text, which treats it as an aside rather than a planned addition.",
     },
 }
 
