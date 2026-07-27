@@ -1960,12 +1960,6 @@ DAY9 = {
         "Bari": (41.1273126, 16.8671134),
     },
     "routes": {
-        "bari": {
-            "color": ROUTE_OPTIONAL,
-            "width": 8,
-            "coords": ["Trani", "Bari"],
-            "dashed": True,
-        },
         "molfetta": {
             "color": ROUTE_ALTERNATIVE,
             "width": 8,
@@ -1975,14 +1969,13 @@ DAY9 = {
         "recommended": {
             "color": ROUTE_PRIMARY,
             "width": 12,
-            "coords": ["Mattinata start", "Monte Sant'Angelo", "Trani"],
+            "coords": ["Mattinata start", "Monte Sant'Angelo", "Trani", "Bari"],
         },
     },
-    "route_order": ["bari", "molfetta", "recommended"],
+    "route_order": ["molfetta", "recommended"],
     "legend": [
-        {"label": "Recommended route to Trani", "color": ROUTE_PRIMARY},
-        {"label": "Molfetta overnight option", "color": ROUTE_ALTERNATIVE, "dashed": True},
-        {"label": "Bari overnight option", "color": ROUTE_OPTIONAL, "dashed": True},
+        {"label": "Recommended route (to Bari)", "color": ROUTE_PRIMARY},
+        {"label": "Molfetta overnight alternative", "color": ROUTE_ALTERNATIVE, "dashed": True},
     ],
     "poi_clusters": {
         "santangelo": {
@@ -2125,7 +2118,7 @@ DAY9 = {
             "lat": 41.2063077,
             "lon": 16.5979521,
             "address": "Vico Campanile, 70056 Molfetta BA, Italy",
-            "type": "Option A: overnight town",
+            "type": "Overnight alternative",
             "color": ROUTE_ALTERNATIVE,
             "cluster": "molfetta",
         },
@@ -2155,7 +2148,7 @@ DAY9 = {
             "lat": 41.2063077,
             "lon": 16.5979521,
             "address": "Vicolo Campanile 6, 70056 Molfetta BA, Italy",
-            "type": "Accommodation (Option A)",
+            "type": "Accommodation, alternative",
             "color": MARKER_ACCOMMODATION,
             "cluster": "molfetta",
         },
@@ -2165,8 +2158,8 @@ DAY9 = {
             "lat": 41.1273126,
             "lon": 16.8671134,
             "address": "Arco Basso, 70122 Bari BA, Italy",
-            "type": "Option B: overnight town",
-            "color": ROUTE_OPTIONAL,
+            "type": "Overnight town (preferred)",
+            "color": ROUTE_PRIMARY,
             "cluster": "bari",
         },
         {
@@ -2176,7 +2169,7 @@ DAY9 = {
             "lon": 16.8676604,
             "address": "Piazza Federico II di Svevia 6/8, 70122 Bari BA, Italy",
             "type": "Dinner",
-            "color": ROUTE_OPTIONAL,
+            "color": ROUTE_PRIMARY,
             "cluster": "bari",
         },
         {
@@ -2186,7 +2179,7 @@ DAY9 = {
             "lon": 16.8750988,
             "address": "Via Vito Nicola de Nicolò 46, 70121 Bari BA, Italy",
             "type": "Dinner / alternate",
-            "color": ROUTE_OPTIONAL,
+            "color": ROUTE_PRIMARY,
             "cluster": "bari",
         },
         {
@@ -2196,7 +2189,7 @@ DAY9 = {
             "lon": 16.8709494,
             "address": "Strada Palazzo di Città 38, 70122 Bari BA, Italy",
             "type": "Food stop / budget",
-            "color": ROUTE_OPTIONAL,
+            "color": ROUTE_PRIMARY,
             "cluster": "bari",
         },
         {
@@ -2206,7 +2199,7 @@ DAY9 = {
             "lon": 16.8701858,
             "address": "Largo Abate Elia 13, 70122 Bari BA, Italy",
             "type": "Historic site",
-            "color": ROUTE_OPTIONAL,
+            "color": ROUTE_PRIMARY,
             "cluster": "bari",
         },
         {
@@ -2215,7 +2208,7 @@ DAY9 = {
             "lat": 41.1273126,
             "lon": 16.8671134,
             "address": "Corte Lamberti 6, 70122 Bari BA, Italy",
-            "type": "Accommodation (Option B)",
+            "type": "Accommodation (preferred)",
             "color": MARKER_ACCOMMODATION,
             "cluster": "bari",
         },
@@ -2259,12 +2252,6 @@ DAY10 = {
         "San Vito dei Normanni": (40.6563995, 17.7087266),
     },
     "routes": {
-        "from_bari": {
-            "color": ROUTE_OPTIONAL,
-            "width": 8,
-            "coords": ["Bari", "Polignano"],
-            "dashed": True,
-        },
         "from_molfetta": {
             "color": ROUTE_ALTERNATIVE,
             "width": 8,
@@ -2274,14 +2261,13 @@ DAY10 = {
         "recommended": {
             "color": ROUTE_PRIMARY,
             "width": 12,
-            "coords": ["Polignano", "Monopoli", "Ostuni", "San Vito dei Normanni"],
+            "coords": ["Bari", "Polignano", "Monopoli", "Ostuni", "San Vito dei Normanni"],
         },
     },
-    "route_order": ["from_bari", "from_molfetta", "recommended"],
+    "route_order": ["from_molfetta", "recommended"],
     "legend": [
-        {"label": "Main day route", "color": ROUTE_PRIMARY},
-        {"label": "From Molfetta (Day 9 option A)", "color": ROUTE_ALTERNATIVE, "dashed": True},
-        {"label": "From Bari (Day 9 option B)", "color": ROUTE_OPTIONAL, "dashed": True},
+        {"label": "Main day route (from Bari)", "color": ROUTE_PRIMARY},
+        {"label": "From Molfetta (Day 9 alternative)", "color": ROUTE_ALTERNATIVE, "dashed": True},
     ],
     "poi_clusters": {
         "monopoli": {
@@ -2312,22 +2298,22 @@ DAY10 = {
     "pois": [
         {
             "number": 1,
-            "name": "Molfetta (Day 9 option A)",
+            "name": "Molfetta (Day 9 alternative)",
             "lat": 41.2063077,
             "lon": 16.5979521,
             "address": "Vico Campanile, 70056 Molfetta BA, Italy",
-            "type": "Start (option A)",
+            "type": "Start alternative",
             "color": ROUTE_ALTERNATIVE,
             "offset": (-60, -50),
         },
         {
             "number": 2,
-            "name": "Bari (Day 9 option B)",
+            "name": "Bari (Day 9 preferred)",
             "lat": 41.1273126,
             "lon": 16.8671134,
             "address": "Arco Basso, 70122 Bari BA, Italy",
-            "type": "Start (option B)",
-            "color": ROUTE_OPTIONAL,
+            "type": "Start (preferred)",
+            "color": ROUTE_PRIMARY,
             "offset": (60, -50),
         },
         {
