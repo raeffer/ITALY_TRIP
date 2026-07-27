@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style-editorial.css">
+<script src="../route-planner.js" defer></script>
 </head>
 <body>
 <div class="page">
@@ -153,6 +154,70 @@
         <div class="name">Masseria Liberatore <span class="tag">Luxury/Experience</span></div>
         <div class="meta">📍 41.7071504, 16.0642058 — Contrada Liberatore 2 &nbsp;·&nbsp; 📞 +39 0884 559753 &nbsp;·&nbsp; 4.8★/138 reviews</div>
         <p>Genuine garden dining among olive and lemon trees, with hosts Gino and Anna Maria specifically praised for restaurant and excursion tips, including orchid and iris viewing in season.</p>
+      </div>
+    </div>
+
+    <div class="section route-section" data-route-planner data-base-min="105" data-base-max="135">
+      <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
+      <div class="card route-card">
+        <div class="route-actions web-only">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Vieste%20centro%20storico%2C%20Baia%20delle%20Zagare%2C%20Mattinata%2C%20Pasticceria%20La%20Torre%2C%20Mattinata%2C%20Oleificio%20Le%20Monache%2C%20Mattinata%2C%20B%26B%20Dimora%20Mediterranea%2C%20Mattinata" target="_blank" rel="noopener">View Today's Places</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Pasticceria%20La%20Torre%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Baia%20delle%20Zagare%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Navigate via Baia delle Zagare</a>
+        </div>
+        <div class="planner-grid">
+          <label class="planner-field web-only">Departure time
+            <input type="time" value="09:00" data-planner-departure>
+          </label>
+          <div class="planner-stat"><span>Base day</span><b>1h 45–2h 15</b></div>
+          <div class="planner-stat"><span>Optional time</span><b data-planner-selected>0 min</b></div>
+          <div class="planner-stat"><span>Total duration</span><b data-planner-duration>1h 45–2h 15</b></div>
+          <div class="planner-stat"><span>Estimated finish</span><b data-planner-finish>10:45 am–11:15 am</b></div>
+          <div class="planner-stat"><span>Day shape</span><b class="planner-status status-comfortable" data-planner-status>Comfortable day</b></div>
+        </div>
+        <fieldset class="planner-options web-only">
+          <legend>Optional activities</legend>
+          <label><input type="checkbox" data-planner-option data-min="60" data-max="240"> Baia delle Zagare beach access, if you get in — add 1–4 hours depending on access</label>
+          <label><input type="checkbox" data-planner-option data-min="20" data-max="30"> Oleificio Le Monache tasting/purchase, if not a Sunday — add 20–30 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="90" data-max="150"> Abbazia di Monte Sacro hike, steep and unmarked — add 1.5–2.5 hours</label>
+        </fieldset>
+        <p class="route-minor-links web-only"><b>Optional stop maps:</b>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Oleificio%20Le%20Monache%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Oleificio Le Monache</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Abbazia%20della%20Santissima%20Trinit%C3%A0%20di%20Monte%20Sacro&travelmode=driving" target="_blank" rel="noopener">Abbazia di Monte Sacro</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Monte%20Saraceno%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Monte Saraceno (6:00am guided hike, not counted in today's timing)</a>
+        </p>
+        <div class="planner-warning" data-planner-warning hidden></div>
+        <div class="print-time-summary print-only">
+          <p><b>Print timing summary:</b> suggested 9:00am departure. Base direct day from Vieste to Mattinata (drive plus a centro walk and La Torre) is approximately 1h45–2h15, finishing around 10:45–11:15am before the rest of the day. Baia delle Zagare adds 1–4 hours depending on access. Oleificio Le Monache adds 20–30 minutes, Sunday closure permitting. The Abbazia di Monte Sacro hike adds 1.5–2.5 hours on a steep, unmarked trail. The Monte Saraceno sunrise hike (6:00am) and the Love Trail (5:30pm) both run at fixed times outside this window and are not built into today's timing — call the Mattinata tourism office ahead if either is of interest. Under 8 hours is a comfortable day; 8–10 hours is a long day; over 10 hours is a very long day and a sign to drop an option.</p>
+        </div>
+        <div class="route-map" id="day8-route-map">
+          <h3>Day 8 route map</h3>
+          <div class="route-map-frame">
+            <img src="../assets/maps/day8-mattinata-route.png" alt="OpenStreetMap-derived orientation map of the Day 8 route from Vieste to Mattinata via the SP53, with the Baia delle Zagare there-and-back detour and numbered points of interest">
+          </div>
+          <div class="route-map-legend">
+            <span><i class="legend-line direct"></i>Recommended route</span>
+            <span><i class="legend-line alt-route"></i>Baia delle Zagare there-and-back detour</span>
+          </div>
+          <div class="poi-legend" aria-label="Day 8 numbered points of interest">
+            <h4>Numbered points of interest</h4>
+            <ol>
+              <li><b>Vieste centro storico</b> <span>Start</span><small>Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy<br>GPS: 41.8809236, 16.1792922</small></li>
+              <li class="poi-marker-alt"><b>Baia delle Zagare</b> <span>Optional beach detour</span><small>Comune di Mattinata, FG, Italy (cove has no street address)<br>GPS: 41.7311, 16.0857</small></li>
+              <li><b>Pasticceria La Torre</b> <span>Food stop</span><small>Via Giacomo Matteotti, 71030 Mattinata FG, Italy<br>GPS: 41.7110463, 16.0511548</small></li>
+              <li><b>Giardino di Monsignore</b> <span>Dinner</span><small>Contrada Torre del Porto / Contrada Funni, 71030 Mattinata FG, Italy<br>GPS: 41.7013622, 16.0655401</small></li>
+              <li><b>Locanda del Maniscalco</b> <span>Dinner / alternate</span><small>Via Luigi Zuppetta 12/14, 71030 Mattinata FG, Italy<br>GPS: 41.7086724, 16.0505958</small></li>
+              <li><b>Dal Saraceno</b> <span>Dinner / budget</span><small>Via Vincenzo Amicarelli 31a, 71030 Mattinata FG, Italy<br>GPS: 41.7095571, 16.0515220</small></li>
+              <li><b>Oleificio Le Monache</b> <span>Shop / food heritage</span><small>Contrada le Monache 1, 71030 Mattinata FG, Italy<br>GPS: 41.7027376, 16.0518777</small></li>
+              <li class="poi-marker-accommodation"><b>B&B Dimora del Corso</b> <span>Accommodation</span><small>Corso Matino 211, 71030 Mattinata FG, Italy<br>GPS: 41.7120136, 16.0511594</small></li>
+              <li class="poi-marker-accommodation"><b>Masseria Liberatore</b> <span>Accommodation / alternate</span><small>Contrada Liberatore 2, 71030 Mattinata FG, Italy<br>GPS: 41.7071504, 16.0642058</small></li>
+              <li class="poi-marker-alt"><b>Abbazia della Santissima Trinità di Monte Sacro</b> <span>Optional historic site</span><small>Monte Sacro, 874m, near SS89, 71030 Mattinata FG, Italy<br>GPS: 41.7580842, 16.0430873</small></li>
+              <li class="poi-marker-alt"><b>Monte Saraceno</b> <span>Optional guided hike</span><small>Monte Saraceno, 71030 Mattinata FG, Italy<br>GPS: 41.6942574, 16.0508242</small></li>
+              <li class="poi-marker-accommodation"><b>B&B Dimora Mediterranea</b> <span>Accommodation / end / my pick</span><small>Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy<br>GPS: 41.7142542, 16.0792899</small></li>
+            </ol>
+          </div>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+        </div>
       </div>
     </div>
 

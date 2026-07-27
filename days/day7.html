@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style-editorial.css">
+<script src="../route-planner.js" defer></script>
 </head>
 <body>
 <div class="page">
@@ -169,6 +170,72 @@
       <div class="card alt">
         <div class="name">Foresta Umbra <span class="tag">Inland Gargano National Park</span></div>
         <p>UNESCO World Heritage-listed since 2017 for its ancient beech forest ("faggete vetuste"), over 10,000 hectares, 15 marked trails, free access. Easiest trail: Laghetto d'Umbra loop, about 1.5 hours, flat and family-friendly. A genuine inland counterpoint to Day 7's otherwise all-coastal content.</p>
+      </div>
+    </div>
+
+    <div class="section route-section" data-route-planner data-base-min="230" data-base-max="300">
+      <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
+      <div class="card route-card">
+        <div class="route-actions web-only">
+          <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Residenza%20Sveva%20Albergo%20Diffuso%2C%20Termoli%2C%20Lago%20di%20Lesina%2C%20Vieste%20centro%20storico%2C%20Castello%20Svevo%2C%20Vieste%2C%20Chianca%20Amara%2C%20Vieste%2C%20Spiaggia%20di%20Castello%2C%20Vieste" target="_blank" rel="noopener">View Today's Places</a>
+          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Residenza%20Sveva%20Albergo%20Diffuso%2C%20Termoli&destination=Castello%20Svevo%2C%20Vieste&waypoints=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+        </div>
+        <div class="planner-grid">
+          <label class="planner-field web-only">Departure time
+            <input type="time" value="09:00" data-planner-departure>
+          </label>
+          <div class="planner-stat"><span>Base day</span><b>3h 50–5h</b></div>
+          <div class="planner-stat"><span>Optional time</span><b data-planner-selected>0 min</b></div>
+          <div class="planner-stat"><span>Total duration</span><b data-planner-duration>3h 50–5h</b></div>
+          <div class="planner-stat"><span>Estimated finish</span><b data-planner-finish>12:50 pm–2:00 pm</b></div>
+          <div class="planner-stat"><span>Day shape</span><b class="planner-status status-comfortable" data-planner-status>Comfortable day</b></div>
+        </div>
+        <fieldset class="planner-options web-only">
+          <legend>Optional activities</legend>
+          <label><input type="checkbox" data-planner-option data-min="10" data-max="15"> Chianca Amara memorial stop — add 10–15 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="40" data-max="90"> Full beach afternoon at Spiaggia di Castello, beyond a brief look at Pizzomunno — add 40 min–1.5 hours</label>
+          <label><input type="checkbox" data-planner-option data-min="45" data-max="90"> Lago di Lesina lagoon stop — add 45 min–1.5 hours</label>
+          <label><input type="checkbox" data-planner-option data-min="45" data-max="75"> Trabucco di San Lorenzo net-lowering demonstration — add 45–75 minutes</label>
+          <label><input type="checkbox" data-planner-option data-min="30" data-max="45"> Monday lungomare market, if the date lines up — add 30–45 minutes</label>
+        </fieldset>
+        <p class="route-minor-links web-only"><b>Optional stop maps:</b>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener">Lago di Lesina</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Trabucco%20San%20Lorenzo%2C%20Vieste&travelmode=driving" target="_blank" rel="noopener">Trabucco di San Lorenzo</a>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Foresta%20Umbra&travelmode=driving" target="_blank" rel="noopener">Foresta Umbra (not counted in today's drive time — see note below)</a>
+        </p>
+        <div class="planner-warning" data-planner-warning hidden></div>
+        <div class="print-time-summary print-only">
+          <p><b>Print timing summary:</b> suggested 9:00am departure. Base direct day from Termoli to Vieste (centro storico, Castello Svevo, a brief look at Pizzomunno) is approximately 3h50–5h, finishing around 12:50–2:00pm before dinner. Chianca Amara adds 10–15 minutes; a full beach afternoon adds 40 min–1.5 hours; Lago di Lesina adds 45 min–1.5 hours; Trabucco di San Lorenzo adds 45–75 minutes; the Monday market adds 30–45 minutes. Foresta Umbra is shown on the map for orientation but is a genuine half-day-plus detour on its own and is not built into today's timing — treat it as a separate excursion, not an add-on. Under 8 hours is a comfortable day; 8–10 hours is a long day; over 10 hours is a very long day and a sign to drop an option.</p>
+        </div>
+        <div class="route-map" id="day7-route-map">
+          <h3>Day 7 route map</h3>
+          <div class="route-map-frame">
+            <img src="../assets/maps/day7-vieste-route.png" alt="OpenStreetMap-derived orientation map of the Day 7 route from Termoli to Vieste via Lago di Lesina, with the Foresta Umbra optional inland detour and numbered points of interest">
+          </div>
+          <div class="route-map-legend">
+            <span><i class="legend-line direct"></i>Recommended route</span>
+            <span><i class="legend-line alt-route"></i>Foresta Umbra optional detour</span>
+          </div>
+          <div class="poi-legend" aria-label="Day 7 numbered points of interest">
+            <h4>Numbered points of interest</h4>
+            <ol>
+              <li><b>Residenza Sveva Albergo Diffuso, Termoli</b> <span>Start</span><small>Piazza Duomo 11, 86039 Termoli CB, Italy<br>GPS: 42.0054205, 14.9975873</small></li>
+              <li><b>Lago di Lesina</b> <span>Optional lagoon stop</span><small>Lesina FG, Italy<br>GPS: 41.8619097, 15.3532657</small></li>
+              <li><b>Vieste centro storico & Castello Svevo</b> <span>Historic site / end</span><small>Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy<br>GPS: 41.8809236, 16.1792922</small></li>
+              <li><b>Spiaggia di Castello & Pizzomunno</b> <span>Beach / viewpoint</span><small>Spiaggia di Castello, 71019 Vieste FG, Italy<br>GPS: 41.8673500, 16.1753703</small></li>
+              <li><b>Chianca Amara</b> <span>Historic memorial</span><small>Via Gregorio XIII, 71019 Vieste FG, Italy<br>GPS: 41.8815296, 16.1814304</small></li>
+              <li><b>Trabucco di San Lorenzo</b> <span>Optional trabocco heritage</span><small>Strada Provinciale 52 Vieste-Peschici, Defensola, 71019 Vieste FG, Italy<br>GPS: 41.8954927, 16.1610791</small></li>
+              <li><b>Cornetteria Chianca Amara</b> <span>Food stop</span><small>Via Nicolo Cimaglia 4, 71019 Vieste FG, Italy<br>GPS: 41.8814613, 16.1815773</small></li>
+              <li><b>Bakery Cafe Sant'Antonio</b> <span>Food stop</span><small>Piazzale Aldo Moro 64, 71019 Vieste FG, Italy<br>GPS: 41.8842286, 16.1696023</small></li>
+              <li><b>Donlù</b> <span>Dinner</span><small>Largo Seggio 8, 71019 Vieste FG, Italy<br>GPS: 41.8809236, 16.1792922</small></li>
+              <li><b>Osteria degli Archi</b> <span>Dinner / alternate</span><small>Via Ripe 2, 71019 Vieste FG, Italy<br>GPS: 41.8825156, 16.1829919</small></li>
+              <li><b>Box 19</b> <span>Dinner / budget</span><small>Via Santa Maria di Merino 13, 71019 Vieste FG, Italy<br>GPS: 41.8837530, 16.1765535</small></li>
+              <li><b>Ristorante Al Dragone</b> <span>Dinner / alternate</span><small>Via Duomo 8, 71019 Vieste FG, Italy<br>GPS: 41.8809236, 16.1792922</small></li>
+              <li class="poi-marker-alt"><b>Foresta Umbra</b> <span>Optional inland detour</span><small>71018 Vico del Gargano FG, Italy<br>GPS: 41.8447785, 15.9775987</small></li>
+            </ol>
+          </div>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+        </div>
       </div>
     </div>
 
