@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Regenerates print-all.html by stitching together days/day1.html ... day10.html
-into one continuous, print-ready document.
+Regenerates print-all.html by stitching together days/day1.html ... dayN.html
+(N = highest day file that currently exists) into one continuous, print-ready
+document. See ALL_FILES below for the exact range currently included.
 
 Run manually:
     python3 scripts/build-print-all.py
@@ -27,7 +28,7 @@ except ImportError:
     sys.exit(1)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ALL_FILES = [f"days/day{i}.html" for i in range(1, 11)]
+ALL_FILES = [f"days/day{i}.html" for i in range(1, 14)]  # Stage 1 (1-3) + Stage 2 (4-13); Stage 3 (14-21) not yet built
 OUTPUT_FILE = REPO_ROOT / "print-all.html"
 
 
@@ -87,7 +88,7 @@ def build() -> str:
 </head>
 <body>
 <div class="print-banner">
-  This is the full printable edition — all 10 days, one continuous document.
+  This is the full printable edition — {len(ALL_FILES)} days, one continuous document.
   Press Ctrl+P (or Cmd+P) and choose "Save as PDF" with A4 paper size to export.
   <br>Individual day pages: <a href="index.html">back to site</a>
 </div>
