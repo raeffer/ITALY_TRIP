@@ -8,7 +8,7 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 - **Stage 2 — The Adriatic Coast (Days 4–13, 13–22 Sept 2026):** Ravenna through the Adriatic coast to the San Vito dei Normanni arrival — the original road trip. Built (`days/day4.html`–`day13.html`).
 - **Stage 3 — Puglia villa week & Rome finale (Days 14–21, 23–30 Sept 2026):** Built (`days/day14.html`–`day21.html`). Day-by-day research, corrections, and open gaps for these days live in `STAGE3_CONTENT.md`.
 
-All 21 day pages currently exist in the working tree, and `print-all.html` covers the full set. As of this writing, that work is **uncommitted** — check `git status` before assuming any of it has landed.
+All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`), and `print-all.html` covers the full set. Check `git log`/`git status` before assuming this is still current.
 
 ## Where the real information lives
 
