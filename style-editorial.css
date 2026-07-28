@@ -486,6 +486,10 @@ body{
   border-top-color: #C65332;
   border-top-style:dashed;
 }
+.legend-line.option-d{
+  border-top-color: #6E7F2A;
+  border-top-style:dashed;
+}
 .route-map-note{
   font-family:'IBM Plex Mono', monospace;
   font-size: 10.5px;
