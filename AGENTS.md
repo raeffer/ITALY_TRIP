@@ -12,10 +12,11 @@ All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`
 
 ## Where the real information lives
 
-- **Content, design, and photo standards:** read `STANDARDS.md`.
+- **Content, design, and photo standards:** read `standing-directives.md`. This is the repo's durable, tool-agnostic rules file (its own header describes it as facts about the project itself that hold regardless of which AI tool is used) — read it in full before starting any work, not just when a specific rule seems relevant.
+- **Day-by-day research content (Days 1–13):** read `CONTENT.md` — the source of research for Days 1–13, which must stay mirrored into each day's HTML page in `/days/` per `standing-directives.md`'s content-sync rule.
 - **Stage 3 day-by-day research and status:** read `STAGE3_CONTENT.md`.
 
-Don't duplicate either of those here — go read the file itself.
+Don't duplicate any of those here — go read the file itself.
 
 ## Current task in progress: print-pagination fix
 
@@ -33,3 +34,4 @@ Don't duplicate either of those here — go read the file itself.
 
 - Before starting any new work, verify anything in this file against the actual repo state (file contents, `git status`, `git log`) rather than trusting it blindly. If something here conflicts with what you find, flag the conflict rather than silently picking one version.
 - Whenever a meaningful piece of work finishes, update this file in the same commit, before reporting the work as done. Rewrite stale sections in place rather than appending to them — this file should always read as current, not as a running log.
+- A fresh session must read this file and `standing-directives.md` in full before doing anything else in this repo — this repo has no separate state/status file, so "Current task in progress" above is the current state. Verify all of it (and `standing-directives.md`'s claims) against actual repo state rather than trusting either blindly.
