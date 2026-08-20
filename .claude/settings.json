@@ -1,4 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m ' *)",
+      "WebFetch(domain:nominatim.openstreetmap.org)",
+      "WebFetch(domain:router.project-osrm.org)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 scripts/generate-route-map.py day6)"
+    ]
+  },
   "enabledPlugins": {},
   "extraKnownMarketplaces": {}
 }
