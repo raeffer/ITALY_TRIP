@@ -136,7 +136,7 @@ if [ "${#MISSING_DAYS[@]}" -gt 0 ]; then
     echo "  - days/day${day}.html"
   done
   echo ""
-  echo "Per standing-directives.md: 'Any edit to CONTENT.md must be mirrored in the"
+  echo "Per style-guide.md: 'Any edit to CONTENT.md must be mirrored in the"
   echo "corresponding day's HTML page in the same pass.'"
   echo ""
   echo "Fix: update the listed HTML file(s) to match, then 'git add' them"

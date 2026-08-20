@@ -8,8 +8,9 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 - **Current repository status and open work:** read `build-status.md`.
 - **Dated log of past decisions and the reasoning behind them:** read `decisions.md`.
-- **Content, design, and photo standards:** read `standing-directives.md`. This is the repo's durable, tool-agnostic rules file (its own header describes it as facts about the project itself that hold regardless of which AI tool is used) — read it in full before starting any work, not just when a specific rule seems relevant.
-- **Day-by-day research content (Days 1–13):** read `CONTENT.md` — the source of research for Days 1–13, which must stay mirrored into each day's HTML page in `/days/` per `standing-directives.md`'s content-sync rule.
+- **Agent operating rules:** read `standing-directives.md` — read it in full before starting any work, not just when a specific rule seems relevant.
+- **Content, design, and photo standards:** read `style-guide.md`. This is the repo's durable, tool-agnostic rules file (its own header describes it as facts about the project itself that hold regardless of which AI tool is used) — any work producing or changing guide content must read it in full first.
+- **Day-by-day research content (Days 1–13):** read `CONTENT.md` — the source of research for Days 1–13, which must stay mirrored into each day's HTML page in `/days/` per `style-guide.md`'s content-sync rule.
 - **Stage 3 day-by-day research and status:** read `STAGE3_CONTENT.md`.
 
 Don't duplicate any of those here — go read the file itself.
