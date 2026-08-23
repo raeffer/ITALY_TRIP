@@ -9,9 +9,8 @@
 #   context lines near a change). That gives the set of day numbers whose
 #   section was touched. It then checks that days/dayN.html is also staged.
 #
-# Install: copy this file to .git/hooks/pre-commit and `chmod +x` it.
-# (Git hooks are local-only, so this must be installed by each person who
-#  commits, or set up via git config core.hooksPath — see install notes.)
+# Install: run scripts/install-hooks.sh. It creates a live link at
+# .git/hooks/pre-commit so the active check cannot drift from this tracked file.
 
 set -euo pipefail
 
@@ -27,11 +26,12 @@ if [ -n "$PRINT_SOURCES_CHANGED" ]; then
     echo "print-all.html regenerated and staged (source changed: $(echo "$PRINT_SOURCES_CHANGED" | tr '\n' ' '))"
   else
     echo ""
-    echo "WARNING: day page(s)/credits.html/style-editorial.css changed but print-all.html"
+    echo "COMMIT BLOCKED: day page(s)/credits.html/style-editorial.css changed but print-all.html"
     echo "could not be regenerated (missing python3 or bs4/lxml)."
     echo "Install with: pip install beautifulsoup4 lxml --break-system-packages"
-    echo "print-all.html may now be stale relative to this commit."
+    echo "The commit was stopped so print-all.html cannot become stale."
     echo ""
+    exit 1
   fi
 fi
 # ----------------------------------------------------------------------------

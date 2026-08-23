@@ -2,7 +2,7 @@
 
 Read this first, before doing anything else. It says where we are in the Italy Road Trip Companion repository and what to do next. Updated at the end of every session, right before stopping, so a new session can pick up without being re-briefed.
 
-**Last updated:** 2026-08-20
+**Last updated:** 2026-08-24
 
 **Currently on:** Print-pagination fix (see Open Items below).
 
@@ -12,6 +12,12 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
+- **Printable-edition enforcement:** `scripts/install-hooks.sh` now installs
+  `.git/hooks/pre-commit` as a live link to the tracked
+  `scripts/pre-commit-hook.sh`, eliminating stale local copies. The hook watches the
+  real stylesheet (`style-editorial.css`) and blocks a commit if `print-all.html`
+  cannot be regenerated. Verified in disposable repositories against both successful
+  regeneration and a missing-dependency failure on 2026-08-24.
 - **Stage 1 — The Fixed Leg (Days 1–3, 10–12 Sept 2026):** Venice Marco Polo → Santorso → Bassano del Grappa → San Giovanni in Persiceto/Vignola. Built (`days/day1.html`–`day3.html`).
 - **Stage 2 — The Adriatic Coast (Days 4–13, 13–22 Sept 2026):** Ravenna through the Adriatic coast to the San Vito dei Normanni arrival — the original road trip. Built (`days/day4.html`–`day13.html`).
 - **Stage 3 — Puglia villa week & Rome finale (Days 14–21, 23–30 Sept 2026):** Built (`days/day14.html`–`day21.html`). Day-by-day research, corrections, and open gaps for these days live in `STAGE3_CONTENT.md`.
