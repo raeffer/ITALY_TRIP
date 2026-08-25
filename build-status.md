@@ -16,7 +16,13 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   Options" buttons across the 21 day pages (and the two generated print
   editions) now use the `maps/dir/A/B/C` path format instead of the broken
   `maps/search/?api=1&query=A,B,C` format, which only resolved as a single
-  location and failed for 3+ stops. See `decisions.md`, 2026-08-25.
+  location and failed for 3+ stops. Day 2's "Cittadella" stop needed a further
+  fix to GPS coordinates after a plain name kept resolving to a same-named
+  landmark in Malta. See `decisions.md`, 2026-08-25.
+- **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
+  serving directly from `main`. A local edit is not visible to the user until
+  it is committed and pushed to `main` — check this before reporting any fix
+  as done.
 - **Printable-edition enforcement:** `scripts/install-hooks.sh` now installs
   `.git/hooks/pre-commit` as a live link to the tracked
   `scripts/pre-commit-hook.sh`, eliminating stale local copies. The hook watches the

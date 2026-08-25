@@ -2,6 +2,12 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-25 — Day 2's "Cittadella" stop fixed with GPS coordinates; site confirmed live via GitHub Pages
+
+After the `maps/search` → `maps/dir` fix below, Day 2's button still resolved its "Cittadella" stop to *The Citadel, Victoria, Gozo, Malta* instead of Cittadella, Padova (a real walled town on the route) — Google's geocoder ranked the well-known Maltese landmark over the Italian town for the bare word "Cittadella," which is also the generic Italian word for "citadel." Appending `PD` as a region qualifier did **not** fix it — Google's per-segment matching still favored the Malta result by text similarity. The fix that worked: replace the name with the exact GPS coordinates already present elsewhere on the same page (`45.6507763,11.7832170`, from the Cittadella card), since a raw lat/lng pair is placed directly with no text geocoding involved.
+
+Separately, debugging this surfaced that **the site is deployed live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`, serving directly from the `main` branch (`gh api repos/raeffer/ITALY_TRIP/pages` → `build_type: legacy`, `source: {branch: main, path: /}`). The user was viewing that live site, not a local file, while these Cittadella fixes were still sitting as uncommitted local changes — so a first round of edits appeared to have no effect. Any fix intended for the user to see must be committed and pushed to `main` before it's visible; a local edit alone does not reach the live site.
+
 ## 2026-08-25 — "View Today's Places" / "View All Options" buttons switched from `maps/search` to `maps/dir` path format
 
 User reported the "View Today's Places" button failed on the first two days tried (Day 1 and Day 2). Root cause: the button used `https://www.google.com/maps/search/?api=1&query=Place+A,+Place+B,+...` — Google's `search` action resolves the whole `query` value as **one** location, not a list. A comma-joined string of several unrelated place names across different towns generally fails to geocode; it only ever worked by luck on days with few, closely clustered stops.
