@@ -63,12 +63,12 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Option A — Stay Local: Torre Guaceto + Carovigno <span class="tag">≈10-15 min</span></h2>
       <div class="card">
-        <div class="name">Torre Guaceto</div>
+        <div class="name" id="poi-torre-guaceto">Torre Guaceto</div>
         <div class="meta">📍 40.7057, 17.7830 — Riserva Naturale Statale di Torre Guaceto, Carovigno</div>
         <p>Marine nature reserve, Blue Flag coastline, 16th-century watchtower, snorkelling/cycling/guided walks via the Serranova visitor centre. Lowest-effort, lowest-risk option — no bookings needed.</p>
       </div>
       <div class="card">
-        <div class="name">Carovigno</div>
+        <div class="name" id="poi-carovigno">Carovigno</div>
         <div class="meta">📍 40.7071, 17.6592 — Corso Vittorio Emanuele, Carovigno</div>
         <p>Quiet, untouristed whitewashed hill town next to the reserve.</p>
         <div class="name" style="margin-top:12px;">Trattoria La Cantina <span class="tag">Lunch — gap closed</span></div>
@@ -94,13 +94,13 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Option C — Messapian Heritage & Wine: Oria + Manduria <span class="tag">≈20-25 min, then ≈25-30 min</span></h2>
       <div class="card">
-        <div class="name">Oria — Castello Svevo</div>
+        <div class="name" id="poi-oria-castello-svevo">Oria — Castello Svevo</div>
         <div class="meta">📍 40.4998, 17.6416 — Via Castello, Quartiere Ebraico, Oria</div>
         <p>Triangular Castello Svevo (Frederick II, 1225-33), mummified-saints crypt, oldest pasticceria in town (1800s convent recipe scarpetta).</p>
         <div class="flag">Honest flag: castle is privately owned; family still in talks with the comune about public access — exterior/grounds more reliable than a guaranteed interior visit.</div>
       </div>
       <div class="card">
-        <div class="name">Manduria</div>
+        <div class="name" id="poi-manduria">Manduria</div>
         <div class="meta">📍 40.4059, 17.6361 (Cantina Produttori) &nbsp;·&nbsp; 40.4022, 17.6430 (Fonte Pliniano)</div>
         <p>Messapian megalithic walls, 2,000+ tomb necropolis, Fonte Pliniano (a spring described by Pliny the Elder), and Primitivo wine.</p>
         <ul class="bullets">
@@ -112,7 +112,7 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Option D — Ceramics & the Two Seas: Grottaglie + Taranto <span class="tag">≈45-50 min, then ≈15-20 min</span></h2>
       <div class="card">
-        <div class="name">Grottaglie</div>
+        <div class="name" id="poi-grottaglie">Grottaglie</div>
         <div class="meta">📍 40.5335, 17.4321 — Quartiere delle Ceramiche</div>
         <p>Puglia's only DOC-certified ceramics centre, Quartiere delle Ceramiche along the Gravina di San Giorgio, Castello Episcopio/ceramics museum.</p>
         <div class="name" style="margin-top:12px;">Osteria La Capasa <span class="tag">Lunch — gap closed</span></div>
@@ -120,7 +120,7 @@
         <p>Cited consistently for authentic Salento/Puglia cooking with local ingredients, right in the old town.</p>
       </div>
       <div class="card">
-        <div class="name">Taranto</div>
+        <div class="name" id="poi-taranto">Taranto</div>
         <div class="meta">📍 40.4727, 17.2337 (Castello Aragonese)</div>
         <p>The only Italian city on two seas.</p>
         <ul class="bullets">
@@ -196,21 +196,21 @@
             <h4>Numbered points of interest</h4>
             <ol>
               <li class="poi-marker-accommodation"><b>San Vito dei Normanni (start/end)</b> <span>Accommodation / start-end</span><small>Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy<br>GPS: 40.6563995, 17.7087266</small></li>
-              <li><b>Torre Guaceto</b> <span>Option A / nature reserve</span><small>Riserva Naturale Statale di Torre Guaceto, Carovigno BR, Italy<br>GPS: 40.7057, 17.7830</small></li>
-              <li><b>Carovigno</b> <span>Option A / town centre</span><small>Corso Vittorio Emanuele, 72012 Carovigno BR, Italy<br>GPS: 40.7071, 17.6592</small></li>
-              <li><b>Trattoria La Cantina</b> <span>Option A / lunch</span><small>Corso Vittorio Emanuele 95/97, 72012 Carovigno BR, Italy<br>GPS: 40.7071, 17.6592</small></li>
+              <li><b><a href="#poi-torre-guaceto">Torre Guaceto</a></b> <span>Option A / nature reserve</span><small>Riserva Naturale Statale di Torre Guaceto, Carovigno BR, Italy<br>GPS: 40.7057, 17.7830</small></li>
+              <li><b><a href="#poi-carovigno">Carovigno</a></b> <span>Option A / town centre</span><small>Corso Vittorio Emanuele, 72012 Carovigno BR, Italy<br>GPS: 40.7071, 17.6592</small></li>
+              <li><b><a href="#poi-carovigno">Trattoria La Cantina</a></b> <span>Option A / lunch</span><small>Corso Vittorio Emanuele 95/97, 72012 Carovigno BR, Italy<br>GPS: 40.7071, 17.6592</small></li>
               <li><b>Ceglie Messapica</b> <span>Option B / town centre</span><small>Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy<br>GPS: 40.6461, 17.5171</small></li>
               <li><b>Osteria del Capitolo</b> <span>Option B / lunch</span><small>below Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy<br>GPS: 40.6461, 17.5171</small></li>
               <li><b>Osteria L'Antico Arco</b> <span>Option B / lunch alternate</span><small>Largo Gelso 4, 72013 Ceglie Messapica BR, Italy<br>GPS: 40.6461, 17.5171</small></li>
               <li><b>Braceria Zitto & Mangia</b> <span>Option B / lunch alternate</span><small>Piazza Plebiscito 7, 72013 Ceglie Messapica BR, Italy<br>GPS: 40.6461, 17.5171</small></li>
-              <li><b>Oria — Castello Svevo</b> <span>Option C / historic site</span><small>Via Castello, Quartiere Ebraico, 72024 Oria BR, Italy<br>GPS: 40.4998, 17.6416</small></li>
-              <li><b>Cantina Produttori di Manduria</b> <span>Option C / wine tasting</span><small>Via Fabio Massimo 19, 74024 Manduria TA, Italy<br>GPS: 40.4059, 17.6361</small></li>
-              <li><b>Fonte Pliniano</b> <span>Option C / historic site</span><small>Via Fonte Pliniano, 74024 Manduria TA, Italy<br>GPS: 40.4022, 17.6430</small></li>
-              <li><b>Grottaglie — Quartiere delle Ceramiche</b> <span>Option D / historic site</span><small>Quartiere delle Ceramiche, 74023 Grottaglie TA, Italy<br>GPS: 40.5335, 17.4321</small></li>
-              <li><b>Osteria La Capasa</b> <span>Option D / lunch</span><small>Via Chiesa Matrice 4, 74023 Grottaglie TA, Italy<br>GPS: 40.5348, 17.4284</small></li>
-              <li><b>MArTA</b> <span>Option D / museum</span><small>Via Cavour 10, 74123 Taranto TA, Italy<br>GPS: 40.4735, 17.2385</small></li>
-              <li><b>Castello Aragonese</b> <span>Option D / historic site</span><small>Piazza Castello, 74123 Taranto TA, Italy<br>GPS: 40.4727, 17.2337</small></li>
-              <li><b>Core Restaurant</b> <span>Option D / lunch, least verified</span><small>Via Niccolò Tommaso d'Aquino 8, 74123 Taranto TA, Italy<br>GPS: 40.4735, 17.2385</small></li>
+              <li><b><a href="#poi-oria-castello-svevo">Oria — Castello Svevo</a></b> <span>Option C / historic site</span><small>Via Castello, Quartiere Ebraico, 72024 Oria BR, Italy<br>GPS: 40.4998, 17.6416</small></li>
+              <li><b><a href="#poi-manduria">Cantina Produttori di Manduria</a></b> <span>Option C / wine tasting</span><small>Via Fabio Massimo 19, 74024 Manduria TA, Italy<br>GPS: 40.4059, 17.6361</small></li>
+              <li><b><a href="#poi-manduria">Fonte Pliniano</a></b> <span>Option C / historic site</span><small>Via Fonte Pliniano, 74024 Manduria TA, Italy<br>GPS: 40.4022, 17.6430</small></li>
+              <li><b><a href="#poi-grottaglie">Grottaglie — Quartiere delle Ceramiche</a></b> <span>Option D / historic site</span><small>Quartiere delle Ceramiche, 74023 Grottaglie TA, Italy<br>GPS: 40.5335, 17.4321</small></li>
+              <li><b><a href="#poi-grottaglie">Osteria La Capasa</a></b> <span>Option D / lunch</span><small>Via Chiesa Matrice 4, 74023 Grottaglie TA, Italy<br>GPS: 40.5348, 17.4284</small></li>
+              <li><b><a href="#poi-taranto">MArTA</a></b> <span>Option D / museum</span><small>Via Cavour 10, 74123 Taranto TA, Italy<br>GPS: 40.4735, 17.2385</small></li>
+              <li><b><a href="#poi-taranto">Castello Aragonese</a></b> <span>Option D / historic site</span><small>Piazza Castello, 74123 Taranto TA, Italy<br>GPS: 40.4727, 17.2337</small></li>
+              <li><b><a href="#poi-taranto">Core Restaurant</a></b> <span>Option D / lunch, least verified</span><small>Via Niccolò Tommaso d'Aquino 8, 74123 Taranto TA, Italy<br>GPS: 40.4735, 17.2385</small></li>
             </ol>
           </div>
           <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>

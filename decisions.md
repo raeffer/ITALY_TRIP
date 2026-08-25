@@ -2,6 +2,24 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-26 — `poi-legend` names hyperlinked back to their content sections, across all 21 days
+
+User asked for the names in each day's numbered `poi-legend` (the list under the orientation-map image) to jump to the fuller write-up about that POI elsewhere on the page. Built a matching script rather than hand-editing 21 files: it assigns each content card (`<div class="name">`) a slug id, then resolves every legend entry to a target card and wraps its name in `<a href="#id">`.
+
+Two different matching strategies were needed, discovered mid-way through:
+- **Days 4–8** already carry an explicit, authoritative cross-reference: each content card embeds `<span class="poi-ref">N</span>` where N is that POI's position number in the legend `<ol>`. Used that directly (ordinal position → `poi-ref` number → card) instead of guessing from text. Two source-data bugs surfaced and were fixed here rather than routed around: (1) a stray duplicate card in Day 8 (`Trattoria Paolucci` vs `Trattoria Paolucci, Lanciano`) and one in Day 5 (`Caffè Cavour` vs `Caffè Cavour, Fano`) both declared the same `poi-ref` number — resolved by preferring whichever candidate's name exactly matches the legend text, logged in the script's report as `AMBIGUOUS` so it's visible rather than silently guessed.
+- **Days 1–3 and 9–21** have no `poi-ref` markers, so matching falls back to text: exact name match first, then bidirectional prefix/substring containment (handles cases like legend "Cittadella — Camminamento di Ronda" matching card "Cittadella"), then — only if that fails — a search for the legend entry's core name inside each card's own text block (handles sub-mentions with no dedicated card of their own, e.g. Day 2's "Castello Superiore, Marostica," only described inside the Marostica card's bullet list). A legend entry naming two POIs joined by " & " or " / " is split and each half linked separately, but only when *both* halves independently resolve to distinct cards — otherwise (e.g. a single business name that happens to contain "&", like "L.AB Pastry & Coffee") the whole string is treated as one name, to avoid a wrong split.
+
+Two structural bugs were caught and fixed before any file was trusted, both by testing on a working copy first and inspecting a full `legend name → matched card` report, not just link counts:
+1. A content card's fallback-search window (the block of text scanned for a sub-mention) was originally bounded only by the *next* card or end-of-file. For the very last card on a page, that window silently swept past the `poi-legend` block itself and into unrelated later sections (a planner-UI checkbox label, an unrelated "if you've got half a day" blurb) — both produced false matches. Fixed by also capping every card's window at the `poi-legend` start and the next `<div class="section` boundary.
+2. `<span class="tag">...</span>` badge text (e.g. "Coffee / aperitivo, Piazza Garibaldi 39") and `poi-ref` numbers were leaking into the cleaned name used for slugs and matching, corrupting both (e.g. producing an id like `poi-tempio-ossario-cool-interesting-quirky`, and breaking exact-match lookups). Fixed by stripping both before cleaning.
+
+Every legend entry left unlinked was checked against the actual page source and confirmed to have no dedicated content card — mostly cross-day references (another day's accommodation, mentioned only because it's this day's start/end point) or terms genuinely mentioned in more than one card's text (left unlinked rather than guessed, e.g. Day 9's "Palazzo d'Avalos" appears in both the Vasto card and the separate Loggia Amblingh card).
+
+Verified before committing: every generated `href="#poi-..."` resolves to an existing `id="poi-..."` in the same file, no duplicate ids, and `<a>`/`</a>` counts balance — across all 21 files, not spot-checked.
+
+`print-all.html` and `print-stage3.html` regenerated via `scripts/build-print-all.py` from the updated day pages.
+
 ## 2026-08-25 — Organic Maps rollout confirmed working, applied to all 21 days
 
 User confirmed on their phone (Organic Maps installed) that Day 2's trial `omaps.app/map?...` button opened the app directly and showed all pins with no route drawn, as intended. Rolled the same generation approach out to the remaining 20 days' "View Today's Places" / "View All Options" buttons, extracting name+GPS pairs from each page's own `poi-legend` in document order. Day 2's regenerated output was byte-identical to the already-committed trial version, confirming the generation script is deterministic and consistent with the manual build used for the trial.

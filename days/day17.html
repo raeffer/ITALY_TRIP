@@ -74,7 +74,7 @@
     <div class="section cat-stops">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>Stops</h2>
       <div class="card">
-        <div class="name">Basilica di Santa Croce</div>
+        <div class="name" id="poi-basilica-di-santa-croce">Basilica di Santa Croce</div>
         <div class="meta">📍 40.3547, 18.1733 — Via Umberto I 1, 73100 Lecce &nbsp;·&nbsp; 📞 +39 0832 241957 &nbsp;·&nbsp; hours daily 9am-9pm</div>
         <ul class="bullets">
           <li><b>Why stop:</b> The single most-photographed Baroque facade in Puglia — dense carved detail, putti, floral ornament, animals. Interior includes a crypt.</li>
@@ -84,7 +84,7 @@
       </div>
 
       <div class="card">
-        <div class="name">Roman Amphitheatre</div>
+        <div class="name" id="poi-roman-amphitheatre">Roman Amphitheatre</div>
         <div class="meta">📍 40.3528, 18.1726 — Piazza Sant'Oronzo, Lecce</div>
         <img class="inline-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Anfiteatro%20romano%20di%20Lecce.jpg" alt="Ancient stone tiers of the Roman amphitheatre exposed in the middle of Piazza Sant'Oronzo, Lecce">
         <div class="inline-photo-credit">Anfiteatro romano, Piazza Sant'Oronzo</div>
@@ -95,7 +95,7 @@
       </div>
 
       <div class="card alt">
-        <div class="name">Teatro Romano <span class="tag">Optional, lower priority</span></div>
+        <div class="name" id="poi-teatro-romano">Teatro Romano <span class="tag">Optional, lower priority</span></div>
         <div class="meta">📍 40.3518, 18.1703 — Via Degli Ammirati 5, Lecce &nbsp;·&nbsp; 📞 +39 0832 279196 &nbsp;·&nbsp; hours 10am-6pm</div>
         <div class="flag">Skip candidate: genuinely mixed-to-negative reviews call the 3-4 euro ticket poor value, citing an obstructed view of an under-renovation theatre and a sparse museum. Downgraded here from "stop" to "only if curious and time allows" — the free street-level view may be just as good as paying for the balcony.</div>
       </div>
@@ -104,18 +104,18 @@
     <div class="section cat-coffee">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>Pasticceria — the pasticciotto</h2>
       <div class="card">
-        <div class="name">Caffè Alvino</div>
+        <div class="name" id="poi-caffe-alvino">Caffè Alvino</div>
         <div class="meta">Piazza Sant'Oronzo 30, facing the Roman Amphitheatre</div>
         <p>Over 100 years old (celebrated its centenary in 2022), currently in its fourth generation under the Venneri/Catamo families. The most consistently cited historic pasticciotto address in Lecce across food-focused sources, not just a single blogger's pick, and it sits right at the day's other stop.</p>
         <div class="flag">Honest flag: at least one detailed personal account found the pastry excellent but the service "confused" — a pattern worth being aware of, not a dealbreaker.</div>
       </div>
       <div class="card alt">
-        <div class="name">Pasticceria Natale <span class="tag">Alternate</span></div>
+        <div class="name" id="poi-pasticceria-natale">Pasticceria Natale <span class="tag">Alternate</span></div>
         <div class="meta">Via Salvatore Trinchese 7</div>
         <p>Newer, less "historic," but repeatedly cited as making one of the best classic cream-filled pasticciotti in town, plus a notable fruttone (almond cream and quince).</p>
       </div>
       <div class="card">
-        <div class="name">Caffè Leccese</div>
+        <div class="name" id="poi-caffe-leccese">Caffè Leccese</div>
         <p>Iced espresso with almond-milk syrup — order this specifically rather than a plain espresso; it's a real, named local variant, said to have been popularised by the Quarta family torrefazione adding crushed ice to combat summer heat.</p>
       </div>
     </div>
@@ -123,7 +123,7 @@
     <div class="section cat-lunch">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 2a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.5 5.5 0 01-7.54-7.54A9 9 0 0011 2z"/></svg>Lunch/Dinner</h2>
       <div class="card">
-        <div class="name">Alle Due Corti</div>
+        <div class="name" id="poi-alle-due-corti">Alle Due Corti</div>
         <div class="meta">📍 40.3549, 18.1705 — Corte dei Giugni 1 (angolo Via Leonardo Prato 42), Lecce &nbsp;·&nbsp; 📞 +39 0832 242223 &nbsp;·&nbsp; $$ ≈€20-40pp &nbsp;·&nbsp; lunch 12-3pm, dinner 7-11pm</div>
         <img class="inline-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ciceri%20e%20tria%20(8079675027).jpg" alt="A bowl of ciceri e tria, chickpeas with fried and boiled pasta ribbons">
         <div class="inline-photo-credit">Ciceri e tria</div>
@@ -156,7 +156,7 @@
     <div class="section">
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16V8z"/></svg>Hidden Gem</h2>
       <div class="card">
-        <div class="name">Museo Faggiano</div>
+        <div class="name" id="poi-museo-faggiano">Museo Faggiano</div>
         <div class="meta">📍 40.3501, 18.1724 — Via Ascanio Grandi 56, 73100 Lecce &nbsp;·&nbsp; 📞 +39 0832 300528 &nbsp;·&nbsp; €5 &nbsp;·&nbsp; daily 9:30am-8pm &nbsp;·&nbsp; visit ≈1h30</div>
         <p>The day's real find, and independently confirmed on Atlas Obscura itself, not just Italian tourism sites. In 2000, Luciano Faggiano bought this building to open a trattoria and started digging in the floor to find a broken sewage pipe. Seven years later he'd found a Messapian tomb, a Roman granary, a Franciscan-era chapel, a room used as a Knights Templar meeting place, and a small medieval-era weapons cache — over 2,000 years of the city's history stacked in layers under one modest building. Visitors descend through the finds via stairs and glass floors; it opened as a museum in 2008 and is still family-run. A genuinely different kind of "museum" than the churches and Roman ruins the rest of the day covers.</p>
       </div>
@@ -168,7 +168,7 @@
         <p>Standing in Piazza Sant'Oronzo, you're on top of a Roman amphitheatre that once seated up to 15,000 people — bigger, per its estimated dimensions, than most people expect from a town square.</p>
       </div>
       <div class="card alt">
-        <div class="name">Chiesa di San Francesco della Scarpa — "the church without a facade"</div>
+        <div class="name" id="poi-chiesa-di-san-francesco-della-scarpa-the-church-without-a-facade">Chiesa di San Francesco della Scarpa — "the church without a facade"</div>
         <div class="meta">📍 approx 40.3497, 18.1692 — Piazzetta Giosuè Carducci, tucked behind the former Convitto Palmieri</div>
         <p>Renovation work in the 1800s absorbed most of the church's exterior into the Convitto's own 19th-century colonnade, leaving the church with no visible facade of its own — only four of the original ten side altars survive inside. Deconsecrated and now used for art exhibitions and cultural events curated by the Museo Castromediano, it's open to the public but easy to walk straight past without knowing it's there.</p>
       </div>
@@ -250,14 +250,14 @@
             <h4>Numbered points of interest</h4>
             <ol>
               <li class="poi-marker-accommodation"><b>San Vito dei Normanni (start/end)</b> <span>Accommodation / start-end</span><small>Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy<br>GPS: 40.6563995, 17.7087266</small></li>
-              <li><b>Basilica di Santa Croce</b> <span>Historic site</span><small>Via Umberto I 1, 73100 Lecce LE, Italy<br>GPS: 40.3547, 18.1733</small></li>
-              <li><b>Roman Amphitheatre</b> <span>Historic site</span><small>Piazza Sant'Oronzo, 73100 Lecce LE, Italy<br>GPS: 40.3528, 18.1726</small></li>
-              <li><b>Teatro Romano</b> <span>Historic site / optional</span><small>Via Degli Ammirati 5, 73100 Lecce LE, Italy<br>GPS: 40.3518, 18.1703</small></li>
-              <li><b>Caffè Alvino</b> <span>Pasticceria</span><small>Piazza Sant'Oronzo 30, 73100 Lecce LE, Italy<br>GPS: 40.3528, 18.1726</small></li>
-              <li><b>Pasticceria Natale</b> <span>Pasticceria / alternate</span><small>Via Salvatore Trinchese 7, 73100 Lecce LE, Italy<br>GPS: 40.3533, 18.1734</small></li>
-              <li><b>Alle Due Corti</b> <span>Lunch / dinner</span><small>Corte dei Giugni 1, 73100 Lecce LE, Italy<br>GPS: 40.3549, 18.1705</small></li>
-              <li><b>Museo Faggiano</b> <span>Hidden gem / museum</span><small>Via Ascanio Grandi 56, 73100 Lecce LE, Italy<br>GPS: 40.3501, 18.1724</small></li>
-              <li><b>Chiesa di San Francesco della Scarpa</b> <span>Hidden gem / quirky</span><small>Piazzetta Giosuè Carducci, 73100 Lecce LE, Italy<br>GPS: 40.3497, 18.1692</small></li>
+              <li><b><a href="#poi-basilica-di-santa-croce">Basilica di Santa Croce</a></b> <span>Historic site</span><small>Via Umberto I 1, 73100 Lecce LE, Italy<br>GPS: 40.3547, 18.1733</small></li>
+              <li><b><a href="#poi-roman-amphitheatre">Roman Amphitheatre</a></b> <span>Historic site</span><small>Piazza Sant'Oronzo, 73100 Lecce LE, Italy<br>GPS: 40.3528, 18.1726</small></li>
+              <li><b><a href="#poi-teatro-romano">Teatro Romano</a></b> <span>Historic site / optional</span><small>Via Degli Ammirati 5, 73100 Lecce LE, Italy<br>GPS: 40.3518, 18.1703</small></li>
+              <li><b><a href="#poi-caffe-alvino">Caffè Alvino</a></b> <span>Pasticceria</span><small>Piazza Sant'Oronzo 30, 73100 Lecce LE, Italy<br>GPS: 40.3528, 18.1726</small></li>
+              <li><b><a href="#poi-pasticceria-natale">Pasticceria Natale</a></b> <span>Pasticceria / alternate</span><small>Via Salvatore Trinchese 7, 73100 Lecce LE, Italy<br>GPS: 40.3533, 18.1734</small></li>
+              <li><b><a href="#poi-alle-due-corti">Alle Due Corti</a></b> <span>Lunch / dinner</span><small>Corte dei Giugni 1, 73100 Lecce LE, Italy<br>GPS: 40.3549, 18.1705</small></li>
+              <li><b><a href="#poi-museo-faggiano">Museo Faggiano</a></b> <span>Hidden gem / museum</span><small>Via Ascanio Grandi 56, 73100 Lecce LE, Italy<br>GPS: 40.3501, 18.1724</small></li>
+              <li><b><a href="#poi-chiesa-di-san-francesco-della-scarpa-the-church-without-a-facade">Chiesa di San Francesco della Scarpa</a></b> <span>Hidden gem / quirky</span><small>Piazzetta Giosuè Carducci, 73100 Lecce LE, Italy<br>GPS: 40.3497, 18.1692</small></li>
               <li><b>Cartapesta Bottega Artigiana</b> <span>What to buy</span><small>Via Palmieri (near the Cathedral), 73100 Lecce LE, Italy<br>GPS: 40.3519, 18.1690</small></li>
               <li><b>Cartapesta Riso</b> <span>What to buy / alternate</span><small>Via Vittorio Emanuele II 27, 73100 Lecce LE, Italy<br>GPS: 40.3525, 18.1697</small></li>
             </ol>

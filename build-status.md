@@ -2,7 +2,7 @@
 
 Read this first, before doing anything else. It says where we are in the Italy Road Trip Companion repository and what to do next. Updated at the end of every session, right before stopping, so a new session can pick up without being re-briefed.
 
-**Last updated:** 2026-08-24
+**Last updated:** 2026-08-26
 
 **Currently on:** Print-pagination fix (see Open Items below).
 
@@ -12,6 +12,12 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
+- **`poi-legend` names are hyperlinked** to the fuller write-up about that POI
+  elsewhere on the same day page, across all 21 days. Content cards
+  (`<div class="name">`) got slug ids; legend entries link to them where a
+  match exists, and are left as plain text where no dedicated card exists for
+  that name (verified case by case, not just link-count checked). See
+  `decisions.md`, 2026-08-26.
 - **Multi-stop map buttons rebuilt on Organic Maps:** the button (labeled
   "POI on Organic Maps", formerly "View Today's Places" / "View All
   Options") across the 21 day pages (and the two generated print editions)
