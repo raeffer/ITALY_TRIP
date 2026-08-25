@@ -2,6 +2,16 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-25 — "View Today's Places" / "View All Options" buttons switched from `maps/search` to `maps/dir` path format
+
+User reported the "View Today's Places" button failed on the first two days tried (Day 1 and Day 2). Root cause: the button used `https://www.google.com/maps/search/?api=1&query=Place+A,+Place+B,+...` — Google's `search` action resolves the whole `query` value as **one** location, not a list. A comma-joined string of several unrelated place names across different towns generally fails to geocode; it only ever worked by luck on days with few, closely clustered stops.
+
+Fix: rebuilt all 47 "View Today's Places" buttons and 3 "View All Options" buttons (across all 21 day pages plus the two generated print editions) using the path-based multi-stop format `https://www.google.com/maps/dir/Place+A/Place+B/Place+C/...`, where each stop is its own path segment and gets geocoded independently. This is the same mechanism the pre-existing, working "Navigate Route" buttons use (`maps/dir/?api=1&origin=...&destination=...&waypoints=...`), just without a fixed origin/destination split.
+
+`print-all.html` and `print-stage3.html` were not hand-edited — the day pages were fixed first, then both print editions were regenerated via `scripts/build-print-all.py` (default args, and `--start 14 --end 21 --output print-stage3.html --title "Stage 3 Printable Edition"` respectively) per the usage documented in that script's docstring, so the print editions stay derived rather than drifting from the source day pages.
+
+If day-page route sections are regenerated or hand-edited in the future, use the `maps/dir/A/B/C` path format for any "show all stops" link — not `maps/search/?api=1&query=A,B,C`, which silently fails for 3+ stops spanning different towns.
+
 ## 2026-08-24 — Printable-edition check linked live and made fail-closed
 
 The active `.git/hooks/pre-commit` was an outdated copy of the tracked

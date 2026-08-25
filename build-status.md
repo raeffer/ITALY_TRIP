@@ -12,6 +12,11 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
+- **Multi-stop map buttons fixed:** all "View Today's Places" and "View All
+  Options" buttons across the 21 day pages (and the two generated print
+  editions) now use the `maps/dir/A/B/C` path format instead of the broken
+  `maps/search/?api=1&query=A,B,C` format, which only resolved as a single
+  location and failed for 3+ stops. See `decisions.md`, 2026-08-25.
 - **Printable-edition enforcement:** `scripts/install-hooks.sh` now installs
   `.git/hooks/pre-commit` as a live link to the tracked
   `scripts/pre-commit-hook.sh`, eliminating stale local copies. The hook watches the
