@@ -12,9 +12,10 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
-- **Multi-stop map buttons rebuilt on Organic Maps:** all "View Today's
-  Places" / "View All Options" buttons across the 21 day pages (and the two
-  generated print editions) link to `omaps.app/map?v=1&ll=...&n=...`,
+- **Multi-stop map buttons rebuilt on Organic Maps:** the button (labeled
+  "POI on Organic Maps", formerly "View Today's Places" / "View All
+  Options") across the 21 day pages (and the two generated print editions)
+  links to `omaps.app/map?v=1&ll=...&n=...`,
   generated from each page's own `poi-legend` list so every POI mentioned for
   the day is included (not a curated subset), placed by exact GPS coordinate.
   Confirmed working on-phone by the user (Organic Maps installed) — opens
