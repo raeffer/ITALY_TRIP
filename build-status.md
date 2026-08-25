@@ -12,21 +12,18 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
-- **Multi-stop map buttons fixed and expanded:** all "View Today's Places" /
-  "View All Options" buttons across the 21 day pages (and the two generated
-  print editions) now use the `maps/dir/lat,lng/lat,lng/...` path format,
+- **Multi-stop map buttons rebuilt on Organic Maps:** all "View Today's
+  Places" / "View All Options" buttons across the 21 day pages (and the two
+  generated print editions) link to `omaps.app/map?v=1&ll=...&n=...`,
   generated from each page's own `poi-legend` list so every POI mentioned for
-  the day is included (not just a curated subset), placed by exact GPS
-  coordinate rather than by name. Not yet confirmed whether Google's `dir` web
-  UI handles the busiest days cleanly (Day 1 has 23 stops) — needs a live
-  check. See `decisions.md`, 2026-08-25.
-- **In progress — Organic Maps trial on Day 2 only:** Day 2's "View Today's
-  Places" now points to `omaps.app/map?...` instead of Google, since no
-  Google link format shows pins without also forcing a drawn route. This
-  shows pins with no route, but only when opened on a device with the
-  Organic Maps app installed (confirmed via its Android App Links config) —
-  it breaks otherwise. Awaiting on-phone confirmation from the user before
-  touching the other 20 days. See `decisions.md`, 2026-08-25.
+  the day is included (not a curated subset), placed by exact GPS coordinate.
+  Confirmed working on-phone by the user (Organic Maps installed) — opens
+  the app directly, drops every pin, no route drawn. Requires the Organic
+  Maps app to be installed on the viewing device (Android/iOS App Links);
+  without it the link breaks (falls through to a single garbled pin). The
+  separate "Navigate ..." buttons on each page are unaffected, still
+  Google-based, and remain app-independent turn-by-turn directions. See
+  `decisions.md`, 2026-08-25.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix

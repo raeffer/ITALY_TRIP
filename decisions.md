@@ -2,6 +2,14 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-25 — Organic Maps rollout confirmed working, applied to all 21 days
+
+User confirmed on their phone (Organic Maps installed) that Day 2's trial `omaps.app/map?...` button opened the app directly and showed all pins with no route drawn, as intended. Rolled the same generation approach out to the remaining 20 days' "View Today's Places" / "View All Options" buttons, extracting name+GPS pairs from each page's own `poi-legend` in document order. Day 2's regenerated output was byte-identical to the already-committed trial version, confirming the generation script is deterministic and consistent with the manual build used for the trial.
+
+This link only works correctly on a device with Organic Maps installed (Android/iOS App Links interception — see the previous entry for why). Without the app, it reproduces the same broken single-pin result seen in the original desktop-browser test. This is accepted as the tradeoff for a genuine pins-only view; the Google-based "Navigate ..." buttons on each page are unaffected and remain the way to get real turn-by-turn driving directions without any app dependency.
+
+`print-all.html` and `print-stage3.html` regenerated via `scripts/build-print-all.py` from the updated day pages.
+
 ## 2026-08-25 — Day 2's overview button switched to Organic Maps (`omaps.app/map`), pending on-phone confirmation
 
 User wants "View Today's Places" to show pins only, no route — the whole point of the button, and something no Google Maps link format actually does (confirmed by testing: comma-list search, `maps/dir` waypoints, and a pipe-separated `q=` all either fail outright or force a drawn route). Organic Maps has a documented multi-point format for exactly this: `om://map?v=1&ll=lat,lng&n=Name&ll=lat,lng&n=Name...`, and a matching web link at `https://omaps.app/map?...`.
