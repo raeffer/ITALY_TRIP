@@ -2,6 +2,18 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-25 — "View Today's Places" / "View All Options" rebuilt from each day's `poi-legend`, showing every POI
+
+User expected the overview map button to show every point of interest mentioned for the day, not just a curated 4-5 stop subset (which is what it had shown since the `maps/search`→`maps/dir` fix earlier the same day). Rebuilt the button on all 21 day pages to be generated from each page's `poi-legend` list (the numbered legend built for the day's orientation-map image, in `.route-map .poi-legend ol`), extracting every `<li>`'s `GPS:` coordinate in document order and building one `maps/dir/lat,lng/lat,lng/...` URL per day. This list is deliberately more complete than the content cards alone — it already includes the day's actual starting accommodation (from the previous day) and gives real, distinct coordinates for small food stops that content cards sometimes only had a partial address for.
+
+Every day page's `poi-legend` was verified to have a 1:1 `<li>` count to `GPS:` count (4 to 23 stops per day) before generating from it, so no text-based geocoding fallback was needed anywhere — every stop is placed by exact coordinate, avoiding the Cittadella/Malta failure mode entirely for this pass.
+
+Known risk, not yet tested: Google's non-API `maps/dir/` link has no documented hard cap on stop count, but its web UI is known to behave unreliably somewhere past ~10 stops. Several days now have well over that (Day 1 has 23). If a busier day's button truncates or misbehaves in testing, the fix is to split it into two buttons or trim to only "essential"/non-alternate stops — not to revert to a shorter curated list silently.
+
+Day 19 (a free "choose your own" day with no single fixed route) uses "View All Options" as its equivalent button and was regenerated the same way, from its own `poi-legend`.
+
+`print-all.html` and `print-stage3.html` regenerated via `scripts/build-print-all.py` from the updated day pages, per the same convention as the earlier fix.
+
 ## 2026-08-25 — Day 2's "Cittadella" stop fixed with GPS coordinates; site confirmed live via GitHub Pages
 
 After the `maps/search` → `maps/dir` fix below, Day 2's button still resolved its "Cittadella" stop to *The Citadel, Victoria, Gozo, Malta* instead of Cittadella, Padova (a real walled town on the route) — Google's geocoder ranked the well-known Maltese landmark over the Italian town for the bare word "Cittadella," which is also the generic Italian word for "citadel." Appending `PD` as a region qualifier did **not** fix it — Google's per-segment matching still favored the Malta result by text similarity. The fix that worked: replace the name with the exact GPS coordinates already present elsewhere on the same page (`45.6507763,11.7832170`, from the Cittadella card), since a raw lat/lng pair is placed directly with no text geocoding involved.

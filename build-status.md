@@ -12,13 +12,14 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
-- **Multi-stop map buttons fixed:** all "View Today's Places" and "View All
-  Options" buttons across the 21 day pages (and the two generated print
-  editions) now use the `maps/dir/A/B/C` path format instead of the broken
-  `maps/search/?api=1&query=A,B,C` format, which only resolved as a single
-  location and failed for 3+ stops. Day 2's "Cittadella" stop needed a further
-  fix to GPS coordinates after a plain name kept resolving to a same-named
-  landmark in Malta. See `decisions.md`, 2026-08-25.
+- **Multi-stop map buttons fixed and expanded:** all "View Today's Places" /
+  "View All Options" buttons across the 21 day pages (and the two generated
+  print editions) now use the `maps/dir/lat,lng/lat,lng/...` path format,
+  generated from each page's own `poi-legend` list so every POI mentioned for
+  the day is included (not just a curated subset), placed by exact GPS
+  coordinate rather than by name. Not yet confirmed whether Google's `dir` web
+  UI handles the busiest days cleanly (Day 1 has 23 stops) — needs a live
+  check. See `decisions.md`, 2026-08-25.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix
