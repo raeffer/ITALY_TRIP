@@ -2,6 +2,12 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — Test imported Day 12 bookmarks as the POI-visible navigation workaround
+
+The stable Organic Maps two-point route link successfully opened the Trani-to-Bari route on the user's Android phone, but starting the driving route still hid the ordinary POIs. This is caused by Organic Maps' simplified vehicle-navigation map style, so changing the route URL cannot restore the rich native POI layer.
+
+The user approved a second Day 12 pilot: import the day's 20 numbered POIs once as a KML bookmark list, then open the same stable Organic Maps route. Imported bookmarks are persistent map overlays rather than ordinary POIs and may therefore remain visible in the simplified navigation style. Day 12 provides the download and route as an explicit two-step test while retaining every existing Google route button. Do not roll this out to the other days until the user confirms on the real phone that the imported bookmark pins remain visible during active navigation. If confirmed, the stable route format still requires multi-stop days to be split into individual legs.
+
 ## 2026-08-30 — Organic Maps v2 route rollout reverted after stable-app failure; POIs remain Organic Maps, routes return to Google
 
 The user tested a deployed route link on their Android phone. Organic Maps opened but displayed “Loading Bookmarks — The file type is not recognized by the app” and showed the full `https://omaps.app/v2/dir?...` URL. This proves the stable installed app does not recognize the v2 route format. The format appears in Organic Maps' current development API documentation, but it was not listed in the July 23 stable release and cannot be treated as a released capability. Structural URL validation and a successful HTTP response were insufficient tests; this feature required an actual stable-app test before rollout.

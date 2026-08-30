@@ -4,7 +4,7 @@ Read this first, before doing anything else. It says where we are in the Italy R
 
 **Last updated:** 2026-08-31
 
-**Currently on:** Testing the stable Organic Maps two-point route format on Day 12 as a possible POI-visible navigation replacement; all existing Google route buttons remain available. Print-pagination fix remains next (see Open Items below).
+**Currently on:** Testing imported Organic Maps bookmarks on Day 12 as a possible way to retain the guide's POI pins during stable two-point navigation; all existing Google route buttons remain available. Print-pagination fix remains next (see Open Items below).
 
 ## Repository purpose
 
@@ -48,12 +48,14 @@ All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`
 
 ### Organic Maps route pilot
 
-Day 12 has one additional test button for the officially documented stable
-two-point Organic Maps route format: Trani to Bari. Confirm it on the user's
-Android phone before applying the format elsewhere. If it works, multi-stop
-routes must be presented as separate legs because this stable format accepts
-only one start and one destination. Keep the existing Google route available
-as a fallback.
+The stable two-point route link opened correctly on the user's Android phone,
+but Organic Maps' driving style hid ordinary POIs. Day 12 now has a downloadable
+KML collection containing its 20 numbered POIs and a two-step phone test: import
+the bookmarks once, then start the Trani-to-Bari Organic Maps route. Confirm the
+imported bookmarks remain visible during navigation before applying this pattern
+elsewhere. Multi-stop routes would still need separate legs because the stable
+route format accepts only one start and one destination. Keep the existing
+Google route available as a fallback.
 
 ### Print-pagination fix (in progress)
 
