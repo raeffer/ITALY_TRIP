@@ -2,6 +2,12 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-30 — Organic Maps made the primary POI and navigation experience; Google retained as fallback
+
+The user preferred Organic Maps' denser, clearer POI presentation to Google Maps and asked to use it for the project's map functions without losing Google's practical traffic and no-app fallback. The existing 21 all-POI overview buttons remain on Organic Maps. All 34 route buttons were converted from Google Maps name-based URLs to Organic Maps' current `https://omaps.app/v2/dir` format, using the verified coordinates already stored in the route-map configuration and preserving each route's origin, destination, ordered intermediate stops, and driving/walking mode. All 97 individual destination links now open an Organic Maps route from the device's current position to the verified POI coordinate where one exists. Day 1's optional Teatro Olimpico link uses a location-centred Organic Maps search because the page explicitly treats it as unverified and does not include it in the numbered map data.
+
+Every original Google URL remains available as a smaller fallback link. This intentionally gives up a slightly simpler interface in exchange for live-traffic routing, compatibility when Organic Maps is not installed, and a recovery path if the recently introduced v2 route-link format is not supported by an outdated app. The traveller should update Organic Maps before the trip. The custom OpenStreetMap/OSRM orientation-map images remain unchanged because they serve the website and printable edition rather than live navigation.
+
 ## 2026-08-26 — `poi-legend` names hyperlinked back to their content sections, across all 21 days
 
 User asked for the names in each day's numbered `poi-legend` (the list under the orientation-map image) to jump to the fuller write-up about that POI elsewhere on the page. Built a matching script rather than hand-editing 21 files: it assigns each content card (`<div class="name">`) a slug id, then resolves every legend entry to a target card and wraps its name in `<a href="#id">`.

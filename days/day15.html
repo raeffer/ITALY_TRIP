@@ -203,7 +203,10 @@
       <div class="card route-card">
         <div class="route-actions web-only">
           <a class="map-button" href="https://omaps.app/map?v=1&ll=40.6563995,17.7087266&n=San%20Vito%20dei%20Normanni%20%28start/end%29&ll=40.7642,17.5523&n=Masseria%20Brancati&ll=40.7418,17.4265&n=Cisternino%20%E2%80%94%20Piazza%20Vittorio%20Emanuele%20II&ll=40.7418,17.4265&n=Bar%20FOD&ll=40.7416,17.4266&n=Zio%20Pietro&ll=40.7421,17.4265&n=Arrosteria%20del%20Vicoletto&ll=40.7429,17.4270&n=Premiata%20Macelleria%20Santoro&ll=40.7165,17.4029&n=Ashram%20Centro%20Bhole%20Baba" target="_blank" rel="noopener">POI on Organic Maps</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=San%20Vito%20dei%20Normanni&waypoints=Masseria%20Brancati%2C%20Ostuni%7CCisternino&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Loop</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=40.6563995,17.7087266&origin_name=San%20Vito%20dei%20Normanni&destination=40.6563995,17.7087266&destination_name=San%20Vito%20dei%20Normanni&waypoints=40.7642000,17.5523|40.7418000,17.4265&waypoint_names=Masseria%20Brancati,%20Ostuni|Cisternino&mode=drive" target="_blank" rel="noopener">Organic Maps: Recommended Loop</a>
+          <span class="route-fallbacks"><span>Google Maps fallback:</span>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=San%20Vito%20dei%20Normanni&waypoints=Masseria%20Brancati%2C%20Ostuni%7CCisternino&travelmode=driving" target="_blank" rel="noopener">Recommended Loop</a>
+          </span>
         </div>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
@@ -244,7 +247,7 @@
               <li><b><a href="#poi-ashram-centro-bhole-baba-an-indian-spiritual-community-in-the-trulli-countryside">Ashram Centro Bhole Baba</a></b> <span>Hidden gem / quirky</span><small>Contrada Portarino 10, 72014 Cisternino BR, Italy<br>GPS: approx. 40.7165, 17.4029 (rural, approximate)</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Organic Maps buttons above for primary routing; Google Maps fallbacks remain available for live traffic.</p>
         </div>
       </div>
     </div>

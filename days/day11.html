@@ -173,8 +173,12 @@
       <div class="card route-card">
         <div class="route-actions web-only">
           <a class="map-button" href="https://omaps.app/map?v=1&ll=41.8809236,16.1792922&n=Vieste%20centro%20storico&ll=41.7311,16.0857&n=Baia%20delle%20Zagare&ll=41.7110463,16.0511548&n=Pasticceria%20La%20Torre&ll=41.7013622,16.0655401&n=Giardino%20di%20Monsignore&ll=41.7086724,16.0505958&n=Locanda%20del%20Maniscalco&ll=41.7095571,16.0515220&n=Dal%20Saraceno&ll=41.7027376,16.0518777&n=Oleificio%20Le%20Monache&ll=41.7120136,16.0511594&n=B%26B%20Dimora%20del%20Corso&ll=41.7071504,16.0642058&n=Masseria%20Liberatore&ll=41.7580842,16.0430873&n=Abbazia%20della%20Santissima%20Trinit%C3%A0%20di%20Monte%20Sacro&ll=41.6942574,16.0508242&n=Monte%20Saraceno&ll=41.7142542,16.0792899&n=B%26B%20Dimora%20Mediterranea" target="_blank" rel="noopener">POI on Organic Maps</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Pasticceria%20La%20Torre%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Baia%20delle%20Zagare%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Navigate via Baia delle Zagare</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=41.8809236,16.1792922&origin_name=Vieste%20centro%20storico&destination=41.7142542,16.0792899&destination_name=B%26B%20Dimora%20Mediterranea,%20Mattinata&waypoints=41.7110463,16.0511548&waypoint_names=Pasticceria%20La%20Torre,%20Mattinata&mode=drive" target="_blank" rel="noopener">Organic Maps: Recommended Route</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=41.8809236,16.1792922&origin_name=Vieste%20centro%20storico&destination=41.7142542,16.0792899&destination_name=B%26B%20Dimora%20Mediterranea,%20Mattinata&waypoints=41.7311000,16.0857&waypoint_names=Baia%20delle%20Zagare,%20Mattinata&mode=drive" target="_blank" rel="noopener">Organic Maps: via Baia delle Zagare</a>
+          <span class="route-fallbacks"><span>Google Maps fallback:</span>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Pasticceria%20La%20Torre%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Recommended Route</a>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=Vieste%20centro%20storico&destination=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&waypoints=Baia%20delle%20Zagare%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">via Baia delle Zagare</a>
+          </span>
         </div>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
@@ -193,9 +197,9 @@
           <label><input type="checkbox" data-planner-option data-min="90" data-max="150"> Abbazia di Monte Sacro hike, steep and unmarked — add 1.5–2.5 hours</label>
         </fieldset>
         <p class="route-minor-links web-only"><b>Optional stop maps:</b>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Oleificio%20Le%20Monache%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Oleificio Le Monache</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Abbazia%20della%20Santissima%20Trinit%C3%A0%20di%20Monte%20Sacro&travelmode=driving" target="_blank" rel="noopener">Abbazia di Monte Sacro</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Monte%20Saraceno%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener">Monte Saraceno (6:00am guided hike, not counted in today's timing)</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.7027376,16.0518777&destination_name=Oleificio%20Le%20Monache&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Oleificio Le Monache</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Oleificio%20Le%20Monache%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.7580842,16.0430873&destination_name=Abbazia%20di%20Monte%20Sacro&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Abbazia di Monte Sacro</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Abbazia%20della%20Santissima%20Trinit%C3%A0%20di%20Monte%20Sacro&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.6942574,16.0508242&destination_name=Monte%20Saraceno%20%286%3A00am%20guided%20hike,%20not%20counted%20in%20today%27s%20timing%29&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Monte Saraceno (6:00am guided hike, not counted in today's timing)</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Monte%20Saraceno%2C%20Mattinata&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
         </p>
         <div class="planner-warning" data-planner-warning hidden></div>
         <div class="print-time-summary print-only">
@@ -227,7 +231,7 @@
               <li><b><a href="#poi-b-b-dimora-mediterranea">B&B Dimora Mediterranea</a></b> <span>Accommodation / end / my pick</span><small>Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy<br>GPS: 41.7142542, 16.0792899</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Organic Maps buttons above for primary routing; Google Maps fallbacks remain available for live traffic.</p>
         </div>
       </div>
     </div>

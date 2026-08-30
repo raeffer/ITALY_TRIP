@@ -349,7 +349,8 @@ drop an option.
 **Print map:** Use the Day 1 OpenStreetMap-derived orientation map
 showing the direct route, Comacchio alternative, optional lagoon add-on,
 Ravenna walking core, parking, and accommodation. It is a planning map
-only; use Google Maps links for live navigation.
+only; use Organic Maps for primary navigation, with Google Maps retained
+as the live-traffic fallback.
 
 ## **If Time Is Tight**
 
@@ -714,7 +715,8 @@ Balestrieri adds 30--45 minutes; Fano port / Caffè del Porto adds
 showing Ravenna → San Marino, San Marino → Fano by the normal route,
 the Gabicce Monte / San Bartolo scenic alternative, San Marino and Fano
 dense POI clusters, parking, scenic viewpoint, and accommodation. It is
-a planning map only; Google Maps links/buttons provide navigation.
+a planning map only; Organic Maps provides primary navigation, with
+Google Maps retained as the live-traffic fallback.
 
 **Numbered POIs for map and legend:**
 
@@ -1063,7 +1065,8 @@ Rocca Roveresca stop and the Portonovo abbey/exterior beach setting.
 showing Fano → Senigallia → Portonovo → Sirolo, the time-tight direct
 Fano → Sirolo route, the Sirolo dense POI cluster, Portonovo food
 heritage stops, beach/viewpoint stops, and accommodation. It is a
-planning map only; Google Maps links/buttons provide navigation.
+planning map only; Organic Maps provides primary navigation, with
+Google Maps retained as the live-traffic fallback.
 
 **Numbered POIs for map and legend:**
 
@@ -1402,8 +1405,8 @@ minutes.
 showing Sirolo → Ortona → Moro River cemetery → San Vito Chietino, the
 Loreto optional detour, the local trabocchi add-on, Ortona and San Vito
 dense POI clusters, dinner stops, food heritage stops, and
-accommodation. It is a planning map only; Google Maps links/buttons
-provide navigation.
+accommodation. It is a planning map only; Organic Maps provides primary
+navigation, with Google Maps retained as the live-traffic fallback.
 
 **Numbered POIs for map and legend:**
 
@@ -1677,8 +1680,8 @@ Frentano for the bocconotto origin-town add-on adds 45--75 minutes.
 showing the local San Vito linger route, Via Verde access, Promontorio
 Dannunziano / Trabocco Punta Turchino, the Lanciano day-trip option, the
 Castel Frentano bocconotto add-on, food stops, accommodation, and
-transport. It is a planning map only; Google Maps links/buttons provide
-navigation.
+transport. It is a planning map only; Organic Maps provides primary
+navigation, with Google Maps retained as the live-traffic fallback.
 
 **Numbered POIs for map and legend:**
 

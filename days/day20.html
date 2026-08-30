@@ -134,7 +134,10 @@
       <div class="card route-card">
         <div class="route-actions web-only">
           <a class="map-button" href="https://omaps.app/map?v=1&ll=40.6563995,17.7087266&n=San%20Vito%20dei%20Normanni%20%28start%29&ll=40.7485,14.4831&n=Scavi%20di%20Pompei%20%E2%80%94%20Porta%20Marina&ll=40.7477,14.4876&n=Scavi%20di%20Pompei%20%E2%80%94%20Piazza%20Anfiteatro&ll=40.8423,14.2509&n=Garage%20Napoli%20Centro&ll=40.8488,14.2595&n=La%20figlia%20del%20Presidente&ll=40.8536,14.2512&n=MANN%20%E2%80%94%20Gabinetto%20Segreto" target="_blank" rel="noopener">POI on Organic Maps</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=Napoli&waypoints=Pompei&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=40.6563995,17.7087266&origin_name=San%20Vito%20dei%20Normanni&destination=40.8488000,14.2595&destination_name=Napoli&waypoints=40.7485000,14.4831&waypoint_names=Pompei&mode=drive" target="_blank" rel="noopener">Organic Maps: Recommended Route</a>
+          <span class="route-fallbacks"><span>Google Maps fallback:</span>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=Napoli&waypoints=Pompei&travelmode=driving" target="_blank" rel="noopener">Recommended Route</a>
+          </span>
         </div>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
@@ -169,7 +172,7 @@
               <li><b>MANN — Gabinetto Segreto</b> <span>Museum / quirky, optional</span><small>Piazza Museo Nazionale 19, 80135 Napoli NA, Italy<br>GPS: 40.8536, 14.2512</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Organic Maps buttons above for primary routing; Google Maps fallbacks remain available for live traffic.</p>
         </div>
       </div>
     </div>

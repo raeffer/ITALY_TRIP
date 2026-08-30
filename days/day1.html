@@ -287,7 +287,10 @@
       <div class="card route-card">
         <div class="route-actions web-only">
           <a class="map-button" href="https://omaps.app/map?v=1&ll=45.5035386,12.3425797&n=Venice%20Marco%20Polo%20Airport&ll=45.3984714,11.8751207&n=Prato%20della%20Valle&ll=45.4072498,11.8752231&n=Palazzo%20della%20Ragione%20%26%20Sotto%20il%20Salone&ll=45.4076922,11.8770946&n=Caff%C3%A8%20Pedrocchi&ll=45.4001955,11.8759224&n=Museo%20del%20Precinema&ll=45.3992373,11.8857335&n=Pasticceria%20Biasetto&ll=45.5469672,11.5469575&n=Piazza%20dei%20Signori%20%26%20Basilica%20Palladiana&ll=45.5454098,11.5417460&n=Casa%20del%20Diavolo%20%28Palazzo%20Porto%29&ll=45.5457569,11.5443786&n=Righetti&ll=45.5446419,11.5484005&n=Osteria%20Il%20Cursore&ll=45.5490457,11.5485427&n=Il%20Ceppo&ll=45.8022047,11.9134666&n=Piazza%20Garibaldi%2C%20Fontana%20Maggiore%20%26%20Rocca%20di%20Asolo&ll=45.8025475,11.9102238&n=Casa%20dell%27Arco%20%26%20Cimitero%20di%20Sant%27Anna&ll=45.8023434,11.9135387&n=Caff%C3%A8%20Centrale%20Cornaro&ll=45.8015364,11.9143170&n=Osteria%20al%20Bacaro&ll=45.8085576,11.8872045&n=La%20Trave&ll=45.7396729,11.3934015&n=Santuario%20di%20Sant%27Orso%20%26%20Monte%20Summano&ll=45.7251709,11.4188371&n=Agriturismo%20da%20Mea&ll=45.7302203,11.4017302&n=Agriturismo%20Cabrele&ll=45.6839,11.3997&n=Hotel%20Villa%20I%20Pini&ll=45.7154538,11.3772122&n=Schio%20Hotel&ll=45.4014584,11.8808472&n=Basilica%20di%20Sant%27Antonio%20%28Il%20Santo%29&ll=45.5538006,11.5471074&n=The%20Turtles%20of%20Vicenza%2C%20Parco%20Querini" target="_blank" rel="noopener">POI on Organic Maps</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Venice%20Marco%20Polo%20Airport&destination=Agriturismo%20da%20Mea%2C%20Santorso&waypoints=Prato%20della%20Valle%2C%20Padova%7CPiazza%20dei%20Signori%2C%20Vicenza&travelmode=driving" target="_blank" rel="noopener">Navigate Route A (Padua &amp; Vicenza)</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=45.5035386,12.3425797&origin_name=Venice%20Marco%20Polo%20Airport&destination=45.7251709,11.4188371&destination_name=Agriturismo%20da%20Mea,%20Santorso&waypoints=45.3984714,11.8751207|45.5469672,11.5469575&waypoint_names=Prato%20della%20Valle,%20Padova|Piazza%20dei%20Signori,%20Vicenza&mode=drive" target="_blank" rel="noopener">Organic Maps: Route A (Padua &amp; Vicenza)</a>
+          <span class="route-fallbacks"><span>Google Maps fallback:</span>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=Venice%20Marco%20Polo%20Airport&destination=Agriturismo%20da%20Mea%2C%20Santorso&waypoints=Prato%20della%20Valle%2C%20Padova%7CPiazza%20dei%20Signori%2C%20Vicenza&travelmode=driving" target="_blank" rel="noopener">Route A (Padua &amp; Vicenza)</a>
+          </span>
         </div>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
@@ -313,9 +316,9 @@
           <label><input type="checkbox" data-planner-option data-min="20" data-max="30"> Santuario di Sant'Orso / lower Girolimini trailhead, Santorso, evening — add 20–30 minutes</label>
         </fieldset>
         <p class="route-minor-links web-only"><b>Optional stop maps:</b>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Teatro%20Olimpico%2C%20Vicenza&travelmode=driving" target="_blank" rel="noopener">Teatro Olimpico</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Piazza%20Garibaldi%2C%20Asolo&travelmode=driving" target="_blank" rel="noopener">Route B: Asolo</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Santuario%20di%20Sant%27Orso%2C%20Santorso&travelmode=driving" target="_blank" rel="noopener">Santuario di Sant'Orso</a>
+          <a class="map-link" href="https://omaps.app/search?cll=45.5035386,12.3425797&query=Teatro%20Olimpico,%20Vicenza" target="_blank" rel="noopener" title="Open in Organic Maps">Teatro Olimpico</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Teatro%20Olimpico%2C%20Vicenza&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=45.8022047,11.9134666&destination_name=Route%20B%3A%20Asolo&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Route B: Asolo</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Piazza%20Garibaldi%2C%20Asolo&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=45.7396729,11.3934015&destination_name=Santuario%20di%20Sant%27Orso&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Santuario di Sant'Orso</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Santuario%20di%20Sant%27Orso%2C%20Santorso&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
         </p>
         <div class="planner-warning" data-planner-warning hidden></div>
         <div class="print-time-summary print-only">
@@ -358,7 +361,7 @@
               <li><b><a href="#poi-the-turtles-of-vicenza-parco-querini">The Turtles of Vicenza, Parco Querini</a></b> <span>Route A / quirky</span><small>Viale Mariano Rumor, 36100 Vicenza VI, Italy<br>GPS: 45.5538006, 11.5471074</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Organic Maps buttons above for primary routing; Google Maps fallbacks remain available for live traffic.</p>
         </div>
       </div>
     </div>

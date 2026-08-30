@@ -58,7 +58,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Route maps exist to help the traveller understand the day at a glance. They are not navigation tools.
 - A traveller should be able to understand the overall shape of the day within five seconds of looking at the map.
 - The map should communicate the start location, destination, recommended route, optional route(s), major geographical relationships, and all POIs.
-- The map should not attempt to replace Google Maps.
+- The map should not attempt to replace a live navigation app.
 - Design priorities, in order: clarity, geographic accuracy, readability in print, consistency across all days, visual appeal.
 - If there is a conflict between completeness and readability, preserve readability by using numbered markers and the legend rather than adding labels or other clutter.
 - Every day must include a real geographic orientation map derived from real map data, not a schematic substitute.
@@ -66,7 +66,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Maps must never be enlarged beyond their intended effective resolution. Route lines, POI markers, leader lines, marker numbers, map titles, attributions, and route legends must remain crisp on large desktop screens and in A4 print/PDF output.
 - Route overlays must be rendered with antialiased strokes, rounded caps, and rounded joins. If the generator produces raster maps, route lines should be drawn on a higher-resolution overlay and downsampled with a high-quality filter before compositing so bends and dashed segments do not appear jagged or blocky.
 - Generated map UI must use the project's editorial palette, not bright generic GIS colours. Use named palette constants in the generator for route roles, POI marker roles, marker borders, legend panels, legend text, leader lines, and attribution so future maps automatically match the Italy Road Trip Companion visual system.
-- The map is for orientation only. Google Maps links/buttons provide live navigation and must remain available for practical routing.
+- The map is for orientation only. Organic Maps links/buttons provide the primary POI and routing experience. Smaller Google Maps fallback links must remain available for devices without Organic Maps and for traffic-aware routing.
 - Every POI included in that day's visible content must appear on the map. Do not omit cafés, restaurants, shops, historic sites, parking, accommodation, viewpoints, beaches, optional stops, or other named practical stops merely to reduce map clutter.
 - POIs must use compact numbered markers rather than full text labels on the map. Do not place full POI names directly on the map.
 - Prefer rounded-square numbered markers for generated bitmap maps, because they keep single- and double-digit numbers centered and avoid ragged small-circle edges in print.
@@ -84,7 +84,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
   4. OpenStreetMap object data
   5. Other reputable mapping sources only if necessary
 - Do not rely solely on previously stored coordinates, old page content, or earlier generated map data when adding or modifying POIs.
-- Every page must validate that every POI appears on the map, every POI appears in the legend, numbering is unique, marker and legend numbering match, addresses are complete, coordinates are verified, and Google Maps navigation links continue to function.
+- Every page must validate that every POI appears on the map, every POI appears in the legend, numbering is unique, marker and legend numbering match, addresses are complete, coordinates are verified, Organic Maps links use those verified coordinates where available, and Google Maps fallback links continue to function.
 - The reusable map generator configuration for each POI should store, at minimum, number, name, latitude, longitude, address, type, optional status where relevant, and verification/source notes sufficient for later audit.
 
 ## Printable Edition (print-all.html)

@@ -203,7 +203,10 @@
       <div class="card route-card">
         <div class="route-actions web-only">
           <a class="map-button" href="https://omaps.app/map?v=1&ll=42.0054205,14.9975873&n=Residenza%20Sveva%20Albergo%20Diffuso%2C%20Termoli&ll=41.8619097,15.3532657&n=Lago%20di%20Lesina&ll=41.8809236,16.1792922&n=Vieste%20centro%20storico%20%26%20Castello%20Svevo&ll=41.8673500,16.1753703&n=Spiaggia%20di%20Castello%20%26%20Pizzomunno&ll=41.8815296,16.1814304&n=Chianca%20Amara&ll=41.8954927,16.1610791&n=Trabucco%20di%20San%20Lorenzo&ll=41.8814613,16.1815773&n=Cornetteria%20Chianca%20Amara&ll=41.8842286,16.1696023&n=Bakery%20Cafe%20Sant%27Antonio&ll=41.8809236,16.1792922&n=Donl%C3%B9&ll=41.8825156,16.1829919&n=Osteria%20degli%20Archi&ll=41.8837530,16.1765535&n=Box%2019&ll=41.8809236,16.1792922&n=Ristorante%20Al%20Dragone&ll=41.8809236,16.1792922&n=B%26B%20Dimora%20del%20Dragone&ll=41.8832338,16.1779067&n=Viesthouse%20B%26B&ll=41.8447785,15.9775987&n=Foresta%20Umbra" target="_blank" rel="noopener">POI on Organic Maps</a>
-          <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Residenza%20Sveva%20Albergo%20Diffuso%2C%20Termoli&destination=B%26B%20Dimora%20del%20Dragone%2C%20Vieste&waypoints=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
+          <a class="map-button" href="https://omaps.app/v2/dir?origin=42.0054205,14.9975873&origin_name=Residenza%20Sveva%20Albergo%20Diffuso,%20Termoli&destination=41.8809236,16.1792922&destination_name=B%26B%20Dimora%20del%20Dragone,%20Vieste&waypoints=41.8619097,15.3532657&waypoint_names=Lago%20di%20Lesina&mode=drive" target="_blank" rel="noopener">Organic Maps: Recommended Route</a>
+          <span class="route-fallbacks"><span>Google Maps fallback:</span>
+            <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&origin=Residenza%20Sveva%20Albergo%20Diffuso%2C%20Termoli&destination=B%26B%20Dimora%20del%20Dragone%2C%20Vieste&waypoints=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener">Recommended Route</a>
+          </span>
         </div>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
@@ -224,9 +227,9 @@
           <label><input type="checkbox" data-planner-option data-min="30" data-max="45"> Monday lungomare market, if the date lines up — add 30–45 minutes</label>
         </fieldset>
         <p class="route-minor-links web-only"><b>Optional stop maps:</b>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener">Lago di Lesina</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Trabucco%20San%20Lorenzo%2C%20Vieste&travelmode=driving" target="_blank" rel="noopener">Trabucco di San Lorenzo</a>
-          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=Foresta%20Umbra&travelmode=driving" target="_blank" rel="noopener">Foresta Umbra (not counted in today's drive time — see note below)</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.8619097,15.3532657&destination_name=Lago%20di%20Lesina&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Lago di Lesina</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Lago%20di%20Lesina&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.8954927,16.1610791&destination_name=Trabucco%20di%20San%20Lorenzo&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Trabucco di San Lorenzo</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Trabucco%20San%20Lorenzo%2C%20Vieste&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
+          <a class="map-link" href="https://omaps.app/v2/dir?destination=41.8447785,15.9775987&destination_name=Foresta%20Umbra%20%28not%20counted%20in%20today%27s%20drive%20time%20%E2%80%94%20see%20note%20below%29&mode=drive" target="_blank" rel="noopener" title="Open in Organic Maps">Foresta Umbra (not counted in today's drive time — see note below)</a> <a class="map-fallback-link" href="https://www.google.com/maps/dir/?api=1&destination=Foresta%20Umbra&travelmode=driving" target="_blank" rel="noopener" title="Open in Google Maps">Google</a>
         </p>
         <div class="planner-warning" data-planner-warning hidden></div>
         <div class="print-time-summary print-only">
@@ -261,7 +264,7 @@
               <li><b><a href="#poi-foresta-umbra">Foresta Umbra</a></b> <span>Optional inland detour</span><small>71018 Vico del Gargano FG, Italy<br>GPS: 41.8447785, 15.9775987</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Google Maps buttons above for live routing.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use the Organic Maps buttons above for primary routing; Google Maps fallbacks remain available for live traffic.</p>
         </div>
       </div>
     </div>
