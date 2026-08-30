@@ -2,6 +2,14 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — Imported bookmarks and stable Organic Maps route legs rolled out to all 21 days
+
+The user confirmed on the real Android phone that Day 12's imported KML bookmarks remained visible when the stable Trani-to-Bari Organic Maps route was opened. This solves the POI-visibility problem that neither Google Maps nor Organic Maps' ordinary driving style solved: the guide's points are persistent bookmarks, not native POIs that the navigation style can hide.
+
+Rolled the confirmed pattern out across the full trip. Each day now has a downloadable KML collection generated in the same order from its numbered POI legend, for 300 bookmark placemarks across 21 files. Each of the 34 existing Google route choices is mirrored inside a collapsed Organic Maps section as stable two-point legs, for 100 leg links total. The leg sequences, route modes, and stop order come from the existing complete-route buttons; name-based stops are resolved to the verified coordinates already stored in the same day's guide, and coordinate-based stops retain their exact coordinates. The unsupported `/v2/dir` and `/v2/nav` formats are not used.
+
+This gives up single-tap multi-stop navigation in Organic Maps: after reaching a stop, the traveller must return to the guide and open the next leg. That extra tap is accepted because it preserves every ordered stop, keeps the 300 guide POIs visible, and works in the installed stable app. The original Google complete-route buttons remain visible fallbacks for traffic and one-link whole-route navigation. The existing Organic Maps overview and individual pin links also remain available.
+
 ## 2026-08-31 — Test imported Day 12 bookmarks as the POI-visible navigation workaround
 
 The stable Organic Maps two-point route link successfully opened the Trani-to-Bari route on the user's Android phone, but starting the driving route still hid the ordinary POIs. This is caused by Organic Maps' simplified vehicle-navigation map style, so changing the route URL cannot restore the rich native POI layer.

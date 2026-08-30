@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 9 POIs</name>
+    <description>Day 9 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Start
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Riserva Naturale di Punta Aderci</name>
+      <description>Nature reserve
+Sentiero d'Accesso Punta Aderci, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.6877337,42.1800301,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Palazzo d'Avalos</name>
+      <description>Optional historic site
+Piazza Lucio Valerio Pudente, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7102856,42.1116174,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Loggia Amblingh</name>
+      <description>Optional viewpoint
+Vasto old town, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7100671,42.1103135,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Pasticceria La Vastese</name>
+      <description>Optional food stop
+Via Ciccarone 98/A, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7109300,42.1229066,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Castello Svevo</name>
+      <description>Historic site
+Largo Piè di Castello, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9963357,42.0042633,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Cattedrale di Santa Maria della Purificazione</name>
+      <description>Historic site
+Vicoletto Duomo, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9971312,42.0052965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Vicolo Rejecelle</name>
+      <description>Hidden gem
+Via Nocchiere Marinucci Salvatore 9, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9968963,42.0049015,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Zara Pasticceria</name>
+      <description>Food stop
+Via Argentina 9/15, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9828334,41.9987825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Ristorante Da Nicolino</name>
+      <description>Dinner
+Via Roma 13, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9963207,42.0035882,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Trattoria Tipica L'Opera</name>
+      <description>Dinner / alternate
+Via Adriatica 32, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9946932,42.0023494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Osteria Dentro le Mura</name>
+      <description>Dinner / alternate
+Via Federico Secondo di Svevia 3, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9965624,42.0045521,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Friggitoria Maramimmo</name>
+      <description>Food stop / budget
+Corso Fratelli Brigida 64, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9965564,41.9996161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Roberti Store</name>
+      <description>Shop
+Via Alfano 10, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9974386,42.0017114,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Le Dimore nel Borgo</name>
+      <description>Accommodation
+Via Maro de Gregorio Pasquale, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9974687,42.0048803,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — La Casa di Lelè</name>
+      <description>Accommodation / alternate
+Via delle Lampare 8, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9970443,41.9975505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — Residenza Sveva Albergo Diffuso</name>
+      <description>Accommodation / end
+Piazza Duomo 11, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9975873,42.0054205,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

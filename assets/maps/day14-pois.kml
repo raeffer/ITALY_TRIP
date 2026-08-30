@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 14 POIs</name>
+    <description>Day 14 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Rione Monti</name>
+      <description>Historic site
+Via Monte San Michele, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2364,40.7817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Aia Piccola</name>
+      <description>Historic site
+Via Cristoforo Colombo, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2407,40.7837,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Trullo Sovrano</name>
+      <description>Museum
+Piazza Sacramento 10/11, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2353,40.7874,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Chiesa di Sant'Antonio</name>
+      <description>Historic site
+Via Monte Pertica 18, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2352,40.7813,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Bar "Il Trulletto"</name>
+      <description>Coffee
+Via Monte San Michele 50, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2371,40.7823,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Largo Martellotta</name>
+      <description>Parking
+Largo Martellotta, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2373,40.7830,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Locorotondo — Piazza Vittorio Emanuele</name>
+      <description>Historic site
+Piazza Vittorio Emanuele, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3285,40.7530,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Bar Poldo</name>
+      <description>Coffee
+Via Cavour 149, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3277,40.7548,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Trattoria Al Vecchio Arco</name>
+      <description>Lunch
+Via Antonio Bruno 5, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3289,40.7530,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Basilica di San Martino</name>
+      <description>Historic site
+Via Masaniello 1, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3370,40.7057,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Palazzo Ducale</name>
+      <description>Historic site
+Piazza Roma 28, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3389,40.7051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Macelleria Centro Storico</name>
+      <description>What to buy
+Via Giuseppe Garibaldi 4-6, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3360,40.7055,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Caffè Caroli</name>
+      <description>Coffee
+Via Giuseppe Aprile 12, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3399,40.7053,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 6 POIs</name>
+    <description>Day 6 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — Palazzo Rotati, Fano</name>
+      <description>Start
+Via Nolfi 49, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0192360,43.8442214,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Rocca Roveresca</name>
+      <description>Historic site
+Piazza del Duca 2, 60019 Senigallia AN, Italy</description>
+      <Point>
+        <coordinates>13.2205412,43.7153671,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Abbazia di Santa Maria di Portonovo</name>
+      <description>Historic site / beach stop
+Strada Frazione Poggio, Portonovo, 60129 Ancona AN, Italy</description>
+      <Point>
+        <coordinates>13.5999370,43.5611908,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Cooperativa Pescatori di Portonovo</name>
+      <description>Producer / food heritage
+Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN, Italy</description>
+      <Point>
+        <coordinates>13.6002,43.5619,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Centro Visite Parco del Conero</name>
+      <description>Visitor office / orientation
+Via Peschiera 30/A, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6180996,43.5196861,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Piazza Vittorio Veneto / Balcone Panoramico</name>
+      <description>Viewpoint / historic centre
+Piazza Vittorio Veneto, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6199227,43.5230728,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Spiaggia Urbani</name>
+      <description>Beach
+Spiaggia Urbani, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6231578,43.5236323,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Bar Gelateria del Conero</name>
+      <description>Food stop
+Via Italia 1, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6201607,43.5225245,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Da Giustina</name>
+      <description>Food stop
+Via Cave 1, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6135596,43.5281358,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — La Paranza</name>
+      <description>Food stop
+Spiaggia Urbani, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6236777,43.5226248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Osteria Sara</name>
+      <description>Food stop
+Piazza Vittorio Veneto 9, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6196845,43.52285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Pa' Panino un bel Po'</name>
+      <description>Food stop
+Via Italia 39, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6204501,43.5219441,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Bottega dei Sapori Nostrani</name>
+      <description>Shop / food stop
+Via Italia 11/36, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6202173,43.5223274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Latteria Elgide</name>
+      <description>Shop
+Via Italia 5, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.62012,43.52243,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Conero Camere</name>
+      <description>Accommodation
+Via Grilli 14, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6186971,43.5229034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — Diecidodici</name>
+      <description>Accommodation / food stop
+Via Anacleto Giulietti 10, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6193663,43.5235067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — San Michele Relais &amp; Spa</name>
+      <description>Accommodation
+Via Piave 6, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6169719,43.5266418,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

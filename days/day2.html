@@ -252,9 +252,23 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route &amp; Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day2-pois.kml" download="Italy-Trip-Day-2-POIs.kml">Import Day 2 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=45.7251709,11.4188371&n=Agriturismo%20da%20Mea%2C%20Santorso&ll=45.7455140,11.6552998&n=Piazza%20degli%20Scacchi%20%26%20Castello%20Inferiore&ll=45.7496871,11.6523916&n=Castello%20Superiore%2C%20Marostica&ll=45.7448051,11.6550451&n=Osteria%20Madonnetta&ll=45.7675140,11.7311146&n=Ponte%20Vecchio%20%26%20Grapperia%20Nardini&ll=45.7675730,11.7306876&n=Museo%20degli%20Alpini&ll=45.7664915,11.7350946&n=Museo%20Civico%20di%20Bassano&ll=45.7636398,11.7334538&n=Tempio%20Ossario&ll=45.7667875,11.7333642&n=Bottega%20del%20Pane%20Beltrame&ll=45.7668813,11.7353468&n=Danieli&ll=45.7678850,11.7339387&n=Osteria%20Alla%20Caneva&ll=45.7665000,11.7355000&n=Pasticceria%20Bolcato%20/%20Dolce%20Bassano&ll=45.6507763,11.7832170&n=Cittadella%20%E2%80%94%20Camminamento%20di%20Ronda&ll=45.6364387,11.7885209&n=L.AB%20Pastry%20%26%20Coffee%2C%20Cittadella&ll=45.2309674,11.4686785&n=Montagnana%20%E2%80%94%20Castello%20di%20San%20Zeno&ll=45.2335698,11.4680736&n=Duomo%20di%20Santa%20Maria%20Assunta%2C%20Montagnana&ll=45.2335000,11.4681000&n=Le%20Mura%20Bar-Gastronomia%2C%20Montagnana&ll=44.7056327,11.2283385&n=Antica%20Trattoria%20Bonasoni&ll=44.7159632,11.2364802&n=L%27Ulivo%20B%26B&ll=44.6353076,11.1872698&n=Boutique%20Hotel%20San%20Giovanni&ll=44.6269459,11.1195137&n=R%26B%20Villa%20Tartaruga&ll=45.7690102,11.7325263&n=Castello%20degli%20Ezzelini" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Agriturismo%20da%20Mea%2C%20Santorso&destination=L%27Ulivo%20B%26B%2C%20San%20Matteo%20della%20Decima&waypoints=Marostica%7CBassano%20del%20Grappa%7CCittadella&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 2 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Recommended Route:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=45.7251709,11.4188371&saddr=Agriturismo%20da%20Mea%2C%20Santorso&dll=45.745514,11.6552998&daddr=Marostica&type=vehicle" target="_blank" rel="noopener">1. Agriturismo da Mea, Santorso → Marostica</a>
+              <a class="map-button" href="https://omaps.app/route?sll=45.745514,11.6552998&saddr=Marostica&dll=45.767514,11.7311146&daddr=Bassano%20del%20Grappa&type=vehicle" target="_blank" rel="noopener">2. Marostica → Bassano del Grappa</a>
+              <a class="map-button" href="https://omaps.app/route?sll=45.767514,11.7311146&saddr=Bassano%20del%20Grappa&dll=45.6507763,11.783217&daddr=Cittadella&type=vehicle" target="_blank" rel="noopener">3. Bassano del Grappa → Cittadella</a>
+              <a class="map-button" href="https://omaps.app/route?sll=45.6507763,11.783217&saddr=Cittadella&dll=44.7159632,11.2364802&daddr=L%27Ulivo%20B%26B%2C%20San%20Matteo%20della%20Decima&type=vehicle" target="_blank" rel="noopener">4. Cittadella → L&#x27;Ulivo B&amp;B, San Matteo della Decima</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -322,7 +336,7 @@
               <li><b><a href="#poi-castello-degli-ezzelini">Castello degli Ezzelini</a></b> <span>Cool / quirky</span><small>Piazza Castello Ezzelini, 36061 Bassano del Grappa VI, Italy<br>GPS: 45.7690102, 11.7325263</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

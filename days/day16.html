@@ -190,9 +190,22 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day16-pois.kml" download="Italy-Trip-Day-16-POIs.kml">Import Day 16 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=40.6563995,17.7087266&n=San%20Vito%20dei%20Normanni%20%28start/end%29&ll=40.0546,17.9763&n=Basilica%20Cattedrale%20di%20Sant%27Agata&ll=40.0559,17.9811&n=Fontana%20Greca&ll=40.0550,17.9773&n=Frantoio%20Ipogeo%20di%20Palazzo%20Granafei&ll=40.0545,17.9756&n=Il%20Frantoio%20del%20Vicer%C3%A9&ll=40.0550,17.9751&n=Trattoria%20La%20Puritate&ll=40.0373,18.0155&n=Baia%20Verde" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=San%20Vito%20dei%20Normanni&waypoints=Gallipoli%20centro%20storico%7CBaia%20Verde%2C%20Gallipoli&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Loop</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 16 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Recommended Loop:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=40.6563995,17.7087266&saddr=San%20Vito%20dei%20Normanni&dll=40.0559,17.9811&daddr=Gallipoli%20centro%20storico&type=vehicle" target="_blank" rel="noopener">1. San Vito dei Normanni → Gallipoli centro storico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.0559,17.9811&saddr=Gallipoli%20centro%20storico&dll=40.0373,18.0155&daddr=Baia%20Verde%2C%20Gallipoli&type=vehicle" target="_blank" rel="noopener">2. Gallipoli centro storico → Baia Verde, Gallipoli</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.0373,18.0155&saddr=Baia%20Verde%2C%20Gallipoli&dll=40.6563995,17.7087266&daddr=San%20Vito%20dei%20Normanni&type=vehicle" target="_blank" rel="noopener">3. Baia Verde, Gallipoli → San Vito dei Normanni</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -231,7 +244,7 @@
               <li><b><a href="#poi-baia-verde-beach">Baia Verde</a></b> <span>Beach</span><small>Viale delle Dune, Baia Verde, 73014 Gallipoli LE, Italy<br>GPS: 40.0373, 18.0155</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

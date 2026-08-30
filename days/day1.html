@@ -286,9 +286,22 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route &amp; Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day1-pois.kml" download="Italy-Trip-Day-1-POIs.kml">Import Day 1 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=45.5035386,12.3425797&n=Venice%20Marco%20Polo%20Airport&ll=45.3984714,11.8751207&n=Prato%20della%20Valle&ll=45.4072498,11.8752231&n=Palazzo%20della%20Ragione%20%26%20Sotto%20il%20Salone&ll=45.4076922,11.8770946&n=Caff%C3%A8%20Pedrocchi&ll=45.4001955,11.8759224&n=Museo%20del%20Precinema&ll=45.3992373,11.8857335&n=Pasticceria%20Biasetto&ll=45.5469672,11.5469575&n=Piazza%20dei%20Signori%20%26%20Basilica%20Palladiana&ll=45.5454098,11.5417460&n=Casa%20del%20Diavolo%20%28Palazzo%20Porto%29&ll=45.5457569,11.5443786&n=Righetti&ll=45.5446419,11.5484005&n=Osteria%20Il%20Cursore&ll=45.5490457,11.5485427&n=Il%20Ceppo&ll=45.8022047,11.9134666&n=Piazza%20Garibaldi%2C%20Fontana%20Maggiore%20%26%20Rocca%20di%20Asolo&ll=45.8025475,11.9102238&n=Casa%20dell%27Arco%20%26%20Cimitero%20di%20Sant%27Anna&ll=45.8023434,11.9135387&n=Caff%C3%A8%20Centrale%20Cornaro&ll=45.8015364,11.9143170&n=Osteria%20al%20Bacaro&ll=45.8085576,11.8872045&n=La%20Trave&ll=45.7396729,11.3934015&n=Santuario%20di%20Sant%27Orso%20%26%20Monte%20Summano&ll=45.7251709,11.4188371&n=Agriturismo%20da%20Mea&ll=45.7302203,11.4017302&n=Agriturismo%20Cabrele&ll=45.6839,11.3997&n=Hotel%20Villa%20I%20Pini&ll=45.7154538,11.3772122&n=Schio%20Hotel&ll=45.4014584,11.8808472&n=Basilica%20di%20Sant%27Antonio%20%28Il%20Santo%29&ll=45.5538006,11.5471074&n=The%20Turtles%20of%20Vicenza%2C%20Parco%20Querini" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Venice%20Marco%20Polo%20Airport&destination=Agriturismo%20da%20Mea%2C%20Santorso&waypoints=Prato%20della%20Valle%2C%20Padova%7CPiazza%20dei%20Signori%2C%20Vicenza&travelmode=driving" target="_blank" rel="noopener">Navigate Route A (Padua &amp; Vicenza)</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 1 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Route A (Padua &amp; Vicenza):</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=45.5035386,12.3425797&saddr=Venice%20Marco%20Polo%20Airport&dll=45.3984714,11.8751207&daddr=Prato%20della%20Valle%2C%20Padova&type=vehicle" target="_blank" rel="noopener">1. Venice Marco Polo Airport → Prato della Valle, Padova</a>
+              <a class="map-button" href="https://omaps.app/route?sll=45.3984714,11.8751207&saddr=Prato%20della%20Valle%2C%20Padova&dll=45.5469672,11.5469575&daddr=Piazza%20dei%20Signori%2C%20Vicenza&type=vehicle" target="_blank" rel="noopener">2. Prato della Valle, Padova → Piazza dei Signori, Vicenza</a>
+              <a class="map-button" href="https://omaps.app/route?sll=45.5469672,11.5469575&saddr=Piazza%20dei%20Signori%2C%20Vicenza&dll=45.7251709,11.4188371&daddr=Agriturismo%20da%20Mea%2C%20Santorso&type=vehicle" target="_blank" rel="noopener">3. Piazza dei Signori, Vicenza → Agriturismo da Mea, Santorso</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -358,7 +371,7 @@
               <li><b><a href="#poi-the-turtles-of-vicenza-parco-querini">The Turtles of Vicenza, Parco Querini</a></b> <span>Route A / quirky</span><small>Viale Mariano Rumor, 36100 Vicenza VI, Italy<br>GPS: 45.5538006, 11.5471074</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 4 POIs</name>
+    <description>Day 4 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Matteo della Decima</name>
+      <description>Start
+San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.2283615,44.7100177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Largo Giustiniano Parking</name>
+      <description>Parking
+Largo Giustiniano, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.19623,44.42183,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Basilica di San Vitale</name>
+      <description>Historic site
+Via San Vitale 17, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1963864,44.4205557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Mausoleo di Galla Placidia</name>
+      <description>Historic site
+Via Giuliano Argentario 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1971029,44.4209827,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Domus dei Tappeti di Pietra</name>
+      <description>Historic site
+Via Gian Battista Barbiani 16, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.195474,44.421223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Museo Byron e del Risorgimento, Palazzo Guiccioli</name>
+      <description>Museum
+Via Camillo Benso Cavour 54, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.197836,44.419629,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Pasticceria Veneziana</name>
+      <description>Food stop
+Via Salara 15, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1982703,44.4194468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — B&amp;B Casa Masoli</name>
+      <description>Accommodation
+Via Girolamo Rossi 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2003868,44.4199737,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Erboristeria Giorgioni</name>
+      <description>Shop
+Via IV Novembre 43, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1994528,44.4188773,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Mercato Coperto</name>
+      <description>Food stop
+Piazza Andrea Costa 6, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.199129,44.418912,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Gioielleria Lugaresi</name>
+      <description>Shop
+Via Giacomo Matteotti 12, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1986896,44.4179545,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Caffè Il Nazionale</name>
+      <description>Food stop
+Piazza del Popolo 28, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1995888,44.4175944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Piazza del Popolo</name>
+      <description>Historic site
+Piazza del Popolo, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1993185,44.4177596,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Leonardi Dolciumi 1957</name>
+      <description>Shop
+Via Pellegrino Matteucci 5, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.200015,44.417228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Tomba di Dante</name>
+      <description>Historic site
+Via Dante Alighieri 9, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2009368,44.4161585,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — Ca' de Vën</name>
+      <description>Food stop
+Via Corrado Ricci 24, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1999840,44.4160938,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — Koko Mosaico</name>
+      <description>Optional stop
+Via di Roma 136, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2039917,44.416945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 — Antica Trattoria Al Gallo 1909</name>
+      <description>Food stop
+Via Maggiore 89, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1915981,44.4207825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 — Darsenale - Bizantina Brewpub</name>
+      <description>Optional food stop
+Via D'Alaggio 69, 48122 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.212171,44.423296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20 — Comacchio</name>
+      <description>Optional stop
+Centro storico, 44022 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.1812500,44.6958712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21 — Manifattura dei Marinati</name>
+      <description>Museum / food heritage
+Corso Giuseppe Mazzini 200, 44022 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.1752748,44.6990038,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 — Argine degli Angeli</name>
+      <description>Viewpoint
+Argine degli Angeli, Valli di Comacchio, 44029 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.2450,44.6540,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

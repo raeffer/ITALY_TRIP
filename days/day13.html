@@ -213,10 +213,32 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day13-pois.kml" download="Italy-Trip-Day-13-POIs.kml">Import Day 13 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=41.2063077,16.5979521&n=Molfetta%20%28Day%209%20alternative%29&ll=41.1273126,16.8671134&n=Bari%20%28Day%209%20preferred%29&ll=40.9963887,17.2181307&n=Polignano%20a%20Mare%20%E2%80%94%20Lama%20Monachile&ll=40.9929810,17.2178068&n=Dorsale&ll=40.9508368,17.3033327&n=Monopoli%20%E2%80%94%20Centro%20Storico&ll=40.9522073,17.3000255&n=Rifugi%20Antiaerei%20di%20Monopoli&ll=40.9530079,17.3041064&n=Madi%C3%A0%20%28Porto%20Antico%29&ll=40.9508368,17.3033327&n=Locanda%20dei%20Mercanti&ll=40.7333725,17.5778841&n=Ostuni%20%E2%80%94%20Centro%20Storico&ll=40.7333725,17.5778841&n=Forno%2031&ll=40.7339749,17.5803666&n=Riccardo%20Caff%C3%A8&ll=40.6563995,17.7087266&n=San%20Vito%20dei%20Normanni%20%28arrival%29&ll=40.6589314,17.7126581&n=XFood&ll=40.6541726,17.7099910&n=Virgola%20Pasticceria%20Terapeutica" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Bari%20Vecchia%20Dimora%2C%20Bari&destination=San%20Vito%20dei%20Normanni&waypoints=Polignano%20a%20Mare%7COstuni%20Centro%20Storico&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Bari%20Vecchia%20Dimora%2C%20Bari&destination=San%20Vito%20dei%20Normanni&waypoints=Polignano%20a%20Mare%7CMonopoli%20Centro%20Storico%7COstuni%20Centro%20Storico&travelmode=driving" target="_blank" rel="noopener">Navigate via Monopoli</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 13 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Recommended Route:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=41.1273126,16.8671134&saddr=Bari%20Vecchia%20Dimora%2C%20Bari&dll=40.9963887,17.2181307&daddr=Polignano%20a%20Mare&type=vehicle" target="_blank" rel="noopener">1. Bari Vecchia Dimora, Bari → Polignano a Mare</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.9963887,17.2181307&saddr=Polignano%20a%20Mare&dll=40.7333725,17.5778841&daddr=Ostuni%20Centro%20Storico&type=vehicle" target="_blank" rel="noopener">2. Polignano a Mare → Ostuni Centro Storico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.7333725,17.5778841&saddr=Ostuni%20Centro%20Storico&dll=40.6563995,17.7087266&daddr=San%20Vito%20dei%20Normanni&type=vehicle" target="_blank" rel="noopener">3. Ostuni Centro Storico → San Vito dei Normanni</a>
+            </div>
+          </div>
+          <div class="organic-route-group">
+            <p><b>via Monopoli:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=41.1273126,16.8671134&saddr=Bari%20Vecchia%20Dimora%2C%20Bari&dll=40.9963887,17.2181307&daddr=Polignano%20a%20Mare&type=vehicle" target="_blank" rel="noopener">1. Bari Vecchia Dimora, Bari → Polignano a Mare</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.9963887,17.2181307&saddr=Polignano%20a%20Mare&dll=40.9508368,17.3033327&daddr=Monopoli%20Centro%20Storico&type=vehicle" target="_blank" rel="noopener">2. Polignano a Mare → Monopoli Centro Storico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.9508368,17.3033327&saddr=Monopoli%20Centro%20Storico&dll=40.7333725,17.5778841&daddr=Ostuni%20Centro%20Storico&type=vehicle" target="_blank" rel="noopener">3. Monopoli Centro Storico → Ostuni Centro Storico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.7333725,17.5778841&saddr=Ostuni%20Centro%20Storico&dll=40.6563995,17.7087266&daddr=San%20Vito%20dei%20Normanni&type=vehicle" target="_blank" rel="noopener">4. Ostuni Centro Storico → San Vito dei Normanni</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="08:30" data-planner-departure>
@@ -264,7 +286,7 @@
               <li><b><a href="#poi-virgola-pasticceria-terapeutica-san-vito-dei-normanni">Virgola Pasticceria Terapeutica</a></b> <span>Food stop (next morning)</span><small>Via Mesagne 136, 72019 San Vito dei Normanni BR, Italy<br>GPS: 40.6541726, 17.7099910</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

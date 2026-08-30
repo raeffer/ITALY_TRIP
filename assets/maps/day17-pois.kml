@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 17 POIs</name>
+    <description>Day 17 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Basilica di Santa Croce</name>
+      <description>Historic site
+Via Umberto I 1, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1733,40.3547,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Roman Amphitheatre</name>
+      <description>Historic site
+Piazza Sant'Oronzo, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1726,40.3528,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Teatro Romano</name>
+      <description>Historic site / optional
+Via Degli Ammirati 5, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1703,40.3518,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Caffè Alvino</name>
+      <description>Pasticceria
+Piazza Sant'Oronzo 30, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1726,40.3528,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Pasticceria Natale</name>
+      <description>Pasticceria / alternate
+Via Salvatore Trinchese 7, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1734,40.3533,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Alle Due Corti</name>
+      <description>Lunch / dinner
+Corte dei Giugni 1, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1705,40.3549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Museo Faggiano</name>
+      <description>Hidden gem / museum
+Via Ascanio Grandi 56, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1724,40.3501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Chiesa di San Francesco della Scarpa</name>
+      <description>Hidden gem / quirky
+Piazzetta Giosuè Carducci, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1692,40.3497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Cartapesta Bottega Artigiana</name>
+      <description>What to buy
+Via Palmieri (near the Cathedral), 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1690,40.3519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Cartapesta Riso</name>
+      <description>What to buy / alternate
+Via Vittorio Emanuele II 27, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1697,40.3525,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -209,9 +209,22 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day18-pois.kml" download="Italy-Trip-Day-18-POIs.kml">Import Day 18 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=40.6563995,17.7087266&n=San%20Vito%20dei%20Normanni%20%28start/end%29&ll=40.8263,16.5530&n=Cattedrale%20di%20Altamura&ll=40.8260,16.5537&n=Antico%20Forno%20Santa%20Caterina&ll=40.8265,16.5540&n=Tre%20Archi&ll=40.6664,16.6043&n=The%20Sassi&ll=40.6639,16.6123&n=Casa%20Grotta&ll=40.6641,16.6121&n=Santa%20Maria%20de%20Idris%20%26%20San%20Giovanni%20in%20Monterrone&ll=40.6623,16.6110&n=Trattoria%20del%20Caveoso&ll=40.6670,16.5952&n=Via%20Saragat%20%28parking%29&ll=40.6661,16.6049&n=Via%20Lucana%20%28parking%29" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=San%20Vito%20dei%20Normanni&destination=San%20Vito%20dei%20Normanni&waypoints=Altamura%7CMatera&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Loop</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 18 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Recommended Loop:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=40.6563995,17.7087266&saddr=San%20Vito%20dei%20Normanni&dll=40.8263,16.553&daddr=Altamura&type=vehicle" target="_blank" rel="noopener">1. San Vito dei Normanni → Altamura</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.8263,16.553&saddr=Altamura&dll=40.6664,16.6043&daddr=Matera&type=vehicle" target="_blank" rel="noopener">2. Altamura → Matera</a>
+              <a class="map-button" href="https://omaps.app/route?sll=40.6664,16.6043&saddr=Matera&dll=40.6563995,17.7087266&daddr=San%20Vito%20dei%20Normanni&type=vehicle" target="_blank" rel="noopener">3. Matera → San Vito dei Normanni</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="07:30" data-planner-departure>
@@ -253,7 +266,7 @@
               <li><b>Via Lucana (parking)</b> <span>Parking</span><small>Via Lucana, 75100 Matera MT, Italy<br>GPS: 40.6661, 16.6049</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

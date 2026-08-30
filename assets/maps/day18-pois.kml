@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 18 POIs</name>
+    <description>Day 18 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Cattedrale di Altamura</name>
+      <description>Historic site
+Corso Federico II di Svevia, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5530,40.8263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Antico Forno Santa Caterina</name>
+      <description>Food stop
+Via Ambrogio del Giudice 2, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5537,40.8260,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Tre Archi</name>
+      <description>Lunch / optional
+Via San Michele 28, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5540,40.8265,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — The Sassi</name>
+      <description>Historic site
+Sasso Caveoso, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6043,40.6664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Casa Grotta</name>
+      <description>Museum
+Vico Solitario 11, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6123,40.6639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Santa Maria de Idris &amp; San Giovanni in Monterrone</name>
+      <description>Chiesa rupestre
+Monterrone rock spur, Sasso Caveoso, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6121,40.6641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Trattoria del Caveoso</name>
+      <description>Lunch / dinner
+Via Bruno Buozzi 21, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6110,40.6623,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Via Saragat (parking)</name>
+      <description>Parking
+Via Giuseppe Saragat, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.5952,40.6670,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Via Lucana (parking)</name>
+      <description>Parking
+Via Lucana, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6049,40.6661,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

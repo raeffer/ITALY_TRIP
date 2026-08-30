@@ -327,6 +327,24 @@ body{
   gap:8px;
   margin-bottom: 16px;
 }
+.organic-route-legs{
+  margin:0 0 16px;
+  padding:10px 12px;
+  border:1px solid var(--parchment-dark);
+  background:var(--parchment);
+}
+.organic-route-legs summary{
+  cursor:pointer;
+  color:var(--royal-blue);
+  font-weight:800;
+}
+.organic-route-legs > p,
+.organic-route-group > p{
+  margin:10px 0 6px;
+}
+.organic-route-group .route-actions{
+  margin-bottom:8px;
+}
 .map-button,
 .map-link{
   font-family:'IBM Plex Mono', monospace;

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 5 POIs</name>
+    <description>Day 5 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — B&amp;B Casa Masoli, Ravenna</name>
+      <description>Start
+Via Girolamo Rossi 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2003868,44.4199737,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — San Marino P9 Parking</name>
+      <description>Parking
+Parcheggio P9, Via Gino Giacomini, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.445192,43.937384,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Guaita Tower &amp; Monte Titano</name>
+      <description>Historic site / viewpoint
+Salita Alla Rocca, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4493514,43.9354691,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Piazza della Libertà &amp; Palazzo Pubblico</name>
+      <description>Historic site
+Piazza della Libertà, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4465224,43.9367403,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Ristorante Ritrovo dei Lavoratori</name>
+      <description>Food stop
+Androne dei Bastioni 4, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4464272,43.9358760,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — La Terrazza, Hotel Titano</name>
+      <description>Food stop
+Contrada del Collegio 31, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4469842,43.9360252,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Buca San Francesco</name>
+      <description>Food stop
+Piazzetta del Placito Feretrano 3, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4468161,43.9353605,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — La Serenissima</name>
+      <description>Shop / food heritage
+Via Venticinque Marzo 67, 47895 Domagnano, San Marino</description>
+      <Point>
+        <coordinates>12.4685640,43.9531511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Fantini Pelletteria</name>
+      <description>Shop
+Contrada dei Magazzeni 23, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4476454,43.9361136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Cava dei Balestrieri</name>
+      <description>Historic site / optional stop
+Via Eugippo, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4457523,43.9375482,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Gabicce Monte / San Bartolo viewpoint</name>
+      <description>Scenic route viewpoint
+Piazza Valbruna, 61011 Gabicce Monte PU, Italy</description>
+      <Point>
+        <coordinates>12.761220,43.960330,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Fano centro storico</name>
+      <description>Historic centre
+Piazza XX Settembre, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.016950,43.840900,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Arco di Augusto</name>
+      <description>Historic site
+Via Arco d'Augusto, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0145105,43.8430719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Caffè Cavour</name>
+      <description>Food stop
+Via Camillo Benso Conte di Cavour 1, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0195547,43.8400902,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Caffè del Porto</name>
+      <description>Food stop
+Via Nazario Sauro 270, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0162229,43.8511711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — Il Caffè del Pasticciere</name>
+      <description>Food stop
+Via della Costituzione 8/A, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0112355,43.8385085,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — Panificio Pasticceria Forno Longhini</name>
+      <description>Food stop
+Viale I Maggio 15/17, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0116548,43.8470115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 — Ristorante Angela</name>
+      <description>Food stop
+Viale Adriatico 13, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0255815,43.8460841,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 — La Taverna del Ghiottone</name>
+      <description>Food stop
+Via Roma 87/B, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0114404,43.84024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20 — B&amp;B La Casa di Fano</name>
+      <description>Accommodation
+Corso Giacomo Matteotti 173, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.018100,43.842910,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21 — Palazzo Rotati</name>
+      <description>Accommodation
+Via Nolfi 49, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0192360,43.8442214,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

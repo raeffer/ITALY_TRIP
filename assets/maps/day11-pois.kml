@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 11 POIs</name>
+    <description>Day 11 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — Vieste centro storico</name>
+      <description>Start
+Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1792922,41.8809236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Baia delle Zagare</name>
+      <description>Optional beach detour
+Comune di Mattinata, FG, Italy (cove has no street address)</description>
+      <Point>
+        <coordinates>16.0857,41.7311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Pasticceria La Torre</name>
+      <description>Food stop
+Via Giacomo Matteotti, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0511548,41.7110463,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Giardino di Monsignore</name>
+      <description>Dinner
+Contrada Torre del Porto / Contrada Funni, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0655401,41.7013622,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Locanda del Maniscalco</name>
+      <description>Dinner / alternate
+Via Luigi Zuppetta 12/14, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0505958,41.7086724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Dal Saraceno</name>
+      <description>Dinner / budget
+Via Vincenzo Amicarelli 31a, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0515220,41.7095571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Oleificio Le Monache</name>
+      <description>Shop / food heritage
+Contrada le Monache 1, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0518777,41.7027376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — B&amp;B Dimora del Corso</name>
+      <description>Accommodation
+Corso Matino 211, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0511594,41.7120136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Masseria Liberatore</name>
+      <description>Accommodation / alternate
+Contrada Liberatore 2, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0642058,41.7071504,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Abbazia della Santissima Trinità di Monte Sacro</name>
+      <description>Optional historic site
+Monte Sacro, 874m, near SS89, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0430873,41.7580842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Monte Saraceno</name>
+      <description>Optional guided hike
+Monte Saraceno, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0508242,41.6942574,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — B&amp;B Dimora Mediterranea</name>
+      <description>Accommodation / end / my pick
+Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0792899,41.7142542,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

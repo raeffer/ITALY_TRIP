@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 8 POIs</name>
+    <description>Day 8 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Accommodation / start
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Locanda dell'Adriatica</name>
+      <description>Accommodation / food stop
+Largo Olivieri 5, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4459466,42.3080635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Via Verde della Costa dei Trabocchi</name>
+      <description>Cycle / walking route
+Via Verde access near Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.444940,42.309420,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Pasticceria Iezzi Rossana</name>
+      <description>Food stop / shop
+Via Nazionale Adriatica 6, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4453615,42.3079185,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Trabocco Vento di Scirocco</name>
+      <description>Food stop
+Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4462617,42.3107684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Aldebaran da Rocco e Tommaso</name>
+      <description>Food stop
+Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.445654,42.309154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Le Due Palme</name>
+      <description>Food stop
+Via San Rocco, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.443628,42.292305,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Promontorio Dannunziano</name>
+      <description>Viewpoint / historic site
+Contrada San Fino 31, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4649437,42.2963673,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Trabocco Punta Turchino</name>
+      <description>Trabocco heritage / viewpoint
+Contrada Portelle, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4608939,42.3006606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — San Vito-Lanciano station</name>
+      <description>Transport
+Stazione San Vito-Lanciano, SP70, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4404829,42.3048450,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Lanciano old town / Piazza del Plebiscito</name>
+      <description>Optional historic centre
+Piazza del Plebiscito, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3902022,42.2309626,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — La Bocconotteria</name>
+      <description>Food stop / shop
+Via Ercole Tinari 6, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3950227,42.2186783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Trattoria Paolucci</name>
+      <description>Food stop
+Via Dalmazia 30, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3952913,42.2284917,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Bottega del Bocconotto</name>
+      <description>Optional food heritage / shop
+Castel Frentano, 66032 Castel Frentano CH, Italy</description>
+      <Point>
+        <coordinates>14.356420,42.197430,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

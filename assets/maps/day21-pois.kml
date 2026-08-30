@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 21 POIs</name>
+    <description>Day 21 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — Sansevero Chapel Museum</name>
+      <description>Museum
+Via Francesco de Sanctis 19/21, 80134 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2540,40.8494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Pintauro</name>
+      <description>Breakfast
+Via Toledo 275, 80132 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2497,40.8442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Antica Pizzeria Port'Alba</name>
+      <description>Lunch
+Via Port'Alba 18, 80134 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2543,40.8494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Rome Fiumicino Airport (end)</name>
+      <description>Airport / end
+Via dell'Aeroporto di Fiumicino 320, 00054 Fiumicino RM, Italy</description>
+      <Point>
+        <coordinates>12.2519,41.7999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

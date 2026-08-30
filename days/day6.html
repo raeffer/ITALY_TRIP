@@ -191,10 +191,31 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day6-pois.kml" download="Italy-Trip-Day-6-POIs.kml">Import Day 6 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=43.8442214,13.0192360&n=Palazzo%20Rotati%2C%20Fano&ll=43.7153671,13.2205412&n=Rocca%20Roveresca&ll=43.5611908,13.5999370&n=Abbazia%20di%20Santa%20Maria%20di%20Portonovo&ll=43.5619,13.6002&n=Cooperativa%20Pescatori%20di%20Portonovo&ll=43.5196861,13.6180996&n=Centro%20Visite%20Parco%20del%20Conero&ll=43.5230728,13.6199227&n=Piazza%20Vittorio%20Veneto%20/%20Balcone%20Panoramico&ll=43.5236323,13.6231578&n=Spiaggia%20Urbani&ll=43.5225245,13.6201607&n=Bar%20Gelateria%20del%20Conero&ll=43.5281358,13.6135596&n=Da%20Giustina&ll=43.5226248,13.6236777&n=La%20Paranza&ll=43.52285,13.6196845&n=Osteria%20Sara&ll=43.5219441,13.6204501&n=Pa%27%20Panino%20un%20bel%20Po%27&ll=43.5223274,13.6202173&n=Bottega%20dei%20Sapori%20Nostrani&ll=43.52243,13.62012&n=Latteria%20Elgide&ll=43.5229034,13.6186971&n=Conero%20Camere&ll=43.5235067,13.6193663&n=Diecidodici&ll=43.5266418,13.6169719&n=San%20Michele%20Relais%20%26%20Spa" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=43.8442214%2C13.0192360&destination=43.5229034%2C13.6186971&waypoints=43.7153671%2C13.2205412%7C43.5611908%2C13.5999370%7C43.5230728%2C13.6199227&travelmode=driving" target="_blank" rel="noopener">Navigate Recommended Route</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=43.8442214%2C13.0192360&destination=43.5229034%2C13.6186971&waypoints=43.5230728%2C13.6199227&travelmode=driving" target="_blank" rel="noopener">Navigate Direct Route</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 6 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>Recommended Route:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=43.8442214,13.019236&saddr=Palazzo%20Rotati%2C%20Fano&dll=43.7153671,13.2205412&daddr=Rocca%20Roveresca&type=vehicle" target="_blank" rel="noopener">1. Palazzo Rotati, Fano → Rocca Roveresca</a>
+              <a class="map-button" href="https://omaps.app/route?sll=43.7153671,13.2205412&saddr=Rocca%20Roveresca&dll=43.5611908,13.599937&daddr=Abbazia%20di%20Santa%20Maria%20di%20Portonovo&type=vehicle" target="_blank" rel="noopener">2. Rocca Roveresca → Abbazia di Santa Maria di Portonovo</a>
+              <a class="map-button" href="https://omaps.app/route?sll=43.5611908,13.599937&saddr=Abbazia%20di%20Santa%20Maria%20di%20Portonovo&dll=43.5230728,13.6199227&daddr=Piazza%20Vittorio%20Veneto%20%2F%20Balcone%20Panoramico&type=vehicle" target="_blank" rel="noopener">3. Abbazia di Santa Maria di Portonovo → Piazza Vittorio Veneto / Balcone Panoramico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=43.5230728,13.6199227&saddr=Piazza%20Vittorio%20Veneto%20%2F%20Balcone%20Panoramico&dll=43.5229034,13.6186971&daddr=Conero%20Camere&type=vehicle" target="_blank" rel="noopener">4. Piazza Vittorio Veneto / Balcone Panoramico → Conero Camere</a>
+            </div>
+          </div>
+          <div class="organic-route-group">
+            <p><b>Direct Route:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=43.8442214,13.019236&saddr=Palazzo%20Rotati%2C%20Fano&dll=43.5230728,13.6199227&daddr=Piazza%20Vittorio%20Veneto%20%2F%20Balcone%20Panoramico&type=vehicle" target="_blank" rel="noopener">1. Palazzo Rotati, Fano → Piazza Vittorio Veneto / Balcone Panoramico</a>
+              <a class="map-button" href="https://omaps.app/route?sll=43.5230728,13.6199227&saddr=Piazza%20Vittorio%20Veneto%20%2F%20Balcone%20Panoramico&dll=43.5229034,13.6186971&daddr=Conero%20Camere&type=vehicle" target="_blank" rel="noopener">2. Piazza Vittorio Veneto / Balcone Panoramico → Conero Camere</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -256,7 +277,7 @@
               <li><b><a href="#poi-san-michele-relais-spa">San Michele Relais & Spa</a></b> <span>Accommodation</span><small>Via Piave 6, 60020 Sirolo AN, Italy<br>GPS: 43.5266418, 13.6169719</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

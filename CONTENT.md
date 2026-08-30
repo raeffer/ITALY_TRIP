@@ -349,8 +349,7 @@ drop an option.
 **Print map:** Use the Day 1 OpenStreetMap-derived orientation map
 showing the direct route, Comacchio alternative, optional lagoon add-on,
 Ravenna walking core, parking, and accommodation. It is a planning map
-only; use Organic Maps for POI browsing and Google Maps for live route
-navigation.
+only; import the day’s POIs once, then use the Organic Maps route legs for POI-visible navigation; Google Maps remains the complete-route fallback.
 
 ## **If Time Is Tight**
 
@@ -1405,8 +1404,7 @@ minutes.
 showing Sirolo → Ortona → Moro River cemetery → San Vito Chietino, the
 Loreto optional detour, the local trabocchi add-on, Ortona and San Vito
 dense POI clusters, dinner stops, food heritage stops, and
-accommodation. It is a planning map only; use Organic Maps for POI
-browsing and Google Maps for live route navigation.
+accommodation. It is a planning map only; import the day’s POIs once, then use the Organic Maps route legs for POI-visible navigation; Google Maps remains the complete-route fallback.
 
 **Numbered POIs for map and legend:**
 

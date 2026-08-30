@@ -1,107 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Italy Trip — Day 12 POIs</name>
-    <description>Monte Sant'Angelo, Trani, Molfetta and Bari points from the Italy Road Trip Companion.</description>
+    <description>Day 12 numbered points from the Italy Road Trip Companion.</description>
     <Placemark>
-      <name>01 — Mattinata accommodation</name>
-      <description>Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
-      <Point><coordinates>16.0792899,41.7142542,0</coordinates></Point>
+      <name>01 — Mattinata (Day 8 accommodation)</name>
+      <description>Start
+Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0792899,41.7142542,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>02 — Santuario di San Michele Arcangelo</name>
-      <description>Via Reale Basilica 127, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9547699,41.7080134,0</coordinates></Point>
+      <description>Historic site / sanctuary
+Via Reale Basilica 127, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9547699,41.7080134,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>03 — Rione Junno &amp; Rione Grotte</name>
-      <description>Via Castello / Junno, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9533918,41.7073834,0</coordinates></Point>
+      <description>Historic quarter
+Via Castello / Junno, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9533918,41.7073834,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>04 — Pasticceria Ciuffreda</name>
-      <description>Via Giuseppe Garibaldi 15, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9541869,41.7074364,0</coordinates></Point>
+      <description>Food stop
+Via Giuseppe Garibaldi 15, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9541869,41.7074364,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>05 — Ristorante Medioevo</name>
-      <description>Via Castello 21, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9533918,41.7073834,0</coordinates></Point>
+      <description>Lunch
+Via Castello 21, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9533918,41.7073834,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>06 — Al Barone</name>
-      <description>Centro storico near the Basilica, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9547699,41.7080134,0</coordinates></Point>
+      <description>Lunch / alternate
+Centro storico near the Basilica, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9547699,41.7080134,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>07 — Ristorante San Michele</name>
-      <description>Via Reale Basilica 51, 71037 Monte Sant'Angelo FG, Italy</description>
-      <Point><coordinates>15.9547699,41.7080134,0</coordinates></Point>
+      <description>Lunch / budget
+Via Reale Basilica 51, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9547699,41.7080134,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
-      <name>08 — Trani Cathedral on the Sea</name>
-      <description>Piazza Duomo 1, 76125 Trani BT, Italy</description>
-      <Point><coordinates>16.4183605,41.2821965,0</coordinates></Point>
+      <name>08 — Trani — the Cathedral on the Sea</name>
+      <description>Historic site
+Piazza Duomo 1, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4183605,41.2821965,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>09 — Sinagoga Scolanova</name>
-      <description>Via Scola Nova, Giudecca quarter, 76125 Trani BT, Italy</description>
-      <Point><coordinates>16.4177563,41.2797529,0</coordinates></Point>
+      <description>Optional historic site
+Via Scola Nova, Giudecca quarter, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4177563,41.2797529,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>10 — Bar Europa</name>
-      <description>Corso Vittorio Emanuele 161, 76125 Trani BT, Italy</description>
-      <Point><coordinates>16.4174057,41.2766535,0</coordinates></Point>
+      <description>Food stop
+Corso Vittorio Emanuele 161, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4174057,41.2766535,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>11 — Molfetta old town &amp; Duomo di San Corrado</name>
-      <description>Vico Campanile, 70056 Molfetta BA, Italy</description>
-      <Point><coordinates>16.5979521,41.2063077,0</coordinates></Point>
+      <description>Overnight alternative
+Vico Campanile, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>12 — Dentro Le Mura</name>
-      <description>Corso Dante Alighieri 42, 70056 Molfetta BA, Italy</description>
-      <Point><coordinates>16.5979521,41.2063077,0</coordinates></Point>
+      <description>Dinner
+Corso Dante Alighieri 42, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>13 — La Cucina del Mare</name>
-      <description>Via Alfredo Baccarini, 70056 Molfetta BA, Italy</description>
-      <Point><coordinates>16.5979521,41.2063077,0</coordinates></Point>
+      <description>Dinner / budget
+Via Alfredo Baccarini, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>14 — Il Mulino di Amleto</name>
-      <description>Vicolo Campanile 6, 70056 Molfetta BA, Italy</description>
-      <Point><coordinates>16.5979521,41.2063077,0</coordinates></Point>
+      <description>Accommodation, alternative
+Vicolo Campanile 6, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>15 — Strada Arco Basso, Bari Vecchia</name>
-      <description>Arco Basso, 70122 Bari BA, Italy</description>
-      <Point><coordinates>16.8671134,41.1273126,0</coordinates></Point>
+      <description>Overnight town (preferred)
+Arco Basso, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8671134,41.1273126,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>16 — Al Pescatore</name>
-      <description>Piazza Federico II di Svevia 6/8, 70122 Bari BA, Italy</description>
-      <Point><coordinates>16.8676604,41.1289060,0</coordinates></Point>
+      <description>Dinner
+Piazza Federico II di Svevia 6/8, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8676604,41.1289060,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>17 — Al Sorso Preferito</name>
-      <description>Via Vito Nicola de Nicolò 46, 70121 Bari BA, Italy</description>
-      <Point><coordinates>16.8750988,41.1235574,0</coordinates></Point>
+      <description>Dinner / alternate
+Via Vito Nicola de Nicolò 46, 70121 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8750988,41.1235574,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>18 — Panificio Fiore</name>
-      <description>Strada Palazzo di Città 38, 70122 Bari BA, Italy</description>
-      <Point><coordinates>16.8709494,41.1296977,0</coordinates></Point>
+      <description>Food stop / budget
+Strada Palazzo di Città 38, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8709494,41.1296977,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>19 — Basilica di San Nicola</name>
-      <description>Largo Abate Elia 13, 70122 Bari BA, Italy</description>
-      <Point><coordinates>16.8701858,41.1302708,0</coordinates></Point>
+      <description>Historic site
+Largo Abate Elia 13, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8701858,41.1302708,0</coordinates>
+      </Point>
     </Placemark>
     <Placemark>
       <name>20 — Bari Vecchia Dimora</name>
-      <description>Corte Lamberti 6, 70122 Bari BA, Italy</description>
-      <Point><coordinates>16.8671134,41.1273126,0</coordinates></Point>
+      <description>Accommodation (preferred)
+Corte Lamberti 6, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8671134,41.1273126,0</coordinates>
+      </Point>
     </Placemark>
   </Document>
 </kml>

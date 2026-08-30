@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 19 POIs</name>
+    <description>Day 19 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Torre Guaceto</name>
+      <description>Option A / nature reserve
+Riserva Naturale Statale di Torre Guaceto, Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.7830,40.7057,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Carovigno</name>
+      <description>Option A / town centre
+Corso Vittorio Emanuele, 72012 Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.6592,40.7071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Trattoria La Cantina</name>
+      <description>Option A / lunch
+Corso Vittorio Emanuele 95/97, 72012 Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.6592,40.7071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Ceglie Messapica</name>
+      <description>Option B / town centre
+Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Osteria del Capitolo</name>
+      <description>Option B / lunch
+below Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Osteria L'Antico Arco</name>
+      <description>Option B / lunch alternate
+Largo Gelso 4, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Braceria Zitto &amp; Mangia</name>
+      <description>Option B / lunch alternate
+Piazza Plebiscito 7, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Oria — Castello Svevo</name>
+      <description>Option C / historic site
+Via Castello, Quartiere Ebraico, 72024 Oria BR, Italy</description>
+      <Point>
+        <coordinates>17.6416,40.4998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Cantina Produttori di Manduria</name>
+      <description>Option C / wine tasting
+Via Fabio Massimo 19, 74024 Manduria TA, Italy</description>
+      <Point>
+        <coordinates>17.6361,40.4059,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Fonte Pliniano</name>
+      <description>Option C / historic site
+Via Fonte Pliniano, 74024 Manduria TA, Italy</description>
+      <Point>
+        <coordinates>17.6430,40.4022,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Grottaglie — Quartiere delle Ceramiche</name>
+      <description>Option D / historic site
+Quartiere delle Ceramiche, 74023 Grottaglie TA, Italy</description>
+      <Point>
+        <coordinates>17.4321,40.5335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Osteria La Capasa</name>
+      <description>Option D / lunch
+Via Chiesa Matrice 4, 74023 Grottaglie TA, Italy</description>
+      <Point>
+        <coordinates>17.4284,40.5348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — MArTA</name>
+      <description>Option D / museum
+Via Cavour 10, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2385,40.4735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Castello Aragonese</name>
+      <description>Option D / historic site
+Piazza Castello, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2337,40.4727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — Core Restaurant</name>
+      <description>Option D / lunch, least verified
+Via Niccolò Tommaso d'Aquino 8, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2385,40.4735,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

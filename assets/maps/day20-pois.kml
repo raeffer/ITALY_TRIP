@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 20 POIs</name>
+    <description>Day 20 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start)</name>
+      <description>Accommodation / start
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Scavi di Pompei — Porta Marina</name>
+      <description>Historic site / entrance
+Via Marina, 80045 Pompei NA, Italy</description>
+      <Point>
+        <coordinates>14.4831,40.7485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Scavi di Pompei — Piazza Anfiteatro</name>
+      <description>Historic site / entrance
+Piazza Immacolata, 80045 Pompei NA, Italy</description>
+      <Point>
+        <coordinates>14.4876,40.7477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Garage Napoli Centro</name>
+      <description>Parking
+Via dei Fiorentini 53, 80133 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2509,40.8423,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — La figlia del Presidente</name>
+      <description>Dinner
+Via del Grande Archivio 23/24, 80138 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2595,40.8488,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — MANN — Gabinetto Segreto</name>
+      <description>Museum / quirky, optional
+Piazza Museo Nazionale 19, 80135 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2512,40.8536,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

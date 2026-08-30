@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 3 POIs</name>
+    <description>Day 3 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — R&amp;B Villa Tartaruga, Rastellino</name>
+      <description>Start / base
+Via Garzolé 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.1195137,44.6269459,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Piazza del Popolo &amp; Collegiata</name>
+      <description>Stop
+40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1874716,44.6384848,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Piazzetta Betlemme</name>
+      <description>Hidden gem / quirky
+Via Betlemme, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1901568,44.6391987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Pasticceria Dora</name>
+      <description>Coffee
+Via Crevalcore 1, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1857293,44.6430230,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Caffè Pasticceria Mimì</name>
+      <description>Local speciality
+Via Guardia Nazionale 1, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1869812,44.6401562,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Rocca di Vignola</name>
+      <description>Optional stop
+Piazza dei Contrari 4, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.0101210,44.4764050,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Pasticceria Gollini</name>
+      <description>Optional / pastry
+Piazza Garibaldi, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.0104000,44.4766000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Acetaia La Cà dal Nôn</name>
+      <description>Optional / reservation required
+Via Ghiaurov 50-56, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.0134113,44.4932594,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Monumento al Tortellino, Castelfranco Emilia</name>
+      <description>Cool / quirky
+Piazza Garibaldi, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.0531420,44.5956559,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Statua di Re Gino</name>
+      <description>Cool / quirky
+Piazza del Popolo, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1874716,44.6384848,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 7 POIs</name>
+    <description>Day 7 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — Conero Camere, Sirolo</name>
+      <description>Start
+Via Grilli 14, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6186971,43.5229034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Basilica della Santa Casa</name>
+      <description>Optional historic site
+Piazza della Madonna 1, 60025 Loreto AN, Italy</description>
+      <Point>
+        <coordinates>13.6108062,43.4410010,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Pasticceria Picchio</name>
+      <description>Food stop
+Via Traversa Don Enzo Rampolla 2, 60025 Loreto Stazione AN, Italy</description>
+      <Point>
+        <coordinates>13.6175825,43.4466094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Ortona old town / Corso Vittorio Emanuele</name>
+      <description>Historic centre
+Corso Vittorio Emanuele, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4032270,42.3535835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Pasticceria Cantelmi Giulio</name>
+      <description>Food stop
+Corso Vittorio Emanuele 73, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4032270,42.3535835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Castello Aragonese</name>
+      <description>Historic site
+Largo Castello, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4058573,42.3588317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Moro River Canadian War Cemetery</name>
+      <description>Historic site
+Contrada San Donato, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4165319,42.3368140,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Trabocco Punta Turchino</name>
+      <description>Viewpoint / trabocco heritage
+Contrada Portelle, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4608939,42.3006606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Marina di San Vito / Costa dei Trabocchi</name>
+      <description>Beach / coastal base
+Marina di San Vito, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4436070,42.2963540,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Trabocco Vento di Scirocco</name>
+      <description>Food stop / trabocco dinner
+Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4462617,42.3107684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Aldebaran da Rocco e Tommaso</name>
+      <description>Food stop
+Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.445654,42.309154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Trabocco Pesce Palombo</name>
+      <description>Optional food stop
+SS16 Adriatica, Fossacesia Marina, 66022 Fossacesia CH, Italy</description>
+      <Point>
+        <coordinates>14.518930,42.244760,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Le Due Palme</name>
+      <description>Food stop
+Via San Rocco, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.443628,42.292305,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — Frantoio Oleario Giocondo de Santis</name>
+      <description>Shop / food heritage
+Via San Rocco Vecchio 7, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4447461,42.2913838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Azienda Agricola Olivastri Tommaso</name>
+      <description>Winery / shop
+Via Quercia del Corvo 37, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4456199,42.2779149,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Accommodation
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — Locanda dell'Adriatica</name>
+      <description>Accommodation / food stop
+Largo Olivieri 5, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4459466,42.3080635,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

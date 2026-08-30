@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 2 POIs</name>
+    <description>Day 2 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — Agriturismo da Mea, Santorso</name>
+      <description>Start
+Via del Campo Romano 15, 36014 Santorso VI, Italy</description>
+      <Point>
+        <coordinates>11.4188371,45.7251709,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Piazza degli Scacchi &amp; Castello Inferiore</name>
+      <description>Optional stop
+Piazza degli Scacchi, 36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6552998,45.7455140,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Castello Superiore, Marostica</name>
+      <description>Optional / viewpoint
+36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6523916,45.7496871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Osteria Madonnetta</name>
+      <description>Optional lunch
+Via Vajenti 21, 36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6550451,45.7448051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Ponte Vecchio &amp; Grapperia Nardini</name>
+      <description>Essential stop
+36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7311146,45.7675140,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Museo degli Alpini</name>
+      <description>Museum
+Via Angarano 2, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7306876,45.7675730,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Museo Civico di Bassano</name>
+      <description>Optional museum
+Piazza Garibaldi 34, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7350946,45.7664915,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>08 — Tempio Ossario</name>
+      <description>Hidden gem
+Piazzale Luigi Cadorna, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7334538,45.7636398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>09 — Bottega del Pane Beltrame</name>
+      <description>Food stop
+Piazza Libertà 25, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7333642,45.7667875,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 — Danieli</name>
+      <description>Coffee
+Piazza Garibaldi 39, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7353468,45.7668813,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 — Osteria Alla Caneva</name>
+      <description>Lunch
+Via Giacomo Matteotti 34, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7339387,45.7678850,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 — Pasticceria Bolcato / Dolce Bassano</name>
+      <description>Pastry
+Piazzetta Zaine, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7355000,45.7665000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 — Cittadella — Camminamento di Ronda</name>
+      <description>Walled town / recommended
+Porta Bassano, 35013 Cittadella PD, Italy</description>
+      <Point>
+        <coordinates>11.7832170,45.6507763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 — L.AB Pastry &amp; Coffee, Cittadella</name>
+      <description>Food stop
+Via Muri Bianchi, 35013 Cittadella PD, Italy</description>
+      <Point>
+        <coordinates>11.7885209,45.6364387,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 — Montagnana — Castello di San Zeno</name>
+      <description>Walled town / alternative
+35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.4686785,45.2309674,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 — Duomo di Santa Maria Assunta, Montagnana</name>
+      <description>Historic site / alternative
+Via San Giovanni 6, 35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.4680736,45.2335698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 — Le Mura Bar-Gastronomia, Montagnana</name>
+      <description>Food stop / alternative
+35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.4681000,45.2335000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 — Antica Trattoria Bonasoni</name>
+      <description>Dinner
+Via Cento, San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.2283385,44.7056327,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 — L'Ulivo B&amp;B</name>
+      <description>Accommodation
+Via delle Rose, San Matteo della Decima, 40017, Italy</description>
+      <Point>
+        <coordinates>11.2364802,44.7159632,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20 — Boutique Hotel San Giovanni</name>
+      <description>Accommodation / alternate
+San Giovanni in Persiceto, 40017 BO, Italy</description>
+      <Point>
+        <coordinates>11.1872698,44.6353076,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21 — R&amp;B Villa Tartaruga</name>
+      <description>Accommodation / suggestion
+Via Garzolé 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.1195137,44.6269459,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 — Castello degli Ezzelini</name>
+      <description>Cool / quirky
+Piazza Castello Ezzelini, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7325263,45.7690102,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

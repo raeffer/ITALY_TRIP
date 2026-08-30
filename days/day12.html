@@ -200,14 +200,35 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
-          <a class="map-button" href="../assets/maps/day12-pois.kml" download="Italy-Trip-Day-12-POIs.kml">1. Import Day 12 POIs</a>
-          <a class="map-button" href="https://omaps.app/route?sll=41.2821965,16.4183605&saddr=Cattedrale%20di%20Trani&dll=41.1273126,16.8671134&daddr=Bari%20Vecchia%20Dimora&type=vehicle" target="_blank" rel="noopener">2. Test Organic Maps: Trani → Bari</a>
+          <a class="map-button" href="../assets/maps/day12-pois.kml" download="Italy-Trip-Day-12-POIs.kml">Import Day 12 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=41.7142542,16.0792899&n=Mattinata%20%28Day%208%20accommodation%29&ll=41.7080134,15.9547699&n=Santuario%20di%20San%20Michele%20Arcangelo&ll=41.7073834,15.9533918&n=Rione%20Junno%20%26%20Rione%20Grotte&ll=41.7074364,15.9541869&n=Pasticceria%20Ciuffreda&ll=41.7073834,15.9533918&n=Ristorante%20Medioevo&ll=41.7080134,15.9547699&n=Al%20Barone&ll=41.7080134,15.9547699&n=Ristorante%20San%20Michele&ll=41.2821965,16.4183605&n=Trani%20%E2%80%94%20the%20Cathedral%20on%20the%20Sea&ll=41.2797529,16.4177563&n=Sinagoga%20Scolanova&ll=41.2766535,16.4174057&n=Bar%20Europa&ll=41.2063077,16.5979521&n=Molfetta%20old%20town%20%26%20Duomo%20di%20San%20Corrado&ll=41.2063077,16.5979521&n=Dentro%20Le%20Mura&ll=41.2063077,16.5979521&n=La%20Cucina%20del%20Mare&ll=41.2063077,16.5979521&n=Il%20Mulino%20di%20Amleto&ll=41.1273126,16.8671134&n=Strada%20Arco%20Basso%2C%20Bari%20Vecchia&ll=41.1289060,16.8676604&n=Al%20Pescatore&ll=41.1235574,16.8750988&n=Al%20Sorso%20Preferito&ll=41.1296977,16.8709494&n=Panificio%20Fiore&ll=41.1302708,16.8701858&n=Basilica%20di%20San%20Nicola&ll=41.1273126,16.8671134&n=Bari%20Vecchia%20Dimora" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&destination=Cattedrale%20di%20Trani&waypoints=Santuario%20di%20San%20Michele%20Arcangelo%2C%20Monte%20Sant%27Angelo&travelmode=driving" target="_blank" rel="noopener">Navigate to Trani</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Cattedrale%20di%20Trani&destination=Il%20Mulino%20di%20Amleto%2C%20Molfetta&travelmode=driving" target="_blank" rel="noopener">Navigate Trani → Molfetta</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Cattedrale%20di%20Trani&destination=Bari%20Vecchia%20Dimora%2C%20Bari&travelmode=driving" target="_blank" rel="noopener">Navigate Trani → Bari</a>
         </div>
-        <p class="route-map-note web-only"><b>Organic Maps POI test:</b> Tap “1. Import Day 12 POIs” once, open the downloaded KML file with Organic Maps, and confirm the “Italy Trip — Day 12 POIs” bookmark list is visible. Then return here and tap “2. Test Organic Maps: Trani → Bari”.</p>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 12 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>to Trani:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=41.7142542,16.0792899&saddr=B%26B%20Dimora%20Mediterranea%2C%20Mattinata&dll=41.7080134,15.9547699&daddr=Santuario%20di%20San%20Michele%20Arcangelo%2C%20Monte%20Sant%27Angelo&type=vehicle" target="_blank" rel="noopener">1. B&amp;B Dimora Mediterranea, Mattinata → Santuario di San Michele Arcangelo, Monte Sant&#x27;Angelo</a>
+              <a class="map-button" href="https://omaps.app/route?sll=41.7080134,15.9547699&saddr=Santuario%20di%20San%20Michele%20Arcangelo%2C%20Monte%20Sant%27Angelo&dll=41.2821965,16.4183605&daddr=Cattedrale%20di%20Trani&type=vehicle" target="_blank" rel="noopener">2. Santuario di San Michele Arcangelo, Monte Sant&#x27;Angelo → Cattedrale di Trani</a>
+            </div>
+          </div>
+          <div class="organic-route-group">
+            <p><b>Trani → Molfetta:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=41.2821965,16.4183605&saddr=Cattedrale%20di%20Trani&dll=41.2063077,16.5979521&daddr=Il%20Mulino%20di%20Amleto%2C%20Molfetta&type=vehicle" target="_blank" rel="noopener">1. Cattedrale di Trani → Il Mulino di Amleto, Molfetta</a>
+            </div>
+          </div>
+          <div class="organic-route-group">
+            <p><b>Trani → Bari:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=41.2821965,16.4183605&saddr=Cattedrale%20di%20Trani&dll=41.1273126,16.8671134&daddr=Bari%20Vecchia%20Dimora%2C%20Bari&type=vehicle" target="_blank" rel="noopener">1. Cattedrale di Trani → Bari Vecchia Dimora, Bari</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -268,7 +289,7 @@
               <li><b><a href="#poi-option-b-bari">Bari Vecchia Dimora</a></b> <span>Accommodation (preferred)</span><small>Corte Lamberti 6, 70122 Bari BA, Italy<br>GPS: 41.1273126, 16.8671134</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

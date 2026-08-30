@@ -139,9 +139,20 @@
       <h2><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19l6-4 6 4 4-3V5l-4 3-6-4-6 4z"/><path d="M10 4v11"/><path d="M16 8v11"/></svg>Today's Route & Timing</h2>
       <div class="card route-card">
         <div class="route-actions web-only">
+          <a class="map-button" href="../assets/maps/day21-pois.kml" download="Italy-Trip-Day-21-POIs.kml">Import Day 21 POIs</a>
           <a class="map-button" href="https://omaps.app/map?v=1&ll=40.8494,14.2540&n=Sansevero%20Chapel%20Museum&ll=40.8442,14.2497&n=Pintauro&ll=40.8494,14.2543&n=Antica%20Pizzeria%20Port%27Alba&ll=41.7999,12.2519&n=Rome%20Fiumicino%20Airport%20%28end%29" target="_blank" rel="noopener">POI on Organic Maps</a>
           <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Napoli&destination=Roma%20Fiumicino%20Airport&travelmode=driving" target="_blank" rel="noopener">Navigate to Fiumicino</a>
         </div>
+        <details class="organic-route-legs web-only">
+          <summary>Organic Maps route legs (POIs remain visible)</summary>
+          <p>Import Day 21 POIs once, then open each leg in order. The Google buttons above retain the complete route as a fallback.</p>
+          <div class="organic-route-group">
+            <p><b>to Fiumicino:</b></p>
+            <div class="route-actions">
+              <a class="map-button" href="https://omaps.app/route?sll=40.8488,14.2595&saddr=Napoli&dll=41.7999,12.2519&daddr=Roma%20Fiumicino%20Airport&type=vehicle" target="_blank" rel="noopener">1. Napoli → Roma Fiumicino Airport</a>
+            </div>
+          </div>
+        </details>
         <div class="planner-grid">
           <label class="planner-field web-only">Departure time
             <input type="time" value="09:00" data-planner-departure>
@@ -173,7 +184,7 @@
               <li class="poi-marker-accommodation"><b>Rome Fiumicino Airport (end)</b> <span>Airport / end</span><small>Via dell'Aeroporto di Fiumicino 320, 00054 Fiumicino RM, Italy<br>GPS: 41.7999, 12.2519</small></li>
             </ol>
           </div>
-          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Use Organic Maps for POI browsing and the Google Maps buttons above for live route navigation.</p>
+          <p class="route-map-note">OpenStreetMap-derived orientation map only, not turn-by-turn navigation. Import this day’s POIs once to keep its bookmark pins visible in Organic Maps navigation. Use the Organic Maps route legs above for POI-visible navigation; Google Maps remains the complete-route fallback.</p>
         </div>
       </div>
     </div>

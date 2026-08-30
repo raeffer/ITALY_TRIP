@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Trip — Day 16 POIs</name>
+    <description>Day 16 numbered points from the Italy Road Trip Companion.</description>
+    <Placemark>
+      <name>01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>02 — Basilica Cattedrale di Sant'Agata</name>
+      <description>Historic site
+Via Duomo 1, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9763,40.0546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>03 — Fontana Greca</name>
+      <description>Historic site / quirky
+Piazza Fontana Greca, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9811,40.0559,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>04 — Frantoio Ipogeo di Palazzo Granafei</name>
+      <description>Museum
+Via Antonietta de Pace 87, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9773,40.0550,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>05 — Il Frantoio del Viceré</name>
+      <description>Museum / alternate
+Via Santa Maria 6, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9756,40.0545,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>06 — Trattoria La Puritate</name>
+      <description>Lunch / dinner
+Via Sant'Elia 18, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9751,40.0550,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>07 — Baia Verde</name>
+      <description>Beach
+Viale delle Dune, Baia Verde, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>18.0155,40.0373,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

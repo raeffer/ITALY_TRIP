@@ -4,7 +4,7 @@ Read this first, before doing anything else. It says where we are in the Italy R
 
 **Last updated:** 2026-08-31
 
-**Currently on:** Testing imported Organic Maps bookmarks on Day 12 as a possible way to retain the guide's POI pins during stable two-point navigation; all existing Google route buttons remain available. Print-pagination fix remains next (see Open Items below).
+**Currently on:** Organic Maps bookmark imports and stable route legs are rolling out across all 21 days after the Day 12 Android test passed. The next discussion is current-location navigation from each POI link; print-pagination remains open after that (see Open Items below).
 
 ## Repository purpose
 
@@ -18,16 +18,16 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   match exists, and are left as plain text where no dedicated card exists for
   that name (verified case by case, not just link-count checked). See
   `decisions.md`, 2026-08-26.
-- **Organic Maps is the primary POI map; Google is the live route navigator:**
-  the 21 "POI on Organic Maps" buttons open every numbered POI as exact pins,
-  and 96 individual destination links use the same confirmed-working v1 pin
-  format with verified coordinates. Their smaller Google links remain for
-  direct navigation. The 34 ordered route buttons use their original Google
-  Maps URLs. Organic Maps v2 route links were deployed, rejected by the
-  stable Android app as an unrecognized bookmark file, and removed; its
-  legacy two-point route format cannot preserve this project's intermediate
-  stops. The custom OpenStreetMap/OSRM orientation maps remain unchanged for
-  web and print. See `decisions.md`, 2026-08-30 and 2026-08-25.
+- **Organic Maps provides POI-visible navigation, with Google complete-route fallbacks:**
+  all 21 days provide a downloadable KML bookmark collection generated from
+  the numbered POI legend (300 bookmarks total). The user confirmed on Android
+  that imported bookmarks remain visible while a stable Organic Maps two-point
+  route is active. Each of the 34 existing route choices is therefore also
+  available as explicit Organic Maps legs (100 links total) inside a collapsed
+  section, preserving every ordered stop without using the unsupported v2 API.
+  The original Google complete-route buttons remain visible as fallbacks. The
+  21 overview buttons and 96 individual POI pin links remain unchanged. See
+  `decisions.md`, 2026-08-31, 2026-08-30 and 2026-08-25.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix
@@ -46,16 +46,15 @@ All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`
 
 ## Open Items
 
-### Organic Maps route pilot
+### Current-location POI navigation (discussion next)
 
-The stable two-point route link opened correctly on the user's Android phone,
-but Organic Maps' driving style hid ordinary POIs. Day 12 now has a downloadable
-KML collection containing its 20 numbered POIs and a two-step phone test: import
-the bookmarks once, then start the Trani-to-Bari Organic Maps route. Confirm the
-imported bookmarks remain visible during navigation before applying this pattern
-elsewhere. Multi-stop routes would still need separate legs because the stable
-route format accepts only one start and one destination. Keep the existing
-Google route available as a fallback.
+The user wants every POI in the document to have a hot link that starts
+navigation from wherever the traveller currently is. This is not part of the
+route-leg rollout and must be discussed before implementation because the
+stable Organic Maps v1 route API requires an explicit start coordinate; its
+tested pin links can open the destination but still require the user to tap
+"Route to" inside Organic Maps. Do not silently substitute the unsupported v2
+`currentLocation` route format that failed on the user's installed app.
 
 ### Print-pagination fix (in progress)
 
