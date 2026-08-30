@@ -2,9 +2,9 @@
 
 Read this first, before doing anything else. It says where we are in the Italy Road Trip Companion repository and what to do next. Updated at the end of every session, right before stopping, so a new session can pick up without being re-briefed.
 
-**Last updated:** 2026-08-30
+**Last updated:** 2026-08-31
 
-**Currently on:** Organic Maps POI / Google route hybrid restored after the stable app rejected v2 route links; print-pagination fix remains next (see Open Items below).
+**Currently on:** Testing the stable Organic Maps two-point route format on Day 12 as a possible POI-visible navigation replacement; all existing Google route buttons remain available. Print-pagination fix remains next (see Open Items below).
 
 ## Repository purpose
 
@@ -45,6 +45,15 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`), and `print-all.html` covers the full set. Check `git log`/`git status` before assuming this is still current.
 
 ## Open Items
+
+### Organic Maps route pilot
+
+Day 12 has one additional test button for the officially documented stable
+two-point Organic Maps route format: Trani to Bari. Confirm it on the user's
+Android phone before applying the format elsewhere. If it works, multi-stop
+routes must be presented as separate legs because this stable format accepts
+only one start and one destination. Keep the existing Google route available
+as a fallback.
 
 ### Print-pagination fix (in progress)
 
