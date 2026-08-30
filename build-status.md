@@ -4,7 +4,7 @@ Read this first, before doing anything else. It says where we are in the Italy R
 
 **Last updated:** 2026-08-30
 
-**Currently on:** Organic Maps primary-routing rollout complete; print-pagination fix remains next (see Open Items below).
+**Currently on:** Organic Maps POI / Google route hybrid restored after the stable app rejected v2 route links; print-pagination fix remains next (see Open Items below).
 
 ## Repository purpose
 
@@ -18,17 +18,16 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   match exists, and are left as plain text where no dedicated card exists for
   that name (verified case by case, not just link-count checked). See
   `decisions.md`, 2026-08-26.
-- **Organic Maps is the primary map and navigation experience:** the 21
-  "POI on Organic Maps" buttons still open every numbered POI as exact pins.
-  The 34 route buttons now use Organic Maps v2 route links with exact origin,
-  destination, ordered waypoint, and travel-mode data, and the 97 individual
-  destination links route to verified coordinates in Organic Maps. Every
-  original Google URL remains as a smaller fallback for live traffic and
-  devices without Organic Maps. The custom OpenStreetMap/OSRM orientation
-  maps remain unchanged for web and print. The multi-pin overview was
-  confirmed working on-phone; the new v2 route links still require an
-  up-to-date Organic Maps installation and on-phone confirmation. See
-  `decisions.md`, 2026-08-30 and 2026-08-25.
+- **Organic Maps is the primary POI map; Google is the live route navigator:**
+  the 21 "POI on Organic Maps" buttons open every numbered POI as exact pins,
+  and 96 individual destination links use the same confirmed-working v1 pin
+  format with verified coordinates. Their smaller Google links remain for
+  direct navigation. The 34 ordered route buttons use their original Google
+  Maps URLs. Organic Maps v2 route links were deployed, rejected by the
+  stable Android app as an unrecognized bookmark file, and removed; its
+  legacy two-point route format cannot preserve this project's intermediate
+  stops. The custom OpenStreetMap/OSRM orientation maps remain unchanged for
+  web and print. See `decisions.md`, 2026-08-30 and 2026-08-25.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix

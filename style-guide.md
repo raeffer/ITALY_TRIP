@@ -66,7 +66,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
 - Maps must never be enlarged beyond their intended effective resolution. Route lines, POI markers, leader lines, marker numbers, map titles, attributions, and route legends must remain crisp on large desktop screens and in A4 print/PDF output.
 - Route overlays must be rendered with antialiased strokes, rounded caps, and rounded joins. If the generator produces raster maps, route lines should be drawn on a higher-resolution overlay and downsampled with a high-quality filter before compositing so bends and dashed segments do not appear jagged or blocky.
 - Generated map UI must use the project's editorial palette, not bright generic GIS colours. Use named palette constants in the generator for route roles, POI marker roles, marker borders, legend panels, legend text, leader lines, and attribution so future maps automatically match the Italy Road Trip Companion visual system.
-- The map is for orientation only. Organic Maps links/buttons provide the primary POI and routing experience. Smaller Google Maps fallback links must remain available for devices without Organic Maps and for traffic-aware routing.
+- The map is for orientation only. Organic Maps links provide the primary POI-browsing experience. Google Maps buttons provide live route navigation and must remain available because the stable Organic Maps app does not support the project's ordered multi-stop route links.
 - Every POI included in that day's visible content must appear on the map. Do not omit cafés, restaurants, shops, historic sites, parking, accommodation, viewpoints, beaches, optional stops, or other named practical stops merely to reduce map clutter.
 - POIs must use compact numbered markers rather than full text labels on the map. Do not place full POI names directly on the map.
 - Prefer rounded-square numbered markers for generated bitmap maps, because they keep single- and double-digit numbers centered and avoid ragged small-circle edges in print.
@@ -84,7 +84,7 @@ This file documents facts about the PROJECT ITSELF — content rules, design sys
   4. OpenStreetMap object data
   5. Other reputable mapping sources only if necessary
 - Do not rely solely on previously stored coordinates, old page content, or earlier generated map data when adding or modifying POIs.
-- Every page must validate that every POI appears on the map, every POI appears in the legend, numbering is unique, marker and legend numbering match, addresses are complete, coordinates are verified, Organic Maps links use those verified coordinates where available, and Google Maps fallback links continue to function.
+- Every page must validate that every POI appears on the map, every POI appears in the legend, numbering is unique, marker and legend numbering match, addresses are complete, coordinates are verified, Organic Maps POI links use those verified coordinates where available, and Google Maps route-navigation links continue to function.
 - The reusable map generator configuration for each POI should store, at minimum, number, name, latitude, longitude, address, type, optional status where relevant, and verification/source notes sufficient for later audit.
 
 ## Printable Edition (print-all.html)
