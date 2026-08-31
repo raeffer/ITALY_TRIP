@@ -1,0 +1,2415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Italy Road Trip — All 301 POIs</name>
+    <description>All audited points from the 21-day Italy Road Trip Companion. Bookmark names begin with the full-trip day and daily marker number.</description>
+    <Placemark>
+      <name>D01-01 — Venice Marco Polo Airport</name>
+      <description>Start
+Via Galileo Galilei 30/1, 30173 Venezia VE, Italy</description>
+      <Point>
+        <coordinates>12.3425797,45.5035386,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-02 — Prato della Valle</name>
+      <description>Stop
+Prato della Valle, 35123 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8751207,45.3984714,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-03 — Palazzo della Ragione &amp; Sotto il Salone</name>
+      <description>Market / historic site
+Piazza delle Erbe, 35122 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8752231,45.4072498,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-04 — Caffe Pedrocchi</name>
+      <description>Food stop
+Via VIII Febbraio 15, 35122 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8770946,45.4076922,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-05 — Museo del Precinema</name>
+      <description>Hidden gem
+Prato della Valle 1/A, 35123 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8759224,45.4001955,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-06 — Pasticceria Biasetto</name>
+      <description>Food stop
+Via Jacopo Facciolati 12, 35126 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8857335,45.3992373,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-07 — Piazza dei Signori &amp; Basilica Palladiana</name>
+      <description>Stop
+Piazza dei Signori, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.5469575,45.5469672,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-08 — Casa del Diavolo (Palazzo Porto)</name>
+      <description>Quirky stop
+Piazza Castello, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.541746,45.5454098,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-09 — Righetti</name>
+      <description>Lunch
+Piazza del Duomo 3, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.5443786,45.5457569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-10 — Osteria Il Cursore</name>
+      <description>Lunch / alternate
+Strada Pozzetto 10, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.5484005,45.5446419,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-11 — Il Ceppo</name>
+      <description>Lunch / alternate
+Corso Andrea Palladio 196, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.5485427,45.5490457,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-12 — Piazza Garibaldi, Fontana Maggiore &amp; Rocca di Asolo</name>
+      <description>Stop
+Piazza Garibaldi, 31011 Asolo TV, Italy</description>
+      <Point>
+        <coordinates>11.9134666,45.8022047,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-13 — Casa dell'Arco &amp; Cimitero di Sant'Anna</name>
+      <description>Historic site
+Via Canova, 31011 Asolo TV, Italy</description>
+      <Point>
+        <coordinates>11.9102238,45.8025475,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-14 — Caffe Centrale Cornaro</name>
+      <description>Food stop
+Piazza Garibaldi, 31011 Asolo TV, Italy</description>
+      <Point>
+        <coordinates>11.9135387,45.8023434,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-15 — Osteria al Bacaro</name>
+      <description>Lunch
+Via Robert Browning 165, 31011 Asolo TV, Italy</description>
+      <Point>
+        <coordinates>11.914317,45.8015364,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-16 — La Trave</name>
+      <description>Lunch / stronger pick
+Via Bernardi 15, Pagnano, 31011 Asolo TV, Italy</description>
+      <Point>
+        <coordinates>11.8872045,45.8085576,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-17 — Santuario di Sant'Orso &amp; Monte Summano</name>
+      <description>Viewpoint / sanctuary
+Via Crucis, 36014 Santorso VI, Italy</description>
+      <Point>
+        <coordinates>11.3934015,45.7396729,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-18 — Agriturismo da Mea</name>
+      <description>Accommodation / my pick
+Via del Campo Romano 15, 36014 Santorso VI, Italy</description>
+      <Point>
+        <coordinates>11.4188371,45.7251709,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-19 — Agriturismo Cabrele</name>
+      <description>Accommodation / alternate
+Via dei Prati 4, 36014 Santorso VI, Italy</description>
+      <Point>
+        <coordinates>11.4017302,45.7302203,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-20 — Hotel Villa I Pini</name>
+      <description>Accommodation / higher comfort
+Via Schio 77, 36034 Malo VI, Italy</description>
+      <Point>
+        <coordinates>11.401915,45.678031,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-21 — Schio Hotel</name>
+      <description>Accommodation / fallback
+Via Campagnola, 36015 Schio VI, Italy</description>
+      <Point>
+        <coordinates>11.3772122,45.7154538,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-22 — Basilica di Sant'Antonio (Il Santo)</name>
+      <description>Quirky stop
+Piazza del Santo 11, 35123 Padova PD, Italy</description>
+      <Point>
+        <coordinates>11.8808472,45.4014584,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D01-23 — The Turtles of Vicenza, Parco Querini</name>
+      <description>Quirky stop
+Viale Mariano Rumor, 36100 Vicenza VI, Italy</description>
+      <Point>
+        <coordinates>11.5471074,45.5538006,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-01 — Agriturismo da Mea, Santorso</name>
+      <description>Start
+Via del Campo Romano 15, 36014 Santorso VI, Italy</description>
+      <Point>
+        <coordinates>11.4188371,45.7251709,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-02 — Piazza degli Scacchi &amp; Castello Inferiore</name>
+      <description>Optional stop
+Piazza degli Scacchi, 36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6552998,45.745514,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-03 — Castello Superiore, Marostica</name>
+      <description>Optional / viewpoint
+36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6523916,45.7496871,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-04 — Osteria Madonnetta</name>
+      <description>Optional lunch
+Via Vajenti 21, 36063 Marostica VI, Italy</description>
+      <Point>
+        <coordinates>11.6550451,45.7448051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-05 — Ponte Vecchio &amp; Grapperia Nardini</name>
+      <description>Essential stop
+36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7311146,45.767514,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-06 — Museo degli Alpini</name>
+      <description>Museum
+Via Angarano 2, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7306876,45.767573,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-07 — Museo Civico di Bassano</name>
+      <description>Optional museum
+Piazza Garibaldi 34, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7350946,45.7664915,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-08 — Tempio Ossario</name>
+      <description>Hidden gem
+Piazzale Luigi Cadorna, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7334538,45.7636398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-09 — Bottega del Pane Beltrame</name>
+      <description>Food stop
+Piazza Libertà 25, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7333642,45.7667875,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-10 — Danieli</name>
+      <description>Coffee
+Piazza Garibaldi 39, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7349257,45.7666835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-11 — Osteria Alla Caneva</name>
+      <description>Lunch
+Via Giacomo Matteotti 34, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.73402,45.76757,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-12 — Dolce Bassano</name>
+      <description>Pastry
+Piazzetta Zaine 14/15, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.73469,45.7686415,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-13 — Cittadella — Camminamento di Ronda</name>
+      <description>Walled town / recommended
+Porta Bassano, 35013 Cittadella PD, Italy</description>
+      <Point>
+        <coordinates>11.783217,45.6507763,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-14 — L.AB Pastry &amp; Coffee, Cittadella</name>
+      <description>Food stop
+Via Muri Bianchi 35, 35013 Cittadella PD, Italy</description>
+      <Point>
+        <coordinates>11.78814,45.63781,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-15 — Montagnana — Castello di San Zeno</name>
+      <description>Walled town / alternative
+35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.4686785,45.2309674,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-16 — Duomo di Santa Maria Assunta, Montagnana</name>
+      <description>Historic site / alternative
+Via San Giovanni 6, 35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.4680736,45.2335698,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-17 — Le Mura Bar-Gastronomia, Montagnana</name>
+      <description>Food stop / alternative
+Via Circonvallazione 145, 35044 Montagnana PD, Italy</description>
+      <Point>
+        <coordinates>11.462482,45.231831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-18 — Antica Trattoria Bonasoni</name>
+      <description>Dinner
+Via Cento, San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.2283385,44.7056327,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-19 — L'Ulivo B&amp;B</name>
+      <description>Accommodation
+Via delle Rose 2A, San Matteo della Decima, 40017, Italy</description>
+      <Point>
+        <coordinates>11.2364802,44.7159632,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-20 — Boutique Hotel San Giovanni</name>
+      <description>Accommodation / alternate
+Via Bassa 1F, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.183138,44.6287343,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-21 — R&amp;B Villa Tartaruga</name>
+      <description>Accommodation / suggestion
+Via Garzolé 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.1195137,44.6269459,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-22 — Castello degli Ezzelini</name>
+      <description>Quirky stop
+Piazza Castello Ezzelini, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7325263,45.7690102,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D02-23 — Pasticceria Bolcato</name>
+      <description>Pastry producer / verify retail access
+Via Portile 12, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7483555,45.7564002,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-01 — R&amp;B Villa Tartaruga, Rastellino</name>
+      <description>Start / base
+Via Garzole 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.1195137,44.6269459,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-02 — Piazza del Popolo &amp; Collegiata</name>
+      <description>Stop
+40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1874716,44.6384848,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-03 — Piazzetta Betlemme</name>
+      <description>Hidden gem / quirky
+Via Betlemme, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1901568,44.6391987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-04 — Pasticceria Dora</name>
+      <description>Coffee
+Via Crevalcore 1, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1857293,44.643023,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-05 — Magic Pasticcio</name>
+      <description>Local speciality
+Via IV Novembre 21, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1866698,44.6411217,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-06 — Rocca di Vignola</name>
+      <description>Optional stop
+Piazza dei Contrari 4, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.010121,44.476405,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-07 — Pasticceria Gollini</name>
+      <description>Optional / pastry
+Via Giuseppe Garibaldi 1/N, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.0095052,44.477254,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-08 — Acetaia La Ca dal Non</name>
+      <description>Optional / reservation required
+Via Ghiaurov 50-56, 41058 Vignola MO, Italy</description>
+      <Point>
+        <coordinates>11.0134113,44.4932594,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-09 — Monumento al Tortellino, Castelfranco Emilia</name>
+      <description>Cool / quirky
+Piazza Garibaldi, 41013 Castelfranco Emilia MO, Italy</description>
+      <Point>
+        <coordinates>11.053142,44.5956559,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D03-10 — Statua di Re Gino</name>
+      <description>Cool / quirky
+Piazza del Popolo, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.1874716,44.6384848,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-01 — San Matteo della Decima</name>
+      <description>Start
+San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy</description>
+      <Point>
+        <coordinates>11.2283615,44.7100177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-02 — Largo Giustiniano Parking</name>
+      <description>Parking
+Largo Giustiniano, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.19623,44.42183,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-03 — Basilica di San Vitale</name>
+      <description>Historic site
+Via San Vitale 17, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1963864,44.4205557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-04 — Mausoleo di Galla Placidia</name>
+      <description>Historic site
+Via Giuliano Argentario 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1971029,44.4209827,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-05 — Domus dei Tappeti di Pietra</name>
+      <description>Historic site
+Via Gian Battista Barbiani 16, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.195474,44.421223,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-06 — Museo Byron e del Risorgimento, Palazzo Guiccioli</name>
+      <description>Museum
+Via Camillo Benso Cavour 54, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.197836,44.419629,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-07 — Pasticceria Veneziana</name>
+      <description>Food stop
+Via Salara 15, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1982703,44.4194468,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-08 — B&amp;B Casa Masoli</name>
+      <description>Accommodation
+Via Girolamo Rossi 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2003868,44.4199737,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-09 — Erboristeria Giorgioni</name>
+      <description>Shop
+Via IV Novembre 43, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1994528,44.4188773,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-10 — Mercato Coperto</name>
+      <description>Food stop
+Piazza Andrea Costa 6, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.199129,44.418912,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-11 — Gioielleria Lugaresi</name>
+      <description>Shop
+Via Giacomo Matteotti 12, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1986896,44.4179545,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-12 — Caffè Il Nazionale</name>
+      <description>Food stop
+Piazza del Popolo 28, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1995888,44.4175944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-13 — Piazza del Popolo</name>
+      <description>Historic site
+Piazza del Popolo, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1993185,44.4177596,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-14 — Leonardi Dolciumi 1957</name>
+      <description>Shop
+Via Pellegrino Matteucci 5, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.200015,44.417228,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-15 — Tomba di Dante</name>
+      <description>Historic site
+Via Dante Alighieri 9, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2009368,44.4161585,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-16 — Ca' de Vën</name>
+      <description>Food stop
+Via Corrado Ricci 24, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1999840,44.4160938,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-17 — Koko Mosaico</name>
+      <description>Optional stop
+Via di Roma 136, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2039917,44.416945,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-18 — Antica Trattoria Al Gallo 1909</name>
+      <description>Food stop
+Via Maggiore 89, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.1915981,44.4207825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-19 — Darsenale - Bizantina Brewpub</name>
+      <description>Optional food stop
+Via D'Alaggio 69, 48122 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.212171,44.423296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-20 — Comacchio</name>
+      <description>Optional stop
+Centro storico, 44022 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.1812500,44.6958712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-21 — Manifattura dei Marinati</name>
+      <description>Museum / food heritage
+Corso Giuseppe Mazzini 200, 44022 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.1752748,44.6990038,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D04-22 — Argine degli Angeli</name>
+      <description>Viewpoint
+Argine degli Angeli, Valli di Comacchio, 44029 Comacchio FE, Italy</description>
+      <Point>
+        <coordinates>12.2450,44.6540,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-01 — B&amp;B Casa Masoli, Ravenna</name>
+      <description>Start
+Via Girolamo Rossi 22, 48121 Ravenna RA, Italy</description>
+      <Point>
+        <coordinates>12.2003868,44.4199737,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-02 — San Marino P9 Parking</name>
+      <description>Parking
+Parcheggio P9, Via Gino Giacomini, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.445192,43.937384,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-03 — Guaita Tower &amp; Monte Titano</name>
+      <description>Historic site / viewpoint
+Salita Alla Rocca, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4493514,43.9354691,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-04 — Piazza della Libertà &amp; Palazzo Pubblico</name>
+      <description>Historic site
+Piazza della Libertà, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4465224,43.9367403,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-05 — Ristorante Ritrovo dei Lavoratori</name>
+      <description>Food stop
+Androne dei Bastioni 4, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4464272,43.9358760,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-06 — La Terrazza, Hotel Titano</name>
+      <description>Food stop
+Contrada del Collegio 31, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4469842,43.9360252,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-07 — Buca San Francesco</name>
+      <description>Food stop
+Piazzetta del Placito Feretrano 3, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4468161,43.9353605,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-08 — La Serenissima</name>
+      <description>Shop / food heritage
+Via Venticinque Marzo 67, 47895 Domagnano, San Marino</description>
+      <Point>
+        <coordinates>12.4685640,43.9531511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-09 — Fantini Pelletteria</name>
+      <description>Shop
+Contrada dei Magazzeni 23, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4476454,43.9361136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-10 — Cava dei Balestrieri</name>
+      <description>Historic site / optional stop
+Via Eugippo, 47890 Città di San Marino, San Marino</description>
+      <Point>
+        <coordinates>12.4457523,43.9375482,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-11 — Gabicce Monte / San Bartolo viewpoint</name>
+      <description>Scenic route viewpoint
+Piazza Valbruna, 61011 Gabicce Monte PU, Italy</description>
+      <Point>
+        <coordinates>12.761220,43.960330,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-12 — Fano centro storico</name>
+      <description>Historic centre
+Piazza XX Settembre, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.016950,43.840900,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-13 — Arco di Augusto</name>
+      <description>Historic site
+Via Arco d'Augusto, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0145105,43.8430719,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-14 — Caffè Cavour</name>
+      <description>Food stop
+Via Camillo Benso Conte di Cavour 1, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0195547,43.8400902,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-15 — Caffè del Porto</name>
+      <description>Food stop
+Via Nazario Sauro 270, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0162229,43.8511711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-16 — Il Caffè del Pasticciere</name>
+      <description>Food stop
+Via della Costituzione 8/A, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0112355,43.8385085,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-17 — Panificio Pasticceria Forno Longhini</name>
+      <description>Food stop
+Viale I Maggio 15/17, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0116548,43.8470115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-18 — Ristorante Angela</name>
+      <description>Food stop
+Viale Adriatico 13, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0255815,43.8460841,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-19 — La Taverna del Ghiottone</name>
+      <description>Food stop
+Via Roma 87/B, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0114404,43.84024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-20 — B&amp;B La Casa di Fano</name>
+      <description>Accommodation
+Corso Giacomo Matteotti 173, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.018100,43.842910,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D05-21 — Palazzo Rotati</name>
+      <description>Accommodation
+Via Nolfi 49, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0192360,43.8442214,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-01 — Palazzo Rotati, Fano</name>
+      <description>Start
+Via Nolfi 49, 61032 Fano PU, Italy</description>
+      <Point>
+        <coordinates>13.0192360,43.8442214,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-02 — Rocca Roveresca</name>
+      <description>Historic site
+Piazza del Duca 2, 60019 Senigallia AN, Italy</description>
+      <Point>
+        <coordinates>13.2205412,43.7153671,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-03 — Abbazia di Santa Maria di Portonovo</name>
+      <description>Historic site / beach stop
+Strada Frazione Poggio, Portonovo, 60129 Ancona AN, Italy</description>
+      <Point>
+        <coordinates>13.5999370,43.5611908,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-04 — Cooperativa Pescatori di Portonovo</name>
+      <description>Producer / food heritage
+Portonovo beach capanni, Strada Frazione Poggio, 60129 Ancona AN, Italy</description>
+      <Point>
+        <coordinates>13.6002,43.5619,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-05 — Centro Visite Parco del Conero</name>
+      <description>Visitor office / orientation
+Via Peschiera 30/A, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6180996,43.5196861,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-06 — Piazza Vittorio Veneto / Balcone Panoramico</name>
+      <description>Viewpoint / historic centre
+Piazza Vittorio Veneto, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6199227,43.5230728,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-07 — Spiaggia Urbani</name>
+      <description>Beach
+Spiaggia Urbani, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6231578,43.5236323,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-08 — Bar Gelateria del Conero</name>
+      <description>Food stop
+Via Italia 1, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6201607,43.5225245,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-09 — Da Giustina</name>
+      <description>Food stop
+Via Cave 1, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6135596,43.5281358,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-10 — La Paranza</name>
+      <description>Food stop
+Spiaggia Urbani, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6236777,43.5226248,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-11 — Osteria Sara</name>
+      <description>Food stop
+Piazza Vittorio Veneto 9, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6196845,43.52285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-12 — Pa' Panino un bel Po'</name>
+      <description>Food stop
+Via Italia 39, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6204501,43.5219441,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-13 — Bottega dei Sapori Nostrani</name>
+      <description>Shop / food stop
+Via Italia 11/36, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6202173,43.5223274,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-14 — Latteria Elgide</name>
+      <description>Shop
+Via Italia 5, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.62012,43.52243,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-15 — Conero Camere</name>
+      <description>Accommodation
+Via Grilli 14, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6186971,43.5229034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-16 — Diecidodici</name>
+      <description>Accommodation / food stop
+Via Anacleto Giulietti 10, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6193663,43.5235067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D06-17 — San Michele Relais &amp; Spa</name>
+      <description>Accommodation
+Via Piave 6, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6169719,43.5266418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-01 — Conero Camere, Sirolo</name>
+      <description>Start
+Via Grilli 14, 60020 Sirolo AN, Italy</description>
+      <Point>
+        <coordinates>13.6186971,43.5229034,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-02 — Basilica della Santa Casa</name>
+      <description>Optional historic site
+Piazza della Madonna 1, 60025 Loreto AN, Italy</description>
+      <Point>
+        <coordinates>13.6108062,43.441001,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-03 — Pasticceria Picchio</name>
+      <description>Food stop
+Via Traversa Don Enzo Rampolla 2, 60025 Loreto Stazione AN, Italy</description>
+      <Point>
+        <coordinates>13.6175825,43.4466094,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-04 — Ortona old town / Corso Vittorio Emanuele</name>
+      <description>Historic centre
+Corso Vittorio Emanuele, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.403227,42.3535835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-05 — Pasticceria Cantelmi Giulio</name>
+      <description>Food stop
+Corso Vittorio Emanuele 73, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.403227,42.3535835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-06 — Castello Aragonese</name>
+      <description>Historic site
+Largo Castello, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4058573,42.3588317,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-07 — Moro River Canadian War Cemetery</name>
+      <description>Historic site
+Contrada San Donato, 66026 Ortona CH, Italy</description>
+      <Point>
+        <coordinates>14.4165319,42.336814,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-08 — Trabocco Punta Turchino</name>
+      <description>Viewpoint / trabocco heritage
+Contrada Portelle, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4608939,42.3006606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-09 — Marina di San Vito / Costa dei Trabocchi</name>
+      <description>Beach / coastal base
+Marina di San Vito, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.443607,42.296354,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-10 — Trabocco Vento di Scirocco</name>
+      <description>Food stop / trabocco dinner
+Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4462617,42.3107684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-11 — Aldebaran da Rocco e Tommaso</name>
+      <description>Food stop
+Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.445654,42.309154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-12 — Trabocco Pesce Palombo</name>
+      <description>Optional food stop
+SS16 Adriatica km 486.6, 66022 Fossacesia CH, Italy</description>
+      <Point>
+        <coordinates>14.5017989,42.2619012,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-13 — Le Due Palme</name>
+      <description>Food stop
+Via San Rocco, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.443628,42.292305,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-14 — Frantoio Oleario Giocondo de Santis</name>
+      <description>Shop / food heritage
+Via San Rocco Vecchio 7, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4447461,42.2913838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-15 — Azienda Agricola Olivastri Tommaso</name>
+      <description>Winery / shop
+Via Quercia del Corvo 37, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4456199,42.2779149,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-16 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Accommodation
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D07-17 — Locanda dell'Adriatica</name>
+      <description>Accommodation / food stop
+Largo Olivieri 5, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4459466,42.3080635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-01 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Accommodation / start
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-02 — Locanda dell'Adriatica</name>
+      <description>Accommodation / food stop
+Largo Olivieri 5, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4459466,42.3080635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-03 — Via Verde della Costa dei Trabocchi</name>
+      <description>Cycle / walking route
+Via Verde access near Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.444940,42.309420,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-04 — Pasticceria Iezzi Rossana</name>
+      <description>Food stop / shop
+Via Nazionale Adriatica 6, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4453615,42.3079185,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-05 — Trabocco Vento di Scirocco</name>
+      <description>Food stop
+Via Lungomare di Gualdo, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4462617,42.3107684,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-06 — Aldebaran da Rocco e Tommaso</name>
+      <description>Food stop
+Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.445654,42.309154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-07 — Le Due Palme</name>
+      <description>Food stop
+Via San Rocco, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.443628,42.292305,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-08 — Promontorio Dannunziano</name>
+      <description>Viewpoint / historic site
+Contrada San Fino 31, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4649437,42.2963673,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-09 — Trabocco Punta Turchino</name>
+      <description>Trabocco heritage / viewpoint
+Contrada Portelle, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4608939,42.3006606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-10 — San Vito-Lanciano station</name>
+      <description>Transport
+Stazione San Vito-Lanciano, SP70, 66038 San Vito Chietino CH, Italy</description>
+      <Point>
+        <coordinates>14.4404829,42.3048450,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-11 — Lanciano old town / Piazza del Plebiscito</name>
+      <description>Optional historic centre
+Piazza del Plebiscito, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3902022,42.2309626,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-12 — La Bocconotteria</name>
+      <description>Food stop / shop
+Via Ercole Tinari 6, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3950227,42.2186783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-13 — Trattoria Paolucci</name>
+      <description>Food stop
+Via Dalmazia 30, 66034 Lanciano CH, Italy</description>
+      <Point>
+        <coordinates>14.3952913,42.2284917,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D08-14 — Bottega del Bocconotto</name>
+      <description>Optional food heritage / shop
+Castel Frentano, 66032 Castel Frentano CH, Italy</description>
+      <Point>
+        <coordinates>14.356420,42.197430,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-01 — B&amp;B La Finestra Sui Trabocchi</name>
+      <description>Start
+Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
+      <Point>
+        <coordinates>14.4445601,42.3096483,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-02 — Riserva Naturale di Punta Aderci</name>
+      <description>Nature reserve
+Sentiero d'Accesso Punta Aderci, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.6877337,42.1800301,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-03 — Palazzo d'Avalos</name>
+      <description>Optional historic site
+Piazza Lucio Valerio Pudente, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7102856,42.1116174,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-04 — Loggia Amblingh</name>
+      <description>Optional viewpoint
+Vasto old town, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7100671,42.1103135,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-05 — Pasticceria La Vastese</name>
+      <description>Optional food stop
+Via Ciccarone 98/A, 66054 Vasto CH, Italy</description>
+      <Point>
+        <coordinates>14.7109300,42.1229066,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-06 — Castello Svevo</name>
+      <description>Historic site
+Largo Piè di Castello, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9963357,42.0042633,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-07 — Cattedrale di Santa Maria della Purificazione</name>
+      <description>Historic site
+Vicoletto Duomo, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9971312,42.0052965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-08 — Vicolo Rejecelle</name>
+      <description>Hidden gem
+Via Nocchiere Marinucci Salvatore 9, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9968963,42.0049015,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-09 — Zara Pasticceria</name>
+      <description>Food stop
+Via Argentina 9/15, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9828334,41.9987825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-10 — Ristorante Da Nicolino</name>
+      <description>Dinner
+Via Roma 13, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9963207,42.0035882,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-11 — Trattoria Tipica L'Opera</name>
+      <description>Dinner / alternate
+Via Adriatica 32, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9946932,42.0023494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-12 — Osteria Dentro le Mura</name>
+      <description>Dinner / alternate
+Via Federico Secondo di Svevia 3, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9965624,42.0045521,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-13 — Friggitoria Maramimmo</name>
+      <description>Food stop / budget
+Corso Fratelli Brigida 64, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9965564,41.9996161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-14 — Roberti Store</name>
+      <description>Shop
+Via Alfano 10, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9974386,42.0017114,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-15 — Le Dimore nel Borgo</name>
+      <description>Accommodation
+Via Maro de Gregorio Pasquale, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9974687,42.0048803,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-16 — La Casa di Lelè</name>
+      <description>Accommodation / alternate
+Via delle Lampare 8, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9970443,41.9975505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D09-17 — Residenza Sveva Albergo Diffuso</name>
+      <description>Accommodation / end
+Piazza Duomo 11, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9975873,42.0054205,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-01 — Residenza Sveva Albergo Diffuso, Termoli</name>
+      <description>Start
+Piazza Duomo 11, 86039 Termoli CB, Italy</description>
+      <Point>
+        <coordinates>14.9975873,42.0054205,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-02 — Lago di Lesina</name>
+      <description>Optional lagoon stop
+Lesina FG, Italy</description>
+      <Point>
+        <coordinates>15.3532657,41.8619097,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-03 — Vieste centro storico &amp; Castello Svevo</name>
+      <description>Historic site
+Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1792922,41.8809236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-04 — Spiaggia di Castello &amp; Pizzomunno</name>
+      <description>Beach / viewpoint
+Spiaggia di Castello, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1753703,41.86735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-05 — Chianca Amara</name>
+      <description>Historic memorial
+Via Gregorio XIII, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1814304,41.8815296,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-06 — Trabucco di San Lorenzo</name>
+      <description>Optional trabocco heritage
+Strada Provinciale 52 Vieste-Peschici, Defensola, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1610791,41.8954927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-07 — Cornetteria Chianca Amara</name>
+      <description>Food stop
+Via Nicolo Cimaglia 4, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1815773,41.8814613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-08 — Bakery Cafe Sant'Antonio</name>
+      <description>Food stop
+Piazzale Aldo Moro 64, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1696023,41.8842286,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-09 — Donlù</name>
+      <description>Dinner
+Largo Seggio 8, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1819,41.8823,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-10 — Osteria degli Archi</name>
+      <description>Dinner / alternate
+Via Ripe 2, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1829919,41.8825156,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-11 — Box 19</name>
+      <description>Dinner / budget
+Via Santa Maria di Merino 13, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1767582,41.883471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-12 — Ristorante Al Dragone</name>
+      <description>Dinner / alternate
+Via Duomo 8, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1811334,41.8816261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-13 — Dimora del Dragone</name>
+      <description>Accommodation / end / my pick
+Via Duomo 8, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1811334,41.8816261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-14 — Viesthouse B&amp;B</name>
+      <description>Accommodation / alternate
+Via Dottor Giuliani 27, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1779067,41.8832338,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D10-15 — Foresta Umbra Visitor Center</name>
+      <description>Optional inland detour
+SP52bis, Foresta Umbra, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9919951,41.8168528,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-01 — Vieste centro storico</name>
+      <description>Start
+Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy</description>
+      <Point>
+        <coordinates>16.1792922,41.8809236,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-02 — Baia delle Zagare</name>
+      <description>Optional beach detour
+Comune di Mattinata, FG, Italy (cove has no street address)</description>
+      <Point>
+        <coordinates>16.0857,41.7311,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-03 — Pasticceria La Torre</name>
+      <description>Food stop
+Via Giacomo Matteotti, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0511548,41.7110463,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-04 — Giardino di Monsignore</name>
+      <description>Dinner
+Contrada Torre del Porto / Contrada Funni, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0655401,41.7013622,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-05 — Locanda del Maniscalco</name>
+      <description>Dinner / alternate
+Via Luigi Zuppetta 12/14, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0505958,41.7086724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-06 — Dal Saraceno</name>
+      <description>Dinner / budget
+Via Vincenzo Amicarelli 31a, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0515220,41.7095571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-07 — Oleificio Le Monache</name>
+      <description>Shop / food heritage
+Contrada le Monache 1, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0518777,41.7027376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-08 — B&amp;B Dimora del Corso</name>
+      <description>Accommodation
+Corso Matino 211, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0511594,41.7120136,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-09 — Masseria Liberatore</name>
+      <description>Accommodation / alternate
+Contrada Liberatore 2, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0642058,41.7071504,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-10 — Abbazia della Santissima Trinità di Monte Sacro</name>
+      <description>Optional historic site
+Monte Sacro, 874m, near SS89, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0430873,41.7580842,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-11 — Monte Saraceno</name>
+      <description>Optional guided hike
+Monte Saraceno, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0508242,41.6942574,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D11-12 — B&amp;B Dimora Mediterranea</name>
+      <description>Accommodation / end / my pick
+Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0792899,41.7142542,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-01 — Mattinata (Day 8 accommodation)</name>
+      <description>Start
+Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
+      <Point>
+        <coordinates>16.0792899,41.7142542,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-02 — Santuario di San Michele Arcangelo</name>
+      <description>Historic site / sanctuary
+Via Reale Basilica 127, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9547699,41.7080134,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-03 — Rione Junno &amp; Rione Grotte</name>
+      <description>Historic quarter
+Via Castello / Junno, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9533918,41.7073834,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-04 — Pasticceria Ciuffreda</name>
+      <description>Food stop
+Via Giuseppe Garibaldi 15, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9541869,41.7074364,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-05 — Ristorante Medioevo</name>
+      <description>Lunch
+Via Castello 21, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.954031,41.707519,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-06 — Al Barone</name>
+      <description>Lunch / alternate
+Via Bartolomeo Gambadoro 3, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9556536,41.7073478,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-07 — Ristorante San Michele</name>
+      <description>Lunch / budget
+Via Reale Basilica 51, 71037 Monte Sant'Angelo FG, Italy</description>
+      <Point>
+        <coordinates>15.9557332,41.7075182,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-08 — Trani — the Cathedral on the Sea</name>
+      <description>Historic site
+Piazza Duomo 1, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4183605,41.2821965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-09 — Sinagoga Scolanova</name>
+      <description>Optional historic site
+Via Scola Nova, Giudecca quarter, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4177563,41.2797529,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-10 — Bar Europa</name>
+      <description>Food stop
+Corso Vittorio Emanuele 161, 76125 Trani BT, Italy</description>
+      <Point>
+        <coordinates>16.4174057,41.2766535,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-11 — Molfetta old town &amp; Duomo di San Corrado</name>
+      <description>Overnight alternative
+Vico Campanile, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-12 — Dentro Le Mura</name>
+      <description>Dinner
+Corso Dante Alighieri 42, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5991091,41.2046969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-13 — La Cucina del Mare</name>
+      <description>Dinner / budget
+Via Alfredo Baccarini 4, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.6046338,41.201556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-14 — Il Mulino di Amleto</name>
+      <description>Accommodation, alternative
+Vico Campanile 4-6, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.59827,41.20626,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-15 — Strada Arco Basso, Bari Vecchia</name>
+      <description>Overnight town (preferred)
+Arco Basso, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8671134,41.1273126,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-16 — Al Pescatore</name>
+      <description>Dinner
+Piazza Federico II di Svevia 6/8, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8676604,41.128906,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-17 — Al Sorso Preferito</name>
+      <description>Dinner / alternate
+Via Vito Nicola de Nicolò 46, 70121 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8750988,41.1235574,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-18 — Panificio Fiore</name>
+      <description>Food stop / budget
+Strada Palazzo di Città 38, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8709494,41.1296977,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-19 — Basilica di San Nicola</name>
+      <description>Historic site
+Largo Abate Elia 13, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8701858,41.1302708,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D12-20 — Bari Vecchia Dimora</name>
+      <description>Accommodation (preferred)
+Corte Lamberti 6, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.869809,41.127575,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-01 — Molfetta (Day 9 alternative)</name>
+      <description>Start alternative
+Vico Campanile, 70056 Molfetta BA, Italy</description>
+      <Point>
+        <coordinates>16.5979521,41.2063077,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-02 — Bari (Day 9 preferred)</name>
+      <description>Start (preferred)
+Arco Basso, 70122 Bari BA, Italy</description>
+      <Point>
+        <coordinates>16.8671134,41.1273126,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-03 — Polignano a Mare — Lama Monachile</name>
+      <description>Beach / cove
+Via S. Vito, 70044 Polignano a Mare BA, Italy</description>
+      <Point>
+        <coordinates>17.2181307,40.9963887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-04 — Dorsale</name>
+      <description>Food stop / hidden gem
+Via Martiri di Dogali, Centro storico, 70044 Polignano a Mare BA, Italy</description>
+      <Point>
+        <coordinates>17.2178068,40.992981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-05 — Monopoli — Centro Storico</name>
+      <description>Historic site
+Largo Cattedrale, 70043 Monopoli BA, Italy</description>
+      <Point>
+        <coordinates>17.3033327,40.9508368,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-06 — Rifugi Antiaerei di Monopoli</name>
+      <description>Optional historic site
+Piazza Vittorio Emanuele II, 70043 Monopoli BA, Italy</description>
+      <Point>
+        <coordinates>17.3000255,40.9522073,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-07 — Madià (Porto Antico)</name>
+      <description>Lunch
+Porto Antico, 70043 Monopoli BA, Italy</description>
+      <Point>
+        <coordinates>17.3041064,40.9530079,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-08 — Locanda dei Mercanti</name>
+      <description>Lunch / alternate
+Via Giuseppe Garibaldi 44, 70043 Monopoli BA, Italy</description>
+      <Point>
+        <coordinates>17.30243,40.95277,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-09 — Ostuni — Centro Storico</name>
+      <description>Historic site
+Centro Storico, 72017 Ostuni BR, Italy</description>
+      <Point>
+        <coordinates>17.5778841,40.7333725,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-10 — Forno 31</name>
+      <description>Food stop
+Vico Giuseppe Ferrari 6, 72017 Ostuni BR, Italy</description>
+      <Point>
+        <coordinates>17.5759763,40.7292479,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-11 — Riccardo Caffè</name>
+      <description>Hidden gem / aperitivo
+Via Gaetano Tanzarella Vitale 61, 72017 Ostuni BR, Italy</description>
+      <Point>
+        <coordinates>17.5803666,40.7339749,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-12 — San Vito dei Normanni (arrival)</name>
+      <description>Accommodation / end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-13 — XFood</name>
+      <description>Dinner
+Via Mare snc, inside ExFadda cultural centre, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7126581,40.6589314,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D13-14 — Virgola Pasticceria Terapeutica</name>
+      <description>Food stop (next morning)
+Via Mesagne 136, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.711078,40.653188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-02 — Rione Monti</name>
+      <description>Historic site
+Via Monte San Michele, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2364,40.7817,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-03 — Aia Piccola</name>
+      <description>Historic site
+Via Cristoforo Colombo, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2407,40.7837,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-04 — Trullo Sovrano</name>
+      <description>Museum
+Piazza Sacramento 10/11, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2353,40.7874,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-05 — Chiesa di Sant'Antonio</name>
+      <description>Historic site
+Via Monte Pertica 18, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2348224,40.781115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-06 — Bar "Il Trulletto"</name>
+      <description>Coffee
+Via Monte San Michele 50, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2367364,40.7817612,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-07 — Largo Martellotta (parking)</name>
+      <description>Parking
+Largo Martellotta, 70011 Alberobello BA, Italy</description>
+      <Point>
+        <coordinates>17.2373,40.783,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-08 — Locorotondo — Piazza Vittorio Emanuele</name>
+      <description>Historic site
+Piazza Vittorio Emanuele, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3285,40.753,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-09 — Bar Poldo</name>
+      <description>Coffee
+Via Cavour 149, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3277,40.7548,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-10 — Trattoria Al Vecchio Arco</name>
+      <description>Lunch
+Via Antonio Bruno 5, 70010 Locorotondo BA, Italy</description>
+      <Point>
+        <coordinates>17.3289,40.753,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-11 — Basilica di San Martino</name>
+      <description>Historic site
+Via Masaniello 1, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.337,40.7057,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-12 — Palazzo Ducale</name>
+      <description>Historic site
+Piazza Roma 28, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3389,40.7051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-13 — Macelleria Centro Storico</name>
+      <description>What to buy
+Via Giuseppe Garibaldi 4-6, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.33563,40.70566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D14-14 — Caffè Caroli</name>
+      <description>Coffee
+Via Giuseppe Aprile 12, 74015 Martina Franca TA, Italy</description>
+      <Point>
+        <coordinates>17.3399,40.7053,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-02 — Masseria Brancati</name>
+      <description>Historic site / olive mill
+Contrada Brancati s.n.c., 72017 Ostuni BR, Italy</description>
+      <Point>
+        <coordinates>17.5523,40.7642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-03 — Cisternino — Piazza Vittorio Emanuele II</name>
+      <description>Historic site
+Piazza Vittorio Emanuele II, 72014 Cisternino BR, Italy</description>
+      <Point>
+        <coordinates>17.4265,40.7418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-04 — Bar FOD</name>
+      <description>Coffee
+Piazza Vittorio Emanuele II 5, 72014 Cisternino BR, Italy</description>
+      <Point>
+        <coordinates>17.4264336,40.7416096,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-05 — Zio Pietro</name>
+      <description>Dinner
+Via Duca D'Aosta 3, 72014 Cisternino BR, Italy</description>
+      <Point>
+        <coordinates>17.4266,40.7416,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-06 — Arrosteria del Vicoletto</name>
+      <description>Dinner / alternate
+Via Giulio II 16, 72014 Cisternino BR, Italy</description>
+      <Point>
+        <coordinates>17.4265,40.7421,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-07 — Premiata Macelleria Santoro</name>
+      <description>Dinner / alternate
+Via Domenico Cirillo 214, 72014 Cisternino BR, Italy</description>
+      <Point>
+        <coordinates>17.42575,40.74298,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D15-08 — Ashram Centro Bhole Baba</name>
+      <description>Hidden gem / quirky
+Contrada Portarino 10, 72017 Ostuni BR, Italy</description>
+      <Point>
+        <coordinates>17.403449,40.717613,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-02 — Basilica Cattedrale di Sant'Agata</name>
+      <description>Historic site
+Via Duomo 1, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9763,40.0546,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-03 — Fontana Greca</name>
+      <description>Historic site / quirky
+Piazza Fontana Greca, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9811,40.0559,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-04 — Frantoio Ipogeo di Palazzo Granafei</name>
+      <description>Museum
+Via Antonietta de Pace 87, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9773,40.0550,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-05 — Il Frantoio del Viceré</name>
+      <description>Museum / alternate
+Via Santa Maria 6, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9756,40.0545,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-06 — Trattoria La Puritate</name>
+      <description>Lunch / dinner
+Via Sant'Elia 18, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>17.9751,40.0550,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D16-07 — Baia Verde</name>
+      <description>Beach
+Viale delle Dune, Baia Verde, 73014 Gallipoli LE, Italy</description>
+      <Point>
+        <coordinates>18.0155,40.0373,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-02 — Basilica di Santa Croce</name>
+      <description>Historic site
+Via Umberto I 1, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1733,40.3547,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-03 — Roman Amphitheatre</name>
+      <description>Historic site
+Piazza Sant'Oronzo, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1726,40.3528,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-04 — Teatro Romano</name>
+      <description>Historic site / optional
+Via Degli Ammirati 5, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1703,40.3518,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-05 — Caffè Alvino</name>
+      <description>Pasticceria
+Piazza Sant'Oronzo 30, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1726,40.3528,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-06 — Pasticceria Natale</name>
+      <description>Pasticceria / alternate
+Via Salvatore Trinchese 7, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1734,40.3533,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-07 — Alle Due Corti</name>
+      <description>Lunch / dinner
+Corte dei Giugni 1, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1705,40.3549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-08 — Museo Faggiano</name>
+      <description>Hidden gem / museum
+Via Ascanio Grandi 56, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1724,40.3501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-09 — Chiesa di San Francesco della Scarpa</name>
+      <description>Hidden gem / quirky
+Piazzetta Giosuè Carducci, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1692,40.3497,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-10 — Cartapesta Bottega Artigiana</name>
+      <description>What to buy
+Via Giuseppe Palmieri 91, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.16858,40.35565,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D17-11 — Cartapesta Riso</name>
+      <description>What to buy / alternate
+Via Vittorio Emanuele II 27, 73100 Lecce LE, Italy</description>
+      <Point>
+        <coordinates>18.1697,40.3525,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-02 — Cattedrale di Altamura</name>
+      <description>Historic site
+Corso Federico II di Svevia, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5530,40.8263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-03 — Antico Forno Santa Caterina</name>
+      <description>Food stop
+Via Ambrogio del Giudice 2, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5537,40.8260,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-04 — Tre Archi</name>
+      <description>Lunch / optional
+Via San Michele 28, 70022 Altamura BA, Italy</description>
+      <Point>
+        <coordinates>16.5540,40.8265,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-05 — The Sassi</name>
+      <description>Historic site
+Sasso Caveoso, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6043,40.6664,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-06 — Casa Grotta</name>
+      <description>Museum
+Vico Solitario 11, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6123,40.6639,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-07 — Santa Maria de Idris &amp; San Giovanni in Monterrone</name>
+      <description>Chiesa rupestre
+Monterrone rock spur, Sasso Caveoso, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6121,40.6641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-08 — Trattoria del Caveoso</name>
+      <description>Lunch / dinner
+Via Bruno Buozzi 21, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6110,40.6623,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-09 — Via Saragat (parking)</name>
+      <description>Parking
+Via Giuseppe Saragat, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.5952,40.6670,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D18-10 — Via Lucana (parking)</name>
+      <description>Parking
+Via Lucana, 75100 Matera MT, Italy</description>
+      <Point>
+        <coordinates>16.6049,40.6661,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-01 — San Vito dei Normanni (start/end)</name>
+      <description>Accommodation / start-end
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-02 — Torre Guaceto</name>
+      <description>Option A / nature reserve
+Riserva Naturale Statale di Torre Guaceto, Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.783,40.7057,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-03 — Carovigno</name>
+      <description>Option A / town centre
+Corso Vittorio Emanuele, 72012 Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.6592,40.7071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-04 — Trattoria La Cantina</name>
+      <description>Option A / lunch
+Corso Vittorio Emanuele 95/97, 72012 Carovigno BR, Italy</description>
+      <Point>
+        <coordinates>17.6592,40.7071,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-05 — Ceglie Messapica</name>
+      <description>Option B / town centre
+Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-06 — Osteria del Capitolo</name>
+      <description>Option B / lunch
+Via Orto del Capitolo 10, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5175514,40.6455462,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-07 — Osteria L'Antico Arco</name>
+      <description>Option B / lunch alternate
+Largo Celso 4, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.519114,40.647666,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-08 — Braceria Zitto &amp; Mangia</name>
+      <description>Option B / lunch alternate
+Piazza Plebiscito 7, 72013 Ceglie Messapica BR, Italy</description>
+      <Point>
+        <coordinates>17.5171,40.6461,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-09 — Oria — Castello Svevo</name>
+      <description>Option C / historic site
+Via Castello, Quartiere Ebraico, 72024 Oria BR, Italy</description>
+      <Point>
+        <coordinates>17.6416,40.4998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-10 — Cantina Produttori di Manduria</name>
+      <description>Option C / wine tasting
+Via Fabio Massimo 19, 74024 Manduria TA, Italy</description>
+      <Point>
+        <coordinates>17.6361,40.4059,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-11 — Fonte Pliniano</name>
+      <description>Option C / historic site
+Via Fonte Pliniano, 74024 Manduria TA, Italy</description>
+      <Point>
+        <coordinates>17.643,40.4022,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-12 — Grottaglie — Quartiere delle Ceramiche</name>
+      <description>Option D / historic site
+Quartiere delle Ceramiche, 74023 Grottaglie TA, Italy</description>
+      <Point>
+        <coordinates>17.4321,40.5335,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-13 — Osteria La Capasa</name>
+      <description>Option D / lunch
+Via Chiesa Matrice 4, 74023 Grottaglie TA, Italy</description>
+      <Point>
+        <coordinates>17.4284,40.5348,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-14 — MArTA</name>
+      <description>Option D / museum
+Via Cavour 10, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2384674,40.4735189,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-15 — Castello Aragonese</name>
+      <description>Option D / historic site
+Piazza Castello, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2337,40.4727,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D19-16 — Core Restaurant</name>
+      <description>Option D / lunch, least verified
+Via Niccolò Tommaso d'Aquino 8, 74123 Taranto TA, Italy</description>
+      <Point>
+        <coordinates>17.2365288,40.4723368,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-01 — San Vito dei Normanni (start)</name>
+      <description>Accommodation / start
+Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
+      <Point>
+        <coordinates>17.7087266,40.6563995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-02 — Scavi di Pompei — Porta Marina</name>
+      <description>Historic site / entrance
+Via Marina, 80045 Pompei NA, Italy</description>
+      <Point>
+        <coordinates>14.4831,40.7485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-03 — Scavi di Pompei — Piazza Anfiteatro</name>
+      <description>Historic site / entrance
+Piazza Immacolata, 80045 Pompei NA, Italy</description>
+      <Point>
+        <coordinates>14.4876,40.7477,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-04 — Garage Napoli Centro</name>
+      <description>Parking
+Via dei Fiorentini 53, 80133 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2509,40.8423,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-05 — La figlia del Presidente</name>
+      <description>Dinner
+Via del Grande Archivio 23/24, 80138 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2595,40.8488,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D20-06 — MANN — Gabinetto Segreto</name>
+      <description>Museum / quirky, optional
+Piazza Museo Nazionale 19, 80135 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2512,40.8536,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D21-01 — Sansevero Chapel Museum</name>
+      <description>Museum
+Via Francesco de Sanctis 19/21, 80134 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2540,40.8494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D21-02 — Pintauro</name>
+      <description>Breakfast
+Via Toledo 275, 80132 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2497,40.8442,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D21-03 — Antica Pizzeria Port'Alba</name>
+      <description>Lunch
+Via Port'Alba 18, 80134 Napoli NA, Italy</description>
+      <Point>
+        <coordinates>14.2543,40.8494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D21-04 — Rome Fiumicino Airport (end)</name>
+      <description>Airport / end
+Via dell'Aeroporto di Fiumicino 320, 00054 Fiumicino RM, Italy</description>
+      <Point>
+        <coordinates>12.2519,41.7999,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

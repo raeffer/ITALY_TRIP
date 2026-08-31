@@ -2,6 +2,14 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — Import all 301 POIs once, while retaining daily recovery files
+
+The user chose a one-time full-itinerary bookmark import instead of repeating the import at the start of every day. The index now provides `assets/maps/italy-trip-all-pois.kml`, built directly from the 21 audited daily KML files. Its 301 bookmark names are prefixed with the full-trip day and daily marker number (for example, `D07-12 — Trabocco Pesce Palombo`) so repeated accommodation, arrival, and town names remain distinguishable inside one Organic Maps bookmark collection.
+
+The combined file is deliberately flat rather than nested into 21 KML folders. This gives up folder-based day grouping in exchange for the simplest import structure—the same flat placemark structure already proven on the user's Android phone—and avoids depending on how Organic Maps interprets nested KML folders. The day prefix supplies the grouping context in every search result and bookmark label.
+
+The 21 daily KML files remain available as smaller recovery or selective re-import options. `scripts/build-all-pois-kml.py` generates the combined file deterministically, validates the expected 301-entry total, and the pre-commit hook regenerates and stages it whenever a daily KML or its generator changes. A separate verification confirmed valid XML, 301 unique names, and exact ordered coordinate agreement with all daily sources.
+
 ## 2026-08-31 — CONTENT-to-site sync check respects the Stage 2 day offset
 
 The coordinate-audit commit was correctly accompanied by edits to the matching live pages, but the pre-commit hook demanded the wrong files: for example, a change under `CONTENT.md` Day 4 (the fourth day of Stage 2) demanded `days/day4.html` instead of the actual full-trip page, `days/day7.html`. `CONTENT.md` covers Stage 2 as local Days 1–10, while the site numbers them as full-trip Days 4–13.

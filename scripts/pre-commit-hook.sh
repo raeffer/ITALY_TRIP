@@ -15,6 +15,17 @@
 
 set -euo pipefail
 
+# --- Auto-regenerate the one-time all-trip POI import ---------------------
+# The combined file is derived from the 21 daily KML bookmark collections.
+ALL_POIS_SOURCES_CHANGED=$(git diff --cached --name-only | grep -E '^(assets/maps/day([1-9]|1[0-9]|2[01])-pois\.kml|scripts/build-all-pois-kml\.py)$' || true)
+
+if [ -n "$ALL_POIS_SOURCES_CHANGED" ]; then
+  python3 scripts/build-all-pois-kml.py
+  git add assets/maps/italy-trip-all-pois.kml
+  echo "All-trip POI KML regenerated and staged"
+fi
+# ----------------------------------------------------------------------------
+
 # --- Auto-regenerate print-all.html ---------------------------------------
 # If any source that print-all.html is built from is staged, rebuild it and
 # stage the result, so print-all.html can never go stale in a commit.

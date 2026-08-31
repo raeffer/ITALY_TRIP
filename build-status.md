@@ -4,7 +4,7 @@ Read this first, before doing anything else. It says where we are in the Italy R
 
 **Last updated:** 2026-08-31
 
-**Currently on:** The 21 daily Organic Maps bookmark imports and stable route legs are complete. A full coordinate-quality audit has corrected the suspect arrivals and replaced one demolished venue. The next map task is a single all-trip KML import, followed by current-location navigation from each POI link; print-pagination remains open after that (see Open Items below).
+**Currently on:** Organic Maps bookmark imports, stable route legs, the coordinate-quality audit, and the single all-trip KML import are complete. The next map task is current-location navigation from each POI link; print-pagination remains open after that (see Open Items below).
 
 ## Repository purpose
 
@@ -42,6 +42,14 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   storefronts remain honest street-address arrivals because no trustworthy
   doorway coordinate exists; broad destinations such as the Sassi remain
   deliberately labelled area anchors. See `decisions.md`, 2026-08-31.
+- **One-time full-trip Organic Maps import:** the index now offers a single
+  82 KB KML containing all 301 audited POIs. Bookmark names are prefixed with
+  full-trip day and daily marker number (for example `D07-12`) so repeated
+  accommodation and town names remain distinguishable. The combined file is
+  generated deterministically from the 21 daily KMLs, and the pre-commit hook
+  rebuilds/stages it whenever a daily source or its generator changes. The
+  daily imports remain available as smaller backups. See `decisions.md`,
+  2026-08-31.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix
@@ -63,14 +71,6 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`), and `print-all.html` covers the full set. Check `git log`/`git status` before assuming this is still current.
 
 ## Open Items
-
-### Single all-trip POI import (next implementation)
-
-Build one downloadable KML containing all 301 audited POIs so the traveller
-can import the whole itinerary into Organic Maps once at the start of the trip.
-Keep the 21 daily KML files as smaller recovery/re-import options. Duplicate
-start/end anchors may be retained if their day context is useful, but bookmark
-names must include enough day context to prevent ambiguous duplicates.
 
 ### Current-location POI navigation (discussion next)
 
