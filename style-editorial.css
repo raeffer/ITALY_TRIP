@@ -246,6 +246,8 @@ body{
   line-height:1;
   vertical-align: 2px;
 }
+.poi-ref.poi-ref-alt{ background: #B88418; }
+.poi-ref.poi-ref-optional{ background: #C65332; }
 .card .tag{
   display:inline-block;
   font-family:'IBM Plex Mono', monospace;

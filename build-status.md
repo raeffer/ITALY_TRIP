@@ -21,7 +21,10 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   existing card's id (Day 9: Palazzo d'Avalos). Day 13's "Molfetta (Day 9
   alternative)" is a start-point logistics reference, same category as
   other days' Start/Parking entries, and was deliberately left uncarded.
-  See `decisions.md`, 2026-08-31.
+  The new cards' `poi-ref` number badges now use `.poi-ref-alt` /
+  `.poi-ref-optional` modifier colors matching the same POI's marker color
+  on the map/legend, instead of a flat blue for every badge. See
+  `decisions.md`, 2026-08-31.
 - **`poi-legend` names are hyperlinked** to the fuller write-up about that POI
   elsewhere on the same day page, across all 21 days. Content cards
   (`<div class="name">`) got slug ids; legend entries link to them where a

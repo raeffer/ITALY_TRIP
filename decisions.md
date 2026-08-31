@@ -2,6 +2,12 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — Card `poi-ref` badges now match their marker's map color, not a flat blue
+
+User caught that the numbered badge on the new alt/optional POI cards (Comacchio, Manifattura dei Marinati, Argine degli Angeli on Day 4; Gabicce Monte / San Bartolo on Day 5) rendered blue, while the matching numbered marker on the static route map and in the `poi-legend` renders gold (alt) or coral (optional) via `--poi-marker-color` on `li.poi-marker-alt`/`li.poi-marker-optional`. `.poi-ref` had no equivalent — it was hardcoded to `var(--royal-blue)` for every card regardless of the POI's marker role.
+
+Fixed by adding `.poi-ref-alt` (`#B88418`, same hex as the legend's alt marker) and `.poi-ref-optional` (`#C65332`, same as the legend's optional marker) modifier classes in `style-editorial.css`, and applying them to the 4 affected badges (poi-ref 20, 21 as alt; 22 as optional on Day 4; poi-ref 11 as alt on Day 5). All other existing `poi-ref` badges (Days 4–8) correspond to default (non-alt/optional) map markers, so they were already correctly blue and untouched. `print-all.html`/`print-stage3.html` regenerated to match.
+
 ## 2026-08-31 — Every remaining un-carded `poi-legend` entry given a proper content card
 
 User asked why POIs 20–22 on Day 4 (Comacchio, Manifattura dei Marinati, Argine degli Angeli) had no explanation, then widened the ask: every named entry in a day's numbered `poi-legend` should have its own dedicated content card, not just a legend mention — "otherwise what is the point of having them?"
