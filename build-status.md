@@ -4,7 +4,7 @@ Read this first, before doing anything else. It says where we are in the Italy R
 
 **Last updated:** 2026-08-31
 
-**Currently on:** Organic Maps bookmark imports, stable route legs, the coordinate-quality audit, and the single all-trip KML import are complete. The next map task is current-location navigation from each POI link; print-pagination remains open after that (see Open Items below).
+**Currently on:** All requested map workflows are complete: audited POIs, one-time and daily bookmark imports, POI-visible Organic Maps route legs, and destination actions on every numbered POI. Print-pagination is the remaining open implementation item (see Open Items below).
 
 ## Repository purpose
 
@@ -12,6 +12,16 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 
 ## Work done
 
+- **Every remaining un-carded `poi-legend` entry now has a dedicated content
+  card:** audited all 21 days for legend entries left as plain text by the
+  2026-08-26 linking pass and found 7 genuine gaps (Day 4: Comacchio,
+  Manifattura dei Marinati, Argine degli Angeli; Day 5: Gabicce Monte / San
+  Bartolo viewpoint; Day 11: Monte Saraceno; Day 12: Molfetta old town &
+  Duomo di San Corrado) plus one false negative fixed by retargeting an
+  existing card's id (Day 9: Palazzo d'Avalos). Day 13's "Molfetta (Day 9
+  alternative)" is a start-point logistics reference, same category as
+  other days' Start/Parking entries, and was deliberately left uncarded.
+  See `decisions.md`, 2026-08-31.
 - **`poi-legend` names are hyperlinked** to the fuller write-up about that POI
   elsewhere on the same day page, across all 21 days. Content cards
   (`<div class="name">`) got slug ids; legend entries link to them where a
@@ -50,6 +60,20 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
   rebuilds/stages it whenever a daily source or its generator changes. The
   daily imports remain available as smaller backups. See `decisions.md`,
   2026-08-31.
+- **Every numbered POI has a current-position navigation action:** all 301
+  entries in the 21 daily legends retain their existing jump-to-write-up link
+  and now add two destination actions beneath the GPS value. `Organic Maps —
+  tap Route to` opens the exact audited pin in the same stable v1 format
+  already confirmed on the user's Android phone; tapping Organic Maps' native
+  `Route to` then uses the live device position while preserving imported
+  bookmarks. `Google — navigate now` omits the origin and uses
+  `dir_action=navigate`, which Google's official URL contract defines as
+  navigation from the device's current location when available. A direct
+  Organic Maps current-location deep link is not claimed: stable v1 requires
+  explicit start coordinates, the upstream request remains open, and v2
+  `currentLocation` already failed on the installed app. The actions are
+  screen-only, generated deterministically, and checked for all 301 entries
+  by the pre-commit hook. See `decisions.md`, 2026-08-31.
 - **Site is live via GitHub Pages** at `https://raeffer.github.io/ITALY_TRIP/`,
   serving directly from `main`. A local edit is not visible to the user until
   it is committed and pushed to `main` — check this before reporting any fix
@@ -71,16 +95,6 @@ A 21-day Italy road trip companion site — one static HTML page per day (`days/
 All 21 day pages are committed and pushed to `main` (Stage 3 landed in `5648118`), and `print-all.html` covers the full set. Check `git log`/`git status` before assuming this is still current.
 
 ## Open Items
-
-### Current-location POI navigation (discussion next)
-
-The user wants every POI in the document to have a hot link that starts
-navigation from wherever the traveller currently is. This is not part of the
-route-leg rollout and must be discussed before implementation because the
-stable Organic Maps v1 route API requires an explicit start coordinate; its
-tested pin links can open the destination but still require the user to tap
-"Route to" inside Organic Maps. Do not silently substitute the unsupported v2
-`currentLocation` route format that failed on the user's installed app.
 
 ### Print-pagination fix (in progress)
 

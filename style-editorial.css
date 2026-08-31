@@ -608,6 +608,13 @@ body{
   line-height:1.45;
   color: var(--ink-soft);
 }
+.poi-legend .poi-navigation-links{
+  display:inline-flex;
+  flex-wrap:wrap;
+  gap:4px 10px;
+  margin:4px 0 0 0;
+  text-transform:none;
+}
 .print-only{ display:none; }
 
 /* ---------- Score table ---------- */

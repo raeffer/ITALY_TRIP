@@ -2,6 +2,31 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — Every remaining un-carded `poi-legend` entry given a proper content card
+
+User asked why POIs 20–22 on Day 4 (Comacchio, Manifattura dei Marinati, Argine degli Angeli) had no explanation, then widened the ask: every named entry in a day's numbered `poi-legend` should have its own dedicated content card, not just a legend mention — "otherwise what is the point of having them?"
+
+Audited all 21 days for `poi-marker-alt`/`poi-marker-optional` legend entries with no matching `id="poi-..."` card (the 2026-08-26 linking pass had already flagged these as genuinely uncarded, not just unmatched — see that entry). Found 7 real gaps across 6 files, plus one already-covered case that just needed its anchor fixed:
+
+- **Day 4:** Comacchio, Manifattura dei Marinati, and Argine degli Angeli had only a shared paragraph in the Overview routing-note flag. Researched each (opening hours/prices for the Manifattura museum, the Ponte dei Trepponti and Antica Pescheria for Comacchio's centro storico, the Argine's seasonal access hours) and gave each its own `card alt` in Stops, numbered 20–22 to match the existing Days 4–8 `poi-ref` convention.
+- **Day 5:** Gabicce Monte / San Bartolo viewpoint had only a routing-note mention. Added a dedicated card (the park's ridge belvederes, "tetto del mondo" framing) as `poi-ref` 11, matching its legend position.
+- **Day 9:** Palazzo d'Avalos was a false negative, not a real gap — the "Vasto — an old citadel..." card already carried genuine Palazzo d'Avalos content (entry fee, hours) but under a different id, and the 2026-08-26 pass had correctly left it unlinked because "Palazzo d'Avalos" as text also appears inside the separate Loggia Amblingh card, making automated matching ambiguous. Fixed by retargeting the existing card's id to `poi-palazzo-d-avalos` — no new content needed.
+- **Day 11:** Monte Saraceno was folded into a shared paragraph with the unrelated "Love Trail" guided walk. Split it into its own card (Daunian necropolis, 500+ rock-cut tombs, 8th–7th century BC) and kept the Love Trail as a plain mention since it isn't a numbered legend entry.
+- **Day 12:** Molfetta old town & Duomo di San Corrado had no card of its own — only the unrelated "Option A: Molfetta" dinner/accommodation card existed under a different name. Added a dedicated card (Isola di Sant'Andrea's fishbone street plan, the Duomo Vecchio's three-domes-in-line Puglian-Romanesque design).
+- **Day 13:** "Molfetta (Day 9 alternative)" was deliberately left as-is — it's a start-point logistics reference to the previous day's alternate overnight, the same category as Day 4's "San Matteo della Decima (Start)" or "Largo Giustiniano Parking," which also carry no card by design. Flagged to the user rather than fabricating an attraction card for it.
+
+Sourced each new card from official/tourism sites per the style-guide's sourcing priority (Parco Delta del Po, Parco San Bartolo, FAI, Puglia.com, Ferrara Terra e Acqua), not invented. Verified afterward with a script checking every new `href="#poi-..."` resolves to an existing id, no duplicate ids per file, and `<a>`/`</a>` counts balance across the 5 edited files.
+
+## 2026-08-31 — Every POI gets honest current-position navigation actions
+
+The user asked for a hot link from every POI that can navigate from wherever the traveller currently is. Added screen-only actions beneath the GPS value of every numbered POI across all 21 daily legends, while preserving each POI name's existing link to its detailed write-up.
+
+Organic Maps cannot honestly provide a one-tap current-position route through the stable deep-link format: v1 requires explicit start coordinates, Organic Maps' upstream request to omit the start/use the live location remains open, and the installed Android app already rejected the v2 `currentLocation` route URL as an unrecognized bookmark file. Each POI therefore uses the already phone-confirmed stable v1 pin link labelled `Organic Maps — tap Route to`; after it opens the exact audited destination, Organic Maps' native `Route to` button uses the device's live position and retains the imported bookmark overlay. This costs one additional tap but preserves the user's preferred POI-rich navigation view and does not resurrect a known-broken API.
+
+Every POI also provides `Google — navigate now` as a true one-tap fallback. The URL omits `origin` and includes `dir_action=navigate`; Google's official Maps URL contract specifies that this launches navigation from the current device location when available, or a route preview if location is unavailable. Travel mode is left unspecified so the phone can offer the relevant mode rather than forcing driving for walkable old-town POIs.
+
+`scripts/build-poi-navigation-links.py` generates the controls deterministically from the 301 legend GPS values and checks daily counts against the KML sources. The pre-commit hook runs its `--check` mode when day pages, daily KMLs, or the generator change. Validation confirmed all 301 Organic Maps destinations and Google current-location URLs, no unsupported v2 links, and no broken internal POI links.
+
 ## 2026-08-31 — Import all 301 POIs once, while retaining daily recovery files
 
 The user chose a one-time full-itinerary bookmark import instead of repeating the import at the start of every day. The index now provides `assets/maps/italy-trip-all-pois.kml`, built directly from the 21 audited daily KML files. Its 301 bookmark names are prefixed with the full-trip day and daily marker number (for example, `D07-12 — Trabocco Pesce Palombo`) so repeated accommodation, arrival, and town names remain distinguishable inside one Organic Maps bookmark collection.

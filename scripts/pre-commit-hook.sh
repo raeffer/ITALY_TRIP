@@ -15,6 +15,14 @@
 
 set -euo pipefail
 
+# --- Verify every numbered POI keeps its navigation actions ---------------
+POI_NAV_SOURCES_CHANGED=$(git diff --cached --name-only | grep -E '^(days/day[0-9]+\.html|assets/maps/day([1-9]|1[0-9]|2[01])-pois\.kml|scripts/build-poi-navigation-links\.py)$' || true)
+
+if [ -n "$POI_NAV_SOURCES_CHANGED" ]; then
+  python3 scripts/build-poi-navigation-links.py --check
+fi
+# ----------------------------------------------------------------------------
+
 # --- Auto-regenerate the one-time all-trip POI import ---------------------
 # The combined file is derived from the 21 daily KML bookmark collections.
 ALL_POIS_SOURCES_CHANGED=$(git diff --cached --name-only | grep -E '^(assets/maps/day([1-9]|1[0-9]|2[01])-pois\.kml|scripts/build-all-pois-kml\.py)$' || true)
