@@ -16,7 +16,7 @@ Via Grilli 14, 60020 Sirolo AN, Italy</description>
       <description>Optional historic site
 Piazza della Madonna 1, 60025 Loreto AN, Italy</description>
       <Point>
-        <coordinates>13.6108062,43.4410010,0</coordinates>
+        <coordinates>13.6108062,43.441001,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -32,7 +32,7 @@ Via Traversa Don Enzo Rampolla 2, 60025 Loreto Stazione AN, Italy</description>
       <description>Historic centre
 Corso Vittorio Emanuele, 66026 Ortona CH, Italy</description>
       <Point>
-        <coordinates>14.4032270,42.3535835,0</coordinates>
+        <coordinates>14.403227,42.3535835,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -40,7 +40,7 @@ Corso Vittorio Emanuele, 66026 Ortona CH, Italy</description>
       <description>Food stop
 Corso Vittorio Emanuele 73, 66026 Ortona CH, Italy</description>
       <Point>
-        <coordinates>14.4032270,42.3535835,0</coordinates>
+        <coordinates>14.403227,42.3535835,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -56,7 +56,7 @@ Largo Castello, 66026 Ortona CH, Italy</description>
       <description>Historic site
 Contrada San Donato, 66026 Ortona CH, Italy</description>
       <Point>
-        <coordinates>14.4165319,42.3368140,0</coordinates>
+        <coordinates>14.4165319,42.336814,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -72,7 +72,7 @@ Contrada Portelle, 66038 San Vito Chietino CH, Italy</description>
       <description>Beach / coastal base
 Marina di San Vito, 66038 San Vito Chietino CH, Italy</description>
       <Point>
-        <coordinates>14.4436070,42.2963540,0</coordinates>
+        <coordinates>14.443607,42.296354,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -94,9 +94,9 @@ Via Lungomare di Gualdo 4, 66038 Marina di San Vito CH, Italy</description>
     <Placemark>
       <name>12 — Trabocco Pesce Palombo</name>
       <description>Optional food stop
-SS16 Adriatica, Fossacesia Marina, 66022 Fossacesia CH, Italy</description>
+SS16 Adriatica km 486.6, 66022 Fossacesia CH, Italy</description>
       <Point>
-        <coordinates>14.518930,42.244760,0</coordinates>
+        <coordinates>14.5017989,42.2619012,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -132,7 +132,7 @@ Via Lungomare di Gualdo 31, 66038 Marina di San Vito CH, Italy</description>
       </Point>
     </Placemark>
     <Placemark>
-      <name>17 — Locanda dell'Adriatica</name>
+      <name>17 — Locanda dell&#x27;Adriatica</name>
       <description>Accommodation / food stop
 Largo Olivieri 5, 66038 Marina di San Vito CH, Italy</description>
       <Point>

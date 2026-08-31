@@ -16,7 +16,7 @@ Via Principe di Piemonte 13, 72019 San Vito dei Normanni BR, Italy</description>
       <description>Option A / nature reserve
 Riserva Naturale Statale di Torre Guaceto, Carovigno BR, Italy</description>
       <Point>
-        <coordinates>17.7830,40.7057,0</coordinates>
+        <coordinates>17.783,40.7057,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -46,17 +46,17 @@ Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy</description>
     <Placemark>
       <name>06 — Osteria del Capitolo</name>
       <description>Option B / lunch
-below Piazza Plebiscito, 72013 Ceglie Messapica BR, Italy</description>
+Via Orto del Capitolo 10, 72013 Ceglie Messapica BR, Italy</description>
       <Point>
-        <coordinates>17.5171,40.6461,0</coordinates>
+        <coordinates>17.5175514,40.6455462,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>07 — Osteria L'Antico Arco</name>
+      <name>07 — Osteria L&#x27;Antico Arco</name>
       <description>Option B / lunch alternate
-Largo Gelso 4, 72013 Ceglie Messapica BR, Italy</description>
+Largo Celso 4, 72013 Ceglie Messapica BR, Italy</description>
       <Point>
-        <coordinates>17.5171,40.6461,0</coordinates>
+        <coordinates>17.519114,40.647666,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -88,7 +88,7 @@ Via Fabio Massimo 19, 74024 Manduria TA, Italy</description>
       <description>Option C / historic site
 Via Fonte Pliniano, 74024 Manduria TA, Italy</description>
       <Point>
-        <coordinates>17.6430,40.4022,0</coordinates>
+        <coordinates>17.643,40.4022,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -112,7 +112,7 @@ Via Chiesa Matrice 4, 74023 Grottaglie TA, Italy</description>
       <description>Option D / museum
 Via Cavour 10, 74123 Taranto TA, Italy</description>
       <Point>
-        <coordinates>17.2385,40.4735,0</coordinates>
+        <coordinates>17.2384674,40.4735189,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -126,9 +126,9 @@ Piazza Castello, 74123 Taranto TA, Italy</description>
     <Placemark>
       <name>16 — Core Restaurant</name>
       <description>Option D / lunch, least verified
-Via Niccolò Tommaso d'Aquino 8, 74123 Taranto TA, Italy</description>
+Via Niccolò Tommaso d&#x27;Aquino 8, 74123 Taranto TA, Italy</description>
       <Point>
-        <coordinates>17.2385,40.4735,0</coordinates>
+        <coordinates>17.2365288,40.4723368,0</coordinates>
       </Point>
     </Placemark>
   </Document>

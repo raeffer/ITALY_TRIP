@@ -1435,9 +1435,8 @@ accommodation. It is a planning map only; import the day’s POIs once, then use
 11. Aldebaran da Rocco e Tommaso --- Food stop --- Via Lungomare di
     Gualdo 4, 66038 Marina di San Vito CH, Italy --- GPS: 42.309154,
     14.445654
-12. Trabocco Pesce Palombo --- Optional food stop --- SS16 Adriatica,
-    Fossacesia Marina, 66022 Fossacesia CH, Italy --- GPS: 42.244760,
-    14.518930
+12. Trabocco Pesce Palombo --- Optional food stop --- SS16 Adriatica km
+    486.6, 66022 Fossacesia CH, Italy --- GPS: 42.2619012, 14.5017989
 13. Le Due Palme --- Food stop --- Via San Rocco, 66038 San Vito
     Chietino CH, Italy --- GPS: 42.292305, 14.443628
 14. Frantoio Oleario Giocondo de Santis --- Shop / food heritage --- Via
@@ -2609,7 +2608,7 @@ packaged items.
 Historic setting near the castle, 4.5★ across 745+ reviews, built around
 Gargano ingredients, not fine-dining/tasting-menu.
 
-**Alternate:** Al Barone, centro storico near the Basilica ---
+**Alternate:** Al Barone, Via Bartolomeo Gambadoro 3 ---
 rustic-elegant, \~€25/person.
 
 **Budget:** Ristorante San Michele, Via Reale Basilica 51 --- right next
@@ -2661,7 +2660,7 @@ Molfetta overnight.
 **Alternate:** Ricominciamo da Tre; also Bue Marino (Bisceglie) and Al
 Terrazzino (Giovinazzo) if you don\'t mind the drive.
 
-**Budget pick:** La Cucina del Mare, Via Alfredo Baccarini ---
+**Budget pick:** La Cucina del Mare, Via Alfredo Baccarini 4 ---
 counter-style gastronomia, €8--10/person, 4.9★ across 34 Tripadvisor
 reviews. No genuine \$\$\$ splurge exists in Molfetta itself --- the
 whole town\'s dining tops out around €25--30/person, reflected honestly
@@ -2672,7 +2671,7 @@ this coast --- brodetto, whatever the day\'s catch was. Nothing
 distinctly Molfetta-specific has turned up in research so far; a genuine
 gap rather than a manufactured claim.
 
-**Accommodation:** Il Mulino di Amleto --- Vicolo Campanile 6
+**Accommodation:** Il Mulino di Amleto --- Vico Campanile 4--6
 
 A literary-themed B&B, 4.6★ across 62 reviews, run by Antonella ---
 repeatedly praised by name for genuinely helpful hosting, not just
@@ -2947,7 +2946,7 @@ Polignano.
 
 ## **Pasticceria (Ostuni)**
 
-**Forno 31** --- Via G. Ferrari, 6, 72017 Ostuni BR
+**Forno 31** --- Vico Giuseppe Ferrari 6, 72017 Ostuni BR
 
 A working bakery built around an original 15th-century wood-fired
 oven --- reportedly the largest the reviewers who found it had ever

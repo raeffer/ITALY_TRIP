@@ -6,7 +6,7 @@
     <Placemark>
       <name>01 — R&amp;B Villa Tartaruga, Rastellino</name>
       <description>Start / base
-Via Garzolé 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
+Via Garzole 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description>
       <Point>
         <coordinates>11.1195137,44.6269459,0</coordinates>
       </Point>
@@ -32,15 +32,15 @@ Via Betlemme, 40017 San Giovanni in Persiceto BO, Italy</description>
       <description>Coffee
 Via Crevalcore 1, 40017 San Giovanni in Persiceto BO, Italy</description>
       <Point>
-        <coordinates>11.1857293,44.6430230,0</coordinates>
+        <coordinates>11.1857293,44.643023,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>05 — Caffè Pasticceria Mimì</name>
+      <name>05 — Magic Pasticcio</name>
       <description>Local speciality
-Via Guardia Nazionale 1, 40017 San Giovanni in Persiceto BO, Italy</description>
+Via IV Novembre 21, 40017 San Giovanni in Persiceto BO, Italy</description>
       <Point>
-        <coordinates>11.1869812,44.6401562,0</coordinates>
+        <coordinates>11.1866698,44.6411217,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -48,19 +48,19 @@ Via Guardia Nazionale 1, 40017 San Giovanni in Persiceto BO, Italy</description>
       <description>Optional stop
 Piazza dei Contrari 4, 41058 Vignola MO, Italy</description>
       <Point>
-        <coordinates>11.0101210,44.4764050,0</coordinates>
+        <coordinates>11.010121,44.476405,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>07 — Pasticceria Gollini</name>
       <description>Optional / pastry
-Piazza Garibaldi, 41058 Vignola MO, Italy</description>
+Via Giuseppe Garibaldi 1/N, 41058 Vignola MO, Italy</description>
       <Point>
-        <coordinates>11.0104000,44.4766000,0</coordinates>
+        <coordinates>11.0095052,44.477254,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>08 — Acetaia La Cà dal Nôn</name>
+      <name>08 — Acetaia La Ca dal Non</name>
       <description>Optional / reservation required
 Via Ghiaurov 50-56, 41058 Vignola MO, Italy</description>
       <Point>
@@ -72,7 +72,7 @@ Via Ghiaurov 50-56, 41058 Vignola MO, Italy</description>
       <description>Cool / quirky
 Piazza Garibaldi, 41013 Castelfranco Emilia MO, Italy</description>
       <Point>
-        <coordinates>11.0531420,44.5956559,0</coordinates>
+        <coordinates>11.053142,44.5956559,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>

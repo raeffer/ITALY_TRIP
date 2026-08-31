@@ -36,27 +36,27 @@ Piazza Sacramento 10/11, 70011 Alberobello BA, Italy</description>
       </Point>
     </Placemark>
     <Placemark>
-      <name>05 — Chiesa di Sant'Antonio</name>
+      <name>05 — Chiesa di Sant&#x27;Antonio</name>
       <description>Historic site
 Via Monte Pertica 18, 70011 Alberobello BA, Italy</description>
       <Point>
-        <coordinates>17.2352,40.7813,0</coordinates>
+        <coordinates>17.2348224,40.781115,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>06 — Bar "Il Trulletto"</name>
+      <name>06 — Bar &quot;Il Trulletto&quot;</name>
       <description>Coffee
 Via Monte San Michele 50, 70011 Alberobello BA, Italy</description>
       <Point>
-        <coordinates>17.2371,40.7823,0</coordinates>
+        <coordinates>17.2367364,40.7817612,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>07 — Largo Martellotta</name>
+      <name>07 — Largo Martellotta (parking)</name>
       <description>Parking
 Largo Martellotta, 70011 Alberobello BA, Italy</description>
       <Point>
-        <coordinates>17.2373,40.7830,0</coordinates>
+        <coordinates>17.2373,40.783,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -64,7 +64,7 @@ Largo Martellotta, 70011 Alberobello BA, Italy</description>
       <description>Historic site
 Piazza Vittorio Emanuele, 70010 Locorotondo BA, Italy</description>
       <Point>
-        <coordinates>17.3285,40.7530,0</coordinates>
+        <coordinates>17.3285,40.753,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -80,7 +80,7 @@ Via Cavour 149, 70010 Locorotondo BA, Italy</description>
       <description>Lunch
 Via Antonio Bruno 5, 70010 Locorotondo BA, Italy</description>
       <Point>
-        <coordinates>17.3289,40.7530,0</coordinates>
+        <coordinates>17.3289,40.753,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -88,7 +88,7 @@ Via Antonio Bruno 5, 70010 Locorotondo BA, Italy</description>
       <description>Historic site
 Via Masaniello 1, 74015 Martina Franca TA, Italy</description>
       <Point>
-        <coordinates>17.3370,40.7057,0</coordinates>
+        <coordinates>17.337,40.7057,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -104,7 +104,7 @@ Piazza Roma 28, 74015 Martina Franca TA, Italy</description>
       <description>What to buy
 Via Giuseppe Garibaldi 4-6, 74015 Martina Franca TA, Italy</description>
       <Point>
-        <coordinates>17.3360,40.7055,0</coordinates>
+        <coordinates>17.33563,40.70566,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>

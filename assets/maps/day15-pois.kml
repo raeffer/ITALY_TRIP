@@ -30,15 +30,15 @@ Piazza Vittorio Emanuele II, 72014 Cisternino BR, Italy</description>
     <Placemark>
       <name>04 — Bar FOD</name>
       <description>Coffee
-Piazza Vittorio Emanuele II, 72014 Cisternino BR, Italy</description>
+Piazza Vittorio Emanuele II 5, 72014 Cisternino BR, Italy</description>
       <Point>
-        <coordinates>17.4265,40.7418,0</coordinates>
+        <coordinates>17.4264336,40.7416096,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>05 — Zio Pietro</name>
       <description>Dinner
-Via Duca D'Aosta 3, 72014 Cisternino BR, Italy</description>
+Via Duca D&#x27;Aosta 3, 72014 Cisternino BR, Italy</description>
       <Point>
         <coordinates>17.4266,40.7416,0</coordinates>
       </Point>
@@ -54,17 +54,17 @@ Via Giulio II 16, 72014 Cisternino BR, Italy</description>
     <Placemark>
       <name>07 — Premiata Macelleria Santoro</name>
       <description>Dinner / alternate
-Via Domenico Cirillo 212, 72014 Cisternino BR, Italy</description>
+Via Domenico Cirillo 214, 72014 Cisternino BR, Italy</description>
       <Point>
-        <coordinates>17.4270,40.7429,0</coordinates>
+        <coordinates>17.42575,40.74298,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>08 — Ashram Centro Bhole Baba</name>
       <description>Hidden gem / quirky
-Contrada Portarino 10, 72014 Cisternino BR, Italy</description>
+Contrada Portarino 10, 72017 Ostuni BR, Italy</description>
       <Point>
-        <coordinates>17.4029,40.7165,0</coordinates>
+        <coordinates>17.403449,40.717613,0</coordinates>
       </Point>
     </Placemark>
   </Document>

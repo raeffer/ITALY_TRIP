@@ -16,7 +16,7 @@ Via del Campo Romano 15, 36014 Santorso VI, Italy</description>
       <description>Optional stop
 Piazza degli Scacchi, 36063 Marostica VI, Italy</description>
       <Point>
-        <coordinates>11.6552998,45.7455140,0</coordinates>
+        <coordinates>11.6552998,45.745514,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -40,7 +40,7 @@ Via Vajenti 21, 36063 Marostica VI, Italy</description>
       <description>Essential stop
 36061 Bassano del Grappa VI, Italy</description>
       <Point>
-        <coordinates>11.7311146,45.7675140,0</coordinates>
+        <coordinates>11.7311146,45.767514,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -48,7 +48,7 @@ Via Vajenti 21, 36063 Marostica VI, Italy</description>
       <description>Museum
 Via Angarano 2, 36061 Bassano del Grappa VI, Italy</description>
       <Point>
-        <coordinates>11.7306876,45.7675730,0</coordinates>
+        <coordinates>11.7306876,45.767573,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -80,7 +80,7 @@ Piazza Libertà 25, 36061 Bassano del Grappa VI, Italy</description>
       <description>Coffee
 Piazza Garibaldi 39, 36061 Bassano del Grappa VI, Italy</description>
       <Point>
-        <coordinates>11.7353468,45.7668813,0</coordinates>
+        <coordinates>11.7349257,45.7666835,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -88,15 +88,15 @@ Piazza Garibaldi 39, 36061 Bassano del Grappa VI, Italy</description>
       <description>Lunch
 Via Giacomo Matteotti 34, 36061 Bassano del Grappa VI, Italy</description>
       <Point>
-        <coordinates>11.7339387,45.7678850,0</coordinates>
+        <coordinates>11.73402,45.76757,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>12 — Pasticceria Bolcato / Dolce Bassano</name>
+      <name>12 — Dolce Bassano</name>
       <description>Pastry
-Piazzetta Zaine, 36061 Bassano del Grappa VI, Italy</description>
+Piazzetta Zaine 14/15, 36061 Bassano del Grappa VI, Italy</description>
       <Point>
-        <coordinates>11.7355000,45.7665000,0</coordinates>
+        <coordinates>11.73469,45.7686415,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -104,15 +104,15 @@ Piazzetta Zaine, 36061 Bassano del Grappa VI, Italy</description>
       <description>Walled town / recommended
 Porta Bassano, 35013 Cittadella PD, Italy</description>
       <Point>
-        <coordinates>11.7832170,45.6507763,0</coordinates>
+        <coordinates>11.783217,45.6507763,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>14 — L.AB Pastry &amp; Coffee, Cittadella</name>
       <description>Food stop
-Via Muri Bianchi, 35013 Cittadella PD, Italy</description>
+Via Muri Bianchi 35, 35013 Cittadella PD, Italy</description>
       <Point>
-        <coordinates>11.7885209,45.6364387,0</coordinates>
+        <coordinates>11.78814,45.63781,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -134,9 +134,9 @@ Via San Giovanni 6, 35044 Montagnana PD, Italy</description>
     <Placemark>
       <name>17 — Le Mura Bar-Gastronomia, Montagnana</name>
       <description>Food stop / alternative
-35044 Montagnana PD, Italy</description>
+Via Circonvallazione 145, 35044 Montagnana PD, Italy</description>
       <Point>
-        <coordinates>11.4681000,45.2335000,0</coordinates>
+        <coordinates>11.462482,45.231831,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -148,9 +148,9 @@ Via Cento, San Matteo della Decima, 40017 San Giovanni in Persiceto BO, Italy</d
       </Point>
     </Placemark>
     <Placemark>
-      <name>19 — L'Ulivo B&amp;B</name>
+      <name>19 — L&#x27;Ulivo B&amp;B</name>
       <description>Accommodation
-Via delle Rose, San Matteo della Decima, 40017, Italy</description>
+Via delle Rose 2A, San Matteo della Decima, 40017, Italy</description>
       <Point>
         <coordinates>11.2364802,44.7159632,0</coordinates>
       </Point>
@@ -158,9 +158,9 @@ Via delle Rose, San Matteo della Decima, 40017, Italy</description>
     <Placemark>
       <name>20 — Boutique Hotel San Giovanni</name>
       <description>Accommodation / alternate
-San Giovanni in Persiceto, 40017 BO, Italy</description>
+Via Bassa 1F, 40017 San Giovanni in Persiceto BO, Italy</description>
       <Point>
-        <coordinates>11.1872698,44.6353076,0</coordinates>
+        <coordinates>11.183138,44.6287343,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -173,10 +173,18 @@ Via Garzolé 41-43, Rastellino, 41013 Castelfranco Emilia MO, Italy</description
     </Placemark>
     <Placemark>
       <name>22 — Castello degli Ezzelini</name>
-      <description>Cool / quirky
+      <description>Quirky stop
 Piazza Castello Ezzelini, 36061 Bassano del Grappa VI, Italy</description>
       <Point>
         <coordinates>11.7325263,45.7690102,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23 — Pasticceria Bolcato</name>
+      <description>Pastry producer / verify retail access
+Via Portile 12, 36061 Bassano del Grappa VI, Italy</description>
+      <Point>
+        <coordinates>11.7483555,45.7564002,0</coordinates>
       </Point>
     </Placemark>
   </Document>

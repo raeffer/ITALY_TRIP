@@ -6,8 +6,9 @@
 # How it detects "which day changed":
 #   It looks at the staged diff of CONTENT.md and finds every "Day N ---"
 #   header line that appears within the changed hunks (added or removed
-#   context lines near a change). That gives the set of day numbers whose
-#   section was touched. It then checks that days/dayN.html is also staged.
+#   context lines near a change). CONTENT.md covers Stage 2 with local Day
+#   1-10 numbering, which maps to site days/day4.html-days/day13.html. The
+#   hook adds that three-day offset before checking the matching HTML.
 #
 # Install: run scripts/install-hooks.sh. It creates a live link at
 # .git/hooks/pre-commit so the active check cannot drift from this tracked file.
@@ -122,9 +123,10 @@ STAGED_FILES=$(git diff --cached --name-only)
 
 MISSING_DAYS=()
 for day in "${!TOUCHED_DAYS[@]}"; do
-  html_path="days/day${day}.html"
+  site_day=$((day + 3))
+  html_path="days/day${site_day}.html"
   if ! echo "$STAGED_FILES" | grep -qx "$html_path"; then
-    MISSING_DAYS+=("$day")
+    MISSING_DAYS+=("$site_day")
   fi
 done
 

@@ -2,6 +2,20 @@
 
 Dated log of decisions made in this repository and the reasoning behind them. Newest entries first. Append-only — each entry is a record of what was true at the time and is never rewritten or deleted, even after it's superseded.
 
+## 2026-08-31 — CONTENT-to-site sync check respects the Stage 2 day offset
+
+The coordinate-audit commit was correctly accompanied by edits to the matching live pages, but the pre-commit hook demanded the wrong files: for example, a change under `CONTENT.md` Day 4 (the fourth day of Stage 2) demanded `days/day4.html` instead of the actual full-trip page, `days/day7.html`. `CONTENT.md` covers Stage 2 as local Days 1–10, while the site numbers them as full-trip Days 4–13.
+
+The hook now adds the required three-day offset before checking staged HTML files. The content-sync requirement remains fail-closed; only its mapping to the real page topology changed. Bypassing the hook or staging unrelated pages merely to satisfy it was rejected because either would conceal the underlying enforcement bug.
+
+## 2026-08-31 — POI coordinate audit uses real arrivals, not invented precision
+
+Audited all itinerary POIs after the user asked for deep research into missing coordinates. Every entry already had numbers, but 37 were suspect because they were town centres, shared landmarks, street segments, or stale business locations rather than dependable arrivals. Corrected or replaced those records using current official addresses first, then named OpenStreetMap objects or independent GPS sources. Generator data, all daily KMLs, aggregate Organic Maps links, and page legends must carry the same coordinate; an automated cross-output check now passes for all 301 POIs.
+
+Do not invent doorway precision where the evidence only supports an address-level arrival. Friggitoria Maramimmo and Roberti Store therefore remain explicitly described as Termoli street-address arrivals. Broad destinations such as Rione Monti and the Sassi remain intentional area anchors, while named buildings and businesses use building/storefront coordinates where supported.
+
+The audit also found two data-quality problems that coordinate checks alone would have missed. Caffè Pasticceria Mimì's former premises were demolished, so the stop was replaced by Magic Pasticcio, a current registered Africanetto di Persiceto producer. Pasticceria Bolcato and Dolce Bassano are separate businesses at separate addresses, so the previously merged entry was split; this raises the itinerary total from 300 to 301 POIs. The trade-off is one additional bookmark and a few deliberately less precise address-level pins, in exchange for never sending the traveller confidently to the wrong place.
+
 ## 2026-08-31 — Imported bookmarks and stable Organic Maps route legs rolled out to all 21 days
 
 The user confirmed on the real Android phone that Day 12's imported KML bookmarks remained visible when the stable Trani-to-Bari Organic Maps route was opened. This solves the POI-visibility problem that neither Google Maps nor Organic Maps' ordinary driving style solved: the guide's points are persistent bookmarks, not native POIs that the navigation style can hide.

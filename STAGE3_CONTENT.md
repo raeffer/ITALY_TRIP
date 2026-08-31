@@ -56,7 +56,7 @@ Day 14 below has been independently re-researched against live sources (Nominati
 - **Correction from an earlier draft of this document:** an earlier pass considered the "Trullo Siamese" (a rural double-cone trullo ~3km outside town) as a stop. It's real and its early-15th-century double-cone form is a genuine curiosity, but it now operates purely as a private vacation rental (Via Vito Schiavone, tel +39 335 775 3222) — not a walk-up sight. Worth knowing it exists if you pass Via Monte Nero in the countryside, not worth a special detour. Trullo Sovrano is the better real stop and replaces it above.
 
 ### Chiesa di Sant'Antonio (trullo church)
-📍 Via Monte Pertica 18, 70011 Alberobello · Tel +39 080 432 4416 · free entry · 40.7813, 17.2352
+📍 Via Monte Pertica 18, 70011 Alberobello · Tel +39 080 432 4416 · free entry · 40.7811150, 17.2348224
 
 - **Why stop:** A parish church built in 1927 in genuine trullo form — a Greek-cross plan entirely built as trulli, unique of its kind. Small, but a different kind of trullo experience from the souvenir-shop density of Rione Monti.
 - **Hours:** Open daily 7:30am–10:30pm, free entry (confirmed via parish site).
@@ -173,7 +173,7 @@ Don't try to "beat the crowds" at Alberobello mid-afternoon — every source agr
 - **Distance from Ostuni:** ~8 minutes by car, so it sits conveniently between Ostuni and the coast if you do end up wanting a quick Ostuni pass-through (entirely optional, not part of the revised plan).
 
 ### Cisternino — centro storico
-📍 40.7418, 17.4265 — Piazza Vittorio Emanuele II, 72014 Cisternino
+📍 40.7416096, 17.4264336 — Piazza Vittorio Emanuele II 5, 72014 Cisternino
 
 - **Why stop:** One of Puglia's classic whitewashed hill towns, with a real balcony view over the Valle d'Itria from the edge of the old centre. Quieter and less photographed than Locorotondo, genuinely lived-in.
 - **Time required:** 1.5–2 hours before dinner.
@@ -203,7 +203,7 @@ Zampina (spiral sausage) or capocollo from any of the above macellerie — ask f
 
 **Ashram Centro Bhole Baba — an Indian spiritual community in the trulli countryside.** Gap closed: this is the day's real find. In Contrada Portarino, a few kilometres outside Cisternino, a community of devotees of the Indian guru Babaji has lived in a cluster of trulli since 1979 — kitchen, dormitories, and a devotional hall built as trulli, plus additions over the decades (library, yoga/meditation hall, a temple built in 1986 as a copy of the guru's ashram in Herakhan, India, and a sacred fire, the Dhuni, that has reportedly burned continuously since 1990). It's a real, functioning residential community, not a themed attraction — it hosts retreats, offers vegetarian meals and accommodation to visitors, and the comune of Cisternino itself lists a "Cammino Cisternino–Ashram Bhole Baba" walking route to it, so it's an acknowledged, findable local landmark, not a fringe curiosity nobody local recognizes.
 - 📍 Contrada Portarino 10, Cisternino · Tel +39 080 4448735
-- **Honest flag:** GPS for a rural contrada address is inherently approximate — coordinates given here (40.7165, 17.4029) come from an independent aggregator, not an official pin, so treat the location as "the general area," not a precise arrival point, and don't just show up unannounced — this is people's home and place of worship, not a tourist site. If genuinely interested, the respectful approach is to check the Fondazione Bhole Baba site or call ahead.
+- **Arrival:** the Fondazione Bhole Baba confirms Contrada Portarino 10, Ostuni, and the Festival dei Sensi venue map places the entrance at 40.717613, 17.403449. Still call ahead and don't just show up unannounced — this is people's home and place of worship, not a tourist site.
 - **Correction:** one aggregator's page for this same location also listed wildly incorrect coordinates (41.8°N — that's in the Alps, not Puglia) alongside the plausible ones; that error was caught and dropped rather than repeated.
 
 ## **If Time Is Tight**
@@ -372,7 +372,7 @@ The pasticciotto's origin story: credited to the Ascalone family of nearby Galat
 
 Lecce's two signature crafts, both centuries-old and both still hand-worked in the old town:
 
-- **Cartapesta (papier-mâché statuary)** — a technique Lecce absorbed from Naples in the 1600s–1700s, used for saints, nativity figures, and processional statues, built up from waste paper, starch glue, straw, and a wire armature. **Cartapesta Bottega Artigiana**, run by Maestro Francesco De Vita on Via Palmieri near the Cathedral (approx 📍 40.3519, 18.1690), is a working workshop open to visitors. **Alternate:** Cartapesta Riso, Via Vittorio Emanuele II 27 (📍 40.3525, 18.1697), run by Claudio Riso and his brothers.
+- **Cartapesta (papier-mâché statuary)** — a technique Lecce absorbed from Naples in the 1600s–1700s, used for saints, nativity figures, and processional statues, built up from waste paper, starch glue, straw, and a wire armature. **Cartapesta Bottega Artigiana**, run by Maestro Francesco De Vita at Via Giuseppe Palmieri 91 (📍 40.35565, 18.16858), is a working workshop open to visitors. **Alternate:** Cartapesta Riso, Via Vittorio Emanuele II 27 (📍 40.3525, 18.1697), run by Claudio Riso and his brothers.
 - **Pietra leccese** — the local soft limestone that makes Lecce's Baroque carving possible in the first place; sold worked into decorative objects, lamps, and small sculptures by artisan workshops clustered around Santa Croce and Piazza Duomo.
 
 ## **Hidden Gem — gap closed**
@@ -522,7 +522,7 @@ This is a genuine free day — nothing here is mandatory, and nothing needs book
 
 ## **Option B — Ceglie Messapica (standalone)** *(approx 25 min)*
 
-📍 40.6461, 17.5171 (Piazza Plebiscito) — Puglia's self-declared gastronomic capital — dense fornelli tradition, its own ceramics quarter, Baroque cathedral, Ducal Castle. Lunch (non-Michelin tier): **$** Osteria del Capitolo (below Piazza Plebiscito); **$$** Osteria L'Antico Arco (Largo Gelso 4, approx 25 euro pp); **$** Braceria Zitto & Mangia (Piazza Plebiscito 7). Local sweet: *biscotto cegliese* (18th-century almond pastry, jam-filled, white-glazed) — travels well.
+📍 40.6461, 17.5171 (Piazza Plebiscito) — Puglia's self-declared gastronomic capital — dense fornelli tradition, its own ceramics quarter, Baroque cathedral, Ducal Castle. Lunch (non-Michelin tier): **$** Osteria del Capitolo (Via Orto del Capitolo 10; 📍 40.6455462, 17.5175514); **$$** Osteria L'Antico Arco (Largo Celso 4; 📍 40.647666, 17.519114; approx 25 euro pp); **$** Braceria Zitto & Mangia (Piazza Plebiscito 7). Local sweet: *biscotto cegliese* (18th-century almond pastry, jam-filled, white-glazed) — travels well.
 
 ## **Option C — Messapian Heritage & Wine: Oria + Manduria** *(approx 20–25 min, then a further approx 25–30 min)*
 
@@ -537,7 +537,7 @@ This is a genuine free day — nothing here is mandatory, and nothing needs book
 **Gap closed — lunch:** **Osteria La Capasa** — Via Chiesa Matrice 4, Grottaglie (behind the Chiesa Madre, in the historic centre) · Tel +39 099 330 7358 · Mon-Tue, Thu-Sat 12-3pm & 7-11:30pm, Sun 12-3pm, closed Wednesday. Cited consistently for authentic Salento/Puglia cooking with local ingredients, right in the old town.
 
 **Taranto** — 📍 40.4727, 17.2337 (Castello Aragonese) — the only Italian city on two seas.
-- **MArTA (Museo Archeologico Nazionale)** — 📍 40.4735, 17.2385, Via Cavour 10 — **gap closed:** Tue-Sun 8:30am-7:30pm (last entry 7pm), closed Monday to the general public (group visits only, by reservation); €10 full ticket, free entry the first Sunday of every month; €2 reduced for ages 18-25, free under 18.
+- **MArTA (Museo Archeologico Nazionale)** — 📍 40.4735189, 17.2384674, Via Cavour 10 — **gap closed:** Tue-Sun 8:30am-7:30pm (last entry 7pm), closed Monday to the general public (group visits only, by reservation); €10 full ticket, free entry the first Sunday of every month; €2 reduced for ages 18-25, free under 18.
 - **Castello Aragonese** — **gap closed:** free guided tours only (no self-guided access — it's an active Italian Navy base), departing roughly hourly, 9am-1pm & 2-8pm, ~60 minutes, led by Navy personnel. Booking recommended in high season.
 - Slow-Food-Presidium *cozze tarantine* mussels — the citri (see Quirky, below) are why they taste distinct.
 - Lunch: Core Restaurant, Via Niccolò Tommaso d'Aquino 8, near the swing bridge/MArTA. **Honest flag, unchanged:** still the least independently verified pick on this page — bigger city, more moving parts, and this pass didn't turn up an equally strong alternate to cross-check it against.

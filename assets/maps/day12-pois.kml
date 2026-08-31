@@ -14,7 +14,7 @@ Contrada Torre di Lupo 20, 71030 Mattinata FG, Italy</description>
     <Placemark>
       <name>02 — Santuario di San Michele Arcangelo</name>
       <description>Historic site / sanctuary
-Via Reale Basilica 127, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Reale Basilica 127, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
         <coordinates>15.9547699,41.7080134,0</coordinates>
       </Point>
@@ -22,7 +22,7 @@ Via Reale Basilica 127, 71037 Monte Sant'Angelo FG, Italy</description>
     <Placemark>
       <name>03 — Rione Junno &amp; Rione Grotte</name>
       <description>Historic quarter
-Via Castello / Junno, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Castello / Junno, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
         <coordinates>15.9533918,41.7073834,0</coordinates>
       </Point>
@@ -30,7 +30,7 @@ Via Castello / Junno, 71037 Monte Sant'Angelo FG, Italy</description>
     <Placemark>
       <name>04 — Pasticceria Ciuffreda</name>
       <description>Food stop
-Via Giuseppe Garibaldi 15, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Giuseppe Garibaldi 15, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
         <coordinates>15.9541869,41.7074364,0</coordinates>
       </Point>
@@ -38,25 +38,25 @@ Via Giuseppe Garibaldi 15, 71037 Monte Sant'Angelo FG, Italy</description>
     <Placemark>
       <name>05 — Ristorante Medioevo</name>
       <description>Lunch
-Via Castello 21, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Castello 21, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
-        <coordinates>15.9533918,41.7073834,0</coordinates>
+        <coordinates>15.954031,41.707519,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>06 — Al Barone</name>
       <description>Lunch / alternate
-Centro storico near the Basilica, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Bartolomeo Gambadoro 3, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
-        <coordinates>15.9547699,41.7080134,0</coordinates>
+        <coordinates>15.9556536,41.7073478,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>07 — Ristorante San Michele</name>
       <description>Lunch / budget
-Via Reale Basilica 51, 71037 Monte Sant'Angelo FG, Italy</description>
+Via Reale Basilica 51, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
-        <coordinates>15.9547699,41.7080134,0</coordinates>
+        <coordinates>15.9557332,41.7075182,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -96,23 +96,23 @@ Vico Campanile, 70056 Molfetta BA, Italy</description>
       <description>Dinner
 Corso Dante Alighieri 42, 70056 Molfetta BA, Italy</description>
       <Point>
-        <coordinates>16.5979521,41.2063077,0</coordinates>
+        <coordinates>16.5991091,41.2046969,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>13 — La Cucina del Mare</name>
       <description>Dinner / budget
-Via Alfredo Baccarini, 70056 Molfetta BA, Italy</description>
+Via Alfredo Baccarini 4, 70056 Molfetta BA, Italy</description>
       <Point>
-        <coordinates>16.5979521,41.2063077,0</coordinates>
+        <coordinates>16.6046338,41.201556,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>14 — Il Mulino di Amleto</name>
       <description>Accommodation, alternative
-Vicolo Campanile 6, 70056 Molfetta BA, Italy</description>
+Vico Campanile 4-6, 70056 Molfetta BA, Italy</description>
       <Point>
-        <coordinates>16.5979521,41.2063077,0</coordinates>
+        <coordinates>16.59827,41.20626,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -128,7 +128,7 @@ Arco Basso, 70122 Bari BA, Italy</description>
       <description>Dinner
 Piazza Federico II di Svevia 6/8, 70122 Bari BA, Italy</description>
       <Point>
-        <coordinates>16.8676604,41.1289060,0</coordinates>
+        <coordinates>16.8676604,41.128906,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -160,7 +160,7 @@ Largo Abate Elia 13, 70122 Bari BA, Italy</description>
       <description>Accommodation (preferred)
 Corte Lamberti 6, 70122 Bari BA, Italy</description>
       <Point>
-        <coordinates>16.8671134,41.1273126,0</coordinates>
+        <coordinates>16.869809,41.127575,0</coordinates>
       </Point>
     </Placemark>
   </Document>

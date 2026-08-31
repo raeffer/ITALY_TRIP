@@ -22,7 +22,7 @@ Via Umberto I 1, 73100 Lecce LE, Italy</description>
     <Placemark>
       <name>03 — Roman Amphitheatre</name>
       <description>Historic site
-Piazza Sant'Oronzo, 73100 Lecce LE, Italy</description>
+Piazza Sant&#x27;Oronzo, 73100 Lecce LE, Italy</description>
       <Point>
         <coordinates>18.1726,40.3528,0</coordinates>
       </Point>
@@ -38,7 +38,7 @@ Via Degli Ammirati 5, 73100 Lecce LE, Italy</description>
     <Placemark>
       <name>05 — Caffè Alvino</name>
       <description>Pasticceria
-Piazza Sant'Oronzo 30, 73100 Lecce LE, Italy</description>
+Piazza Sant&#x27;Oronzo 30, 73100 Lecce LE, Italy</description>
       <Point>
         <coordinates>18.1726,40.3528,0</coordinates>
       </Point>
@@ -78,9 +78,9 @@ Piazzetta Giosuè Carducci, 73100 Lecce LE, Italy</description>
     <Placemark>
       <name>10 — Cartapesta Bottega Artigiana</name>
       <description>What to buy
-Via Palmieri (near the Cathedral), 73100 Lecce LE, Italy</description>
+Via Giuseppe Palmieri 91, 73100 Lecce LE, Italy</description>
       <Point>
-        <coordinates>18.1690,40.3519,0</coordinates>
+        <coordinates>18.16858,40.35565,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>

@@ -32,7 +32,7 @@ Via S. Vito, 70044 Polignano a Mare BA, Italy</description>
       <description>Food stop / hidden gem
 Via Martiri di Dogali, Centro storico, 70044 Polignano a Mare BA, Italy</description>
       <Point>
-        <coordinates>17.2178068,40.9929810,0</coordinates>
+        <coordinates>17.2178068,40.992981,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -62,9 +62,9 @@ Porto Antico, 70043 Monopoli BA, Italy</description>
     <Placemark>
       <name>08 — Locanda dei Mercanti</name>
       <description>Lunch / alternate
-Centro storico, 70043 Monopoli BA, Italy</description>
+Via Giuseppe Garibaldi 44, 70043 Monopoli BA, Italy</description>
       <Point>
-        <coordinates>17.3033327,40.9508368,0</coordinates>
+        <coordinates>17.30243,40.95277,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -78,9 +78,9 @@ Centro Storico, 72017 Ostuni BR, Italy</description>
     <Placemark>
       <name>10 — Forno 31</name>
       <description>Food stop
-Via G. Ferrari 6, 72017 Ostuni BR, Italy</description>
+Vico Giuseppe Ferrari 6, 72017 Ostuni BR, Italy</description>
       <Point>
-        <coordinates>17.5778841,40.7333725,0</coordinates>
+        <coordinates>17.5759763,40.7292479,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -112,7 +112,7 @@ Via Mare snc, inside ExFadda cultural centre, 72019 San Vito dei Normanni BR, It
       <description>Food stop (next morning)
 Via Mesagne 136, 72019 San Vito dei Normanni BR, Italy</description>
       <Point>
-        <coordinates>17.7099910,40.6541726,0</coordinates>
+        <coordinates>17.711078,40.653188,0</coordinates>
       </Point>
     </Placemark>
   </Document>

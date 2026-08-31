@@ -32,7 +32,7 @@ Viale Federico Secondo di Svevia, 71019 Vieste FG, Italy</description>
       <description>Beach / viewpoint
 Spiaggia di Castello, 71019 Vieste FG, Italy</description>
       <Point>
-        <coordinates>16.1753703,41.8673500,0</coordinates>
+        <coordinates>16.1753703,41.86735,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -60,7 +60,7 @@ Via Nicolo Cimaglia 4, 71019 Vieste FG, Italy</description>
       </Point>
     </Placemark>
     <Placemark>
-      <name>08 — Bakery Cafe Sant'Antonio</name>
+      <name>08 — Bakery Cafe Sant&#x27;Antonio</name>
       <description>Food stop
 Piazzale Aldo Moro 64, 71019 Vieste FG, Italy</description>
       <Point>
@@ -72,7 +72,7 @@ Piazzale Aldo Moro 64, 71019 Vieste FG, Italy</description>
       <description>Dinner
 Largo Seggio 8, 71019 Vieste FG, Italy</description>
       <Point>
-        <coordinates>16.1792922,41.8809236,0</coordinates>
+        <coordinates>16.1819,41.8823,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -88,7 +88,7 @@ Via Ripe 2, 71019 Vieste FG, Italy</description>
       <description>Dinner / budget
 Via Santa Maria di Merino 13, 71019 Vieste FG, Italy</description>
       <Point>
-        <coordinates>16.1765535,41.8837530,0</coordinates>
+        <coordinates>16.1767582,41.883471,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -96,15 +96,15 @@ Via Santa Maria di Merino 13, 71019 Vieste FG, Italy</description>
       <description>Dinner / alternate
 Via Duomo 8, 71019 Vieste FG, Italy</description>
       <Point>
-        <coordinates>16.1792922,41.8809236,0</coordinates>
+        <coordinates>16.1811334,41.8816261,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>13 — B&amp;B Dimora del Dragone</name>
+      <name>13 — Dimora del Dragone</name>
       <description>Accommodation / end / my pick
 Via Duomo 8, 71019 Vieste FG, Italy</description>
       <Point>
-        <coordinates>16.1792922,41.8809236,0</coordinates>
+        <coordinates>16.1811334,41.8816261,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -116,11 +116,11 @@ Via Dottor Giuliani 27, 71019 Vieste FG, Italy</description>
       </Point>
     </Placemark>
     <Placemark>
-      <name>15 — Foresta Umbra</name>
+      <name>15 — Foresta Umbra Visitor Center</name>
       <description>Optional inland detour
-71018 Vico del Gargano FG, Italy</description>
+SP52bis, Foresta Umbra, 71037 Monte Sant&#x27;Angelo FG, Italy</description>
       <Point>
-        <coordinates>15.9775987,41.8447785,0</coordinates>
+        <coordinates>15.9919951,41.8168528,0</coordinates>
       </Point>
     </Placemark>
   </Document>

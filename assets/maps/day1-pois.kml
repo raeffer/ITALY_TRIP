@@ -13,7 +13,7 @@ Via Galileo Galilei 30/1, 30173 Venezia VE, Italy</description>
     </Placemark>
     <Placemark>
       <name>02 — Prato della Valle</name>
-      <description>Route A / stop
+      <description>Stop
 Prato della Valle, 35123 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8751207,45.3984714,0</coordinates>
@@ -21,15 +21,15 @@ Prato della Valle, 35123 Padova PD, Italy</description>
     </Placemark>
     <Placemark>
       <name>03 — Palazzo della Ragione &amp; Sotto il Salone</name>
-      <description>Route A / market
+      <description>Market / historic site
 Piazza delle Erbe, 35122 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8752231,45.4072498,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>04 — Caffè Pedrocchi</name>
-      <description>Route A / coffee
+      <name>04 — Caffe Pedrocchi</name>
+      <description>Food stop
 Via VIII Febbraio 15, 35122 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8770946,45.4076922,0</coordinates>
@@ -37,7 +37,7 @@ Via VIII Febbraio 15, 35122 Padova PD, Italy</description>
     </Placemark>
     <Placemark>
       <name>05 — Museo del Precinema</name>
-      <description>Route A / hidden gem
+      <description>Hidden gem
 Prato della Valle 1/A, 35123 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8759224,45.4001955,0</coordinates>
@@ -45,7 +45,7 @@ Prato della Valle 1/A, 35123 Padova PD, Italy</description>
     </Placemark>
     <Placemark>
       <name>06 — Pasticceria Biasetto</name>
-      <description>Route A / pastry
+      <description>Food stop
 Via Jacopo Facciolati 12, 35126 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8857335,45.3992373,0</coordinates>
@@ -53,7 +53,7 @@ Via Jacopo Facciolati 12, 35126 Padova PD, Italy</description>
     </Placemark>
     <Placemark>
       <name>07 — Piazza dei Signori &amp; Basilica Palladiana</name>
-      <description>Route A / stop
+      <description>Stop
 Piazza dei Signori, 36100 Vicenza VI, Italy</description>
       <Point>
         <coordinates>11.5469575,45.5469672,0</coordinates>
@@ -61,15 +61,15 @@ Piazza dei Signori, 36100 Vicenza VI, Italy</description>
     </Placemark>
     <Placemark>
       <name>08 — Casa del Diavolo (Palazzo Porto)</name>
-      <description>Route A / quirky
+      <description>Quirky stop
 Piazza Castello, 36100 Vicenza VI, Italy</description>
       <Point>
-        <coordinates>11.5417460,45.5454098,0</coordinates>
+        <coordinates>11.541746,45.5454098,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>09 — Righetti</name>
-      <description>Route A / lunch
+      <description>Lunch
 Piazza del Duomo 3, 36100 Vicenza VI, Italy</description>
       <Point>
         <coordinates>11.5443786,45.5457569,0</coordinates>
@@ -77,7 +77,7 @@ Piazza del Duomo 3, 36100 Vicenza VI, Italy</description>
     </Placemark>
     <Placemark>
       <name>10 — Osteria Il Cursore</name>
-      <description>Route A / lunch alternate
+      <description>Lunch / alternate
 Strada Pozzetto 10, 36100 Vicenza VI, Italy</description>
       <Point>
         <coordinates>11.5484005,45.5446419,0</coordinates>
@@ -85,7 +85,7 @@ Strada Pozzetto 10, 36100 Vicenza VI, Italy</description>
     </Placemark>
     <Placemark>
       <name>11 — Il Ceppo</name>
-      <description>Route A / lunch alternate
+      <description>Lunch / alternate
 Corso Andrea Palladio 196, 36100 Vicenza VI, Italy</description>
       <Point>
         <coordinates>11.5485427,45.5490457,0</coordinates>
@@ -93,23 +93,23 @@ Corso Andrea Palladio 196, 36100 Vicenza VI, Italy</description>
     </Placemark>
     <Placemark>
       <name>12 — Piazza Garibaldi, Fontana Maggiore &amp; Rocca di Asolo</name>
-      <description>Route B / stop
+      <description>Stop
 Piazza Garibaldi, 31011 Asolo TV, Italy</description>
       <Point>
         <coordinates>11.9134666,45.8022047,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>13 — Casa dell'Arco &amp; Cimitero di Sant'Anna</name>
-      <description>Route B / Duse &amp; Stark
+      <name>13 — Casa dell&#x27;Arco &amp; Cimitero di Sant&#x27;Anna</name>
+      <description>Historic site
 Via Canova, 31011 Asolo TV, Italy</description>
       <Point>
         <coordinates>11.9102238,45.8025475,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>14 — Caffè Centrale Cornaro</name>
-      <description>Route B / coffee
+      <name>14 — Caffe Centrale Cornaro</name>
+      <description>Food stop
 Piazza Garibaldi, 31011 Asolo TV, Italy</description>
       <Point>
         <coordinates>11.9135387,45.8023434,0</coordinates>
@@ -117,23 +117,23 @@ Piazza Garibaldi, 31011 Asolo TV, Italy</description>
     </Placemark>
     <Placemark>
       <name>15 — Osteria al Bacaro</name>
-      <description>Route B / lunch
-Via Robert Browning, 31011 Asolo TV, Italy</description>
+      <description>Lunch
+Via Robert Browning 165, 31011 Asolo TV, Italy</description>
       <Point>
-        <coordinates>11.9143170,45.8015364,0</coordinates>
+        <coordinates>11.914317,45.8015364,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>16 — La Trave</name>
-      <description>Route B / lunch, stronger pick
+      <description>Lunch / stronger pick
 Via Bernardi 15, Pagnano, 31011 Asolo TV, Italy</description>
       <Point>
         <coordinates>11.8872045,45.8085576,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>17 — Santuario di Sant'Orso &amp; Monte Summano</name>
-      <description>Evening / viewpoint
+      <name>17 — Santuario di Sant&#x27;Orso &amp; Monte Summano</name>
+      <description>Viewpoint / sanctuary
 Via Crucis, 36014 Santorso VI, Italy</description>
       <Point>
         <coordinates>11.3934015,45.7396729,0</coordinates>
@@ -160,7 +160,7 @@ Via dei Prati 4, 36014 Santorso VI, Italy</description>
       <description>Accommodation / higher comfort
 Via Schio 77, 36034 Malo VI, Italy</description>
       <Point>
-        <coordinates>11.3997,45.6839,0</coordinates>
+        <coordinates>11.401915,45.678031,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -172,8 +172,8 @@ Via Campagnola, 36015 Schio VI, Italy</description>
       </Point>
     </Placemark>
     <Placemark>
-      <name>22 — Basilica di Sant'Antonio (Il Santo)</name>
-      <description>Route A / quirky
+      <name>22 — Basilica di Sant&#x27;Antonio (Il Santo)</name>
+      <description>Quirky stop
 Piazza del Santo 11, 35123 Padova PD, Italy</description>
       <Point>
         <coordinates>11.8808472,45.4014584,0</coordinates>
@@ -181,7 +181,7 @@ Piazza del Santo 11, 35123 Padova PD, Italy</description>
     </Placemark>
     <Placemark>
       <name>23 — The Turtles of Vicenza, Parco Querini</name>
-      <description>Route A / quirky
+      <description>Quirky stop
 Viale Mariano Rumor, 36100 Vicenza VI, Italy</description>
       <Point>
         <coordinates>11.5471074,45.5538006,0</coordinates>
